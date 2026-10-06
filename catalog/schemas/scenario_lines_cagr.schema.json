@@ -49,6 +49,32 @@
       "title": "CatalogContents",
       "type": "object"
     },
+    "ElapsedYears": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "exclusiveMinimum": 0,
+          "maximum": 1000,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "ElapsedYears",
+      "type": "object"
+    },
     "Ref": {
       "additionalProperties": false,
       "properties": {
@@ -117,9 +143,13 @@
           "minItems": 1,
           "title": "Series",
           "type": "array"
+        },
+        "elapsed_years": {
+          "$ref": "#/$defs/ElapsedYears"
         }
       },
       "required": [
+        "elapsed_years",
         "series"
       ],
       "title": "TemplateChart",
@@ -265,8 +295,7 @@
           "required": [
             "text_006",
             "text_010",
-            "text_012",
-            "text_017"
+            "text_012"
           ],
           "properties": {
             "text_006": {
@@ -276,9 +305,6 @@
               "$ref": "#/$defs/Text"
             },
             "text_012": {
-              "$ref": "#/$defs/Text"
-            },
-            "text_017": {
               "$ref": "#/$defs/Text"
             }
           }
@@ -319,5 +345,7 @@
     "contents"
   ],
   "title": "CatalogSlide",
-  "type": "object"
+  "type": "object",
+  "x-contract-sha256": "c0366e5bc6559f418dc85ff2694f2ee98231101857887a8020788d2d7bcb9044",
+  "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

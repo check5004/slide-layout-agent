@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "source_sha256": "7bcd3e511f331f9fda6222faea8c4d1396932d2746399a285d2b5f25a251807c",
+  "source_sha256": "d4885dde561f13dbd55d7194583c650a529e25347b76e286d4a83e6998e0a794",
   "title": "公開レイアウト見本",
   "slides": [
     {
@@ -3444,7 +3444,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},
@@ -3777,7 +3778,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},
@@ -4553,7 +4555,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},
@@ -4601,21 +4604,11 @@
             "mode": "verbatim"
           },
           "text_012": {
-            "text": "単位、2026〜2026年",
+            "text": "単位、2026〜2031年",
             "refs": [
               {
                 "source_id": "s024",
-                "quote": "単位、2026〜2026年"
-              }
-            ],
-            "mode": "verbatim"
-          },
-          "text_017": {
-            "text": "年平均成長率",
-            "refs": [
-              {
-                "source_id": "s024",
-                "quote": "年平均成長率"
+                "quote": "単位、2026〜2031年"
               }
             ],
             "mode": "verbatim"
@@ -4635,51 +4628,51 @@
                 "mode": "verbatim"
               },
               {
-                "text": "2026",
+                "text": "2027",
                 "refs": [
                   {
                     "source_id": "s024",
-                    "quote": "2026"
+                    "quote": "2027"
                   }
                 ],
                 "mode": "verbatim"
               },
               {
-                "text": "2026",
+                "text": "2028",
                 "refs": [
                   {
                     "source_id": "s024",
-                    "quote": "2026"
+                    "quote": "2028"
                   }
                 ],
                 "mode": "verbatim"
               },
               {
-                "text": "2026",
+                "text": "2029",
                 "refs": [
                   {
                     "source_id": "s024",
-                    "quote": "2026"
+                    "quote": "2029"
                   }
                 ],
                 "mode": "verbatim"
               },
               {
-                "text": "2026",
+                "text": "2030",
                 "refs": [
                   {
                     "source_id": "s024",
-                    "quote": "2026"
+                    "quote": "2030"
                   }
                 ],
                 "mode": "verbatim"
               },
               {
-                "text": "2026",
+                "text": "2031",
                 "refs": [
                   {
                     "source_id": "s024",
-                    "quote": "2026"
+                    "quote": "2031"
                   }
                 ],
                 "mode": "verbatim"
@@ -4893,7 +4886,16 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": {
+              "value": 5.0,
+              "refs": [
+                {
+                  "source_id": "s024",
+                  "quote": "5"
+                }
+              ]
+            }
           }
         },
         "metrics": {},
@@ -6029,7 +6031,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},
@@ -6238,7 +6241,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},
@@ -6716,7 +6720,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           },
           "chart_044": {
             "categories": [
@@ -6794,7 +6799,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           },
           "chart_045": {
             "categories": [
@@ -6872,7 +6878,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           },
           "chart_046": {
             "categories": [
@@ -6950,7 +6957,8 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": null
           }
         },
         "metrics": {},

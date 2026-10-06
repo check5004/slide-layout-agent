@@ -161,9 +161,14 @@ class TemplateSeries(Model):
     x_values: Annotated[list[SignedDatum], Field(max_length=60)] = []
 
 
+class ElapsedYears(Datum):
+    value: Annotated[float, Field(gt=0, le=1000)]
+
+
 class TemplateChart(Model):
     categories: Annotated[list[Text], Field(max_length=60)] = []
     series: Annotated[list[TemplateSeries], Field(min_length=1, max_length=4)]
+    elapsed_years: ElapsedYears | None = None
 
 
 class CatalogContents(Model):

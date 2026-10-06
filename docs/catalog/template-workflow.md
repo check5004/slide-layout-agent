@@ -19,6 +19,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 python -m slide_agent catalog
 python -m slide_agent catalog --layout issue_tree
+python -m slide_agent catalog --layout issue_tree --out out/issue-tree.json
 python scripts/make_catalog_samples.py --out out/catalog
 python -m unittest discover -s tests -v
 ```
@@ -63,6 +64,14 @@ python -m slide_agent render work/plan.json --source work/source.json --out out/
 
 chartの系列数・点数や図の節点数を変える場合は、型を替えるかtemplate契約の変更が必要です。数値範囲・正負・積み上げ・計算式の条件はmanifestと検証で拘束します。任意の新しい図を自動推測する機能ではありません。
 
+`scenario_lines_cagr`のchartには、出典付き数値`elapsed_years`が必須です。`{"value":10,"refs":[...]}`のように最初から最後までの経過年数を渡します。2020→2030は観測点が6個でも10年です。西暦ラベルは昇順・等間隔とし、端点の年差と入力年数の不一致を拒否します。非年ラベルでも年数を推測せず、明示入力を要求します。成長率見出しにも期間を表示します。
+
+入力数値の表示は6有効桁等へ勝手に丸めません。保持している数値の小数をそのまま表示し、長すぎれば容量エラーにします。JSON numberの末尾の0など表記上の桁数は保持しません。派生CAGRのみ小数0桁、派生平均のみ小数1桁へhalf-evenで丸める規則を`chart_aliases.number_format`に明示しています。期間・丸め規則も構成レビューで確認してください。ブリッジの増加・減少・ゼロは入力符号に合わせて色と符号付きラベルを更新します。
+
+保存schemaはAI参照用です。runtimeはPydanticと意味・容量のpreflightを使い、保存schemaを実行するわけではありません。preflightは保存schemaと現在のmodel・catalog契約を比較し、slot容量等の契約digestも照合します。不一致は`CATALOG_SCHEMA_MISMATCH`で拒否します。
+
+検証の`ok`は機械検査の成否です。数値引用の条件・留保は数値の表示だけではcoverage済とせず、未表示の文脈にはwarningを出します。`semantic_review: not_performed`は、人間またはCodexによる意味の確認が別途必要であることを示します。
+
 ## フォントと2配色
 
 上流の固有配置を保つため、catalogは本文おおむね9〜15pt、タイトル22ptなどの**コンパクトな元書式**を保持します。旧8型の本文24pt・タイトル32ptとは別の固定契約です。大きな会場向けの見やすさを一律保証しません。slotごとの実際の値はmanifestで確認してください。
@@ -72,6 +81,8 @@ chartの系列数・点数や図の節点数を変える場合は、型を替え
 `warm`は上流の有効な配色です。`cool`は上流HTMLにコメントで示された配色を同じ構造へ適用します。配色variantを別の構造型として数えず、構造62型・描画見本124枚と区別します。
 
 ## 描画QAは別工程
+
+WindowsのJSON受渡しやCOM描画エラーは[実行環境FAQ](faq.md)を参照してください。
 
 構造検査だけでは文字の実際の折返しを保証しません。WindowsにPowerPointがある開発環境では、次を任意で実行できます。
 

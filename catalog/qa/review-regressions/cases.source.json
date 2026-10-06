@@ -1,0 +1,43 @@
+{
+  "version": "1",
+  "title": "公開レイアウト見本",
+  "segments": [
+    {
+      "id": "s001",
+      "text": "10年間の年平均成長率（架空例）\n出典：公開見本\n指標名\n単位、2020〜2030年\n2020\n2022\n2024\n2026\n2028\n2030\n上振れ\n35\n44\n56\n72\n91\n114\n基準\n35\n43\n53\n65\n80\n96\n下振れ\n35\n42\n50\n59\n70\n81\n10",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 24",
+      "group": "catalog"
+    },
+    {
+      "id": "s002",
+      "text": "増減の符号を反転（架空例）\n出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n11\n3\n-4\n3\n13",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 8",
+      "group": "catalog"
+    },
+    {
+      "id": "s003",
+      "text": "入力小数を保持（架空例）\n出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n123456.7\n1\n2\n3\n123462.7",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 8",
+      "group": "catalog"
+    },
+    {
+      "id": "s004",
+      "text": "10年間の年平均成長率（架空例）\n出典：公開見本\n指標名\n単位、2020〜2030年\n2020\n2022\n2024\n2026\n2028\n2030\n上振れ\n35\n44\n56\n72\n91\n114\n基準\n35\n43\n53\n65\n80\n96\n下振れ\n35\n42\n50\n59\n70\n81\n10",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 24",
+      "group": "catalog"
+    },
+    {
+      "id": "s005",
+      "text": "増減の符号を反転（架空例）\n出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n11\n3\n-4\n3\n13",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 8",
+      "group": "catalog"
+    },
+    {
+      "id": "s006",
+      "text": "入力小数を保持（架空例）\n出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n123456.7\n1\n2\n3\n123462.7",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 8",
+      "group": "catalog"
+    }
+  ],
+  "images": []
+}

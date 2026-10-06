@@ -27,7 +27,7 @@
 | b21 evidence_clip_grid | 根拠グリッドをnative文字・図形で保持。Webページ画像の自動取得・貼付は行わない。 |
 | b22 proportional_circles | HTMLのSVGをnative円へ。円の面積は割合に比例、数値ラベルも同期。 |
 | b23 delta_bars_totals | native正負棒を維持。合計を系列から計算し、公開見本の+200/-185という不一致を+252/-239へ修正。 |
-| b24 scenario_lines_cagr | native折線を維持。CAGRは観測点数−1の期間から計算。公開見本の丸め・値の不一致を修正。 |
+| b24 scenario_lines_cagr | native折線を維持。CAGRは明示した出典付き経過年数から計算し、期間も表示。西暦ラベルとの不一致を拒否。派生率の小数0桁half-evenを登録。 |
 | b25 research_basis | 調査情報の左右配置を保持。表の行高はHTMLより大きい公開PPTXに従う。evidence_basisとは別IDとして保持。 |
 | b26 issue_action_columns | 課題と打ち手の2カラムを保持。行間・仕切りは公開PPTXに従う。 |
 | b27 agenda_separator | 章扉にアジェンダを再掲する構成を保持。強調位置は保存templateの固定装飾。 |

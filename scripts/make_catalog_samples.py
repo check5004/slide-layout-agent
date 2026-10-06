@@ -13,6 +13,7 @@ from slide_agent.models import Source, Plan, Theme
 from slide_agent.render import render
 from slide_agent.validate import validate
 from slide_agent.audit import audit
+from slide_agent.numeric_format import exact_number
 
 
 def example_text(text):
@@ -32,7 +33,7 @@ def sample_plan(entries, variant="warm"):
             source_text.append(value)
             return {"text":value,"refs":[{"source_id":sid,"quote":value}],"mode":"verbatim"}
         def datum(value):
-            value=float(value); raw=f"{value:g}"
+            value=float(value); raw=exact_number(value)
             source_text.append(raw)
             return {"value":value,"refs":[{"source_id":sid,"quote":raw}]}
         title=text(entry["title"]["sample"])
@@ -42,6 +43,7 @@ def sample_plan(entries, variant="warm"):
             contents["charts"][key]={"categories":[text(x) for x in sample["categories"]],
                                      "series":[{"name":text(s["name"]),"values":[datum(v) for v in s["values"]],
                                                 "x_values":[datum(x) for x in s["x_values"]]} for s in sample["series"]]}
+            if "elapsed_years" in sample: contents["charts"][key]["elapsed_years"]=datum(sample["elapsed_years"])
         for key,spec in entry["metrics"].items(): contents["metrics"][key]=datum(spec["sample"])
         segments.append({"id":sid,"group":"catalog","text":"\n".join(source_text),
                          "citation":f"Public MIT sample: {entry['source_file']} section {entry['source_section']}"})

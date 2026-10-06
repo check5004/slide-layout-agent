@@ -49,6 +49,32 @@
       "title": "CatalogContents",
       "type": "object"
     },
+    "ElapsedYears": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "exclusiveMinimum": 0,
+          "maximum": 1000,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "ElapsedYears",
+      "type": "object"
+    },
     "Ref": {
       "additionalProperties": false,
       "properties": {
@@ -117,6 +143,10 @@
           "minItems": 1,
           "title": "Series",
           "type": "array"
+        },
+        "elapsed_years": {
+          "type": "null",
+          "default": null
         }
       },
       "required": [
@@ -345,5 +375,7 @@
     "contents"
   ],
   "title": "CatalogSlide",
-  "type": "object"
+  "type": "object",
+  "x-contract-sha256": "78f565746d59ee0d036c7b25c62605e0010c0e7c5dd238abae36dc9d28ba7625",
+  "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

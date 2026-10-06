@@ -128,7 +128,16 @@ def configure_aliases(slide, entry):
         s=shapes[sid]
         aliases[s.name]={"chart":chart_key,"kind":kind,"series":series,"point":point,
                          **frame_spec(s.text_frame,s.width,s.height)}
+        if kind in ('cagr','x_mean'):
+            aliases[s.name]['number_format']={'mode':'fixed','decimal_places':0 if kind=='cagr' else 1,
+                                              'rounding':'half_even','scope':'derived value only; input values remain exact'}
     if key=="scenario_lines_cagr":
+        entry["charts"][chart_key]["period_policy"]={"required":True,"field":"elapsed_years","unit":"years",
+            "calendar_labels":"increasing equal year intervals, matching total elapsed_years",
+            "non_year_labels":"requires explicit source-backed elapsed_years; no inference from point count"}
+        entry["charts"][chart_key]["sample"]["categories"]=[str(y) for y in range(2026,2032)]
+        entry["charts"][chart_key]["sample"]["elapsed_years"]=5.0
+        add(17,"cagr_heading")
         entry["charts"][chart_key]["sample"]["series"][0]["name"]="上振れ"
         entry["charts"][chart_key]["sample"]["series"][1]["name"]="基準"
         entry["charts"][chart_key]["sample"]["series"][2]["name"]="下振れ"
@@ -163,7 +172,7 @@ def configure_metrics(slide, entry):
         name = f"value_{label_id:03}"
         metrics[name] = {"binding": binding, "label": label.name, "sample": float(raw),
                          "min": 0, "max": 100, "suffix": "%" if "%" in label.text else "",
-                         "label_capacity":frame_spec(label.text_frame,label.width,label.height),**kwargs}
+                         "label_capacity":{**frame_spec(label.text_frame,label.width,label.height),"max_lines":1},**kwargs}
         return name
     if key == "dot_matrix_share":
         for label_id in [13,115,217,319]:
@@ -178,8 +187,11 @@ def configure_metrics(slide, entry):
     elif key in ("waterfall","true_waterfall"):
         ids = [11,14,17,20,23,26] if key == "waterfall" else [11,14,17,20,23]
         names = [metric(i+1,"bridge",min=-1e6,max=1e6) for i in ids]
+        for name in names[1:-1]:metrics[name]["signed"]=True
         entry["bridge"] = {"keys":names,"shapes":[sm[i].name for i in ids],
                            "labels":[sm[i+1].name for i in ids],"cumulative":key=="true_waterfall",
+                           "colors":{"start":str(sm[ids[0]].fill.fore_color.rgb),"end":str(sm[ids[-1]].fill.fore_color.rgb),
+                                     "increase":"5A3921","decrease":"A22727","zero":"8A7B6B"},
                            "baseline":Inches(6.1),"height":Inches(2.25 if key=="waterfall" else 3.3),
                            "label_gap":Inches(0.26 if key=="waterfall" else 0.28)}
     elif key == "gantt":
@@ -332,6 +344,7 @@ def build():
         entry["charts"]=charts
         entry["chart_aliases"]=configure_aliases(s,entry)
         texts={k:v for k,v in texts.items() if v["shape"] not in entry["chart_aliases"]}
+        if entry["layout_id"]=="scenario_lines_cagr":texts["text_012"]["sample"]="単位、2026〜2031年"
         if entry["chart_aliases"]:
             changes.append("Chart category/series labels and aggregate callouts are bound to data. Totals/CAGR recompute; source example inconsistencies are corrected.")
         entry.update(texts=texts,charts=charts,source_pptx_slide=index,template=f"catalog/templates/{entry['layout_id']}.pptx",
@@ -358,6 +371,10 @@ def build():
     manifest={"version":1,"upstream_commit":inventory["commit"],"layout_count":len(entries),"variants":["warm","cool"],
               "license_notice":"catalog/upstream/LICENSE","layouts":entries}
     write(ROOT / "catalog/manifest.json",manifest)
+    from slide_agent.schema_contract import layout_schema
+    from slide_agent.models import Plan
+    for entry in entries:write(ROOT/f"catalog/schemas/{entry['layout_id']}.schema.json",layout_schema(entry))
+    write(ROOT/'catalog/plan.schema.json',Plan.model_json_schema())
     print(f"Built {len(entries)} templates, {sum(e['native_chart_count'] for e in entries)} native charts")
 
 

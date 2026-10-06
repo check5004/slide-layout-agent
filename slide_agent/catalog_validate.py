@@ -1,5 +1,7 @@
 """Per-slot native template preflight. Preserves exact schema/cardinality."""
 import math
+import re
+from decimal import DecimalException
 
 from .catalog import registry
 
@@ -47,15 +49,31 @@ def validate_catalog(slide, add):
             values=[x.value for x in chart.series[0].values]
             if values!=sorted(values,reverse=True):add("TEMPLATE_RANK_ORDER","ranked bars must be descending",slide.id)
         if slide.layout_id=="scenario_lines_cagr":
+            if chart.elapsed_years is None:
+                add("TEMPLATE_CAGR_PERIOD","explicit source-backed elapsed_years is required; never infer years from point count",slide.id)
+            else:
+                years=[re.fullmatch(r"([1-9]\d{3})(?:年(?:度)?)?",t.text) for t in chart.categories]
+                if any(years) and not all(years):
+                    add("TEMPLATE_CAGR_CALENDAR","mixed year/non-year labels are ambiguous; use consistent categories",slide.id)
+                elif all(years):
+                    year_values=[int(m[1]) for m in years]
+                    steps=[b-a for a,b in zip(year_values,year_values[1:])]
+                    if not steps or min(steps)<=0 or len(set(steps))!=1:
+                        add("TEMPLATE_CAGR_CALENDAR","this category-axis template requires increasing, evenly spaced year labels",slide.id)
+                    if not math.isclose(year_values[-1]-year_values[0],chart.elapsed_years.value,abs_tol=1e-8):
+                        add("TEMPLATE_CAGR_PERIOD","elapsed_years must match the first/last calendar-year difference",slide.id)
             if any(s.values[0].value<=0 or s.values[-1].value<0 for s in chart.series):
                 add("TEMPLATE_CAGR_DOMAIN","CAGR requires positive start and nonnegative end",slide.id)
+        elif chart.elapsed_years is not None:
+            add("TEMPLATE_CHART_PERIOD","elapsed_years is only supported by scenario_lines_cagr",slide.id)
     for key,value in c.metrics.items():
         if key not in entry["metrics"]: continue
         spec=entry["metrics"][key]
         if not spec["min"] <= value.value <= spec["max"] or (spec.get("integer") and not float(value.value).is_integer()):
             add("TEMPLATE_METRIC_RANGE",key,slide.id)
         if spec.get("label_capacity"):
-            capacity(f"{value.value:g}{spec.get('suffix','')}",spec["label_capacity"],key)
+            from .template_engine import metric_text
+            capacity(metric_text(value.value,spec),spec["label_capacity"],key)
         if spec["binding"]=="gantt_start" and spec["end_key"] in c.metrics and c.metrics[spec["end_key"]].value<=value.value:
             add("TEMPLATE_GANTT_ORDER",key,slide.id)
     if all(k in c.charts for k in entry["charts"]):
@@ -63,7 +81,7 @@ def validate_catalog(slide, add):
         for name,spec in entry.get("chart_aliases",{}).items():
             try:
                 capacity(alias_value(spec,c),spec,name)
-            except (ValueError,ZeroDivisionError,IndexError,TypeError,OverflowError):
+            except (ValueError,ZeroDivisionError,IndexError,TypeError,OverflowError,DecimalException):
                 add("TEMPLATE_CHART_DERIVED",f"{name}: derived callout undefined",slide.id)
     if entry.get("bridge") and all(k in c.metrics for k in entry["bridge"]["keys"]):
         vals=[c.metrics[k].value for k in entry["bridge"]["keys"]]
@@ -80,4 +98,6 @@ def validate_catalog(slide, add):
             parts=c.metrics[result["key"]].value+c.metrics[result["extra_key"]].value
             if not math.isclose(product,parts,rel_tol=1e-8,abs_tol=1e-8):
                 add("TEMPLATE_CALCULATION","A×B must equal base+increment for each category",slide.id)
-            if len(f"{parts:g}")>7: add("TEMPLATE_CALCULATION_LABEL","calculation total exceeds fixed label capacity",slide.id)
+            from .numeric_format import decimal_value,exact_number
+            exact_parts=decimal_value(c.metrics[result["key"]].value)+decimal_value(c.metrics[result["extra_key"]].value)
+            if len(exact_number(exact_parts))>7: add("TEMPLATE_CALCULATION_LABEL","calculation total exceeds fixed label capacity",slide.id)

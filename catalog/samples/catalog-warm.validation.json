@@ -1,5 +1,6 @@
 {
   "ok": true,
+  "mechanical_validation": "passed",
   "issues": [
     {
       "severity": "warning",
@@ -11,207 +12,209 @@
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s005: some original text is not represented by quoted evidence"
+      "message": "s005: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s006: some original text is not represented by quoted evidence"
+      "message": "s006: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s007: some original text is not represented by quoted evidence"
+      "message": "s007: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s009: some original text is not represented by quoted evidence"
+      "message": "s009: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s011: some original text is not represented by quoted evidence"
+      "message": "s011: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s012: some original text is not represented by quoted evidence"
+      "message": "s012: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s013: some original text is not represented by quoted evidence"
+      "message": "s013: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s014: some original text is not represented by quoted evidence"
+      "message": "s014: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s016: some original text is not represented by quoted evidence"
+      "message": "s016: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s017: some original text is not represented by quoted evidence"
+      "message": "s017: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s018: some original text is not represented by quoted evidence"
+      "message": "s018: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s021: some original text is not represented by quoted evidence"
+      "message": "s021: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s024: some original text is not represented by quoted evidence"
+      "message": "s024: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s030: some original text is not represented by quoted evidence"
+      "message": "s030: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s031: some original text is not represented by quoted evidence"
+      "message": "s031: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s032: some original text is not represented by quoted evidence"
+      "message": "s032: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s035: some original text is not represented by quoted evidence"
+      "message": "s035: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s036: some original text is not represented by quoted evidence"
+      "message": "s036: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s038: some original text is not represented by quoted evidence"
+      "message": "s038: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s039: some original text is not represented by quoted evidence"
+      "message": "s039: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s040: some original text is not represented by quoted evidence"
+      "message": "s040: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s041: some original text is not represented by quoted evidence"
+      "message": "s041: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s043: some original text is not represented by quoted evidence"
+      "message": "s043: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s045: some original text is not represented by quoted evidence"
+      "message": "s045: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s047: some original text is not represented by quoted evidence"
+      "message": "s047: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s048: some original text is not represented by quoted evidence"
+      "message": "s048: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s049: some original text is not represented by quoted evidence"
+      "message": "s049: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s050: some original text is not represented by quoted evidence"
+      "message": "s050: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s054: some original text is not represented by quoted evidence"
+      "message": "s054: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s055: some original text is not represented by quoted evidence"
+      "message": "s055: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s056: some original text is not represented by quoted evidence"
+      "message": "s056: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s057: some original text is not represented by quoted evidence"
+      "message": "s057: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s061: some original text is not represented by quoted evidence"
+      "message": "s061: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     },
     {
       "severity": "warning",
       "code": "PARTIAL_SOURCE_REVIEW",
       "slide": null,
-      "message": "s062: some original text is not represented by quoted evidence"
+      "message": "s062: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
     }
   ],
+  "source_coverage": "review_required",
+  "semantic_review": "not_performed",
   "slide_count": 62,
   "visual_review": "not_performed",
   "ooxml": {

@@ -17,6 +17,7 @@ from PIL import Image, ImageStat, ImageDraw, ImageFont
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from slide_agent.models import Plan, CatalogSlide
+from slide_agent.schema_contract import layout_schema
 
 
 def main():
@@ -50,17 +51,9 @@ def main():
                 "powerpoint":"rendered","measured_overflow":0,"pixel_nonblank":"passed",
                 "visual_review":"inspected" if args.reviewed else "pending",
                 "html_comparison":"inspected; documented differences" if args.reviewed else "pending"})
-    schema=CatalogSlide.model_json_schema()
     schema_dir=ROOT/"catalog/schemas";schema_dir.mkdir(exist_ok=True)
     for entry in manifest["layouts"]:
-        sc=copy.deepcopy(schema)
-        sc["properties"]["layout_id"]={"const":entry["layout_id"],"type":"string"}
-        contents={"type":"object","additionalProperties":False,"required":["texts","charts","metrics","states"],"properties":{}}
-        for kind,model in [("texts","Text"),("charts","TemplateChart"),("metrics","SignedDatum"),("states","Text")]:
-            keys=entry[kind]
-            contents["properties"][kind]={"type":"object","additionalProperties":False,"required":list(keys),
-                "properties":{key:{"$ref":f"#/$defs/{model}"} for key in keys}}
-        sc["properties"]["contents"]=contents
+        sc=layout_schema(entry)
         (schema_dir/f"{entry['layout_id']}.schema.json").write_text(json.dumps(sc,ensure_ascii=False,indent=2),encoding="utf-8")
         entry["schema"]=f"catalog/schemas/{entry['layout_id']}.schema.json"
         entry["samples"]={v:{"deck":f"catalog/samples/catalog-{v}.pptx","slide":i+1,

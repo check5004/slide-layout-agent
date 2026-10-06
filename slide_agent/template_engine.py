@@ -136,17 +136,38 @@ def fill_chart(shape, content, spec):
 
 
 def alias_value(spec,contents):
+    from decimal import Decimal, localcontext
+    from .numeric_format import decimal_value, exact_number, fixed_number
     chart=contents.charts[spec["chart"]]
     series=chart.series[spec["series"]]
     values=[v.value for v in series.values]
     kind=spec["kind"]
     if kind=="series_name": return series.name.text
     if kind=="category": return chart.categories[spec["point"]].text
-    if kind=="x_mean": return f"平均 {sum(x.value for x in chart.series[spec['series']].x_values)/len(chart.series[spec['series']].x_values):.1f}"
-    if kind=="last": return f"{values[-1]:g}"
-    if kind=="sum": return f"{sum(values):+g}"
-    if kind=="cagr": return f"{((values[-1]/values[0])**(1/(len(values)-1))-1)*100:.0f}%"
+    if kind=="x_mean":
+        xs=chart.series[spec['series']].x_values
+        mean=sum(decimal_value(x.value) for x in xs)/len(xs)
+        return '平均 '+fixed_number(mean,spec['number_format'])
+    if kind=="last": return exact_number(values[-1])
+    if kind=="sum":
+        total=sum(decimal_value(v) for v in values)
+        return ('+' if total>0 else '')+exact_number(total)
+    if kind in ("cagr","cagr_heading"):
+        if chart.elapsed_years is None or chart.elapsed_years.value<=0:
+            raise ValueError("CAGR requires explicit source-backed elapsed_years; category count is not a duration")
+        years=chart.elapsed_years.value
+        if kind=="cagr_heading": return f"年平均成長率（{exact_number(years)}年）"
+        with localcontext() as context:
+            context.prec=40
+            rate=((decimal_value(values[-1])/decimal_value(values[0]))**(Decimal(1)/decimal_value(years))-1)*100
+            return fixed_number(rate,spec['number_format'])+'%'
     raise ValueError(f"unsupported alias {kind}")
+
+
+def metric_text(value,spec):
+    from .numeric_format import exact_number
+    number=('+' if spec.get('signed') and value>0 else '')+exact_number(value)
+    return number+spec.get("suffix","")
 
 
 def apply_metrics(slide, entry, contents):
@@ -155,7 +176,7 @@ def apply_metrics(slide, entry, contents):
     for key, spec in entry["metrics"].items():
         value = values[key]
         if spec.get("label"):
-            replace_text(shapes[spec["label"]].text_frame, f"{value:g}{spec.get('suffix','')}")
+            replace_text(shapes[spec["label"]].text_frame, metric_text(value,spec))
         kind = spec["binding"]
         if kind == "dots":
             for i, name in enumerate(spec["shapes"]):
@@ -187,8 +208,10 @@ def apply_metrics(slide, entry, contents):
             total += delta
         heights.append(vals[-1]); bottoms.append(0)
         scale = bridge["height"] / max(b + h for b, h in zip(bottoms, heights))
-        for name, label, h, bottom in zip(bridge["shapes"], bridge["labels"], heights, bottoms):
+        for i,(name,label,h,bottom) in enumerate(zip(bridge["shapes"],bridge["labels"],heights,bottoms)):
             s = shapes[name]
+            role="start" if i==0 else "end" if i==len(vals)-1 else "increase" if vals[i]>0 else "decrease" if vals[i]<0 else "zero"
+            s.fill.solid();s.fill.fore_color.rgb=RGBColor.from_string(bridge["colors"][role])
             s.top = round(bridge["baseline"] - (bottom + h) * scale)
             s.height = max(1, round(h * scale))
             shapes[label].top = s.top - bridge["label_gap"]
@@ -205,8 +228,9 @@ def apply_metrics(slide, entry, contents):
                     extra=shapes[bar["extra_shape"]]
                     extra.height=max(1,round(values[bar["extra_key"]]*scale)); extra.top=s.top-extra.height
         for name,bar in zip(calculation["totals"],calculation["groups"][2]):
+            from .numeric_format import decimal_value,exact_number
             label=shapes[name];label.top=shapes[bar["extra_shape"]].top-label.height-40000
-            replace_text(label.text_frame,f"{values[bar['key']]+values[bar['extra_key']]:g}")
+            replace_text(label.text_frame,exact_number(decimal_value(values[bar['key']])+decimal_value(values[bar['extra_key']])))
 
 
 def apply_states(slide,entry,contents):

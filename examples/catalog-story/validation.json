@@ -1,5 +1,6 @@
 {
   "ok": true,
+  "mechanical_validation": "passed",
   "issues": [
     {
       "severity": "warning",
@@ -8,6 +9,8 @@
       "message": "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
     }
   ],
+  "source_coverage": "mechanically_accounted",
+  "semantic_review": "not_performed",
   "slide_count": 3,
   "visual_review": "not_performed",
   "ooxml": {

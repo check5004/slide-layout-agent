@@ -13,13 +13,13 @@
 | 実描画 | Microsoft PowerPoint 16.0、1600×900、124/124枚。`catalog/qa/*-powerpoint.json` |
 | 文字境界 | 全native文字と表セルをPowerPointで測定。boxを1pt超えてはみ出すもの0 |
 | pixels | 全124枚と上流HTML62枚を目視比較。白紙なし。chartラベル・接続・色・図形配置を確認 |
-| 最終差分 | 最終修正では各配色の54枚目(calc_flow)だけPNGが変化。ほか122枚は直前に目視確認したPNGとSHA一致。54枚目の両配色を再確認 |
+| 最終差分 | 独立レビュー修正で各配色の24/34/35枚目が変化。ほか118枚は前版の確認済PNGとSHA一致。変化した6枚を再確認 |
 | 異常系 | 全62型のoverflow、未知/欠落slot、任意geometry拒否。全metric範囲、state、chart次元、数値整合、固定geometry改変も検査 |
 | 差込み残存 | 全62型の文字・数値を変え、slotの値、native chart cache、埋込workbookを検査。元のsampleを残さない回帰あり |
 | 通し例 | `examples/catalog-story/`の架空3枚。型選択理由と引用→保存template読込→出力→PowerPoint実描画。文字境界overflow 0 |
 | 帰属 | MIT全文を`catalog/upstream/LICENSE`と全template/生成catalog slideのnotesに保存 |
 
-自動テストは`python -m unittest discover -s tests -v`で38件です。大量の型・slotの組合せはsubTestで同じテスト内から検証します。`scripts/make_demo.py`で既存8型の架空fixtureも再生成しました。
+自動テストは`python -m unittest discover -s tests -v`で45件です。大量の型・slotの組合せはsubTestで同じテスト内から検証します。`scripts/make_demo.py`で既存8型の架空fixtureも再生成しました。独立レビューの[修正と再現](review-fixes.md)も参照してください。
 
 ## clean cloneの実行結果
 

@@ -217,7 +217,10 @@ class CatalogTests(unittest.TestCase):
                     actual=sh.table.cell(*spec['cell']).text if 'cell' in spec else sh.text
                     self.assertEqual(actual,design.contents.texts[k].text,(entry['layout_id'],k))
                 for k,spec in entry['metrics'].items():
-                    if spec.get('label'):self.assertEqual(shapes[spec['label']].text,f"{design.contents.metrics[k].value:g}{spec.get('suffix','')}")
+                    if spec.get('label'):
+                        value=design.contents.metrics[k].value
+                        prefix='+' if spec.get('signed') and value>0 else ''
+                        self.assertEqual(shapes[spec['label']].text,prefix+f"{value:g}{spec.get('suffix','')}")
                 for k,spec in entry['charts'].items():
                     chart=shapes[spec['shape']].chart
                     for series in chart.series:

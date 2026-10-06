@@ -31,6 +31,15 @@ optional; missing fonts do not prevent PPTX generation, but viewer substitution
 needs visual review. The generator and all structural QA run without PowerPoint.
 If a real renderer is unavailable, deliver with that limitation stated.
 
+For scenario_lines_cagr, supply source-backed elapsed_years explicitly; never
+infer annual duration from the number of observations. Review the visible period
+and registered derived-number rounding policy. Input metrics are not rounded to
+fit. Numeric equality is not semantic approval: inspect NUMERIC_CONTEXT_REVIEW
+and PARTIAL_SOURCE_REVIEW and retain the conditions in visible text. The runtime
+always reports semantic_review as not_performed; Codex must perform and report
+that review separately. Saved schema drift is an error, not permission to loosen
+the template contract.
+
 For hand-edited or corporate templates, follow the review procedure in
 `docs/catalog/template-maintenance.md`. No drop-in importer or reverse import
 of manual edits to an output PPTX exists. Keep private corporate assets outside

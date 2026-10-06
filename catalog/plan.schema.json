@@ -493,6 +493,32 @@
       "title": "Datum",
       "type": "object"
     },
+    "ElapsedYears": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "exclusiveMinimum": 0,
+          "maximum": 1000,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "ElapsedYears",
+      "type": "object"
+    },
     "ImageContents": {
       "additionalProperties": false,
       "properties": {
@@ -867,6 +893,17 @@
           "minItems": 1,
           "title": "Series",
           "type": "array"
+        },
+        "elapsed_years": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ElapsedYears"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
         }
       },
       "required": [

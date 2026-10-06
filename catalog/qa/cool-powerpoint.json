@@ -2,7 +2,7 @@
   "engine": "Microsoft PowerPoint",
   "version": "16.0",
   "slideCount": 62,
-  "pptxSha256": "49ede6ef9e878148981a956af44e757ef37e15efa020cc08428fb5935858d152",
+  "pptxSha256": "e9bbb8f036177e3156b05b15a5f51731ef04c405e1b615d69a466d2f1dc651b2",
   "rasterExport": true,
   "editableTextBoundaryMeasurements": [
     {
@@ -4213,7 +4213,7 @@
       "kind": "text",
       "boxWidth": 139.78,
       "boxHeight": 17.28,
-      "textWidth": 62.25,
+      "textWidth": 98.0,
       "textHeight": 12.0,
       "overflow": false
     },
@@ -5873,7 +5873,7 @@
       "kind": "text",
       "boxWidth": 59.04,
       "boxHeight": 14.4,
-      "textWidth": 16.5,
+      "textWidth": 25.38,
       "textHeight": 14.4,
       "overflow": false
     },
@@ -5893,7 +5893,7 @@
       "kind": "text",
       "boxWidth": 59.04,
       "boxHeight": 14.4,
-      "textWidth": 16.5,
+      "textWidth": 25.38,
       "textHeight": 14.4,
       "overflow": false
     },
@@ -5933,7 +5933,7 @@
       "kind": "text",
       "boxWidth": 59.04,
       "boxHeight": 14.4,
-      "textWidth": 9.63,
+      "textWidth": 18.5,
       "textHeight": 14.4,
       "overflow": false
     },
@@ -6113,7 +6113,7 @@
       "kind": "text",
       "boxWidth": 108.0,
       "boxHeight": 15.84,
-      "textWidth": 8.75,
+      "textWidth": 16.88,
       "textHeight": 13.2,
       "overflow": false
     },
@@ -6133,7 +6133,7 @@
       "kind": "text",
       "boxWidth": 108.0,
       "boxHeight": 15.84,
-      "textWidth": 8.75,
+      "textWidth": 16.88,
       "textHeight": 13.2,
       "overflow": false
     },

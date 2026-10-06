@@ -75,7 +75,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "97bcbcffe8e022bebf7228ab72dffc51be2532ed78194a5d9ae81a284f5e3ecb",
+      "template_sha256": "031f71cd1210744b0311751268a345e5b7bd38372f5072d8d14e582778498bf5",
       "shape_count": 11,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -337,7 +337,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "d7b3b5d5f4e8841a251c3adc9c65ec41af773876237bdbf26153345d1180b1fb",
+      "template_sha256": "c63ed0576d9478d3b08ca47b073d1b881ed1204b8a02db0c140617ef908eeb68",
       "shape_count": 24,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -627,7 +627,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "931ef2532a3b0496a238e228729dda48a493c967782270b508431ee54af8ea12",
+      "template_sha256": "f21479061f6ffd57222393a713bb8a1700b323100ecabe9142e1c9c7cfb4dfb9",
       "shape_count": 28,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -721,7 +721,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "0b3f123c8d98d91292d9533bb938c6734fa97586956f1a6cc48415127a5fa612",
+      "template_sha256": "7b9c4f9e598a857131aaf2bdcc5270031893842464638b0f647e54364605242a",
       "shape_count": 10,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -983,7 +983,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "d38e5b9c5300d5f37e2e944e19b0886eefe86c895d06ac893c1850d963c08a97",
+      "template_sha256": "6f98cf501257f177271a97c27b427ea70221ecf9705728718b6fef83f5a3f134",
       "shape_count": 25,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -1191,7 +1191,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "646dd6a4990ecf2fbaac2c1386e87a69ef114f040b652a4b8506ee4b78969a07",
+      "template_sha256": "96c0c1dcf03dfe7f697f8e12341c526abe512dc1adc318c444b84a6a554b1bdf",
       "shape_count": 16,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -1435,7 +1435,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "9e2fd4dc9825acd172469a114a4338a6c6486ee80aac8500278f0ac55dd954c0",
+      "template_sha256": "caa979593139d00ea3ff4a2b99a69d8f46eb91c87891f719ff4b3e9cf6b5dd7c",
       "shape_count": 16,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -1641,7 +1641,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "c1631f72d4011ae96e1366233d5733988504f3cfa5f97edd3cac16e6b2dc7c65",
+      "template_sha256": "970d49cce6466e9a016a8750c76b5703bd8b67407b6aa21e6b5b4195f1a90275",
       "shape_count": 25,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -1927,7 +1927,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "74ac8662cd47da15ca499c58c8a2c469475e79e82c763db93a8087ad5b481bb2",
+      "template_sha256": "284afd08da7f31ec50348a2e4870870feba7911fb48f0c304d3da1c36c0e84fa",
       "shape_count": 10,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -2021,7 +2021,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "2128a393a1594efad8a6fa03329690ab493f0ab8486dc8ce665840e1b5a35916",
+      "template_sha256": "e8d66eaf396ab0f01ed1ce7483261cef10ac49cb1b6eefc797c6ddc187424718",
       "shape_count": 10,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -2293,7 +2293,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "ef61971e3d500547959d9143d0fe7546b4af34ef45885ae65d5062c06ca3d1de",
+      "template_sha256": "32d2015000b9c8e922ade929c3bd75ff58b135e72afc79f6f4f286d040ecba45",
       "shape_count": 17,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -2565,7 +2565,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "02a27e5dd5a6a390b8fce304c548eb6b434cbc05ab33a4ebbb1aba6c3a67938c",
+      "template_sha256": "0ea44ab8d04958cd03a7d367cb8241516d6c22d2cb95258f56e41b631258de23",
       "shape_count": 17,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -2888,7 +2888,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "ed65da70f740309d986fb3eea2eb9bdc91796494b23841b1f83c70621ba65d4c",
+      "template_sha256": "a1497a0b7b57568eeee79484e40a9829f26cfb229e648698ad1f388e31535838",
       "shape_count": 33,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -3169,7 +3169,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "399a823dc5367517793c849dfa9a48df55666da462d928821f3ecd271f2a8001",
+      "template_sha256": "e5df118a46905e9c0f9dd404c28db81cf1dbf1d753875281986ee175e242b317",
       "shape_count": 29,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -3816,7 +3816,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "456f9b139f5e5530761e3ef8d6a9b5304e43a637421a8a6df93313f8c6bd5b58",
+      "template_sha256": "328493812d4cf842b973c643a3a96442cf83c95ee445831df15380c9fb4f1186",
       "shape_count": 420,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -3869,7 +3869,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 3,
+            "max_lines": 1,
             "max_units_per_line": 3.58,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3889,7 +3889,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3909,7 +3909,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3929,7 +3929,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3949,7 +3949,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3969,7 +3969,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -3989,7 +3989,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4009,7 +4009,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4029,7 +4029,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 4,
+            "max_lines": 1,
             "max_units_per_line": 4.8,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4049,7 +4049,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4069,7 +4069,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4089,7 +4089,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4109,7 +4109,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4129,7 +4129,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4149,7 +4149,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4169,7 +4169,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 12.0,
-            "max_lines": 2,
+            "max_lines": 1,
             "max_units_per_line": 2.73,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           },
@@ -4371,7 +4371,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "b7773253c622af5b5456c31fcf2cf1e9a478203e02f7686115e7394413d84805",
+      "template_sha256": "289487a924c75938e5914d9c76fa59a928cf205102f1516e7bdf4f82aab28ae2",
       "shape_count": 52,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -4682,7 +4682,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "6cee483c311374e2650baacd304e7dc62e426c730c36844c654782b32f0edb11",
+      "template_sha256": "56c95645ddd5fabf0b9600f5425ebe99a2072d0d0b4988560e57ed12434c5f40",
       "shape_count": 21,
       "native_table_count": 0,
       "native_chart_count": 1,
@@ -4825,7 +4825,13 @@
           "font_pt": 9.0,
           "max_lines": 1,
           "max_units_per_line": 21.82,
-          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
+          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate",
+          "number_format": {
+            "mode": "fixed",
+            "decimal_places": 1,
+            "rounding": "half_even",
+            "scope": "derived value only; input values remain exact"
+          }
         }
       },
       "texts": {
@@ -4932,7 +4938,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "43d5e1d4683237f6b5dc4f3ec3fc3c36fe469caacd0f4812b9604c65dfd51687",
+      "template_sha256": "d36e8ecde7c4c42eb6e198a5834dc957d8040b703dfd3616e458e7e73c1927af",
       "shape_count": 20,
       "native_table_count": 0,
       "native_chart_count": 1,
@@ -5111,7 +5117,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "5fcb51e13225a5e0907048184be419bc2e0de6d09e0e6840257eb4243b158b32",
+      "template_sha256": "877851eee5ebf9e1946012b52ea7f4c47f173e1ed3c33a87868fafc180321b44",
       "shape_count": 21,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -5345,7 +5351,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "cae0932e5d45527ecdcc9d8e766433e266678736190ddc2dd7be119d6059366d",
+      "template_sha256": "8a9bbb1708de1ce2d40c86e5884d4081385fc70048f87e4a0de1559cab5c013f",
       "shape_count": 27,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -5663,7 +5669,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "173102eb56fc6c863e1b20384464c24d033837ca8f1c25e9aae311f83a0aaecb",
+      "template_sha256": "549b7cf0120d644b4cc306378c0b9b17fd01719b311a082982d04494d3c3f772",
       "shape_count": 33,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -5882,7 +5888,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "1fdfe283d9ec3139b85b68077ebc67c34931745f35f8884720a222e83e637739",
+      "template_sha256": "f1f1d19e1b1350aa9a6bdc68002210de20c437c1bf31142b965fe1b7dd1f52ab",
       "shape_count": 20,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -6121,7 +6127,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "667f119a95bf16129193755f8614cec33792335e7711a2b2225b63c5209c018e",
+      "template_sha256": "35287da3f879ecff9e3bd367a1c44f7ff65d7aa6394b9c2b7b0a09bad3938935",
       "shape_count": 21,
       "native_table_count": 0,
       "native_chart_count": 1,
@@ -6204,12 +6210,12 @@
           ],
           "sample": {
             "categories": [
-              "YYYY",
-              "YYYY",
-              "YYYY",
-              "YYYY",
-              "YYYY",
-              "YYYY"
+              "2026",
+              "2027",
+              "2028",
+              "2029",
+              "2030",
+              "2031"
             ],
             "series": [
               {
@@ -6248,11 +6254,29 @@
                 ],
                 "x_values": []
               }
-            ]
+            ],
+            "elapsed_years": 5.0
+          },
+          "period_policy": {
+            "required": true,
+            "field": "elapsed_years",
+            "unit": "years",
+            "calendar_labels": "increasing equal year intervals, matching total elapsed_years",
+            "non_year_labels": "requires explicit source-backed elapsed_years; no inference from point count"
           }
         }
       },
       "chart_aliases": {
+        "shape:017": {
+          "chart": "chart_013",
+          "kind": "cagr_heading",
+          "series": 0,
+          "point": null,
+          "font_pt": 10.0,
+          "max_lines": 1,
+          "max_units_per_line": 12.71,
+          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
+        },
         "shape:014": {
           "chart": "chart_013",
           "kind": "last",
@@ -6271,7 +6295,13 @@
           "font_pt": 11.0,
           "max_lines": 2,
           "max_units_per_line": 7.98,
-          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
+          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate",
+          "number_format": {
+            "mode": "fixed",
+            "decimal_places": 0,
+            "rounding": "half_even",
+            "scope": "derived value only; input values remain exact"
+          }
         },
         "shape:025": {
           "chart": "chart_013",
@@ -6301,7 +6331,13 @@
           "font_pt": 11.0,
           "max_lines": 2,
           "max_units_per_line": 7.98,
-          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
+          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate",
+          "number_format": {
+            "mode": "fixed",
+            "decimal_places": 0,
+            "rounding": "half_even",
+            "scope": "derived value only; input values remain exact"
+          }
         },
         "shape:027": {
           "chart": "chart_013",
@@ -6331,7 +6367,13 @@
           "font_pt": 11.0,
           "max_lines": 2,
           "max_units_per_line": 7.98,
-          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
+          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate",
+          "number_format": {
+            "mode": "fixed",
+            "decimal_places": 0,
+            "rounding": "half_even",
+            "scope": "derived value only; input values remain exact"
+          }
         },
         "shape:029": {
           "chart": "chart_013",
@@ -6375,7 +6417,7 @@
         },
         "text_012": {
           "shape": "shape:012",
-          "sample": "単位、YYYY〜YYYY年",
+          "sample": "単位、2026〜2031年",
           "bounds_emu": [
             9421063,
             1627632,
@@ -6386,20 +6428,6 @@
           "max_lines": 1,
           "max_units_per_line": 18.48,
           "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-        },
-        "text_017": {
-          "shape": "shape:017",
-          "sample": "年平均成長率",
-          "bounds_emu": [
-            10021021,
-            2079719,
-            1775257,
-            219456
-          ],
-          "font_pt": 10.0,
-          "max_lines": 1,
-          "max_units_per_line": 12.71,
-          "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
         }
       },
       "source_pptx_slide": 19,
@@ -6407,8 +6435,8 @@
       "differences": [
         "Catalog header/footer are generated metadata; content remains in native shapes at the source positions.",
         "Source-preserved compact type sizes are a separate strict catalog theme; legacy 8 layouts retain their 22–28pt body policy.",
-        "native折線を維持。CAGRは観測点数−1の期間から計算。公開見本の丸め・値の不一致を修正。",
-        "Chart category/series labels and aggregate callouts are bound to data. Totals/CAGR recompute; source example inconsistencies are corrected."
+        "Chart category/series labels and aggregate callouts are bound to data. Totals/CAGR recompute; source example inconsistencies are corrected.",
+        "native折線を維持。CAGRは明示した出典付き経過年数から計算し、期間も表示。西暦ラベルとの不一致を拒否。派生率の小数0桁half-evenを登録。"
       ],
       "split_policy": "reject_overflow; explicit replan with retained origin and references",
       "image_policy": "no image slots in this native source catalog; image input rejected; use legacy text_image for fit/crop",
@@ -6420,12 +6448,12 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "27305ae8945ae4eab4b9cd98b237a7e286b28d4cb36cc51ab21d39d8846e680c",
+      "template_sha256": "4a181913166f5122988f15391fe6324503cc0f2143d77cf77d18805dd9bb71fd",
       "shape_count": 29,
       "native_table_count": 0,
       "native_chart_count": 1,
       "capacity": {
-        "text_slots": 4,
+        "text_slots": 3,
         "chart_slots": 1,
         "metric_slots": 0,
         "state_slots": 0,
@@ -6640,7 +6668,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "c0041bc34d7ae7f107344511784142cf4fd4e2ede666aa695ce65aeff58b55a9",
+      "template_sha256": "8efd359fa5477f35e9372bf3ae736800dbe8114b515a865e32c05a058ecee0b7",
       "shape_count": 23,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -6930,7 +6958,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "beaf8187cd8c76fd8d8ac30839c0531c6fc496939a4a795f0f6d8bbcb4b957f3",
+      "template_sha256": "e3a2ee6d32f02973c94a3c306b86c239a72688c93fbf852542da5e7589375646",
       "shape_count": 29,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -7178,7 +7206,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "b80e908821178dde8f54648b958981c9b8b63916f0b33ad65b977380bf65a88d",
+      "template_sha256": "fd74a4c51a5b4208ccf52a50c7d9bc4b4dc6efa3ad8414c7cce6b850e9fb2a49",
       "shape_count": 24,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -7356,7 +7384,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "6ae6491b456828ac99c34880eced6632ebd37215b5ec361da48964c5aa255e6b",
+      "template_sha256": "cb4c605be6d9e09596e5e91804f2fc6e6de4754c5931749f97e4d066faed1d6b",
       "shape_count": 15,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -7576,7 +7604,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "31f8677268d32896ff992f79469f02bdcfa39564794ae7d8ab3db6417174147e",
+      "template_sha256": "e49061c2764c4c756167af9fcff50cdb0363e1445a6b91c985126f727cf20c96",
       "shape_count": 22,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -7768,7 +7796,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "d1b733958a2ef03cc771b08533bbefdb0e26740c6708c48ec7e047f2a9ace5d2",
+      "template_sha256": "6dfa296f139507743015b0a4339f042ed6e926252c422dba6affab49a974f799",
       "shape_count": 16,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -8086,7 +8114,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "1175648dc0faaf065e301b2839bef2c317682f0575f789cbd68dc1a8763e17a7",
+      "template_sha256": "a49b917eae5d13defca3cae2ba6b9aba72fc6db483a26917238873d666337edf",
       "shape_count": 29,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -8306,7 +8334,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "2dc662754e058f5519a5303a025327453a6ed47570b919333e7eaf872e73f99c",
+      "template_sha256": "fdfa721d34bbff4e176b9c780a3b24226e6c976de84583ae3ac9bf5733945955",
       "shape_count": 19,
       "native_table_count": 0,
       "native_chart_count": 1,
@@ -8536,7 +8564,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "113138dc7767fdd49ca06375e65d496efc18596838415744fc1cc86e3881d750",
+      "template_sha256": "b7dbf2aa3770dbf861d29191fc3ef8ff7144ab2f2d113f3ca0e856329d622f0c",
       "shape_count": 20,
       "native_table_count": 0,
       "native_chart_count": 1,
@@ -8606,7 +8634,8 @@
             "max_lines": 1,
             "max_units_per_line": 4.47,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_018": {
           "binding": "bridge",
@@ -8620,7 +8649,8 @@
             "max_lines": 1,
             "max_units_per_line": 4.47,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_021": {
           "binding": "bridge",
@@ -8634,7 +8664,8 @@
             "max_lines": 1,
             "max_units_per_line": 4.47,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_024": {
           "binding": "bridge",
@@ -8648,7 +8679,8 @@
             "max_lines": 1,
             "max_units_per_line": 4.47,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_027": {
           "binding": "bridge",
@@ -8691,6 +8723,13 @@
           "shape:027"
         ],
         "cumulative": false,
+        "colors": {
+          "start": "322014",
+          "end": "322014",
+          "increase": "5A3921",
+          "decrease": "A22727",
+          "zero": "8A7B6B"
+        },
         "baseline": 5577840,
         "height": 2057400,
         "label_gap": 237744
@@ -8871,7 +8910,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "ed3b6bfc1a958cdeb948243b39adfa52a8cab436da6c499ba220360707969539",
+      "template_sha256": "6b0375f6f986f9fe6599765a671e9a558c675274e056dfe05b264e37d313c4b0",
       "shape_count": 32,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -8941,7 +8980,8 @@
             "max_lines": 1,
             "max_units_per_line": 8.92,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_018": {
           "binding": "bridge",
@@ -8955,7 +8995,8 @@
             "max_lines": 1,
             "max_units_per_line": 8.92,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_021": {
           "binding": "bridge",
@@ -8969,7 +9010,8 @@
             "max_lines": 1,
             "max_units_per_line": 8.92,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
-          }
+          },
+          "signed": true
         },
         "value_024": {
           "binding": "bridge",
@@ -9009,6 +9051,13 @@
           "shape:024"
         ],
         "cumulative": true,
+        "colors": {
+          "start": "322014",
+          "end": "322014",
+          "increase": "5A3921",
+          "decrease": "A22727",
+          "zero": "8A7B6B"
+        },
         "baseline": 5577840,
         "height": 3017520,
         "label_gap": 256032
@@ -9147,7 +9196,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "72d1032f882b192dbe28072632838d3af70643245a4613a3f847f70b7dce6ff3",
+      "template_sha256": "a2085ed3fc7bba03afe7222e073a7cccc4774f26e1b1402788ad0d22ff05b08a",
       "shape_count": 26,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -9573,7 +9622,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "5916736effb33787f35bb69b0c3bee9f93756d57356921b7ab54d7661124a611",
+      "template_sha256": "c07fe65b47f6281223412729b0d5f18d1dc892e2769573e2139dd281f0a9c5ca",
       "shape_count": 33,
       "native_table_count": 0,
       "native_chart_count": 4,
@@ -9859,7 +9908,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "95833299ef5ec4823dfd16b44db758ddce717234d3e7233dc520555942115f0c",
+      "template_sha256": "6a8bf830aeb7963c6375baf5ca0eb66fd3579545238bc5d88899af05e572b8c6",
       "shape_count": 10,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -10145,7 +10194,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "940ef355e560d40e18f716038fe444a88a6e2a6c228e23e07d2c774771de405b",
+      "template_sha256": "5694c1628a98813eee3b6f59cd72612a98aab35d30359b725241bde445a0926a",
       "shape_count": 10,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -10431,7 +10480,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "d994e6ee7dc62547949d4e0022b1a10be8c4de9830d81c6ae4f7b7a62a152693",
+      "template_sha256": "38919de3eae68be6100e484fc20d687d25f7df6a96b4cccc1e477ef01cc7c1a8",
       "shape_count": 10,
       "native_table_count": 1,
       "native_chart_count": 0,
@@ -10819,7 +10868,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "01a4b5b74643dc5c530ba307601185fe5acce93781ca9c5d292498387e300786",
+      "template_sha256": "3b76aceef847ce0ca0934ae179b77167c9b3c196e38c971f702263bc2e6753e4",
       "shape_count": 40,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -11232,7 +11281,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "d0b6c884104c96451bf076ad6a376a0b9759d4c873c2923d1eb4a79dc5d3ea98",
+      "template_sha256": "dabb68e9a760c00669da37d400b5fbdc2dbfe5391084983c823255928c67fa5d",
       "shape_count": 62,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -11466,7 +11515,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "3e1e5f57db26494fe2cd189aa07ff1c3b6658cb402afeb79f65152ce80f44ff2",
+      "template_sha256": "fb9c3ec422df6d9c45d6655b5f1cfdfe31dccc09dec4774a543a84d70935a975",
       "shape_count": 28,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -11756,7 +11805,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "8de320572600c7190c1218fc9e23d841ce27f7ba4307f6ce57144d20f809d386",
+      "template_sha256": "72558d24570a614bea6d90ee1045928b8ce53b23a93cb33942a2193ad589a3b3",
       "shape_count": 33,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -12060,7 +12109,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "b4804401c7046a69611ceae63cb768862514b0c7906f966ac7c0f43a3c137787",
+      "template_sha256": "44dd0af430d3277c5e16f47569298cb202c90126843812ce470df6bccf5e17e0",
       "shape_count": 31,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -12378,7 +12427,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "30e7706886456e2f9936db234bf6c042a0e7f0127ee2763dbaeaac847e4dbbe1",
+      "template_sha256": "2613d2e61b45d095b0d5f08eacefd088c7dec1c9225ead30b4d4a9ca506cb7c9",
       "shape_count": 32,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -12710,7 +12759,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "221818f8beb271d53e6600ee78b930fc234378b6a85a6f0d5d8a671dea7ce9ee",
+      "template_sha256": "f6468f3648075ec5fcf3e4d3b85a54827fba7201d02115e32a15abef65ed4b89",
       "shape_count": 33,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -12972,7 +13021,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "95826a9af84c6455b1d637a9ec39ccddfdd43f6b99bbe0c4e6700a3f02f2f198",
+      "template_sha256": "b337f2b0aaea4c6e23ff80dbe0c5f6f71f4d3c54b2655ad26bc018ce3912ee40",
       "shape_count": 27,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -13290,7 +13339,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "7438a1ad7af87da2659416d98c40021da20c8cc2645a0575a9a99d47350f8172",
+      "template_sha256": "e0c2fcce3fba4f3658a112a3146105bec1d4f36b5f4352f4d89aeb2e44f1549a",
       "shape_count": 30,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -13552,7 +13601,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "1adf3163d45e744a04ec1858eed575748b50fbbd47308cbad7b4ca6d8c06a50b",
+      "template_sha256": "8850eea2b96e10890e1ab3d0394d48b911afa31b6eae6e9d39872799c927dc00",
       "shape_count": 27,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -13800,7 +13849,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "c5202847ac070b38ed37d55cdda2ef65896099e6dc3e9f766e78c2aa111d11b8",
+      "template_sha256": "894e243364b0d6561e6718c865b26e5393e3227b9baa874baf2745419537714d",
       "shape_count": 27,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -14020,7 +14069,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "457941da29456d7d22d0b13e26d37355c054f4a3388934b4758b87dc696a5bf5",
+      "template_sha256": "ab03d673c0e8cae23e0537f77f11b8f4dc69540b40e3435c213fbd4071340b1d",
       "shape_count": 23,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -14254,7 +14303,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "1bb2f99e60f862503f6a3f2fe4850e0beb344bb25cfdf08b0380a4399324bdb8",
+      "template_sha256": "97046c494b9631f2fec2d3f8ddcb4f6125c43aa79822ed2b0f830c1de9839662",
       "shape_count": 40,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -14446,7 +14495,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "49dde3232e59de048533e8e296ea33b0408b4d1024e8db7dfaeca91862c30d8d",
+      "template_sha256": "1e916e944c9298878377156999e132c9931b4c19c7e22320a68a36283f6f68f2",
       "shape_count": 18,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -14499,7 +14548,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 3,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14513,7 +14562,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 9,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14527,7 +14576,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 19,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14541,7 +14590,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 19,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14555,7 +14604,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 19,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14569,7 +14618,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 19,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14583,7 +14632,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 3,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14597,7 +14646,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 7,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14611,7 +14660,7 @@
           "suffix": "",
           "label_capacity": {
             "font_pt": 9.0,
-            "max_lines": 18,
+            "max_lines": 1,
             "max_units_per_line": 4.36,
             "overflow": "reject; split content into a new explicitly planned slide; never shrink or truncate"
           }
@@ -14964,7 +15013,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "27deced329fda9ac46efcfe498fdd773f9ca6c42a87f5a3e786a8b3fa87c8249",
+      "template_sha256": "68a4b05a47fb6041c470dabdbab168bfea0c6bcb87c9f1317c502249d7a25490",
       "shape_count": 55,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -15268,7 +15317,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "bc91a3ebc6e3368a6be1dfd059e09315de5ad0e8f16ac11047f4c634308365a3",
+      "template_sha256": "0d768e5fd3e65580728fb4d58f8e14b7e5be62d8531164949d9c5c5d6fd06084",
       "shape_count": 28,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -15572,7 +15621,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "66eda2a6f27f107d4292ad11c3752c48a4c5046faff615ae9aa6033d59ab7326",
+      "template_sha256": "74af576588cc023a67d2c888055455055a5acb7161e895b49a69fc7a48ee05d7",
       "shape_count": 35,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -15876,7 +15925,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "7417874296707e2b8d111c5ee7e5c80d410030a9b45423adaed4b21375af5007",
+      "template_sha256": "e42da66d99a5d18d3862b9ca6cf7222b64a24566ba67a427558243a5ede1315d",
       "shape_count": 34,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -16390,7 +16439,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "0ad17efc64550b514ff9b82bb5f03b4e45ada8965d33542786c4d469ab1ec0f6",
+      "template_sha256": "f1ed0175ef4a17d261818be1484ea45f66abd7464bd9392b9a23620f5ee5118f",
       "shape_count": 65,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -16624,7 +16673,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "e59a22f610f34ac26753c34194a46699d6ec08c496abfb250007d6b391507f15",
+      "template_sha256": "076b6f5420d3e38aabc724d8fd4c0e5a7d72000ec88e1692d47668a481d02676",
       "shape_count": 27,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -16830,7 +16879,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "7a9f7cf0c2d5d1c4b4604f6b4871cce87e62ca98af2772d4ad78520d09d0b23c",
+      "template_sha256": "5cf932597116c24aa82713df60278b022b457745b8b7c669fc74be4611cae8d0",
       "shape_count": 24,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -17520,7 +17569,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "b34fdabbf5df66e6506f93f66d5e05a1ab7f4d6a1484c757d34a71847df7b09e",
+      "template_sha256": "6a90d697f1805271c1a48e0a7c9234be41feb8e2043094a07aa57b65f85a9767",
       "shape_count": 75,
       "native_table_count": 0,
       "native_chart_count": 0,
@@ -17726,7 +17775,7 @@
         "pictures": 0
       },
       "unsupported": "No arbitrary geometry, image insertion, automatic semantic pagination or unsupported chart types.",
-      "template_sha256": "f41d56a024b54cad4b3dfb014e9c3b29a6f3a66585af1f1b3ed73e01febfc8ab",
+      "template_sha256": "fa4948b5bf5a43af39fb24b0a7f0e5d29c886d3346e9c4cfb7c845453ab43888",
       "shape_count": 21,
       "native_table_count": 0,
       "native_chart_count": 0,

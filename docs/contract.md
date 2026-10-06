@@ -6,6 +6,8 @@ Source bundle: `version`, `title`, `segments` (`id`, exact `text`, optional `cit
 
 Plan: `version`, `source_sha256`, `title`, `slides`, `omissions`. Each slide has `id`, `origin`, `layout_id`, `title`, optional `lead`, `rationale` and `contents`. Every displayed text object is `{text, refs:[{source_id, quote}], mode:"verbatim"}`. A rewritten title/body uses `mode:"paraphrase"` and a slide rationale. Quotes must be exact substrings of a real source segment. A verbatim text must occur in one of its quotes. Every data value also has `refs`.
 
+The following table covers the eight legacy geometry layouts. The 62 saved native templates additionally use `CatalogSlide` with `variant`, `font_profile`, and exact per-layout `texts/charts/metrics/states` keys. Use `catalog/manifest.json`, `catalog/schemas/ID.schema.json` and the [catalog workflow](catalog/template-workflow.md). The runtime rejects a saved schema that differs from the current model/catalog contract; capacities and bindings are included in its contract digest.
+
 | layout_id | contents | Limit / intent |
 |---|---|---|
 | title | items: Text[] | 0–3 brief introductory statements |
@@ -20,5 +22,9 @@ Plan: `version`, `source_sha256`, `title`, `slides`, `omissions`. Each slide has
 Theme is a separate trusted configuration. Default: no lead, 32 pt title, 24 pt body, 20 pt table, Meiryo, navy / teal / off-white. `lead_mode:true` allows a short 18 pt lead without enforcing any article's editorial doctrine. Long source IDs and excess slide count are rejected. Native chart axes can use generated tick values and slide numbers are generated metadata; neither is source content.
 
 The default validation rejects newly introduced numeric tokens and missing original numeric tokens. Explicitly omitted sources are excluded only after review. It does not prove semantic entailment. Qualifiers, causal claims and citation accuracy must also be reviewed. Missing units or uncertainty must not be inferred away.
+
+`ok`/`mechanical_validation` describe mechanical checks only. Numeric evidence covers its numeric tokens, not all surrounding quoted text. Unrepresented numeric conditions trigger `NUMERIC_CONTEXT_REVIEW` and `PARTIAL_SOURCE_REVIEW`. `source_coverage` and `semantic_review` are separate; semantic review remains `not_performed` until the operator performs it outside this validator.
+
+Catalog input numeric labels preserve the stored numeric value without six-significant-digit rounding. Exact labels exceeding their one-line capacity are rejected. Derived CAGR (0 decimal places) and mean (1 decimal place) use explicit half-even policies in `chart_aliases.number_format`. `scenario_lines_cagr` requires a source-backed positive `elapsed_years` value; point count is not duration. Year labels must be increasing and evenly spaced, and their endpoint difference must agree with the explicit duration. Non-year labels still require the duration.
 
 `split` supports bullets and table rows, retaining item/row order and all source references. Other overflows require plan revision and stop with a useful error. Continuation IDs use `-p2` etc.; `origin` retains the original group. No content is silently dropped.

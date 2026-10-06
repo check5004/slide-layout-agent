@@ -21,6 +21,14 @@
 
 自動テストは`python -m unittest discover -s tests -v`で38件です。大量の型・slotの組合せはsubTestで同じテスト内から検証します。`scripts/make_demo.py`で既存8型の架空fixtureも再生成しました。
 
+## clean cloneの実行結果
+
+mainのdocs更新`4860ab7`を取り込んだcode commit `931aed779fc76dea21003b5f133be7450d68e44e`を別ディレクトリへcloneし、新規venvに`requirements.txt`だけをインストールして検査しました。Python 3.12 / python-pptx 1.0.2 / pydantic 2.12.5 / Pillow 11.3.0で38テスト成功。全62型×2配色と型別62PPTXも再生成・構造監査に成功しました。
+
+この再生成では`win32com`/`comtypes` importを無効化し、`subprocess.Popen`も例外で禁止しました。Office・Node・ブラウザを呼ばずに完了しています。これはWindowsホスト上でOffice連携を禁止した確認です。Linuxの実行は`.github/workflows/catalog.yml`のUbuntu / Python 3.11・3.12 CIで別途確認できます。CIの結果はPRのChecksを参照してください。
+
+同梱galleryはネットワークを使わず、保存済みPNGを表示します。新規生成するPPTXは同梱の実templateから作るため、上流repoを別にcloneする必要もありません。
+
 ## 再実行
 
 ```sh

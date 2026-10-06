@@ -28,6 +28,6 @@
 
 ## ライセンス
 
-上流はMITです。`Copyright (c) 2026 Carnot AI Inc.`とpermission noticeの全文を`catalog/upstream/LICENSE`に保持します。再配布するtemplate、HTML、native元asset、QAヘルパーはこのライセンスの対象です。生成PPTXのcore propertiesとnotesにも帰属を記録します。
+上流はMITです。`Copyright (c) 2026 Carnot AI Inc.`とpermission noticeの全文を`catalog/upstream/LICENSE`に保持します。再配布するtemplate、HTML、native元asset、QAヘルパーはこのライセンスの対象です。templateのcore propertiesに帰属を記録し、templateと生成catalog slideのnotesにはMIT全文を含めます。
 
 独自engineと検証コードはプロジェクト本体のLICENSEに従います。サンプルは公開上流見本と短い架空の差込文だけで、個人情報・企業内部資料・非公開研究は含みません。

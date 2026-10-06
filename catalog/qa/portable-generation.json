@@ -1,0 +1,20 @@
+{
+  "tested_code_commit": "931aed779fc76dea21003b5f133be7450d68e44e",
+  "main_docs_base": "4860ab70e24233ab79d15c1840872ccbc6e25567",
+  "fresh_local_clone": true,
+  "fresh_virtual_environment": true,
+  "dependency_source": "requirements.txt",
+  "python": "3.12",
+  "declared_packages": {"python-pptx": "1.0.2", "pydantic": "2.12.5", "Pillow": "11.3.0"},
+  "unit_tests": {"run": 38, "failed": 0},
+  "portable_generation": {
+    "win32com_import": "blocked",
+    "comtypes_import": "blocked",
+    "subprocess_Popen": "raises RuntimeError",
+    "generated_variant_slides": 124,
+    "generated_individual_decks": 62,
+    "ooxml_audit": "passed"
+  },
+  "authored_story": {"slides": 3, "validation": "passed", "warning": "font substitution requires viewer review"},
+  "linux_ci": "See current PR checks; the local result is Windows with Office invocation disabled."
+}

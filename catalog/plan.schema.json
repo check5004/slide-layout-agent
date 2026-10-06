@@ -1,0 +1,1184 @@
+{
+  "$defs": {
+    "BulletSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "bullets",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Items"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "BulletSlide",
+      "type": "object"
+    },
+    "CatalogContents": {
+      "additionalProperties": false,
+      "properties": {
+        "texts": {
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "Texts",
+          "type": "object"
+        },
+        "charts": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateChart"
+            }
+          },
+          "title": "Charts",
+          "type": "object"
+        },
+        "metrics": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/SignedDatum"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "states": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "States",
+          "type": "object"
+        }
+      },
+      "required": [
+        "texts"
+      ],
+      "title": "CatalogContents",
+      "type": "object"
+    },
+    "CatalogSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "enum": [
+            "title_page",
+            "overview_map",
+            "table_of_contents",
+            "section_divider",
+            "chevron_steps",
+            "premise_conclusion",
+            "stat_table_readout",
+            "card_grid_2x2",
+            "axis_table",
+            "back_cover",
+            "claim_panel_figure",
+            "lever_effect_table",
+            "status_heatmap_comment",
+            "harvey_ball_table",
+            "dot_matrix_share",
+            "progress_bubble_matrix",
+            "ranked_bar_annotated",
+            "scatter_annotated",
+            "pillars_foundation",
+            "opposing_chevrons",
+            "evidence_clip_grid",
+            "proportional_circles",
+            "delta_bars_totals",
+            "scenario_lines_cagr",
+            "research_basis",
+            "issue_action_columns",
+            "agenda_separator",
+            "executive_summary",
+            "evidence_basis",
+            "big_stat_pair",
+            "kpi_dashboard",
+            "chart_insight",
+            "stacked_bar",
+            "waterfall",
+            "true_waterfall",
+            "small_multiples",
+            "comparison_table",
+            "scenario_table",
+            "risk_table",
+            "horizontal_axis_table",
+            "heatmap_table",
+            "matrix_2x2",
+            "process_matrix",
+            "nested_row_matrix",
+            "timeline_matrix",
+            "theme_card_grid",
+            "recommendation_pillars",
+            "numbered_imperatives",
+            "scr",
+            "issue_to_solution_map",
+            "issue_cause_solution",
+            "issue_tree",
+            "current_target_state",
+            "calc_flow",
+            "process_flow",
+            "cycle",
+            "chevron_rail",
+            "chevron_value_chain",
+            "decision_fork",
+            "roadmap",
+            "gantt",
+            "decision_page"
+          ],
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "variant": {
+          "default": "warm",
+          "enum": [
+            "warm",
+            "cool"
+          ],
+          "title": "Variant",
+          "type": "string"
+        },
+        "font_profile": {
+          "default": "source",
+          "enum": [
+            "source",
+            "meiryo",
+            "noto",
+            "hiragino"
+          ],
+          "title": "Font Profile",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/CatalogContents"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "CatalogSlide",
+      "type": "object"
+    },
+    "Chart": {
+      "additionalProperties": false,
+      "properties": {
+        "categories": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 6,
+          "minItems": 1,
+          "title": "Categories",
+          "type": "array"
+        },
+        "series": {
+          "items": {
+            "$ref": "#/$defs/Series"
+          },
+          "maxItems": 2,
+          "minItems": 1,
+          "title": "Series",
+          "type": "array"
+        },
+        "note": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "categories",
+        "series",
+        "note"
+      ],
+      "title": "Chart",
+      "type": "object"
+    },
+    "ChartSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "chart",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Chart"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "ChartSlide",
+      "type": "object"
+    },
+    "ClosingSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "closing",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Items"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "ClosingSlide",
+      "type": "object"
+    },
+    "Comparison": {
+      "additionalProperties": false,
+      "properties": {
+        "left_title": {
+          "$ref": "#/$defs/Text"
+        },
+        "right_title": {
+          "$ref": "#/$defs/Text"
+        },
+        "left": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Left",
+          "type": "array"
+        },
+        "right": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Right",
+          "type": "array"
+        }
+      },
+      "required": [
+        "left_title",
+        "right_title",
+        "left",
+        "right"
+      ],
+      "title": "Comparison",
+      "type": "object"
+    },
+    "ComparisonSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "comparison",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Comparison"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "ComparisonSlide",
+      "type": "object"
+    },
+    "Datum": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "maximum": 1000000000000.0,
+          "minimum": 0,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "Datum",
+      "type": "object"
+    },
+    "ElapsedYears": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "exclusiveMinimum": 0,
+          "maximum": 1000,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "ElapsedYears",
+      "type": "object"
+    },
+    "ImageContents": {
+      "additionalProperties": false,
+      "properties": {
+        "items": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 100,
+          "title": "Items",
+          "type": "array"
+        },
+        "image_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Image Id",
+          "type": "string"
+        },
+        "image_mode": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "crop"
+          ],
+          "title": "Image Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "items",
+        "image_id"
+      ],
+      "title": "ImageContents",
+      "type": "object"
+    },
+    "ImageSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "text_image",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/ImageContents"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "ImageSlide",
+      "type": "object"
+    },
+    "Items": {
+      "additionalProperties": false,
+      "properties": {
+        "items": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 100,
+          "title": "Items",
+          "type": "array"
+        }
+      },
+      "required": [
+        "items"
+      ],
+      "title": "Items",
+      "type": "object"
+    },
+    "Omission": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "reason": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "reason"
+      ],
+      "title": "Omission",
+      "type": "object"
+    },
+    "Process": {
+      "additionalProperties": false,
+      "properties": {
+        "steps": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 20,
+          "minItems": 2,
+          "title": "Steps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "steps"
+      ],
+      "title": "Process",
+      "type": "object"
+    },
+    "ProcessSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "process",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Process"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "ProcessSlide",
+      "type": "object"
+    },
+    "Ref": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "quote": {
+          "maxLength": 50000,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "quote"
+      ],
+      "title": "Ref",
+      "type": "object"
+    },
+    "Series": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "values": {
+          "items": {
+            "$ref": "#/$defs/Datum"
+          },
+          "maxItems": 6,
+          "minItems": 1,
+          "title": "Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "values"
+      ],
+      "title": "Series",
+      "type": "object"
+    },
+    "SignedDatum": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "maximum": 1000000000000.0,
+          "minimum": -1000000000000.0,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "SignedDatum",
+      "type": "object"
+    },
+    "Table": {
+      "additionalProperties": false,
+      "properties": {
+        "headers": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 3,
+          "minItems": 2,
+          "title": "Headers",
+          "type": "array"
+        },
+        "rows": {
+          "items": {
+            "items": {
+              "$ref": "#/$defs/Text"
+            },
+            "type": "array"
+          },
+          "maxItems": 100,
+          "minItems": 1,
+          "title": "Rows",
+          "type": "array"
+        }
+      },
+      "required": [
+        "headers",
+        "rows"
+      ],
+      "title": "Table",
+      "type": "object"
+    },
+    "TableSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "table",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Table"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "TableSlide",
+      "type": "object"
+    },
+    "TemplateChart": {
+      "additionalProperties": false,
+      "properties": {
+        "categories": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 60,
+          "title": "Categories",
+          "type": "array"
+        },
+        "series": {
+          "items": {
+            "$ref": "#/$defs/TemplateSeries"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Series",
+          "type": "array"
+        },
+        "elapsed_years": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ElapsedYears"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "series"
+      ],
+      "title": "TemplateChart",
+      "type": "object"
+    },
+    "TemplateSeries": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "values": {
+          "items": {
+            "$ref": "#/$defs/SignedDatum"
+          },
+          "maxItems": 60,
+          "minItems": 1,
+          "title": "Values",
+          "type": "array"
+        },
+        "x_values": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/SignedDatum"
+          },
+          "maxItems": 60,
+          "title": "X Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "values"
+      ],
+      "title": "TemplateSeries",
+      "type": "object"
+    },
+    "Text": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "maxLength": 20000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        },
+        "mode": {
+          "default": "verbatim",
+          "enum": [
+            "verbatim",
+            "paraphrase"
+          ],
+          "title": "Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "refs"
+      ],
+      "title": "Text",
+      "type": "object"
+    },
+    "TitleSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "const": "title",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/Items"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "TitleSlide",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1",
+      "default": "1",
+      "title": "Version",
+      "type": "string"
+    },
+    "source_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Sha256",
+      "type": "string"
+    },
+    "title": {
+      "maxLength": 500,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "slides": {
+      "items": {
+        "discriminator": {
+          "mapping": {
+            "agenda_separator": "#/$defs/CatalogSlide",
+            "axis_table": "#/$defs/CatalogSlide",
+            "back_cover": "#/$defs/CatalogSlide",
+            "big_stat_pair": "#/$defs/CatalogSlide",
+            "bullets": "#/$defs/BulletSlide",
+            "calc_flow": "#/$defs/CatalogSlide",
+            "card_grid_2x2": "#/$defs/CatalogSlide",
+            "chart": "#/$defs/ChartSlide",
+            "chart_insight": "#/$defs/CatalogSlide",
+            "chevron_rail": "#/$defs/CatalogSlide",
+            "chevron_steps": "#/$defs/CatalogSlide",
+            "chevron_value_chain": "#/$defs/CatalogSlide",
+            "claim_panel_figure": "#/$defs/CatalogSlide",
+            "closing": "#/$defs/ClosingSlide",
+            "comparison": "#/$defs/ComparisonSlide",
+            "comparison_table": "#/$defs/CatalogSlide",
+            "current_target_state": "#/$defs/CatalogSlide",
+            "cycle": "#/$defs/CatalogSlide",
+            "decision_fork": "#/$defs/CatalogSlide",
+            "decision_page": "#/$defs/CatalogSlide",
+            "delta_bars_totals": "#/$defs/CatalogSlide",
+            "dot_matrix_share": "#/$defs/CatalogSlide",
+            "evidence_basis": "#/$defs/CatalogSlide",
+            "evidence_clip_grid": "#/$defs/CatalogSlide",
+            "executive_summary": "#/$defs/CatalogSlide",
+            "gantt": "#/$defs/CatalogSlide",
+            "harvey_ball_table": "#/$defs/CatalogSlide",
+            "heatmap_table": "#/$defs/CatalogSlide",
+            "horizontal_axis_table": "#/$defs/CatalogSlide",
+            "issue_action_columns": "#/$defs/CatalogSlide",
+            "issue_cause_solution": "#/$defs/CatalogSlide",
+            "issue_to_solution_map": "#/$defs/CatalogSlide",
+            "issue_tree": "#/$defs/CatalogSlide",
+            "kpi_dashboard": "#/$defs/CatalogSlide",
+            "lever_effect_table": "#/$defs/CatalogSlide",
+            "matrix_2x2": "#/$defs/CatalogSlide",
+            "nested_row_matrix": "#/$defs/CatalogSlide",
+            "numbered_imperatives": "#/$defs/CatalogSlide",
+            "opposing_chevrons": "#/$defs/CatalogSlide",
+            "overview_map": "#/$defs/CatalogSlide",
+            "pillars_foundation": "#/$defs/CatalogSlide",
+            "premise_conclusion": "#/$defs/CatalogSlide",
+            "process": "#/$defs/ProcessSlide",
+            "process_flow": "#/$defs/CatalogSlide",
+            "process_matrix": "#/$defs/CatalogSlide",
+            "progress_bubble_matrix": "#/$defs/CatalogSlide",
+            "proportional_circles": "#/$defs/CatalogSlide",
+            "ranked_bar_annotated": "#/$defs/CatalogSlide",
+            "recommendation_pillars": "#/$defs/CatalogSlide",
+            "research_basis": "#/$defs/CatalogSlide",
+            "risk_table": "#/$defs/CatalogSlide",
+            "roadmap": "#/$defs/CatalogSlide",
+            "scatter_annotated": "#/$defs/CatalogSlide",
+            "scenario_lines_cagr": "#/$defs/CatalogSlide",
+            "scenario_table": "#/$defs/CatalogSlide",
+            "scr": "#/$defs/CatalogSlide",
+            "section_divider": "#/$defs/CatalogSlide",
+            "small_multiples": "#/$defs/CatalogSlide",
+            "stacked_bar": "#/$defs/CatalogSlide",
+            "stat_table_readout": "#/$defs/CatalogSlide",
+            "status_heatmap_comment": "#/$defs/CatalogSlide",
+            "table": "#/$defs/TableSlide",
+            "table_of_contents": "#/$defs/CatalogSlide",
+            "text_image": "#/$defs/ImageSlide",
+            "theme_card_grid": "#/$defs/CatalogSlide",
+            "timeline_matrix": "#/$defs/CatalogSlide",
+            "title": "#/$defs/TitleSlide",
+            "title_page": "#/$defs/CatalogSlide",
+            "true_waterfall": "#/$defs/CatalogSlide",
+            "waterfall": "#/$defs/CatalogSlide"
+          },
+          "propertyName": "layout_id"
+        },
+        "oneOf": [
+          {
+            "$ref": "#/$defs/TitleSlide"
+          },
+          {
+            "$ref": "#/$defs/BulletSlide"
+          },
+          {
+            "$ref": "#/$defs/ImageSlide"
+          },
+          {
+            "$ref": "#/$defs/ComparisonSlide"
+          },
+          {
+            "$ref": "#/$defs/ProcessSlide"
+          },
+          {
+            "$ref": "#/$defs/TableSlide"
+          },
+          {
+            "$ref": "#/$defs/ChartSlide"
+          },
+          {
+            "$ref": "#/$defs/ClosingSlide"
+          },
+          {
+            "$ref": "#/$defs/CatalogSlide"
+          }
+        ]
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Slides",
+      "type": "array"
+    },
+    "omissions": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Omission"
+      },
+      "maxItems": 500,
+      "title": "Omissions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "source_sha256",
+    "title",
+    "slides"
+  ],
+  "title": "Plan",
+  "type": "object"
+}

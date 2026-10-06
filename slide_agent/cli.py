@@ -11,10 +11,19 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from .audit import audit
+from .catalog import registry, is_catalog
 from .io import fingerprint, load_plan, load_source, load_theme, write_json
 from .models import Asset, Plan, Segment, Source
 from .render import render
 from .validate import BODY_H, fits, validate
+
+
+def print_json(data):
+    # ASCII JSON remains valid across legacy PowerShell native-output decoding.
+    # Direct --out files always use UTF-8 regardless of the console code page.
+    encoding=(getattr(sys.stdout,'encoding',None) or '').lower().replace('_','-')
+    ascii_output=encoding not in ('utf-8','utf8','utf-8-sig') or not sys.stdout.isatty()
+    print(json.dumps(data,ensure_ascii=ascii_output,indent=2))
 
 
 def ingest(path, mode, image_args, destination):
@@ -75,6 +84,12 @@ def split_plan(plan, theme):
                 pending = pending[count:]
             key = "items"
         else:
+            if is_catalog(slide.layout_id):
+                from .catalog_validate import validate_catalog
+                issues=[]
+                validate_catalog(slide, lambda code,message,sid: issues.append((code,message)))
+                if issues:
+                    raise ValueError(f"{slide.id}: catalog cannot auto-paginate fixed relational structure; explicitly replan with retained origin/references: {issues[0][1]}")
             output.append(slide.model_dump(mode="json"))
             continue
         for index, group in enumerate(groups):
@@ -111,6 +126,10 @@ def build_parser():
     p = sub.add_parser("schema")
     p.add_argument("--out", required=True)
     p.add_argument("--force", action="store_true")
+    p = sub.add_parser("catalog")
+    p.add_argument("--layout", choices=list(registry()))
+    p.add_argument("--out",help="Write UTF-8 JSON directly; avoids shell redirection transcoding")
+    p.add_argument("--force",action="store_true")
     for name in ("validate", "review", "render", "split"):
         p = sub.add_parser(name)
         p.add_argument("plan")
@@ -125,8 +144,21 @@ def build_parser():
 
 
 def main(argv=None):
+    for stream in (sys.stdout,sys.stderr):
+        if hasattr(stream,'reconfigure'):stream.reconfigure(errors='backslashreplace')
     args = build_parser().parse_args(argv)
     try:
+        if args.command == "catalog":
+            data=registry()
+            if args.layout: output=data[args.layout]
+            else: output=[{"layout_id":e["layout_id"],"name":e["name"],"part_id":e["part_id"],
+                           "template":e["template"],"preview":f"catalog/previews/warm/{e['layout_id']}.png",
+                           "capacity":e["capacity"]} for e in data.values()]
+            if args.out:
+                write_json(args.out,output,args.force)
+                print('Catalog written as UTF-8 JSON.')
+            else:print_json(output)
+            return 0
         if args.command == "ingest":
             source = ingest(args.input, args.mode, args.image, args.out)
             write_json(args.out, source.model_dump(mode="json"), args.force)
@@ -140,11 +172,13 @@ def main(argv=None):
             print(fingerprint(source))
             return 0
         plan, theme = load_plan(args.plan), load_theme(args.theme)
+        if args.theme and any(is_catalog(s.layout_id) for s in plan.slides):
+            raise ValueError("--theme targets legacy geometry layouts; catalog uses its fixed template style, variant and font_profile")
         if args.command == "split":
             plan = split_plan(plan, theme)
         report = validate(plan, source, Path(args.source).parent, theme)
         if args.command == "validate":
-            print(json.dumps(report, ensure_ascii=False, indent=2))
+            print_json(report)
             return 0 if report["ok"] else 2
         dest = Path(args.out)
         if dest.exists() and not args.force:
@@ -154,7 +188,7 @@ def main(argv=None):
             dest.write_text(review(plan, source, report), encoding="utf-8")
             return 0 if report["ok"] else 2
         if not report["ok"]:
-            print(json.dumps(report, ensure_ascii=False, indent=2))
+            print_json(report)
             return 2
         if args.command == "split":
             write_json(dest, plan.model_dump(mode="json"), args.force)
@@ -170,7 +204,7 @@ def main(argv=None):
             render(plan, source, Path(args.source).parent, theme, temp_pptx)
             report["ooxml"] = audit(temp_pptx, theme)
             if not report["ooxml"]["ok"]:
-                print(json.dumps(report, ensure_ascii=False, indent=2))
+                print_json(report)
                 return 2
             # A Windows TemporaryDirectory has an owner-only ACL. Moving its
             # child would keep that ACL and prevent the user's PowerPoint from
@@ -184,7 +218,10 @@ def main(argv=None):
                 if staged.exists():
                     staged.unlink()
         write_json(report_path, report, args.force)
-        print(f"Rendered {len(plan.slides)} slides. Structural checks passed; real visual review is still required.")
+        for issue in report['issues']:
+            if issue['code'] in ('NUMERIC_CONTEXT_REVIEW','PARTIAL_SOURCE_REVIEW','PARAPHRASE_REVIEW'):
+                print(f"REVIEW WARNING [{issue['code']}]: {issue['message']}")
+        print(f"Rendered {len(plan.slides)} slides. Structural checks passed; semantic and real visual review are still required.")
         return 0
     except (ValueError, OSError, ValidationError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

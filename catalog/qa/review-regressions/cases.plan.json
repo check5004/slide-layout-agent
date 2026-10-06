@@ -1,0 +1,1254 @@
+{
+  "version": "1",
+  "source_sha256": "bc01e9817f07585fd5c253a0501673e90b68a04ad0eb9c5cf5a0ef63f358ae74",
+  "title": "公開レイアウト見本",
+  "slides": [
+    {
+      "id": "slide001",
+      "origin": "catalog",
+      "title": {
+        "text": "10年間の年平均成長率（架空例）",
+        "refs": [
+          {
+            "source_id": "s001",
+            "quote": "10年間の年平均成長率（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "scenario_lines_cagr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "指標名"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_012": {
+            "text": "単位、2020〜2030年",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "単位、2020〜2030年"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {
+          "chart_013": {
+            "categories": [
+              {
+                "text": "2020",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2020"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2022",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2022"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2024",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2024"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2026",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2026"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2028",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2028"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2030",
+                "refs": [
+                  {
+                    "source_id": "s001",
+                    "quote": "2030"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "text": "上振れ",
+                  "refs": [
+                    {
+                      "source_id": "s001",
+                      "quote": "上振れ"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 44.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "44"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 56.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "56"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 72.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "72"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 91.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "91"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 114.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "114"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              },
+              {
+                "name": {
+                  "text": "基準",
+                  "refs": [
+                    {
+                      "source_id": "s001",
+                      "quote": "基準"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 43.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "43"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 53.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "53"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 65.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "65"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 80.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "80"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 96.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "96"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              },
+              {
+                "name": {
+                  "text": "下振れ",
+                  "refs": [
+                    {
+                      "source_id": "s001",
+                      "quote": "下振れ"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 42.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "42"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 50.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "50"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 59.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "59"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 70.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "70"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 81.0,
+                    "refs": [
+                      {
+                        "source_id": "s001",
+                        "quote": "81"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              }
+            ],
+            "elapsed_years": {
+              "value": 10.0,
+              "refs": [
+                {
+                  "source_id": "s001",
+                  "quote": "10"
+                }
+              ]
+            }
+          }
+        },
+        "metrics": {},
+        "states": {}
+      }
+    },
+    {
+      "id": "slide002",
+      "origin": "catalog",
+      "title": {
+        "text": "増減の符号を反転（架空例）",
+        "refs": [
+          {
+            "source_id": "s002",
+            "quote": "増減の符号を反転（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "true_waterfall",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名、単位",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "指標名、単位"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_013": {
+            "text": "項目1",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "項目1"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_016": {
+            "text": "項目2",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "項目2"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_019": {
+            "text": "項目3",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "項目3"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_022": {
+            "text": "項目4",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "項目4"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_025": {
+            "text": "項目5",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "項目5"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "value_012": {
+            "value": 11.0,
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "11"
+              }
+            ]
+          },
+          "value_015": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_018": {
+            "value": -4.0,
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "-4"
+              }
+            ]
+          },
+          "value_021": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_024": {
+            "value": 13.0,
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "13"
+              }
+            ]
+          }
+        },
+        "states": {}
+      }
+    },
+    {
+      "id": "slide003",
+      "origin": "catalog",
+      "title": {
+        "text": "入力小数を保持（架空例）",
+        "refs": [
+          {
+            "source_id": "s003",
+            "quote": "入力小数を保持（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "true_waterfall",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名、単位",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "指標名、単位"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_013": {
+            "text": "項目1",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "項目1"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_016": {
+            "text": "項目2",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "項目2"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_019": {
+            "text": "項目3",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "項目3"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_022": {
+            "text": "項目4",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "項目4"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_025": {
+            "text": "項目5",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "項目5"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "value_012": {
+            "value": 123456.7,
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "123456.7"
+              }
+            ]
+          },
+          "value_015": {
+            "value": 1.0,
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "1"
+              }
+            ]
+          },
+          "value_018": {
+            "value": 2.0,
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "2"
+              }
+            ]
+          },
+          "value_021": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_024": {
+            "value": 123462.7,
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "123462.7"
+              }
+            ]
+          }
+        },
+        "states": {}
+      }
+    },
+    {
+      "id": "slide004",
+      "origin": "catalog",
+      "title": {
+        "text": "10年間の年平均成長率（架空例）",
+        "refs": [
+          {
+            "source_id": "s004",
+            "quote": "10年間の年平均成長率（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "scenario_lines_cagr",
+      "variant": "cool",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "指標名"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_012": {
+            "text": "単位、2020〜2030年",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "単位、2020〜2030年"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {
+          "chart_013": {
+            "categories": [
+              {
+                "text": "2020",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2020"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2022",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2022"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2024",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2024"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2026",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2026"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2028",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2028"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "2030",
+                "refs": [
+                  {
+                    "source_id": "s004",
+                    "quote": "2030"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "text": "上振れ",
+                  "refs": [
+                    {
+                      "source_id": "s004",
+                      "quote": "上振れ"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 44.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "44"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 56.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "56"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 72.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "72"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 91.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "91"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 114.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "114"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              },
+              {
+                "name": {
+                  "text": "基準",
+                  "refs": [
+                    {
+                      "source_id": "s004",
+                      "quote": "基準"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 43.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "43"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 53.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "53"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 65.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "65"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 80.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "80"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 96.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "96"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              },
+              {
+                "name": {
+                  "text": "下振れ",
+                  "refs": [
+                    {
+                      "source_id": "s004",
+                      "quote": "下振れ"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 42.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "42"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 50.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "50"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 59.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "59"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 70.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "70"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 81.0,
+                    "refs": [
+                      {
+                        "source_id": "s004",
+                        "quote": "81"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              }
+            ],
+            "elapsed_years": {
+              "value": 10.0,
+              "refs": [
+                {
+                  "source_id": "s004",
+                  "quote": "10"
+                }
+              ]
+            }
+          }
+        },
+        "metrics": {},
+        "states": {}
+      }
+    },
+    {
+      "id": "slide005",
+      "origin": "catalog",
+      "title": {
+        "text": "増減の符号を反転（架空例）",
+        "refs": [
+          {
+            "source_id": "s005",
+            "quote": "増減の符号を反転（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "true_waterfall",
+      "variant": "cool",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名、単位",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "指標名、単位"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_013": {
+            "text": "項目1",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "項目1"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_016": {
+            "text": "項目2",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "項目2"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_019": {
+            "text": "項目3",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "項目3"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_022": {
+            "text": "項目4",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "項目4"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_025": {
+            "text": "項目5",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "項目5"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "value_012": {
+            "value": 11.0,
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "11"
+              }
+            ]
+          },
+          "value_015": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_018": {
+            "value": -4.0,
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "-4"
+              }
+            ]
+          },
+          "value_021": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_024": {
+            "value": 13.0,
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "13"
+              }
+            ]
+          }
+        },
+        "states": {}
+      }
+    },
+    {
+      "id": "slide006",
+      "origin": "catalog",
+      "title": {
+        "text": "入力小数を保持（架空例）",
+        "refs": [
+          {
+            "source_id": "s006",
+            "quote": "入力小数を保持（架空例）"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "true_waterfall",
+      "variant": "cool",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "出典：公開見本",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "出典：公開見本"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "指標名、単位",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "指標名、単位"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_013": {
+            "text": "項目1",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "項目1"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_016": {
+            "text": "項目2",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "項目2"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_019": {
+            "text": "項目3",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "項目3"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_022": {
+            "text": "項目4",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "項目4"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_025": {
+            "text": "項目5",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "項目5"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "value_012": {
+            "value": 123456.7,
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "123456.7"
+              }
+            ]
+          },
+          "value_015": {
+            "value": 1.0,
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "1"
+              }
+            ]
+          },
+          "value_018": {
+            "value": 2.0,
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "2"
+              }
+            ]
+          },
+          "value_021": {
+            "value": 3.0,
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "3"
+              }
+            ]
+          },
+          "value_024": {
+            "value": 123462.7,
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "123462.7"
+              }
+            ]
+          }
+        },
+        "states": {}
+      }
+    }
+  ],
+  "omissions": []
+}

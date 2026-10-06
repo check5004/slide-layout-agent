@@ -12,6 +12,8 @@ from pptx.oxml.xmlchemy import OxmlElement
 from pptx.util import Inches, Pt
 
 from .io import asset_path
+from .catalog import is_catalog, LICENSE_NOTICE, INVENTORY, registry
+from .template_engine import instantiate
 from .validate import BODY_H, BODY_Y, CONTENT_W, HEIGHT, MARGIN, WIDTH, walk_evidence
 
 
@@ -101,10 +103,24 @@ def render(plan, source, base, theme, destination):
     props = prs.core_properties
     props.title, props.subject = plan.title, "Source-traceable editable slides"
     props.author, props.last_modified_by = "slide-layout-agent", "slide-layout-agent"
-    props.comments = "Independent implementation. Source references are recorded in slide notes."
+    props.comments = "Source references and any third-party template license are recorded in slide notes."
     assets = {a.id: a for a in source.images}
     segments = {s.id: s for s in source.segments}
     for index, design in enumerate(plan.slides):
+        if is_catalog(design.layout_id):
+            slide = instantiate(prs, design, plan, source, index + 1)
+            refs = sorted({r.source_id for item in walk_evidence(design) for r in item.refs})
+            slide.notes_slide.notes_text_frame.text = json.dumps({
+                "slide_id": design.id, "origin": design.origin, "layout_id": design.layout_id,
+                "variant": design.variant, "rationale": design.rationale,
+                "source_sha256": plan.source_sha256,
+                "evidence": [item.model_dump(mode="json") for item in walk_evidence(design)],
+                "citations": {sid: segments[sid].citation for sid in refs},
+                "template_license": LICENSE_NOTICE,
+                "template_upstream_commit": INVENTORY["commit"],
+                "template_sha256": registry()[design.layout_id]["template_sha256"],
+            }, ensure_ascii=False, indent=2)
+            continue
         slide = prs.slides.add_slide(prs.slide_layouts[6])
         slide.background.fill.solid()
         slide.background.fill.fore_color.rgb = rgb(theme.background)

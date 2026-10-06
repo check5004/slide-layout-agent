@@ -55,9 +55,13 @@ Windows では標準設定の `Meiryo`、macOS では端末に入っているヒ
 
 変更する場合はテーマの `font_family` を指定します。例：`{"font_family": "Hiragino Sans"}`。自動で OS に合わせて切り替わる実装ではありません。指定フォントがない端末では代替フォントになり、改行・文字幅が変わることがあるため、開いたときに確認してください。
 
+上記テーマ指定は従来8型用です。62型の保存PPTXは元の書式を保ち、`font_profile`（source/meiryo/noto/hiragino）と`variant`（warm/cool）を選びます。catalogへ`--theme`は指定しません。[型の選び方と入力欄](catalog/template-workflow.md)を参照してください。
+
 ### clone だけで引き継がれるもの
 
 コード、Codex 用スキル、設計 JSON、架空サンプル画像はリポジトリに含まれます。開発時の専用 Python、個人用パス、未追跡のローカル画像は実行条件に含めていません。
+
+62型のtemplate PPTX、型別schema、124枚の描画PNG、差込サンプルも同梱されています。`catalog/index.html`はローカルで開けます。`python -m slide_agent catalog --layout ID`で必要なslotと容量を取得できます。
 
 自分の資料が入る `work/` と生成先 `out/` は Git 管理対象外なので、別 PC へは自分で移してください。Python・Codex・PowerPoint・フォント自体は clone ではインストールされません。
 

@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.png binary
 *.pptx binary
+# Preserve the pinned third-party source bytes, including upstream whitespace.
+catalog/upstream/** -text -whitespace

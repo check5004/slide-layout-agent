@@ -11,6 +11,10 @@ from pydantic import BaseModel
 
 from .io import asset_path, fingerprint
 from .models import Datum, Text
+from .catalog import is_catalog
+from .catalog_validate import validate_catalog
+
+NUMBER_PATTERN=r"(?<![\w.])[-+]?\d[\d,]*(?:\.\d+)?|(?<=[^\x00-\x7f])[-+]?\d[\d,]*(?:\.\d+)?"
 
 WIDTH, HEIGHT = 13.333333, 7.5
 BODY_Y, BODY_H = 2.0, 4.55
@@ -26,11 +30,14 @@ def walk_evidence(obj):
     elif isinstance(obj, list):
         for value in obj:
             yield from walk_evidence(value)
+    elif isinstance(obj, dict):
+        for value in obj.values():
+            yield from walk_evidence(value)
 
 
 def numbers(text):
     text = unicodedata.normalize("NFKC", text)
-    return {str(Decimal(s.replace(",", "")).normalize()) for s in re.findall(r"(?<![\w.])[-+]?\d[\d,]*(?:\.\d+)?|(?<=[^\x00-\x7f])[-+]?\d[\d,]*(?:\.\d+)?", text)}
+    return {str(Decimal(s.replace(",", "")).normalize()) for s in re.findall(NUMBER_PATTERN, text)}
 
 
 def units(text):
@@ -55,7 +62,14 @@ def validate(plan, source, base, theme):
     segments = {s.id: s for s in source.segments}
     assets = {a.id: a for a in source.images}
     seen, quotes, rendered_numbers = set(), defaultdict(list), defaultdict(set)
+    numeric_quotes=defaultdict(list)
     omitted = {o.source_id for o in plan.omissions}
+    if any(is_catalog(s.layout_id) for s in plan.slides):
+        add("CATALOG_FONT_REVIEW", "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device.", severity="warning")
+        # All 62 trusted headers are 504pt wide at 14pt. Keep a conservative
+        # one-line metadata limit; never silently truncate the deck title.
+        if units(plan.title)>30 or "\n" in plan.title:
+            add("CATALOG_HEADER_OVERFLOW", "plan.title must fit one line / 30 full-width units in the catalog header")
     for omission in plan.omissions:
         if omission.source_id not in segments:
             add("UNKNOWN_OMISSION", omission.source_id)
@@ -85,7 +99,12 @@ def validate(plan, source, base, theme):
                 if isinstance(item, Text) and item.text in segment.text:
                     quotes[ref.source_id].append(item.text)
                 elif isinstance(item, Datum):
-                    quotes[ref.source_id].append(ref.quote)
+                    # A numeric point displays only its number. Its surrounding
+                    # quote is evidence, not proof the qualifier is visible.
+                    target=str(Decimal(str(item.value)).normalize())
+                    for match in re.finditer(NUMBER_PATTERN,ref.quote):
+                        if target in numbers(match.group()):quotes[ref.source_id].append(match.group())
+                    numeric_quotes[ref.source_id].append(ref.quote)
                 evidence.append(ref.quote)
                 rendered_numbers[ref.source_id].update(numbers(item.text) if isinstance(item, Text) else {str(Decimal(str(item.value)).normalize())})
             visible = item.text if isinstance(item, Text) else str(item.value)
@@ -96,6 +115,12 @@ def validate(plan, source, base, theme):
                     add("NOT_VERBATIM", "verbatim text differs from every cited quote", slide.id)
                 if item.mode == "paraphrase":
                     add("PARAPHRASE_REVIEW", "check meaning, qualifiers and causal relationships", slide.id, "warning")
+        if is_catalog(slide.layout_id):
+            from .schema_contract import schema_error
+            contract_error=schema_error(slide.layout_id)
+            if contract_error:add('CATALOG_SCHEMA_MISMATCH',contract_error,slide.id)
+            validate_catalog(slide, add)
+            continue
         capacity(slide.title.text, CONTENT_W, 1.0, theme.title_pt, slide, "title")
         if slide.lead:
             if not theme.lead_mode:
@@ -156,7 +181,12 @@ def validate(plan, source, base, theme):
                 for i in range(start, start + len(quote)):
                     covered[i] = True
             if any(not hit and ch.isalnum() for ch, hit in zip(segment.text, covered)):
-                add("PARTIAL_SOURCE_REVIEW", f"{sid}: some original text is not represented by quoted evidence", severity="warning")
+                add("PARTIAL_SOURCE_REVIEW", f"{sid}: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications", severity="warning")
+            for numeric_quote in numeric_quotes[sid]:
+                start=segment.text.find(numeric_quote)
+                if any(ch.isalnum() and not covered[start+i] for i,ch in enumerate(numeric_quote)):
+                    add('NUMERIC_CONTEXT_REVIEW',f'{sid}: numeric evidence contains context/conditions not covered by visible text; numeric equality does not preserve meaning',severity='warning')
+                    break
     for asset in source.images:
         if not any(s.layout_id == "text_image" and s.contents.image_id == asset.id for s in plan.slides):
             add("UNUSED_IMAGE_REVIEW", f"{asset.id}: supplied image is not used", severity="warning")
@@ -174,4 +204,7 @@ def validate(plan, source, base, theme):
                 im.verify()
         except (OSError, ValueError, Image.DecompressionBombError) as exc:
             add("IMAGE_INVALID", f"{asset.id}: {type(exc).__name__}: {exc}")
-    return {"ok": not any(i["severity"] == "error" for i in issues), "issues": issues, "slide_count": len(plan.slides), "visual_review": "not_performed"}
+    ok=not any(i['severity']=='error' for i in issues)
+    return {"ok":ok,"mechanical_validation":"passed" if ok else "failed", "issues":issues,
+            "source_coverage":"review_required" if any(i['code'] in ('PARTIAL_SOURCE_REVIEW','NUMERIC_CONTEXT_REVIEW','PARAPHRASE_REVIEW','OMISSION_REVIEW') for i in issues) else "mechanically_accounted",
+            "semantic_review":"not_performed","slide_count":len(plan.slides),"visual_review":"not_performed"}

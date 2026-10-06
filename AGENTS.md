@@ -11,3 +11,6 @@ Use `.agents/skills/slide-plan/SKILL.md` when turning supplied, already research
 - Before claiming visual quality, render every slide in a real presentation engine and inspect every page. State any missing renderer honestly.
 - Core tests: `python -m unittest discover -s tests -v`. Regenerate the fictional demo with `python scripts/make_demo.py` after changes to the contract.
 - Changes to an existing deck should normally be made in JSON and re-rendered; preserve a separately hand-edited PPTX as a new output, never overwrite it silently.
+- For the 62 catalog layouts, read `docs/catalog/template-workflow.md` and inspect `catalog/index.html` / its PNGs before choosing a layout. `python -m slide_agent catalog --layout ID` gives the authoritative slots and capacities. Use the saved PPTX template through the renderer; never independently redraw or approximate its layout.
+- Catalog templates use compact source-preserved fonts and fixed geometry. This is a separate trusted contract from the legacy eight layouts. Never reduce a font or silently bypass a slot limit. New template structure requires an explicit registry/schema/preview/test update.
+- PowerPoint is optional development QA, never a generation dependency. The pure-Python sample and test workflows must work without Office. Never claim the target viewer will render missing fonts identically.

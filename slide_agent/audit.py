@@ -1,16 +1,53 @@
 """Inspect generated geometry and editable OOXML parts, without claiming rendering."""
 from pathlib import Path
+import json
 from zipfile import ZipFile
 
 from lxml import etree
 from pptx import Presentation
 from pptx.util import Inches
+from .catalog import is_catalog, registry, template_path
 
 
 def audit(path, theme):
     prs = Presentation(str(path))
     issues, counts = [], {"slides": len(prs.slides), "text_shapes": 0, "tables": 0, "charts": 0, "pictures": 0}
     for i, slide in enumerate(prs.slides, 1):
+        try:
+            note = json.loads(slide.notes_slide.notes_text_frame.text)
+        except (ValueError, AttributeError):
+            note = {}
+        catalog = is_catalog(note.get("layout_id"))
+        if catalog:
+            entry = registry()[note["layout_id"]]
+            original = Presentation(str(template_path(entry))).slides[0]
+            expected = {s.name: s for s in original.shapes}
+            actual = {s.name: s for s in slide.shapes}
+            if set(expected) != set(actual) or len(actual) != len(slide.shapes):
+                issues.append(f"slide {i}: native template shape identity changed")
+            dynamic = {m.get("shape") for m in entry["metrics"].values() if m.get("shape")}
+            if entry.get("bridge"):
+                dynamic.update(entry["bridge"]["shapes"]+entry["bridge"]["labels"])
+            if entry.get("calculation"):
+                dynamic.update(entry["calculation"]["totals"])
+                for group in entry["calculation"]["groups"]:
+                    for bar in group:
+                        dynamic.update([bar["shape"],bar["label"],bar.get("extra_shape")])
+            if entry.get("reference_line"):
+                dynamic.update([entry["reference_line"]["shape"],entry["reference_line"]["label"]])
+            for name in set(expected)&set(actual)-dynamic:
+                a,b=expected[name],actual[name]
+                if (a.left,a.top,a.width,a.height)!=(b.left,b.top,b.width,b.height):
+                    issues.append(f"slide {i}: fixed template geometry changed: {name}")
+            for name in set(expected)&set(actual):
+                a,b=expected[name],actual[name]
+                oldframes=[c.text_frame for row in a.table.rows for c in row.cells] if a.has_table else [a.text_frame] if a.has_text_frame else []
+                newframes=[c.text_frame for row in b.table.rows for c in row.cells] if b.has_table else [b.text_frame] if b.has_text_frame else []
+                for oldtf,newtf in zip(oldframes,newframes):
+                    oldsizes=[r.font.size.pt for p in oldtf.paragraphs for r in p.runs if r.font.size]
+                    newsizes=[r.font.size.pt for p in newtf.paragraphs for r in p.runs if r.font.size]
+                    if oldsizes and any(size<min(oldsizes)-.01 for size in newsizes):
+                        issues.append(f"slide {i}: font shrunk below template: {name}")
         content_shapes = 0
         text_boxes = []
         for shape in slide.shapes:
@@ -22,13 +59,13 @@ def audit(path, theme):
             if shape.has_table:
                 counts["tables"] += 1
                 content_shapes += 1
-                frames = [(cell.text_frame, theme.table_pt) for row in shape.table.rows for cell in row.cells]
+                frames = [(cell.text_frame, 6 if catalog else theme.table_pt) for row in shape.table.rows for cell in row.cells]
             elif shape.has_text_frame and shape.text:
                 if shape.name in ("body", "title", "lead", "label", "footer"):
                     text_boxes.append(shape)
                 counts["text_shapes"] += 1
-                content_shapes += int(shape.name in ("body", "title"))
-                minimum = theme.title_pt if shape.name == "title" else theme.body_pt if shape.name == "body" else 11
+                content_shapes += int(catalog or shape.name in ("body", "title"))
+                minimum = 6 if catalog else theme.title_pt if shape.name == "title" else theme.body_pt if shape.name == "body" else 11
                 frames = [(shape.text_frame, minimum)]
             else:
                 frames = []
@@ -53,6 +90,8 @@ def audit(path, theme):
         for name in archive.namelist():
             if name.endswith((".xml", ".rels")):
                 root = etree.fromstring(archive.read(name))
+                if root.xpath("//*[local-name()='p' and count(*[local-name()='pPr']) > 1]"):
+                    issues.append(f"duplicate paragraph properties in {name}")
                 if name.startswith("ppt/slides/slide") and name.endswith(".xml") and root.xpath("//*[local-name()='normAutofit' or local-name()='spAutoFit']"):
                     issues.append(f"auto-resize present in {name}")
                 if name.endswith(".rels") and root.xpath("//*[@TargetMode='External']"):

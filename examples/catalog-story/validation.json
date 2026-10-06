@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "mechanical_validation": "passed",
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CATALOG_FONT_REVIEW",
+      "slide": null,
+      "message": "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
+    }
+  ],
+  "source_coverage": "mechanically_accounted",
+  "semantic_review": "not_performed",
+  "slide_count": 3,
+  "visual_review": "not_performed",
+  "ooxml": {
+    "ok": true,
+    "issues": [],
+    "counts": {
+      "slides": 3,
+      "text_shapes": 36,
+      "tables": 0,
+      "charts": 1,
+      "pictures": 0,
+      "embedded_workbooks": 1
+    },
+    "rendering": "not_performed"
+  }
+}

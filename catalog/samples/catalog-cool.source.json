@@ -1,0 +1,379 @@
+{
+  "version": "1",
+  "title": "公開レイアウト見本",
+  "segments": [
+    {
+      "id": "s001",
+      "text": "記載例1\n項目1：記載例2に基づく整理",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s002",
+      "text": "全体マップ\n出典：公開見本\n項目1\n記載例1\n→ P.3\n項目2\n記載例2\n→ P.4\n項目3\n記載例3\n→ P.5\n項目4\n記載例4\n→ P.6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 2",
+      "group": "catalog"
+    },
+    {
+      "id": "s003",
+      "text": "目次\n01\n項目1\nP.3\n02\n項目2\nP.6\n03\n項目3\nP.9\n04\n項目4\nP.12\n05\n項目5\nP.15",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 3",
+      "group": "catalog"
+    },
+    {
+      "id": "s004",
+      "text": "記載例1\n項目1",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 4",
+      "group": "catalog"
+    },
+    {
+      "id": "s005",
+      "text": "矢羽（プロセス・変遷）\n出典：公開見本\n2026年M月\n項目1\n記載例1\n2026年M月\n項目2\n記載例2\n2026年M月\n項目3\n記載例3\n現在\n項目4\n記載例4",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 5",
+      "group": "catalog"
+    },
+    {
+      "id": "s006",
+      "text": "前提→帰結の2カラム\n出典：公開見本\n記載例1の推移（事実）\n2026年M月\n記載例1\n2026年M月\n記載例2\n2026年M月〜\n記載例3\nだから、記載例2はこう変わる\n記載例4（語尾は階層内で統一）\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 6",
+      "group": "catalog"
+    },
+    {
+      "id": "s007",
+      "text": "大型数値の表＋読み取り\n出典：公開見本\n数値で見る記載例1の現状\n項目2\n項目3\n記載例1\n項目4\n項目5\n記載例2\n項目6\n項目7\n記載例3\nだから、こう読める\n記載例4\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 7",
+      "group": "catalog"
+    },
+    {
+      "id": "s008",
+      "text": "並列カード 2×2\n出典：公開見本\n項目1：項目2（主語＋何をする で統一）\n記載例1\n記載例2\n項目3：項目4\n記載例3\n記載例4\n項目5：項目6\n記載例5\n記載例6\n項目7：項目8\n記載例7\n記載例8",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 8",
+      "group": "catalog"
+    },
+    {
+      "id": "s009",
+      "text": "軸のある表\n出典：公開見本\n項目1（軸）\n項目2\n項目3\n項目4\n項目5\n記載例1\n項目6\n記載例1\n記載例2\n項目8\n記載例2\n項目9\n記載例3\n記載例4\n項目11\n記載例3\n項目12\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 9",
+      "group": "catalog"
+    },
+    {
+      "id": "s010",
+      "text": "会社名\n連絡先",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 10",
+      "group": "catalog"
+    },
+    {
+      "id": "s011",
+      "text": "主張パネル＋図\n出典：公開見本\n2\n項目1（区分名）\n記載例1（この1枚の主張を1文で）\n指標名\n単位、2026〜2026年\n項目7\n項目8\n記載例1\n項目9\n項目10\n記載例2\n項目11\n項目12\n記載例3",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 11",
+      "group": "catalog"
+    },
+    {
+      "id": "s012",
+      "text": "打ち手の効果表\n出典：公開見本\n増やす方向\n減らす方向\n打ち手\n効果の幅（単位）\n前提・制約\n項目2\n記載例1\n記載例2\n項目5\n記載例3\n記載例4\n項目8\n記載例5\n記載例6\n＋00〜00\n＋00〜00\n−00",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 12",
+      "group": "catalog"
+    },
+    {
+      "id": "s013",
+      "text": "状態ヒートマップ＋右コメント\n出典：公開見本\n指標カテゴリー別の状況\n2026年M月時点\n指標カテゴリー\n前月比\n前年比\n項目1\n項目2\n項目3\n項目4\nだから、次に見るべき点\n記載例1\n記載例2\n記載例3\n大きく改善\n悪化\n改善\n改善\n横ばい\n大きく改善\n悪化\n横ばい",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 13",
+      "group": "catalog"
+    },
+    {
+      "id": "s014",
+      "text": "充足度評価表（ハーベイボール）\n出典：公開見本\n評価軸\n項目1案\n項目2案\n判断の理由\n項目3\n記載例1\n記載例2\n項目4\n記載例3\n記載例4\n項目5\n記載例5\n記載例6\n満たす\n一部満たす\n一部満たす\n満たさない\n一部満たす\n満たす",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 14",
+      "group": "catalog"
+    },
+    {
+      "id": "s015",
+      "text": "割合のドットマトリクス\n出典：公開見本\n記載例1に取り組んでいる領域\n回答者に占める割合、n=項目2、複数回答\n項目3\n項目4\n項目5\n項目6\n58\n42\n21\n13",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 15",
+      "group": "catalog"
+    },
+    {
+      "id": "s016",
+      "text": "進捗バブル行列\n出典：公開見本\n取り組み段階別の件数\n件、n=項目1\n構想\n試行\n部分展開\n全面展開\n項目2層\n項目3層\n項目4層\n項目5層\n30\n9\n9\n4\n15\n12\n6\n6\n54\n13\n13\n6\n8\n9\n6\n4",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 16",
+      "group": "catalog"
+    },
+    {
+      "id": "s017",
+      "text": "分布の順位棒＋注記\n出典：公開見本\n指標名\n単位、2026〜2026年\n上位N社\nその他\nだから、記載例4に絞る\n記載例1\n記載例2\n記載例3\n項目1\n項目2\n項目3\n項目4\n項目5\n項目6\n項目7\n項目8\n項目9\n項目10\n項目11\n項目12\n項目13\n項目14\n項目15\n項目16\n項目17\n項目18\n項目19\n項目20\n項目21\n項目22\n項目23\n項目24\n項目25\n項目26\n項目27\n項目28\n項目29\n項目30\n項目31\n項目32\n項目33\n項目34\n項目35\n項目36\n項目37\n項目38\n項目39\n項目40\n項目41\n項目42\n項目43\n項目44\n項目45\n項目46\n項目47\n項目48\n項目49\n項目50\n指標名\n240\n224\n210\n192\n180\n154\n140\n130\n118\n110\n100\n92\n86\n80\n74\n70\n64\n60\n56\n52\n48\n45\n42\n39\n36\n33\n31\n29\n27\n25\n23\n21\n20\n18\n17\n15\n14\n13\n12\n11\n10\n9\n8\n8\n7\n6\n6\n5\n5\n4",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 17",
+      "group": "catalog"
+    },
+    {
+      "id": "s018",
+      "text": "注記つき散布図\n出典：公開見本\n記載例1と記載例2の関係\n単位、2026年\n記載例13が高い\n記載例14が低い\n記載例15が大きい →\n項目5\n項目6\n項目7\n項目8\n項目9\n項目10\n項目11\n項目12\nY\n17\n29\n24\n41\n52\n62\n71\n83\n10\n20\n32\n41\n56\n65\n78\n90",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 18",
+      "group": "catalog"
+    },
+    {
+      "id": "s019",
+      "text": "柱＋土台\n出典：公開見本\n項目1\n記載例1\n項目2\n記載例2\n項目3\n記載例3\n項目4\n記載例4\n共通条件1 記載例5を全社で整えること\n共通条件2 記載例6を継続的に確保すること",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 19",
+      "group": "catalog"
+    },
+    {
+      "id": "s020",
+      "text": "対向シェブロン\n出典：公開見本\n記載例1\n記載例2\n記載例3\n記載例4\n記載例5\n記載例6\n記載例7\n記載例8\n収益を\n拡大する\n損失を\n抑える",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 20",
+      "group": "catalog"
+    },
+    {
+      "id": "s021",
+      "text": "外部動向の根拠グリッド\n出典：公開見本（2026年M月D日）、Source 2（2026年M月D日）\n項目1分類\n2026年M月D日\n記載例1\n記載例2\n項目2分類\n2026年M月D日\n記載例3\n記載例4\n項目3分類\n2026年M月D日\n記載例5\n記載例6\n項目4分類\n2026年M月D日\n記載例7\n記載例8",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 21",
+      "group": "catalog"
+    },
+    {
+      "id": "s022",
+      "text": "比例円の対比\n出典：公開見本。円の面積は割合に比例\n記載例1に占める割合\n％、2026年 / 2026年\n現在（2026年）\n記載例2が占める割合\nN年後（2026年）\n記載例3が占める割合\n65\n30",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 22",
+      "group": "catalog"
+    },
+    {
+      "id": "s023",
+      "text": "増減の縦棒＋左右合計\n出典：公開見本\n指標名\n単位、2026〜2026年\n項目2\n項目3\n項目4\n項目5\n項目6\n増える分\n90\n68\n32\n10\n52\n減る分\n-50\n-88\n-12\n-43\n-46",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 23",
+      "group": "catalog"
+    },
+    {
+      "id": "s024",
+      "text": "シナリオ線＋成長率チップ\n出典：公開見本\n指標名\n単位、2026〜2031年\n2026\n2027\n2028\n2029\n2030\n2031\n上振れ\n35\n44\n56\n72\n91\n114\n基準\n35\n43\n53\n65\n80\n96\n下振れ\n35\n42\n50\n59\n70\n81\n5",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 24",
+      "group": "catalog"
+    },
+    {
+      "id": "s025",
+      "text": "調査の土台\n出典：公開見本（調査期間 2026年M月〜M月）\n調べ方\n記載例1\n記載例2\n記載例3\n調べた対象\n項目1社\n記載例4\n項目2件\n記載例5\nNか月\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 25",
+      "group": "catalog"
+    },
+    {
+      "id": "s026",
+      "text": "課題と打ち手の2カラム\n出典：公開見本\nいま起きている課題\n項目1\n記載例1\n項目2\n記載例2\n項目3\n記載例3\nこれから打つ手\n項目4\n記載例4\n項目5\n記載例5\n項目6\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 26",
+      "group": "catalog"
+    },
+    {
+      "id": "s027",
+      "text": "セパレーター（章扉＝アジェンダ再掲）\n01\n項目1\nP.4\n02\n項目2\nP.9\n03\n項目3\nP.15\n04\n項目4\nP.21",
+      "citation": "Public MIT sample: templates/freeform_parts_16x9.html section 27",
+      "group": "catalog"
+    },
+    {
+      "id": "s028",
+      "text": "エグゼクティブサマリー\n出典：公開見本\n見出し 2\n記載例1\n見出し 3\n記載例2\n見出し 4\n記載例3",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s029",
+      "text": "調査の土台\n出典：公開見本\n指標名、単位、2026〜2026年\n180+\n記載例1\n2.4M\n記載例2\n640\n記載例3\n12\n記載例4",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 2",
+      "group": "catalog"
+    },
+    {
+      "id": "s030",
+      "text": "大型数値の対比\n出典：公開見本\n指標名、単位、2026〜2026年\n18%\n項目1\n注：前提や注記を記載\n7\n項目2\n注：前提や注記を記載",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 3",
+      "group": "catalog"
+    },
+    {
+      "id": "s031",
+      "text": "KPI一覧\n出典：公開見本\n項目1\n-18%\n記載例1\n注：前提や注記を記載\n項目2\n0 days\n記載例2\n注：前提や注記を記載\n項目3\n2 / 4\n記載例3\n注：前提や注記を記載\n項目4\n$6M\n記載例4\n注：前提や注記を記載",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 4",
+      "group": "catalog"
+    },
+    {
+      "id": "s032",
+      "text": "単一チャート＋含意\n注：前提・注記を記載 出典：公開見本\n指標名、単位\n見出し 2\n記載例1\n項目1\n項目2\n項目3\n項目4\n指標\n32\n41\n49\n58",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 5",
+      "group": "catalog"
+    },
+    {
+      "id": "s033",
+      "text": "積み上げ棒\n出典：公開見本\n指標名、単位\n項目4\n項目5\n項目6\n項目1\n40\n55\n72\n項目2\n30\n32\n33\n項目3\n20\n22\n24",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 6",
+      "group": "catalog"
+    },
+    {
+      "id": "s034",
+      "text": "寄与度ブリッジ\n注：前提・注記を記載 出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n項目6\n見出し 2\n記載例1\n100\n18\n24\n-9\n7\n140",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 7",
+      "group": "catalog"
+    },
+    {
+      "id": "s035",
+      "text": "増減ブリッジ（厳密）\n出典：公開見本\n指標名、単位\n項目1\n項目2\n項目3\n項目4\n項目5\n11\n-3\n4\n3\n15",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 8",
+      "group": "catalog"
+    },
+    {
+      "id": "s036",
+      "text": "小図の並列比較\n出典：公開見本\n項目1\n項目5\n項目9\n項目13\n項目2\n項目3\n項目4\n指標\n20\n35\n58\n項目6\n項目7\n項目8\n指標\n15\n28\n44\n項目10\n項目11\n項目12\n指標\n8\n14\n23\n項目14\n項目15\n項目16\n指標\n12\n22\n37",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 9",
+      "group": "catalog"
+    },
+    {
+      "id": "s037",
+      "text": "選択肢の比較表\n出典：公開見本\n評価軸\n自社\n競合\n含意\n項目1\n項目2\n項目3\n記載例1\n記載例2\n項目4\n項目5\n項目6\n記載例3\n記載例4\n項目7\n項目8\n項目9\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 10",
+      "group": "catalog"
+    },
+    {
+      "id": "s038",
+      "text": "シナリオ比較表\n注：前提・注記を記載 出典：公開見本\nシナリオ\n結果\n前提\n経営への含意\n項目1\n記載例1\n前提1-1：TextをTextと置く\n前提1-2：Textは変わらないとする\n記載例1を記載例2まで積み増す\n記載例3の判断をN月に前倒す\n項目2\n記載例4\n前提2-1：TextをTextと置く\n前提2-2：Textは変わらないとする\n記載例4を記載例5まで積み増す\n記載例6の判断をN月に前倒す\n項目3\n記載例7\n前提3-1：TextをTextと置く\n前提3-2：Textは変わらないとする\n記載例7を記載例8まで積み増す\n記載例9の判断をN月に前倒す",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 11",
+      "group": "catalog"
+    },
+    {
+      "id": "s039",
+      "text": "リスク一覧表\n出典：公開見本\nリスク\n兆候\n対応策\n担当\n記載例1\n記載例1がNを下回る\n記載例2のNがNか月続く\n記載例3を先に確保する\n記載例4の代替案を用意する\n項目1\n記載例4\n記載例5がNを下回る\n記載例6のNがNか月続く\n記載例7を先に確保する\n記載例8の代替案を用意する\n項目2\n記載例7\n記載例9がNを下回る\n記載例10のNがNか月続く\n記載例11を先に確保する\n記載例12の代替案を用意する\n項目3",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 12",
+      "group": "catalog"
+    },
+    {
+      "id": "s040",
+      "text": "横軸評価表\n出典：公開見本\n●  網掛けの行＝記載例1（この行だけ立てている理由を1行で）\n列見出し1\n列見出し2\n列見出し3\n列見出し4\n列見出し5\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値\n値",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 13",
+      "group": "catalog"
+    },
+    {
+      "id": "s041",
+      "text": "ヒートマップ表\n出典：公開見本\n行の軸名\n列見出し1\n列見出し2\n列見出し3\n列見出し4\n行見出し1\n行見出し2\n行見出し3\n行見出し4\n高\n中\n低\n中\n中\n低\nなし\n低\n高\n高\n中\n高\n中\n低\nなし\n低",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 14",
+      "group": "catalog"
+    },
+    {
+      "id": "s042",
+      "text": "2×2マトリクス\n出典：公開見本\n縦軸名（上ほど高い）\n横軸名（右ほど高い）\n施策1\n施策2\n施策3\n施策4\n施策5\n見出し 2\n記載例1\n記載例2",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 15",
+      "group": "catalog"
+    },
+    {
+      "id": "s043",
+      "text": "プロセス×観点の行列\n出典：公開見本\n行の軸名\n列見出し1\n列見出し2\n列見出し3\n行見出し1\n値\n値\n行見出し2\n値\n値\n行見出し3\n値\n値\n値",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 16",
+      "group": "catalog"
+    },
+    {
+      "id": "s044",
+      "text": "入れ子行の行列\n出典：公開見本\n大分類\n小分類\n内容\n項目1\n項目2\n記載例1\n記載例2\n項目3\n記載例3\n記載例4\n項目4\n記載例5\n記載例6\n項目5\n項目6\n記載例7\n項目7\n記載例8",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 17",
+      "group": "catalog"
+    },
+    {
+      "id": "s045",
+      "text": "時系列マトリクス\n出典：公開見本\n段階\n列見出し1\n列見出し2\n列見出し3\n期間1\n値\n値\n値\n期間2\n値\n値\n値\n期間3\n値\n値\n値",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 18",
+      "group": "catalog"
+    },
+    {
+      "id": "s046",
+      "text": "テーマカード\n出典：公開見本\n指標名、単位、2026〜2026年\n項目1\n見出し 2\n記載例1\n3.4x\n項目2\n見出し 3\n記載例2\n+22%\n項目3\n見出し 4\n記載例3\n-41%\n項目4\n見出し 5\n記載例4\n92%",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 19",
+      "group": "catalog"
+    },
+    {
+      "id": "s047",
+      "text": "提言の柱\n出典：公開見本\n1\n見出し 2\n記載例1\n記載例2\n記載例3\n2\n見出し 3\n記載例4\n記載例5\n記載例6\n3\n見出し 4\n記載例7\n記載例8\n記載例9",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 20",
+      "group": "catalog"
+    },
+    {
+      "id": "s048",
+      "text": "番号つき打ち手\n出典：公開見本\n指標名、単位、2026〜2026年\n1\n見出し 2\n記載例1\n2\n見出し 3\n記載例2\n3\n見出し 4\n記載例3\n4\n見出し 5\n記載例4\n5\n見出し 6\n記載例5",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 21",
+      "group": "catalog"
+    },
+    {
+      "id": "s049",
+      "text": "Situation・Complication・Resolution\n出典：公開見本\nSituation\n記載例1\n記載例2\n注：前提や注記を記載\nComplication\n記載例3\n記載例4\n注：前提や注記を記載\nResolution\n記載例5\n記載例6\n注：前提や注記を記載",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 22",
+      "group": "catalog"
+    },
+    {
+      "id": "s050",
+      "text": "課題と打ち手の対応\n出典：公開見本\n課題\n打ち手\n記載例1\n記載例2\n記載例3\n記載例4\n記載例5\n記載例6\n記載例7\n記載例8\n記載例9",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 23",
+      "group": "catalog"
+    },
+    {
+      "id": "s051",
+      "text": "課題→原因→解決\n出典：公開見本\n項目1\n記載例1\n記載例2\n項目2\n記載例3\n記載例4\n項目3\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 24",
+      "group": "catalog"
+    },
+    {
+      "id": "s052",
+      "text": "イシューツリー\n出典：公開見本\n分解したいイシュー\nサブイシュー1\n論点1-1\n論点1-2\nサブイシュー2\n論点2-1\n論点2-2\nサブイシュー3\n論点3-1\n論点3-2",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 25",
+      "group": "catalog"
+    },
+    {
+      "id": "s053",
+      "text": "現状と目指す姿\n出典：公開見本\n項目1\n記載例1\n記載例2\n記載例3\n記載例4\n項目2\n記載例5\n記載例6\n記載例7\n記載例8\n›",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 26",
+      "group": "catalog"
+    },
+    {
+      "id": "s054",
+      "text": "計算ロジックの流れ\n出典：公開見本\n指標名、単位\n項目3\n項目4\n項目5\n項目6\n項目7\n項目8\n項目9\n項目10\n項目11\n項目12\n項目15\n項目18\n項目1\n項目2\n1\n3\n6\n2\n2\n2\n1.5\n4.5\n9\n0.5\n1.5\n3",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 27",
+      "group": "catalog"
+    },
+    {
+      "id": "s055",
+      "text": "プロセスの段階\n出典：公開見本\n1\n見出し 2\n記載例1\n›\n2\n見出し 3\n記載例2\n›\n3\n見出し 4\n記載例3\n›\n4\n見出し 5\n記載例4",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 28",
+      "group": "catalog"
+    },
+    {
+      "id": "s056",
+      "text": "循環サイクル\n出典：公開見本\n1\n見出し 2\n記載例1\n2\n見出し 3\n記載例2\n3\n見出し 4\n記載例3\n4\n見出し 5\n記載例4\n5\n見出し 6\n記載例5",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 29",
+      "group": "catalog"
+    },
+    {
+      "id": "s057",
+      "text": "矢羽の段階（全体像の見出し）\n出典：公開見本\n1\n見出し 2\n記載例1\n2\n見出し 3\n記載例2\n3\n見出し 4\n記載例3\n4\n見出し 5\n記載例4\n5\n見出し 6\n記載例5",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 30",
+      "group": "catalog"
+    },
+    {
+      "id": "s058",
+      "text": "バリューチェーン\n出典：公開見本\n項目1\n項目2\n項目3\n項目4\n項目5\n項目6\n項目7\n項目8\n記載例1\n記載例2\n記載例3\n記載例4\n記載例5\n記載例6\n記載例7\n項目9\n項目10\n項目11\n項目12\n項目13\n項目14\n項目15\n項目16\n記載例8\n記載例9\n記載例10\n記載例11\n記載例12\n記載例13\n記載例14",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 31",
+      "group": "catalog"
+    },
+    {
+      "id": "s059",
+      "text": "分岐と判断\n出典：公開見本\n問い 1：検討すべき問いを記載\n項目1\n記載例1\n記載例2\n項目2\n記載例3\n記載例4\n項目3\n記載例5\n記載例6",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 32",
+      "group": "catalog"
+    },
+    {
+      "id": "s060",
+      "text": "ロードマップ\n出典：公開見本\n見出し 2\n記載例1\n見出し 3\n記載例2\n見出し 4\n記載例3\n見出し 5\n記載例4",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 33",
+      "group": "catalog"
+    },
+    {
+      "id": "s061",
+      "text": "ガントチャート\n出典：公開見本\n項目13\n項目14\n項目1\n項目2\n項目3\n項目4\n項目5\n項目6\n項目7\n項目8\n項目9\n項目10\n項目11\n項目12\n項目15\n項目16\n項目17\n項目18\n項目19\n項目20\n項目21\n項目22\n項目23\n項目24\n項目25\n項目26\n項目27\n項目28\n項目29\n項目30\n項目31\n項目32\n項目33\n0\n1\n1\n3\n2\n3\n3\n5\n4\n6\n8\n10\n10\n12",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 34",
+      "group": "catalog"
+    },
+    {
+      "id": "s062",
+      "text": "意思決定ページ\n出典：公開見本\n推奨する意思決定\n記載例1\n1\n記載例2\n2\n記載例3\n3\n記載例4",
+      "citation": "Public MIT sample: templates/freeform_parts_more_16x9.html section 35",
+      "group": "catalog"
+    }
+  ],
+  "images": []
+}

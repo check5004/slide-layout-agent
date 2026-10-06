@@ -1,0 +1,23 @@
+name: Native catalog without Office
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/make_catalog_samples.py --out out/catalog --individual
+      - run: python -m slide_agent schema --out out/plan.schema.json
+      - run: python -m slide_agent catalog --layout issue_tree

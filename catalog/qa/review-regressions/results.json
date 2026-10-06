@@ -1,0 +1,257 @@
+{
+  "ok": true,
+  "mechanical_validation": "passed",
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CATALOG_FONT_REVIEW",
+      "slide": null,
+      "message": "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s001: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s002: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s003: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s004: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s005: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s006: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    }
+  ],
+  "source_coverage": "review_required",
+  "semantic_review": "not_performed",
+  "slide_count": 6,
+  "visual_review": "not_performed",
+  "ooxml": {
+    "ok": true,
+    "issues": [],
+    "counts": {
+      "slides": 6,
+      "text_shapes": 110,
+      "tables": 0,
+      "charts": 2,
+      "pictures": 0,
+      "embedded_workbooks": 2
+    },
+    "rendering": "not_performed"
+  },
+  "reproductions": [
+    {
+      "case": "cagr_ten_years",
+      "variant": "warm",
+      "slide": 1,
+      "period": "年平均成長率（10年）",
+      "callouts": [
+        "13%",
+        "11%",
+        "9%"
+      ]
+    },
+    {
+      "case": "bridge_sign_flip",
+      "variant": "warm",
+      "slide": 2,
+      "bars": [
+        {
+          "input": 11,
+          "label": "11",
+          "fill": "322014",
+          "top": 3206931,
+          "height": 2370909
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "5A3921",
+          "top": 2560320,
+          "height": 646611
+        },
+        {
+          "input": -4,
+          "label": "-4",
+          "fill": "A22727",
+          "top": 2560320,
+          "height": 862149
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "5A3921",
+          "top": 2775857,
+          "height": 646611
+        },
+        {
+          "input": 13,
+          "label": "13",
+          "fill": "322014",
+          "top": 2775857,
+          "height": 2801983
+        }
+      ]
+    },
+    {
+      "case": "decimal_precision",
+      "variant": "warm",
+      "slide": 3,
+      "bars": [
+        {
+          "input": 123456.7,
+          "label": "123456.7",
+          "fill": "322014",
+          "top": 2560467,
+          "height": 3017373
+        },
+        {
+          "input": 1,
+          "label": "+1",
+          "fill": "5A3921",
+          "top": 2560442,
+          "height": 24
+        },
+        {
+          "input": 2,
+          "label": "+2",
+          "fill": "5A3921",
+          "top": 2560393,
+          "height": 49
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "5A3921",
+          "top": 2560320,
+          "height": 73
+        },
+        {
+          "input": 123462.7,
+          "label": "123462.7",
+          "fill": "322014",
+          "top": 2560320,
+          "height": 3017520
+        }
+      ]
+    },
+    {
+      "case": "cagr_ten_years",
+      "variant": "cool",
+      "slide": 4,
+      "period": "年平均成長率（10年）",
+      "callouts": [
+        "13%",
+        "11%",
+        "9%"
+      ]
+    },
+    {
+      "case": "bridge_sign_flip",
+      "variant": "cool",
+      "slide": 5,
+      "bars": [
+        {
+          "input": 11,
+          "label": "11",
+          "fill": "071B2C",
+          "top": 3206931,
+          "height": 2370909
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "1E5F8C",
+          "top": 2560320,
+          "height": 646611
+        },
+        {
+          "input": -4,
+          "label": "-4",
+          "fill": "D94C68",
+          "top": 2560320,
+          "height": 862149
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "1E5F8C",
+          "top": 2775857,
+          "height": 646611
+        },
+        {
+          "input": 13,
+          "label": "13",
+          "fill": "071B2C",
+          "top": 2775857,
+          "height": 2801983
+        }
+      ]
+    },
+    {
+      "case": "decimal_precision",
+      "variant": "cool",
+      "slide": 6,
+      "bars": [
+        {
+          "input": 123456.7,
+          "label": "123456.7",
+          "fill": "071B2C",
+          "top": 2560467,
+          "height": 3017373
+        },
+        {
+          "input": 1,
+          "label": "+1",
+          "fill": "1E5F8C",
+          "top": 2560442,
+          "height": 24
+        },
+        {
+          "input": 2,
+          "label": "+2",
+          "fill": "1E5F8C",
+          "top": 2560393,
+          "height": 49
+        },
+        {
+          "input": 3,
+          "label": "+3",
+          "fill": "1E5F8C",
+          "top": 2560320,
+          "height": 73
+        },
+        {
+          "input": 123462.7,
+          "label": "123462.7",
+          "fill": "071B2C",
+          "top": 2560320,
+          "height": 3017520
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "engine": "Microsoft PowerPoint",
+  "version": "16.0",
+  "slideCount": 6,
+  "pptxSha256": "c2f38edb2c97ed55dd65d1530dd42876d6514006692420655ceec90077374b1f",
+  "rasterExport": true,
+  "editableTextBoundaryMeasurements": [
+    {
+      "slide": 1,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 15.37,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 336.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 23.04,
+      "textWidth": 37.13,
+      "textHeight": 13.8,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 172.8,
+      "boxHeight": 18.72,
+      "textWidth": 82.38,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:014",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 23.38,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 16.5,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 16.5,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:017",
+      "kind": "text",
+      "boxWidth": 139.78,
+      "boxHeight": 17.28,
+      "textWidth": 103.75,
+      "textHeight": 12.0,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 24.25,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 24.25,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:023",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 18.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 70.8,
+      "boxHeight": 14.4,
+      "textWidth": 25.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:027",
+      "kind": "text",
+      "boxWidth": 45.6,
+      "boxHeight": 14.4,
+      "textWidth": 17.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:029",
+      "kind": "text",
+      "boxWidth": 79.2,
+      "boxHeight": 14.4,
+      "textWidth": 25.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 291.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 87.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 15.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:018",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 13.5,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:022",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:024",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 15.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 269.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 87.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 49.38,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:018",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:022",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:024",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 49.38,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 15.37,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 336.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 23.04,
+      "textWidth": 37.13,
+      "textHeight": 13.8,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 172.8,
+      "boxHeight": 18.72,
+      "textWidth": 82.38,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:014",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 23.38,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 16.5,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 64.8,
+      "boxHeight": 20.16,
+      "textWidth": 16.5,
+      "textHeight": 14.4,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:017",
+      "kind": "text",
+      "boxWidth": 139.78,
+      "boxHeight": 17.28,
+      "textWidth": 103.75,
+      "textHeight": 12.0,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 24.25,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 24.25,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:023",
+      "kind": "text",
+      "boxWidth": 96.58,
+      "boxHeight": 25.11,
+      "textWidth": 18.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 70.8,
+      "boxHeight": 14.4,
+      "textWidth": 25.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:027",
+      "kind": "text",
+      "boxWidth": 45.6,
+      "boxHeight": 14.4,
+      "textWidth": 17.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "shape:029",
+      "kind": "text",
+      "boxWidth": 79.2,
+      "boxHeight": 14.4,
+      "textWidth": 25.75,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 4,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 291.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 87.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 15.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:018",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 13.5,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:022",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:024",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 15.0,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 5,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 129.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 269.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 54.25,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 87.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 49.38,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:015",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:018",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:021",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 16.88,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:022",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:024",
+      "kind": "text",
+      "boxWidth": 108.0,
+      "boxHeight": 15.84,
+      "textWidth": 49.38,
+      "textHeight": 13.2,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 122.4,
+      "boxHeight": 28.8,
+      "textWidth": 29.25,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 6,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    }
+  ],
+  "overflowCount": 0,
+  "chartReview": "native chart pixels and data-label placement require separate visual review",
+  "visualInspection": "exported; not yet visually reviewed"
+}

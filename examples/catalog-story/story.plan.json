@@ -1,0 +1,325 @@
+{
+  "version": "1",
+  "source_sha256": "731606db4458e4cd85b02568f427f4d7f9d0e97b35d50c32f512b7ad70c7c839",
+  "title": "図書室の記録改善（架空例）",
+  "slides": [
+    {
+      "id": "intro",
+      "origin": "intro",
+      "title": {
+        "text": "図書室の記録改善",
+        "refs": [
+          {
+            "source_id": "s001",
+            "quote": "図書室の記録改善"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "表紙の大きな見出しで目的と架空設定を示す。",
+      "layout_id": "title_page",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_007": {
+            "text": "架空の試行記録を用いた構成例",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "架空の試行記録を用いた構成例"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {}
+      }
+    },
+    {
+      "id": "evidence",
+      "origin": "evidence",
+      "title": {
+        "text": "記録件数と判断の留保",
+        "refs": [
+          {
+            "source_id": "s003",
+            "quote": "記録件数と判断の留保"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "4時点のnative chartと右側の留保を組み合わせ、件数増加を因果と取り違えない。",
+      "layout_id": "chart_insight",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "件数は架空です。増加の原因や改善効果は確認していません。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "件数は架空です。増加の原因や改善効果は確認していません。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_010": {
+            "text": "受付記録件数（件）",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "受付記録件数（件）"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_025": {
+            "text": "効果はまだ断定しない",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "効果はまだ断定しない"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_026": {
+            "text": "記録件数の推移を確認します。\n増加の原因は未確認です。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "記録件数の推移を確認します。\n増加の原因は未確認です。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {
+          "chart_028": {
+            "categories": [
+              {
+                "text": "試行前",
+                "refs": [
+                  {
+                    "source_id": "s022",
+                    "quote": "試行前"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "初回",
+                "refs": [
+                  {
+                    "source_id": "s023",
+                    "quote": "初回"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "中間",
+                "refs": [
+                  {
+                    "source_id": "s024",
+                    "quote": "中間"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "最終",
+                "refs": [
+                  {
+                    "source_id": "s025",
+                    "quote": "最終"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "text": "受付記録",
+                  "refs": [
+                    {
+                      "source_id": "s026",
+                      "quote": "受付記録"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 12.0,
+                    "refs": [
+                      {
+                        "source_id": "s018",
+                        "quote": "12"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 18.0,
+                    "refs": [
+                      {
+                        "source_id": "s019",
+                        "quote": "18"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 21.0,
+                    "refs": [
+                      {
+                        "source_id": "s020",
+                        "quote": "21"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 24.0,
+                    "refs": [
+                      {
+                        "source_id": "s021",
+                        "quote": "24"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              }
+            ],
+            "elapsed_years": null
+          }
+        },
+        "metrics": {},
+        "states": {}
+      }
+    },
+    {
+      "id": "decision",
+      "origin": "decision",
+      "title": {
+        "text": "次の試行で確認すること",
+        "refs": [
+          {
+            "source_id": "s008",
+            "quote": "次の試行で確認すること"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "提案1点と確認手順3点を分け、意思決定の構造に合わせる。",
+      "layout_id": "decision_page",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "text_006": {
+            "text": "架空の運用案です。実施結果を示すものではありません。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "架空の運用案です。実施結果を示すものではありません。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_011": {
+            "text": "提案する次の行動",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "提案する次の行動"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_012": {
+            "text": "記録手順をそろえて\n小さく試行する",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "記録手順をそろえて\n小さく試行する"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_013": {
+            "text": "1",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "1"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_014": {
+            "text": "入力項目を担当者で確認する",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "入力項目を担当者で確認する"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_016": {
+            "text": "2",
+            "refs": [
+              {
+                "source_id": "s014",
+                "quote": "2"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_017": {
+            "text": "同じ手順で記録を続ける",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "同じ手順で記録を続ける"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_019": {
+            "text": "3",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "3"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "text_020": {
+            "text": "記入負担と欠落を振り返る",
+            "refs": [
+              {
+                "source_id": "s017",
+                "quote": "記入負担と欠落を振り返る"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {}
+      }
+    }
+  ],
+  "omissions": []
+}

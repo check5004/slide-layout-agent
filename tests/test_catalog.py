@@ -127,6 +127,8 @@ class CatalogTests(unittest.TestCase):
     def test_catalog_split_rejects_overflow_with_actionable_message(self):
         p=self.plan.model_copy(deep=True); p.slides[0].title.text="長"*1000
         with self.assertRaisesRegex(ValueError,"explicitly replan"): split_plan(p,Theme())
+        p=self.plan.model_copy(deep=True);p.title='長'*40
+        self.assertIn('CATALOG_HEADER_OVERFLOW',{x['code'] for x in validate(p,self.source,ROOT,Theme())['issues']})
 
     def test_chart_reference_evidence_walked_and_numbers_checked(self):
         p=self.plan.model_copy(deep=True)

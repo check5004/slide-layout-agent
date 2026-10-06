@@ -63,6 +63,10 @@ def validate(plan, source, base, theme):
     omitted = {o.source_id for o in plan.omissions}
     if any(is_catalog(s.layout_id) for s in plan.slides):
         add("CATALOG_FONT_REVIEW", "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device.", severity="warning")
+        # All 62 trusted headers are 504pt wide at 14pt. Keep a conservative
+        # one-line metadata limit; never silently truncate the deck title.
+        if units(plan.title)>30 or "\n" in plan.title:
+            add("CATALOG_HEADER_OVERFLOW", "plan.title must fit one line / 30 full-width units in the catalog header")
     for omission in plan.omissions:
         if omission.source_id not in segments:
             add("UNKNOWN_OMISSION", omission.source_id)

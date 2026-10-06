@@ -256,7 +256,7 @@ def instantiate(prs, design, plan, source, page):
     apply_metrics(slide, entry, design.contents)
     apply_states(slide,entry,design.contents)
     for s in slide.shapes:
-        if s.name == "meta:header": replace_text(s.text_frame, plan.title[:40])
+        if s.name == "meta:header": replace_text(s.text_frame, plan.title)
         if s.name == "meta:layout": replace_text(s.text_frame, entry["part_id"])
         if s.name == "meta:footer": replace_text(s.text_frame, "slide-layout-agent")
         if s.name == "meta:page": replace_text(s.text_frame, str(page))

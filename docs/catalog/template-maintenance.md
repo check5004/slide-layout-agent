@@ -8,6 +8,8 @@
 
 上部資料名はplan.title、レイアウト記号は登録IDに対応したmetadataです。下部は現在`slide-layout-agent`、`native editable`、生成順のページ番号を通常のnative文字として差し込みます。ページ番号はPowerPointの自動番号fieldではないため、PowerPoint上でページを並べ替えた後は手修正または再生成が必要です。会社名・copyright・任意footerの公開入力項目はまだありません。元公開見本の会社表記は出力footerに引き継ぎませんが、MIT帰属はnotesと同梱LICENSEに保持します。
 
+共通headerの`plan.title`は1行・全角相当30文字以内に制限します。超過はpreflightで拒否し、勝手に切り詰めません。各スライドの内容タイトルは別のslot容量に従います。
+
 差込み文字は段落ごとの先頭run書式を使います。元templateの1段落内の混在色・太字範囲を入力文の意味に応じて再現する機能はありません。段落、表セル、図形、chartは編集できます。固定装飾・凡例を変える場合はtemplateの登録更新が必要です。
 
 ## 今の資料に1ページ追加する

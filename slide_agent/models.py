@@ -151,8 +151,46 @@ class ClosingSlide(SlideBase):
     contents: Items
 
 
+class SignedDatum(Datum):
+    value: Annotated[float, Field(ge=-1e12, le=1e12)]
+
+
+class TemplateSeries(Model):
+    name: Text
+    values: Annotated[list[SignedDatum], Field(min_length=1, max_length=60)]
+    x_values: Annotated[list[SignedDatum], Field(max_length=60)] = []
+
+
+class TemplateChart(Model):
+    categories: Annotated[list[Text], Field(max_length=60)] = []
+    series: Annotated[list[TemplateSeries], Field(min_length=1, max_length=4)]
+
+
+class CatalogContents(Model):
+    texts: dict[Id, Text]
+    charts: dict[Id, TemplateChart] = {}
+    metrics: dict[Id, SignedDatum] = {}
+    states: dict[Id, Text] = {}
+
+
+from .catalog import LAYOUT_IDS
+
+
+class CatalogSlide(SlideBase):
+    layout_id: Literal[LAYOUT_IDS]
+    variant: Literal["warm", "cool"] = "warm"
+    font_profile: Literal["source", "meiryo", "noto", "hiragino"] = "source"
+    contents: CatalogContents
+
+    @model_validator(mode="after")
+    def no_lead(self):
+        if self.lead is not None:
+            raise ValueError("catalog templates have fixed slots; lead is not supported")
+        return self
+
+
 Slide = Annotated[
-    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide,
+    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide | CatalogSlide,
     Field(discriminator="layout_id"),
 ]
 

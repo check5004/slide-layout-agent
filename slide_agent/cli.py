@@ -11,6 +11,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from .audit import audit
+from .catalog import registry, is_catalog
 from .io import fingerprint, load_plan, load_source, load_theme, write_json
 from .models import Asset, Plan, Segment, Source
 from .render import render
@@ -75,6 +76,12 @@ def split_plan(plan, theme):
                 pending = pending[count:]
             key = "items"
         else:
+            if is_catalog(slide.layout_id):
+                from .catalog_validate import validate_catalog
+                issues=[]
+                validate_catalog(slide, lambda code,message,sid: issues.append((code,message)))
+                if issues:
+                    raise ValueError(f"{slide.id}: catalog cannot auto-paginate fixed relational structure; explicitly replan with retained origin/references: {issues[0][1]}")
             output.append(slide.model_dump(mode="json"))
             continue
         for index, group in enumerate(groups):
@@ -111,6 +118,8 @@ def build_parser():
     p = sub.add_parser("schema")
     p.add_argument("--out", required=True)
     p.add_argument("--force", action="store_true")
+    p = sub.add_parser("catalog")
+    p.add_argument("--layout", choices=list(registry()))
     for name in ("validate", "review", "render", "split"):
         p = sub.add_parser(name)
         p.add_argument("plan")
@@ -127,6 +136,13 @@ def build_parser():
 def main(argv=None):
     args = build_parser().parse_args(argv)
     try:
+        if args.command == "catalog":
+            data=registry()
+            if args.layout: output=data[args.layout]
+            else: output=[{"layout_id":e["layout_id"],"name":e["name"],"part_id":e["part_id"],
+                           "template":e["template"],"preview":f"catalog/previews/warm/{e['layout_id']}.png",
+                           "capacity":e["capacity"]} for e in data.values()]
+            print(json.dumps(output,ensure_ascii=False,indent=2)); return 0
         if args.command == "ingest":
             source = ingest(args.input, args.mode, args.image, args.out)
             write_json(args.out, source.model_dump(mode="json"), args.force)
@@ -140,6 +156,8 @@ def main(argv=None):
             print(fingerprint(source))
             return 0
         plan, theme = load_plan(args.plan), load_theme(args.theme)
+        if args.theme and any(is_catalog(s.layout_id) for s in plan.slides):
+            raise ValueError("--theme targets legacy geometry layouts; catalog uses its fixed template style, variant and font_profile")
         if args.command == "split":
             plan = split_plan(plan, theme)
         report = validate(plan, source, Path(args.source).parent, theme)

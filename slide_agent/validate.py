@@ -11,6 +11,8 @@ from pydantic import BaseModel
 
 from .io import asset_path, fingerprint
 from .models import Datum, Text
+from .catalog import is_catalog
+from .catalog_validate import validate_catalog
 
 WIDTH, HEIGHT = 13.333333, 7.5
 BODY_Y, BODY_H = 2.0, 4.55
@@ -25,6 +27,9 @@ def walk_evidence(obj):
             yield from walk_evidence(value)
     elif isinstance(obj, list):
         for value in obj:
+            yield from walk_evidence(value)
+    elif isinstance(obj, dict):
+        for value in obj.values():
             yield from walk_evidence(value)
 
 
@@ -56,6 +61,8 @@ def validate(plan, source, base, theme):
     assets = {a.id: a for a in source.images}
     seen, quotes, rendered_numbers = set(), defaultdict(list), defaultdict(set)
     omitted = {o.source_id for o in plan.omissions}
+    if any(is_catalog(s.layout_id) for s in plan.slides):
+        add("CATALOG_FONT_REVIEW", "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device.", severity="warning")
     for omission in plan.omissions:
         if omission.source_id not in segments:
             add("UNKNOWN_OMISSION", omission.source_id)
@@ -96,6 +103,9 @@ def validate(plan, source, base, theme):
                     add("NOT_VERBATIM", "verbatim text differs from every cited quote", slide.id)
                 if item.mode == "paraphrase":
                     add("PARAPHRASE_REVIEW", "check meaning, qualifiers and causal relationships", slide.id, "warning")
+        if is_catalog(slide.layout_id):
+            validate_catalog(slide, add)
+            continue
         capacity(slide.title.text, CONTENT_W, 1.0, theme.title_pt, slide, "title")
         if slide.lead:
             if not theme.lead_mode:

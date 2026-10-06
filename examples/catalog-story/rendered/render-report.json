@@ -1,0 +1,372 @@
+{
+  "engine": "Microsoft PowerPoint",
+  "version": "16.0",
+  "slideCount": 3,
+  "pptxSha256": "95888f11f761d70f89306dbd0183870c6827ebf5bb58475d4031d6319960cf32",
+  "rasterExport": true,
+  "editableTextBoundaryMeasurements": [
+    {
+      "slide": 1,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 185.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 15.37,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 623.62,
+      "boxHeight": 42.52,
+      "textWidth": 279.63,
+      "textHeight": 40.8,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "shape:007",
+      "kind": "text",
+      "boxWidth": 623.62,
+      "boxHeight": 25.51,
+      "textWidth": 213.38,
+      "textHeight": 18.0,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 1,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 185.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 225.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 211.75,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:010",
+      "kind": "text",
+      "boxWidth": 482.4,
+      "boxHeight": 21.6,
+      "textWidth": 138.38,
+      "textHeight": 18.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 80.64,
+      "boxHeight": 20.16,
+      "textWidth": 30.63,
+      "textHeight": 11.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 80.64,
+      "boxHeight": 20.16,
+      "textWidth": 21.13,
+      "textHeight": 11.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 80.64,
+      "boxHeight": 20.16,
+      "textWidth": 21.13,
+      "textHeight": 11.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:022",
+      "kind": "text",
+      "boxWidth": 80.64,
+      "boxHeight": 20.16,
+      "textWidth": 21.13,
+      "textHeight": 11.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:025",
+      "kind": "text",
+      "boxWidth": 329.76,
+      "boxHeight": 32.4,
+      "textWidth": 153.38,
+      "textHeight": 18.0,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "shape:026",
+      "kind": "text",
+      "boxWidth": 329.76,
+      "boxHeight": 72.0,
+      "textWidth": 192.0,
+      "textHeight": 32.4,
+      "overflow": false
+    },
+    {
+      "slide": 2,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:header",
+      "kind": "text",
+      "boxWidth": 504.0,
+      "boxHeight": 21.6,
+      "textWidth": 185.13,
+      "textHeight": 16.8,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:layout",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 14.4,
+      "textWidth": 17.62,
+      "textHeight": 9.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "slot:title",
+      "kind": "text",
+      "boxWidth": 869.26,
+      "boxHeight": 39.6,
+      "textWidth": 247.0,
+      "textHeight": 26.4,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:006",
+      "kind": "text",
+      "boxWidth": 705.6,
+      "boxHeight": 14.4,
+      "textWidth": 196.75,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:footer",
+      "kind": "text",
+      "boxWidth": 432.0,
+      "boxHeight": 14.4,
+      "textWidth": 77.75,
+      "textHeight": 10.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:page",
+      "kind": "text",
+      "boxWidth": 28.8,
+      "boxHeight": 14.4,
+      "textWidth": 5.87,
+      "textHeight": 9.0,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:011",
+      "kind": "text",
+      "boxWidth": 172.8,
+      "boxHeight": 17.28,
+      "textWidth": 86.38,
+      "textHeight": 12.6,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:012",
+      "kind": "text",
+      "boxWidth": 417.6,
+      "boxHeight": 108.0,
+      "textWidth": 203.0,
+      "textHeight": 52.8,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:013",
+      "kind": "text",
+      "boxWidth": 21.6,
+      "boxHeight": 20.16,
+      "textWidth": 12.75,
+      "textHeight": 19.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:014",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 30.24,
+      "textWidth": 178.5,
+      "textHeight": 16.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:016",
+      "kind": "text",
+      "boxWidth": 21.6,
+      "boxHeight": 20.16,
+      "textWidth": 12.75,
+      "textHeight": 19.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:017",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 30.24,
+      "textWidth": 151.5,
+      "textHeight": 16.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:019",
+      "kind": "text",
+      "boxWidth": 21.6,
+      "boxHeight": 20.16,
+      "textWidth": 12.75,
+      "textHeight": 19.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "shape:020",
+      "kind": "text",
+      "boxWidth": 360.0,
+      "boxHeight": 30.24,
+      "textWidth": 165.0,
+      "textHeight": 16.2,
+      "overflow": false
+    },
+    {
+      "slide": 3,
+      "shape": "meta:format",
+      "kind": "text",
+      "boxWidth": 93.6,
+      "boxHeight": 14.4,
+      "textWidth": 52.88,
+      "textHeight": 9.0,
+      "overflow": false
+    }
+  ],
+  "overflowCount": 0,
+  "chartReview": "native chart pixels and data-label placement require separate visual review",
+  "visualInspection": "exported; not yet visually reviewed"
+}

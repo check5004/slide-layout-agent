@@ -1,0 +1,1100 @@
+{
+  "repository": "https://github.com/carnot-tech/consulting-pptx-skill",
+  "commit": "e5dd04dc6f1acf010046d2fc7319bcf5242a849a",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Carnot AI Inc.",
+  "layout_count": 62,
+  "render_variant_count": 124,
+  "source_html_files": [
+    {
+      "path": "templates/freeform_parts_16x9.html",
+      "sha256": "770c6ea887f7e9f3b18b7b37cb9a0d4a5b27aa721bbc1a6b939518d975f39770",
+      "sections": 27,
+      "classification": "layout_catalog"
+    },
+    {
+      "path": "templates/freeform_parts_more_16x9.html",
+      "sha256": "811998086b4d49fdc0d61cbaef7697ef97bb89aca6f2de1e2310dbfc5ed0dd59",
+      "sections": 35,
+      "classification": "layout_catalog"
+    },
+    {
+      "path": "tests/fixtures/good_deck.html",
+      "sha256": "9804bb13102ec66d5c37e187a1e370a746648301779d4fe104a28784a981312f",
+      "sections": 6,
+      "classification": "test_fixture_not_layout"
+    }
+  ],
+  "non_layouts": {
+    "shared_partials": [],
+    "shared_styles": "inline CSS in both template documents",
+    "fixture_sections": 6,
+    "pptx_catalog_navigation_slides": [
+      1,
+      2,
+      3,
+      13,
+      27,
+      40,
+      54,
+      64
+    ]
+  },
+  "variant_note": "warm is active upstream CSS; cool is the documented commented palette alternative, not a new structural layout",
+  "layouts": [
+    {
+      "layout_id": "title_page",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 1,
+      "source_selector": "section:nth-of-type(1)",
+      "part_id": "b01",
+      "name": "表紙",
+      "source_section_sha256": "0badd8cb4e4063916bbbab1b0e2b883c78cfe309da45b5ebe081f0070d759f11",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "overview_map",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 2,
+      "source_selector": "section:nth-of-type(2)",
+      "part_id": "b02",
+      "name": "全体マップ",
+      "source_section_sha256": "0df5d2b221f0acce8fee0d3e3e3a4d329ec7e9fb4cec2d3c1402d13acca23982",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "table_of_contents",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 3,
+      "source_selector": "section:nth-of-type(3)",
+      "part_id": "b03",
+      "name": "目次",
+      "source_section_sha256": "9d32c7d367cc5f010152cfb97196c701926ba7c90432fc11ec1037bce73f0283",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "section_divider",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 4,
+      "source_selector": "section:nth-of-type(4)",
+      "part_id": "b04",
+      "name": "章扉",
+      "source_section_sha256": "32b3e4fba9ed56668367c07e0265bec6c57ed3665802d724971340cf232ae673",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "chevron_steps",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 5,
+      "source_selector": "section:nth-of-type(5)",
+      "part_id": "b05",
+      "name": "矢羽（プロセス・変遷）",
+      "source_section_sha256": "4719912b2f661ee924892abb8eb3be30dc9e70ae61cb256e0359fd688b2e421f",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "premise_conclusion",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 6,
+      "source_selector": "section:nth-of-type(6)",
+      "part_id": "b06",
+      "name": "前提→帰結の2カラム",
+      "source_section_sha256": "6dfb1720c522d44ee0caf90822bf4f26228b73538d3e90a4dc09c2987f956ce5",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "stat_table_readout",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 7,
+      "source_selector": "section:nth-of-type(7)",
+      "part_id": "b07",
+      "name": "大型数値の表＋読み取り",
+      "source_section_sha256": "fc59f9d9192d98a4b521676b75e0710fc703876327848fb388223d8e14b9bb51",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "card_grid_2x2",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 8,
+      "source_selector": "section:nth-of-type(8)",
+      "part_id": "b08",
+      "name": "並列カード 2×2",
+      "source_section_sha256": "0a73c689ad5347953099f9dd6c0d1a59f4d249f331c9881d9bd2bb6586325e92",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "axis_table",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 9,
+      "source_selector": "section:nth-of-type(9)",
+      "part_id": "b09",
+      "name": "軸のある表",
+      "source_section_sha256": "77ff68f075a8e097e6b40c815837b6363f35e3ae00dfb4e05e24828d2ca6b810",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "back_cover",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 10,
+      "source_selector": "section:nth-of-type(10)",
+      "part_id": "b10",
+      "name": "裏表紙",
+      "source_section_sha256": "01711442c1730791a66fce8772cfe1bc390e058bf9f1da0c9e017e7b6b730184",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "claim_panel_figure",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 11,
+      "source_selector": "section:nth-of-type(11)",
+      "part_id": "b11",
+      "name": "主張パネル＋図",
+      "source_section_sha256": "da00292c2deedcc9bff80a0e6897f7daa0bae950ec11a03dc9b19770476e4071",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "lever_effect_table",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 12,
+      "source_selector": "section:nth-of-type(12)",
+      "part_id": "b12",
+      "name": "打ち手の効果表",
+      "source_section_sha256": "df7a54208dab491b78ff79711e6556588484d947dea7c6d9e7897d84dace49c5",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "status_heatmap_comment",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 13,
+      "source_selector": "section:nth-of-type(13)",
+      "part_id": "b13",
+      "name": "状態ヒートマップ＋右コメント",
+      "source_section_sha256": "909ae1fd1f9a6850eac4be2d4d60b3a893a18bb79964f2f85fa5c8e9e8ab64ea",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "harvey_ball_table",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 14,
+      "source_selector": "section:nth-of-type(14)",
+      "part_id": "b14",
+      "name": "充足度評価表（ハーベイボール）",
+      "source_section_sha256": "9af0211f9e94be4019bb5def96dac9a2ff373dc02dbc580e4dfb46008db33a08",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "dot_matrix_share",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 15,
+      "source_selector": "section:nth-of-type(15)",
+      "part_id": "b15",
+      "name": "割合のドットマトリクス",
+      "source_section_sha256": "65ec523ebcc403bfe63b27eab632ab26f6126ca93cfc81f92ba23810b1f28e06",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "progress_bubble_matrix",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 16,
+      "source_selector": "section:nth-of-type(16)",
+      "part_id": "b16",
+      "name": "進捗バブル行列",
+      "source_section_sha256": "d2c7e27e877d8642bcf61bfe5ee06bd221d513aa04e8d5a9a7d8dcdd3de35659",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "ranked_bar_annotated",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 17,
+      "source_selector": "section:nth-of-type(17)",
+      "part_id": "b17",
+      "name": "分布の順位棒＋注記",
+      "source_section_sha256": "dfb01d4ac92626417a92f73d28cb0caef599d5918df2829d60dd30ec7de28935",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "scatter_annotated",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 18,
+      "source_selector": "section:nth-of-type(18)",
+      "part_id": "b18",
+      "name": "注記つき散布図",
+      "source_section_sha256": "7f6133216a518ecca053574ca3f88eeebf502ffdd3e759d37b11c6835554400d",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "pillars_foundation",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 19,
+      "source_selector": "section:nth-of-type(19)",
+      "part_id": "b19",
+      "name": "柱＋土台",
+      "source_section_sha256": "bdf2efec98df4aa1aa0d2e7618ad8e6d7ad99e6791e814252e9dbb3ec0485e60",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "opposing_chevrons",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 20,
+      "source_selector": "section:nth-of-type(20)",
+      "part_id": "b20",
+      "name": "対向シェブロン",
+      "source_section_sha256": "516ff860118468114b0111a82dd9b2911f7dc76770b2fd44a5191d0b9fe49bdb",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "evidence_clip_grid",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 21,
+      "source_selector": "section:nth-of-type(21)",
+      "part_id": "b21",
+      "name": "外部動向の根拠グリッド",
+      "source_section_sha256": "0835951daa2bf5556b7c7d609d2cf69a471e33879dad02dfa91e88cb1b592287",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "proportional_circles",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 22,
+      "source_selector": "section:nth-of-type(22)",
+      "part_id": "b22",
+      "name": "比例円の対比",
+      "source_section_sha256": "7fc9063bcc0996fc168817e13cec673d41cc9f9fdceff947d070ac88f3281b07",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "delta_bars_totals",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 23,
+      "source_selector": "section:nth-of-type(23)",
+      "part_id": "b23",
+      "name": "増減の縦棒＋左右合計",
+      "source_section_sha256": "49a1facbcb10a703611eafef3b048a395ed4e33da1317eee364eb3af7bf1b607",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "scenario_lines_cagr",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 24,
+      "source_selector": "section:nth-of-type(24)",
+      "part_id": "b24",
+      "name": "シナリオ線＋成長率チップ",
+      "source_section_sha256": "e49aec260981965b4a148ae6d938b93bec6a9fe5ecc9848dce8f2c3998059419",
+      "source_svg_count": 1,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "research_basis",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 25,
+      "source_selector": "section:nth-of-type(25)",
+      "part_id": "b25",
+      "name": "調査の土台",
+      "source_section_sha256": "9b5162ce9a5d8f1fca34414ae3f164b3b09e399ddc80c65b03725beea8ca9d61",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "issue_action_columns",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 26,
+      "source_selector": "section:nth-of-type(26)",
+      "part_id": "b26",
+      "name": "課題と打ち手の2カラム",
+      "source_section_sha256": "9e857dd7a5fb89b9af67e9e43a5d0f0a06396ab832be26413fda9a1d42fdfd84",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "agenda_separator",
+      "source_file": "templates/freeform_parts_16x9.html",
+      "source_section": 27,
+      "source_selector": "section:nth-of-type(27)",
+      "part_id": "b27",
+      "name": "セパレーター（章扉＝アジェンダ再掲）",
+      "source_section_sha256": "803339140526bd3e64bca476d598894c3b30bd9b2d1cb27dfb1da98380c0a9b9",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "executive_summary",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 1,
+      "source_selector": "section:nth-of-type(1)",
+      "part_id": "m01",
+      "name": "エグゼクティブサマリー",
+      "source_section_sha256": "d2d61652c9dbb5ded2f0461ec1d2d6e3816b48775b3bfefb12763d18ec0da74f",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "evidence_basis",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 2,
+      "source_selector": "section:nth-of-type(2)",
+      "part_id": "m02",
+      "name": "調査の土台",
+      "source_section_sha256": "585e8acf0c3eb5edd13af5818df4dbeb21c1b0fe47442ba15dc184e67c0159aa",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "big_stat_pair",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 3,
+      "source_selector": "section:nth-of-type(3)",
+      "part_id": "m03",
+      "name": "大型数値の対比",
+      "source_section_sha256": "bad4b446dc6c50ca110d71b15bde06f50f1d2759fafe1177fade19bd69e26e14",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "kpi_dashboard",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 4,
+      "source_selector": "section:nth-of-type(4)",
+      "part_id": "m04",
+      "name": "KPI一覧",
+      "source_section_sha256": "80982b50407f9552e9954bc886a472f8af23e3edf04f3a14ff76e0de8d6017a9",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "chart_insight",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 5,
+      "source_selector": "section:nth-of-type(5)",
+      "part_id": "m05",
+      "name": "単一チャート＋含意",
+      "source_section_sha256": "ff373632b6435d60f6d41415702a092f2a8626e7a486cc072f86db78812099c4",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "stacked_bar",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 6,
+      "source_selector": "section:nth-of-type(6)",
+      "part_id": "m06",
+      "name": "積み上げ棒",
+      "source_section_sha256": "11073d9ebc898bc9fc65ca5e93dfa615ad9cf145635792493f01c053ecbd1a1c",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "waterfall",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 7,
+      "source_selector": "section:nth-of-type(7)",
+      "part_id": "m07",
+      "name": "寄与度ブリッジ",
+      "source_section_sha256": "4aabc2fc1c9d280c2498123f8bbcf87e6dcd7c0994f5a0820fb7a7113fae799e",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "true_waterfall",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 8,
+      "source_selector": "section:nth-of-type(8)",
+      "part_id": "m08",
+      "name": "増減ブリッジ（厳密）",
+      "source_section_sha256": "587f932388ef3cd40773567c7b7b643b8386b40de8534d92c5d031ea5c8dc7a8",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "small_multiples",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 9,
+      "source_selector": "section:nth-of-type(9)",
+      "part_id": "m09",
+      "name": "小図の並列比較",
+      "source_section_sha256": "ef95d7fe8e780f1a820fd7132b72275a1e7e315a0e5ee60644d3787de8d2f867",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "comparison_table",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 10,
+      "source_selector": "section:nth-of-type(10)",
+      "part_id": "m10",
+      "name": "選択肢の比較表",
+      "source_section_sha256": "df367152c77e6701a5ae31ac4d7d065d0c00de02a1f00c872b52a20b4ed192db",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "scenario_table",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 11,
+      "source_selector": "section:nth-of-type(11)",
+      "part_id": "m11",
+      "name": "シナリオ比較表",
+      "source_section_sha256": "5ea93e730c5d59120c30e4293e59c47fc3f9b94f38668438fe78448c0108bd27",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "risk_table",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 12,
+      "source_selector": "section:nth-of-type(12)",
+      "part_id": "m12",
+      "name": "リスク一覧表",
+      "source_section_sha256": "9ccca14a0df4d7a3d91a90441dfec10f15d7f83566c0dd177eeb447ffe3e911e",
+      "source_svg_count": 0,
+      "source_table_count": 1,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "horizontal_axis_table",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 13,
+      "source_selector": "section:nth-of-type(13)",
+      "part_id": "m13",
+      "name": "横軸評価表",
+      "source_section_sha256": "7e95abb04d1b67fc320786883d7482543f19953363e74eb9b1ccfb408c0f4f55",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "heatmap_table",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 14,
+      "source_selector": "section:nth-of-type(14)",
+      "part_id": "m14",
+      "name": "ヒートマップ表",
+      "source_section_sha256": "b257fb4ac3e93f99ed3b1cd4f67bc8e27eb16ae60100598a6c1502d5e2c6221b",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "matrix_2x2",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 15,
+      "source_selector": "section:nth-of-type(15)",
+      "part_id": "m15",
+      "name": "2×2マトリクス",
+      "source_section_sha256": "93b779636c68016ebd2b30c607438e77aa5212461c0f4029357c95e1e40a3220",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "process_matrix",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 16,
+      "source_selector": "section:nth-of-type(16)",
+      "part_id": "m16",
+      "name": "プロセス×観点の行列",
+      "source_section_sha256": "74ad91f32774f5946a323388ff7b92000896460be6b03f9355b2621e6bced54e",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "nested_row_matrix",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 17,
+      "source_selector": "section:nth-of-type(17)",
+      "part_id": "m17",
+      "name": "入れ子行の行列",
+      "source_section_sha256": "a9fed5f8a97161cf4f9a349f26892946d812a737fecd03d66432c92b8caac13a",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "timeline_matrix",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 18,
+      "source_selector": "section:nth-of-type(18)",
+      "part_id": "m18",
+      "name": "時系列マトリクス",
+      "source_section_sha256": "beff058383f79e1e9d680c71037dbc89466551c7375cafb658980bfa005bbfb9",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "theme_card_grid",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 19,
+      "source_selector": "section:nth-of-type(19)",
+      "part_id": "m19",
+      "name": "テーマカード",
+      "source_section_sha256": "9463240773642da3927bff3a790678e3f1026cc9ed208fec7c5a5e135b36a00b",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "recommendation_pillars",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 20,
+      "source_selector": "section:nth-of-type(20)",
+      "part_id": "m20",
+      "name": "提言の柱",
+      "source_section_sha256": "7fb27cf07347d67b9d366460432d920e636e9b71cbcc3852c1c1b40a13e7e0a8",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "numbered_imperatives",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 21,
+      "source_selector": "section:nth-of-type(21)",
+      "part_id": "m21",
+      "name": "番号つき打ち手",
+      "source_section_sha256": "f98391a28facc49f0b0d9d8ff149abc1bff63041f881f9c0b0ccb04ca8373732",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "scr",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 22,
+      "source_selector": "section:nth-of-type(22)",
+      "part_id": "m22",
+      "name": "Situation・Complication・Resolution",
+      "source_section_sha256": "a15a1b3db98b074fd2c141cc104d91e76c112bdd6e7702ae49851565a27937ba",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "issue_to_solution_map",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 23,
+      "source_selector": "section:nth-of-type(23)",
+      "part_id": "m23",
+      "name": "課題と打ち手の対応",
+      "source_section_sha256": "1cd4d039104030f3d181e61a2388eedea2fce77259cb9db2c0b3a4dc470d8e14",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "issue_cause_solution",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 24,
+      "source_selector": "section:nth-of-type(24)",
+      "part_id": "m24",
+      "name": "課題→原因→解決",
+      "source_section_sha256": "ffbb686da066e2341f397b0809c7401e065be4bb5858fb5a7545c3d68880a7f0",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "issue_tree",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 25,
+      "source_selector": "section:nth-of-type(25)",
+      "part_id": "m25",
+      "name": "イシューツリー",
+      "source_section_sha256": "78a0954d8f0f92e985b6cb396a2a7e6493d104925330dc867f098c8630bf096f",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "current_target_state",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 26,
+      "source_selector": "section:nth-of-type(26)",
+      "part_id": "m26",
+      "name": "現状と目指す姿",
+      "source_section_sha256": "d2fc3dbde7a14ab0322c49428f384dccf96892d50aa34de5d6294cafc7d357d4",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "calc_flow",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 27,
+      "source_selector": "section:nth-of-type(27)",
+      "part_id": "m27",
+      "name": "計算ロジックの流れ",
+      "source_section_sha256": "3c4a43e751cd8ed6151afa1c17ae35a678cf42de09ac3bd5c87e3b22c41b4f09",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "process_flow",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 28,
+      "source_selector": "section:nth-of-type(28)",
+      "part_id": "m28",
+      "name": "プロセスの段階",
+      "source_section_sha256": "d9de9f99c7d77ea3f2463cda1f88da1f8ba1c60527d83a683884a89a4b758ba7",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "cycle",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 29,
+      "source_selector": "section:nth-of-type(29)",
+      "part_id": "m29",
+      "name": "循環サイクル",
+      "source_section_sha256": "f60c7a872d683011d82c64d0e41a19613d881a9e4fd2a31fe15942dda8404014",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "chevron_rail",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 30,
+      "source_selector": "section:nth-of-type(30)",
+      "part_id": "m30",
+      "name": "矢羽の段階（全体像の見出し）",
+      "source_section_sha256": "a851e650b81a50da20114bc26d39cd9afd5ef5ea3d8a5b9ef9d42725e4593ec2",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "chevron_value_chain",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 31,
+      "source_selector": "section:nth-of-type(31)",
+      "part_id": "m31",
+      "name": "バリューチェーン",
+      "source_section_sha256": "05c50a9c3c2a176d2c8215d4d6c5af93cdfa6b8f3c2c31e48c1abd939632cd94",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "decision_fork",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 32,
+      "source_selector": "section:nth-of-type(32)",
+      "part_id": "m32",
+      "name": "分岐と判断",
+      "source_section_sha256": "d21035a91f67d8a7b00880e981869139ee891fca5ed6126e996a1ac47ace3cd7",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "roadmap",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 33,
+      "source_selector": "section:nth-of-type(33)",
+      "part_id": "m33",
+      "name": "ロードマップ",
+      "source_section_sha256": "90768d39786d50e58e6dfe1ee90d10bb6b64e3f9cae163d766920c8ce6b67c51",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "gantt",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 34,
+      "source_selector": "section:nth-of-type(34)",
+      "part_id": "m34",
+      "name": "ガントチャート",
+      "source_section_sha256": "8e366a7ac4a8812c25807f21e19e8860d23e8180f62647b645f3df4e934fc0fe",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    },
+    {
+      "layout_id": "decision_page",
+      "source_file": "templates/freeform_parts_more_16x9.html",
+      "source_section": 35,
+      "source_selector": "section:nth-of-type(35)",
+      "part_id": "m35",
+      "name": "意思決定ページ",
+      "source_section_sha256": "527f2272db28a1ca6928722610752fcae7d997a506864c229d3da3c9de10d9df",
+      "source_svg_count": 0,
+      "source_table_count": 0,
+      "source_image_count": 0,
+      "variants": [
+        "warm",
+        "cool"
+      ],
+      "status": "inventoried"
+    }
+  ]
+}

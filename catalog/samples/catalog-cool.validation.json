@@ -1,0 +1,230 @@
+{
+  "ok": true,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CATALOG_FONT_REVIEW",
+      "slide": null,
+      "message": "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s005: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s006: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s007: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s009: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s011: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s012: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s013: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s014: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s016: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s017: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s018: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s021: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s024: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s030: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s031: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s032: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s035: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s036: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s038: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s039: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s040: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s041: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s043: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s045: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s047: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s048: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s049: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s050: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s054: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s055: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s056: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s057: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s061: some original text is not represented by quoted evidence"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s062: some original text is not represented by quoted evidence"
+    }
+  ],
+  "slide_count": 62,
+  "visual_review": "not_performed",
+  "ooxml": {
+    "ok": true,
+    "issues": [],
+    "counts": {
+      "slides": 62,
+      "text_shapes": 1105,
+      "tables": 10,
+      "charts": 10,
+      "pictures": 0,
+      "embedded_workbooks": 10
+    },
+    "rendering": "not_performed"
+  }
+}

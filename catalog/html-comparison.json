@@ -1,0 +1,188 @@
+{
+  "title_page": [
+    "HTMLと同じ表紙構成。保存PPTXのタイトル・副題・日付の配置と書体を使用。"
+  ],
+  "overview_map": [
+    "全体マップの関係とカード数を保持。保存PPTXの余白・文字サイズを使用。"
+  ],
+  "table_of_contents": [
+    "HTMLは3項目、公開PPTXは5項目。登録templateは5項目を必須とし、capacityに明示。"
+  ],
+  "section_divider": [
+    "章番号・章名・補足の構成を保持。保存PPTXの書体と行間を使用。"
+  ],
+  "chevron_steps": [
+    "矢羽の順序と対応本文を保持。矢羽の切込みと間隔は公開PPTXに従う。"
+  ],
+  "premise_conclusion": [
+    "前提と帰結の2カラムを保持。表の縦寸法はHTMLより大きい公開PPTXに従う。"
+  ],
+  "stat_table_readout": [
+    "大型数値表と読み取りを保持。表の行高はHTMLより大きい公開PPTXに従う。"
+  ],
+  "card_grid_2x2": [
+    "4カードの2×2構成を保持。罫線・余白は公開PPTXに従う。"
+  ],
+  "axis_table": [
+    "軸見出しと表の関係を保持。セル寸法と書式は公開PPTXに従う。"
+  ],
+  "back_cover": [
+    "裏表紙の中心メッセージ構成を保持。保存PPTXの書体と位置を使用。"
+  ],
+  "claim_panel_figure": [
+    "主張と図の左右構成を保持。図は画像ではなくnative図形。"
+  ],
+  "lever_effect_table": [
+    "打ち手と効果の表を保持。セル寸法と余白は公開PPTXに従う。"
+  ],
+  "status_heatmap_comment": [
+    "状態表と右コメントを保持。HTMLの赤系悪化色に対し公開PPTXの茶系状態パレットを使用し、状態名と凡例は固定対応。"
+  ],
+  "harvey_ball_table": [
+    "充足度3状態をnative円と半円で再実装。セル内の位置を保持し、状態入力で塗りを切替。"
+  ],
+  "dot_matrix_share": [
+    "各100個のnative図形を割合に同期。HTMLより小さい公開PPTXのドット寸法を使用。"
+  ],
+  "progress_bubble_matrix": [
+    "HTMLのSVGを使用せずnative円と文字。円の面積を数値に比例させ、位置は固定。"
+  ],
+  "ranked_bar_annotated": [
+    "順位棒と注記を保持。公開PPTXの大きいchart領域を使用。降順以外はreject。"
+  ],
+  "scatter_annotated": [
+    "native散布図と8点のラベルを保持。平均線と平均値はX入力から再計算。固定軸0～100。"
+  ],
+  "pillars_foundation": [
+    "柱と土台の関係を保持。元OOXMLの重複段落属性を修復。差込み文の段落内の混在文字色は先頭run書式に統一。"
+  ],
+  "opposing_chevrons": [
+    "対向する矢羽と対応説明を保持。寸法は公開PPTXに従う。"
+  ],
+  "evidence_clip_grid": [
+    "根拠グリッドをnative文字・図形で保持。Webページ画像の自動取得・貼付は行わない。"
+  ],
+  "proportional_circles": [
+    "HTMLのSVGをnative円へ。円の面積は割合に比例、数値ラベルも同期。"
+  ],
+  "delta_bars_totals": [
+    "native正負棒を維持。合計を系列から計算し、公開見本の+200/-185という不一致を+252/-239へ修正。"
+  ],
+  "scenario_lines_cagr": [
+    "native折線を維持。CAGRは観測点数−1の期間から計算。公開見本の丸め・値の不一致を修正。"
+  ],
+  "research_basis": [
+    "調査情報の左右配置を保持。表の行高はHTMLより大きい公開PPTXに従う。evidence_basisとは別IDとして保持。"
+  ],
+  "issue_action_columns": [
+    "課題と打ち手の2カラムを保持。行間・仕切りは公開PPTXに従う。"
+  ],
+  "agenda_separator": [
+    "章扉にアジェンダを再掲する構成を保持。強調位置は保存templateの固定装飾。"
+  ],
+  "executive_summary": [
+    "3カラムの要約構成を保持。HTMLの短い見出し下線は公開PPTXでは省かれている。"
+  ],
+  "evidence_basis": [
+    "調査の土台の独立構成を保持。research_basisとは統合せず別template。表寸法は公開PPTXに従う。"
+  ],
+  "big_stat_pair": [
+    "大型数値の2項比較を保持。数値は出典付き文字slotで、単位や脚注も個別slot。"
+  ],
+  "kpi_dashboard": [
+    "KPIカード構成を保持。表示値は出典付き文字slotで、値から装飾色を推測しない。"
+  ],
+  "chart_insight": [
+    "元の図形棒を同じ左パネル内のnative chartへ変更。右の含意欄を保持。chart内部余白はHTMLと異なる。"
+  ],
+  "stacked_bar": [
+    "図形の積上げ棒をnative chartへ変更。棒幅と内側余白はHTMLと異なる。濃色系列の数値は白字。"
+  ],
+  "waterfall": [
+    "寄与度ブリッジをnative図形で保持。始点＋増減＝終点を必須とし、各寄与の高さを数値に同期。"
+  ],
+  "true_waterfall": [
+    "累積増減ブリッジをnative図形で保持。累積値と棒の上下位置を再計算し、負の累積はreject。"
+  ],
+  "small_multiples": [
+    "HTMLは横一列4パネル、公開PPTXは2×2パネル。登録templateは公開PPTXの2×2とし、4個のnative chartに共通0～60軸を使用。"
+  ],
+  "comparison_table": [
+    "比較表の軸・選択肢を保持。HTMLより縦に広い公開PPTXの表を使用。"
+  ],
+  "scenario_table": [
+    "シナリオ比較の関係を保持。HTMLより縦に広い公開PPTXの表を使用。"
+  ],
+  "risk_table": [
+    "リスク一覧の関係を保持。HTMLより縦に広い公開PPTXの表を使用。"
+  ],
+  "horizontal_axis_table": [
+    "横軸評価表を保持。行列寸法と罫線は公開PPTXに従う。"
+  ],
+  "heatmap_table": [
+    "高・中・低・なしの4状態を文字と塗りに同期。高は白文字。セルはnative図形。"
+  ],
+  "matrix_2x2": [
+    "2×2の分類構成を保持。公開PPTXでは図領域が狭く、左右の説明領域が広い。"
+  ],
+  "process_matrix": [
+    "プロセス×観点の行列を保持。表と罫線はnative編集可能。"
+  ],
+  "nested_row_matrix": [
+    "HTMLの色付き階層ブロックに対し、公開PPTXは白地の階層表。親子行の関係を保持しnative表として登録。"
+  ],
+  "timeline_matrix": [
+    "時系列と項目の行列を保持。セル寸法と強調は公開PPTXに従う。"
+  ],
+  "theme_card_grid": [
+    "テーマカードの並列構成を保持。カード寸法・色は公開PPTXに従う。"
+  ],
+  "recommendation_pillars": [
+    "提言の柱を保持。柱と本文はnative図形・文字。"
+  ],
+  "numbered_imperatives": [
+    "番号付きの打ち手構成を保持。番号は保存template装飾、本文は個別slot。"
+  ],
+  "scr": [
+    "Situation・Complication・Resolutionの3段構成を保持。公開PPTXの図形・書式を使用。"
+  ],
+  "issue_to_solution_map": [
+    "課題から打ち手への対応関係を保持。接続図形と文字はnative。"
+  ],
+  "issue_cause_solution": [
+    "課題→原因→解決の3列構成を保持。セル幅・矢印は公開PPTXに従う。"
+  ],
+  "issue_tree": [
+    "HTMLより横幅を大きく使う公開PPTXのツリー。根の塗りも公開PPTXに従う。分岐数と親子関係は保持。"
+  ],
+  "current_target_state": [
+    "現状と目標の左右構成を保持。HTMLにある外枠を公開PPTXは省略し、中央矢印の形も異なる。"
+  ],
+  "calc_flow": [
+    "3群の計算図を保持。A×B＝基礎＋増分を検証し、元見本の不整合を修正。各群内の高さは独立スケール。"
+  ],
+  "process_flow": [
+    "段階の順序と対応本文を保持。native矢印・文字で構成。"
+  ],
+  "cycle": [
+    "5段の循環関係を保持。公開PPTXでは楕円配置が広く、HTMLと間隔が異なる。"
+  ],
+  "chevron_rail": [
+    "矢羽の段階構成を保持。公開PPTXでは先頭の矢羽にも切込みがありHTMLと輪郭が異なる。"
+  ],
+  "chevron_value_chain": [
+    "2段のバリューチェーンを保持。公開PPTXでは段間を広く確保。"
+  ],
+  "decision_fork": [
+    "判断と分岐の接続関係を保持。native図形・文字で構成。"
+  ],
+  "roadmap": [
+    "時期と施策のロードマップ構成を保持。期間見出しは文字slot、配置は固定。"
+  ],
+  "gantt": [
+    "7タスク・12区間のガントを保持。開始・終了値でnative棒位置を更新。終了≦開始はreject。"
+  ],
+  "decision_page": [
+    "意思決定の見出しと選択・次の行動の構成を保持。保存PPTXの寸法・書式を使用。"
+  ]
+}

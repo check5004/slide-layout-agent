@@ -1,0 +1,601 @@
+{
+  "version": "1",
+  "source_sha256": "4a7b181db98f26085ee56f2fb0ae9139399d54c8ea614dacf2cd201b83788e93",
+  "title": "地域図書室の運営改善（架空例）",
+  "slides": [
+    {
+      "id": "demo1",
+      "origin": "section1",
+      "title": {
+        "text": "地域図書室の運営改善",
+        "refs": [
+          {
+            "source_id": "s001",
+            "quote": "地域図書室の運営改善"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "表紙。架空設定を明示する。",
+      "layout_id": "title",
+      "contents": {
+        "items": [
+          {
+            "text": "架空の活動を使ったレイアウト検証",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "架空の活動を使ったレイアウト検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "数値・団体・活動はすべて架空の設定です。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "数値・団体・活動はすべて架空の設定です。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo2",
+      "origin": "section2",
+      "title": {
+        "text": "運営の前提をそろえる",
+        "refs": [
+          {
+            "source_id": "s004",
+            "quote": "運営の前提をそろえる"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "同格の前提を箇条書きで示す。",
+      "layout_id": "bullets",
+      "contents": {
+        "items": [
+          {
+            "text": "利用者の要望を記録し、担当者間で共有する。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "利用者の要望を記録し、担当者間で共有する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "既存の資料を整理し、必要な情報を見つけやすくする。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "既存の資料を整理し、必要な情報を見つけやすくする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "小さな試行の結果を確認してから、運用を見直す。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "小さな試行の結果を確認してから、運用を見直す。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo3",
+      "origin": "section3",
+      "title": {
+        "text": "記録と資料を並べて確認",
+        "refs": [
+          {
+            "source_id": "s008",
+            "quote": "記録と資料を並べて確認"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "支給画像と説明の対比。fitで全体を保持。",
+      "layout_id": "text_image",
+      "contents": {
+        "items": [
+          {
+            "text": "右側は添付画像の比率を検証する図です。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "右側は添付画像の比率を検証する図です。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "画像全体を表示し、縦横比を保ちます。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "画像全体を表示し、縦横比を保ちます。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "説明文は PowerPoint 上で編集できます。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "説明文は PowerPoint 上で編集できます。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ],
+        "image_id": "grid",
+        "image_mode": "fit"
+      }
+    },
+    {
+      "id": "demo4",
+      "origin": "section4",
+      "title": {
+        "text": "受付方法の比較",
+        "refs": [
+          {
+            "source_id": "s012",
+            "quote": "受付方法の比較"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "入力にある二つの選択肢を対置する。",
+      "layout_id": "comparison",
+      "contents": {
+        "left_title": {
+          "text": "紙の受付",
+          "refs": [
+            {
+              "source_id": "s013",
+              "quote": "紙の受付"
+            }
+          ],
+          "mode": "verbatim"
+        },
+        "right_title": {
+          "text": "共通の記録表",
+          "refs": [
+            {
+              "source_id": "s014",
+              "quote": "共通の記録表"
+            }
+          ],
+          "mode": "verbatim"
+        },
+        "left": [
+          {
+            "text": "その場で書き込める。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "その場で書き込める。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "集計には転記が必要。",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "集計には転記が必要。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ],
+        "right": [
+          {
+            "text": "担当者間で参照しやすい。",
+            "refs": [
+              {
+                "source_id": "s017",
+                "quote": "担当者間で参照しやすい。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "入力手順の共有が必要。",
+            "refs": [
+              {
+                "source_id": "s018",
+                "quote": "入力手順の共有が必要。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo5",
+      "origin": "section5",
+      "title": {
+        "text": "試行から振り返りへ",
+        "refs": [
+          {
+            "source_id": "s019",
+            "quote": "試行から振り返りへ"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "原文の順序をnative図形と矢印で示す。",
+      "layout_id": "process",
+      "contents": {
+        "steps": [
+          {
+            "text": "要望の整理",
+            "refs": [
+              {
+                "source_id": "s020",
+                "quote": "要望の整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "小さく試す",
+            "refs": [
+              {
+                "source_id": "s021",
+                "quote": "小さく試す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "結果の記録",
+            "refs": [
+              {
+                "source_id": "s022",
+                "quote": "結果の記録"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "運用の見直し",
+            "refs": [
+              {
+                "source_id": "s023",
+                "quote": "運用の見直し"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo6",
+      "origin": "section6",
+      "title": {
+        "text": "試行の予定を共有する",
+        "refs": [
+          {
+            "source_id": "s024",
+            "quote": "試行の予定を共有する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "既存の対応関係を編集可能な表にする。",
+      "layout_id": "table",
+      "contents": {
+        "headers": [
+          {
+            "text": "段階",
+            "refs": [
+              {
+                "source_id": "s025",
+                "quote": "段階"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "作業",
+            "refs": [
+              {
+                "source_id": "s026",
+                "quote": "作業"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "確認内容",
+            "refs": [
+              {
+                "source_id": "s027",
+                "quote": "確認内容"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ],
+        "rows": [
+          [
+            {
+              "text": "準備",
+              "refs": [
+                {
+                  "source_id": "s028",
+                  "quote": "準備"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "記録表を作成",
+              "refs": [
+                {
+                  "source_id": "s029",
+                  "quote": "記録表を作成"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "項目の不足",
+              "refs": [
+                {
+                  "source_id": "s030",
+                  "quote": "項目の不足"
+                }
+              ],
+              "mode": "verbatim"
+            }
+          ],
+          [
+            {
+              "text": "試行",
+              "refs": [
+                {
+                  "source_id": "s031",
+                  "quote": "試行"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "受付で利用",
+              "refs": [
+                {
+                  "source_id": "s032",
+                  "quote": "受付で利用"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "記入の負担",
+              "refs": [
+                {
+                  "source_id": "s033",
+                  "quote": "記入の負担"
+                }
+              ],
+              "mode": "verbatim"
+            }
+          ],
+          [
+            {
+              "text": "振り返り",
+              "refs": [
+                {
+                  "source_id": "s034",
+                  "quote": "振り返り"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "記録を確認",
+              "refs": [
+                {
+                  "source_id": "s035",
+                  "quote": "記録を確認"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "改善する箇所",
+              "refs": [
+                {
+                  "source_id": "s036",
+                  "quote": "改善する箇所"
+                }
+              ],
+              "mode": "verbatim"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "demo7",
+      "origin": "section7",
+      "title": {
+        "text": "記録件数を確認する",
+        "refs": [
+          {
+            "source_id": "s037",
+            "quote": "記録件数を確認する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "与えられた件数だけをnative縦棒グラフにする。因果を補完しない。",
+      "layout_id": "chart",
+      "contents": {
+        "categories": [
+          {
+            "text": "試行前",
+            "refs": [
+              {
+                "source_id": "s038",
+                "quote": "試行前"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "第1回",
+            "refs": [
+              {
+                "source_id": "s039",
+                "quote": "第1回"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "第2回",
+            "refs": [
+              {
+                "source_id": "s040",
+                "quote": "第2回"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ],
+        "series": [
+          {
+            "name": {
+              "text": "記録件数",
+              "refs": [
+                {
+                  "source_id": "s041",
+                  "quote": "記録件数"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "values": [
+              {
+                "value": 12.0,
+                "refs": [
+                  {
+                    "source_id": "s042",
+                    "quote": "12"
+                  }
+                ]
+              },
+              {
+                "value": 18.0,
+                "refs": [
+                  {
+                    "source_id": "s043",
+                    "quote": "18"
+                  }
+                ]
+              },
+              {
+                "value": 24.0,
+                "refs": [
+                  {
+                    "source_id": "s044",
+                    "quote": "24"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "note": {
+          "text": "単位：件。架空の数値であり、改善効果を示すものではありません。",
+          "refs": [
+            {
+              "source_id": "s045",
+              "quote": "単位：件。架空の数値であり、改善効果を示すものではありません。"
+            }
+          ],
+          "mode": "verbatim"
+        }
+      }
+    },
+    {
+      "id": "demo8",
+      "origin": "section8",
+      "title": {
+        "text": "次の試行に向けて",
+        "refs": [
+          {
+            "source_id": "s046",
+            "quote": "次の試行に向けて"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "入力にある次の行動をまとめる。",
+      "layout_id": "closing",
+      "contents": {
+        "items": [
+          {
+            "text": "記録の取り方を担当者間で確認する。",
+            "refs": [
+              {
+                "source_id": "s047",
+                "quote": "記録の取り方を担当者間で確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "不明な点を残したまま効果を断定しない。",
+            "refs": [
+              {
+                "source_id": "s048",
+                "quote": "不明な点を残したまま効果を断定しない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          {
+            "text": "運用に合わせて文章や表を手直しする。",
+            "refs": [
+              {
+                "source_id": "s049",
+                "quote": "運用に合わせて文章や表を手直しする。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        ]
+      }
+    }
+  ],
+  "omissions": []
+}

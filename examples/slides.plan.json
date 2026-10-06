@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "source_sha256": "60460acfe36e46e7019801ed90c4786dcb6da8b28a8acf0795ae630c011b70fd",
+  "title": "架空の読書会",
+  "slides": [
+    {
+      "id": "slides1",
+      "origin": "slide1",
+      "layout_id": "title",
+      "title": {"text": "架空の読書会", "refs": [{"source_id": "s001", "quote": "架空の読書会"}]},
+      "rationale": "原文のスライド境界を保持。短い導入なのでtitleを選択。",
+      "contents": {"items": [
+        {"text": "参加者の希望を事前に記録する。", "refs": [{"source_id": "s002", "quote": "参加者の希望を事前に記録する。"}]}
+      ]}
+    },
+    {
+      "id": "slides2",
+      "origin": "slide2",
+      "layout_id": "bullets",
+      "title": {"text": "受付方法の見直し", "refs": [{"source_id": "s003", "quote": "受付方法の見直し"}]},
+      "rationale": "原文の同一スライド内にある二つの段落を保持。効果未確認の留保を省略しない。",
+      "contents": {"items": [
+        {"text": "記録方法を整理する。ただし、効果はまだ確認していない。", "refs": [{"source_id": "s004", "quote": "記録方法を整理する。ただし、効果はまだ確認していない。"}]},
+        {"text": "試行後に記録を確認し、改善を検討する。", "refs": [{"source_id": "s005", "quote": "試行後に記録を確認し、改善を検討する。"}]}
+      ]}
+    }
+  ],
+  "omissions": []
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1",
+  "title": "入力文書",
+  "segments": [
+    {
+      "id": "s001",
+      "text": "架空の読書会では、参加者の希望を事前に記録している。",
+      "citation": "",
+      "group": "document"
+    },
+    {
+      "id": "s002",
+      "text": "次回は受付の記録方法を整理する。ただし、運営上の効果はまだ確認していない。",
+      "citation": "",
+      "group": "document"
+    },
+    {
+      "id": "s003",
+      "text": "試行後に担当者が記録を確認し、必要な改善を検討する。",
+      "citation": "",
+      "group": "document"
+    }
+  ],
+  "images": [
+    {
+      "id": "grid",
+      "path": "grid.png",
+      "caption": "",
+      "sha256": "e8cd45a2310bb647d199fb653c13a8a1edea788667b72196b29ed58ad8529f41"
+    }
+  ]
+}

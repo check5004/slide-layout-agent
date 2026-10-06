@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "source_sha256": "d2494e5b35c76b6ac5f0d1a75ef8e218dad2ca70966b155b4490a40e9b3a0b0b",
+  "title": "架空の読書会",
+  "slides": [
+    {
+      "id": "prose1",
+      "origin": "document",
+      "layout_id": "title",
+      "title": {"text": "架空の読書会", "refs": [{"source_id": "s001", "quote": "架空の読書会では、参加者の希望を事前に記録している。"}]},
+      "rationale": "目的が指定されていないため運営者向けの短い共有資料と仮定。原文の現在の取り組みを表紙に配置する。",
+      "contents": {"items": [
+        {"text": "架空の読書会では、参加者の希望を事前に記録している。", "refs": [{"source_id": "s001", "quote": "架空の読書会では、参加者の希望を事前に記録している。"}]}
+      ]}
+    },
+    {
+      "id": "prose2",
+      "origin": "document",
+      "layout_id": "text_image",
+      "title": {"text": "受付の記録方法を整理する", "refs": [{"source_id": "s002", "quote": "次回は受付の記録方法を整理する。ただし、運営上の効果はまだ確認していない。"}]},
+      "rationale": "次の行動と未確認の留保を同じページに維持。添付の検証用画像をfitで配置し、画像から事実は推測しない。",
+      "contents": {
+        "items": [
+          {"text": "次回は受付の記録方法を整理する。ただし、運営上の効果はまだ確認していない。", "refs": [{"source_id": "s002", "quote": "次回は受付の記録方法を整理する。ただし、運営上の効果はまだ確認していない。"}]},
+          {"text": "試行後に担当者が記録を確認し、必要な改善を検討する。", "refs": [{"source_id": "s003", "quote": "試行後に担当者が記録を確認し、必要な改善を検討する。"}]}
+        ],
+        "image_id": "grid",
+        "image_mode": "fit"
+      }
+    }
+  ],
+  "omissions": []
+}

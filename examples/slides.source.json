@@ -1,0 +1,37 @@
+{
+  "version": "1",
+  "title": "架空の読書会",
+  "segments": [
+    {
+      "id": "s001",
+      "text": "架空の読書会",
+      "citation": "",
+      "group": "slide1"
+    },
+    {
+      "id": "s002",
+      "text": "参加者の希望を事前に記録する。",
+      "citation": "",
+      "group": "slide1"
+    },
+    {
+      "id": "s003",
+      "text": "受付方法の見直し",
+      "citation": "",
+      "group": "slide2"
+    },
+    {
+      "id": "s004",
+      "text": "記録方法を整理する。ただし、効果はまだ確認していない。",
+      "citation": "",
+      "group": "slide2"
+    },
+    {
+      "id": "s005",
+      "text": "試行後に記録を確認し、改善を検討する。",
+      "citation": "",
+      "group": "slide2"
+    }
+  ],
+  "images": []
+}

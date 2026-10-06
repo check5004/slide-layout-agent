@@ -23,7 +23,7 @@
 
 ## clean cloneの実行結果
 
-mainのdocs更新`4860ab7`を取り込んだcode commit `931aed779fc76dea21003b5f133be7450d68e44e`を別ディレクトリへcloneし、新規venvに`requirements.txt`だけをインストールして検査しました。Python 3.12 / python-pptx 1.0.2 / pydantic 2.12.5 / Pillow 11.3.0で38テスト成功。全62型×2配色と型別62PPTXも再生成・構造監査に成功しました。
+mainのdocs更新`4860ab7`を取り込んだ独立cloneを、レビュー修正のcode commit `6eafcb0799d0e14547ea43c8afa5ff7377d79828`へ更新して再検査しました。このclone専用のvenvには`requirements.txt`だけをインストールしています。Python 3.12 / python-pptx 1.0.2 / pydantic 2.12.5 / Pillow 11.3.0で45テスト成功。全62型×2配色と型別62PPTXも再生成・構造監査に成功しました。
 
 この再生成では`win32com`/`comtypes` importを無効化し、`subprocess.Popen`も例外で禁止しました。Office・Node・ブラウザを呼ばずに完了しています。これはWindowsホスト上でOffice連携を禁止した確認です。Linuxの実行は`.github/workflows/catalog.yml`のUbuntu / Python 3.11・3.12 CIで別途確認できます。CIの結果はPRのChecksを参照してください。
 

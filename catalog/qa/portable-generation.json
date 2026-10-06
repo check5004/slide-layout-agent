@@ -1,12 +1,12 @@
 {
-  "tested_code_commit": "931aed779fc76dea21003b5f133be7450d68e44e",
+  "tested_code_commit": "6eafcb0799d0e14547ea43c8afa5ff7377d79828",
   "main_docs_base": "4860ab70e24233ab79d15c1840872ccbc6e25567",
   "fresh_local_clone": true,
   "fresh_virtual_environment": true,
   "dependency_source": "requirements.txt",
   "python": "3.12",
   "declared_packages": {"python-pptx": "1.0.2", "pydantic": "2.12.5", "Pillow": "11.3.0"},
-  "unit_tests": {"run": 38, "failed": 0},
+  "unit_tests": {"run": 45, "failed": 0},
   "portable_generation": {
     "win32com_import": "blocked",
     "comtypes_import": "blocked",

@@ -1,5 +1,9 @@
 # JSON contract v1
 
+New research-sharing decks normally use the **76 Editorial templates** described in [editorial-design.md](editorial-design.md). `EditorialSlide` extends the existing saved-template contract with semantic family/variant metadata, optional `allowed_layouts` plus `constraints_reason`, and `repetition_reason`. `EditorialContents` also supports exact named `images` slots (`image_id`, explicit `fit/crop`) where registered. The old 62 `CatalogSlide` schemas and template files remain separate. No arbitrary paths, coordinates, font sizes or styles are accepted.
+
+The `select-variants` command filters same-family candidates by exact semantic slots, item count, image presence and capacity, then chooses a recent-structure tie-break. It preserves all content and references. Normal validation includes `layout_selection` with candidates/rejections and stops unreasoned four-slide repetition (`VARIANT_REPETITION`). Color changes and mirror-only variants do not count as distinct visual structures. A documented exception remains visible as `VARIANT_REPETITION_ACCEPTED`.
+
 `python -m slide_agent schema --out out/plan.schema.json` is authoritative for field types; `slide_agent/models.py` defines the discriminated union. Additional fields are rejected, including coordinates, code, URLs and font sizes in a plan. Source citations may contain URLs as inert text, never fetched.
 
 Source bundle: `version`, `title`, `segments` (`id`, exact `text`, optional `citation`, `group`), `images` (`id`, relative `path`, `caption`). Hash the canonical JSON with `fingerprint`. Text mode `slides` gives each heading/body segment the same group.

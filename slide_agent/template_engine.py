@@ -18,7 +18,7 @@ from pptx.opc.package import PartFactory
 from pptx.opc.packuri import PackURI
 from pptx.oxml.ns import qn
 
-from .catalog import registry, template_path
+from .catalog import all_registry as registry, template_path
 
 RNS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 COOL = {"322014": "071B2C", "5A3921": "1E5F8C", "C5A681": "79C8DC", "8A7B6B": "666B70",
@@ -254,7 +254,7 @@ def apply_states(slide,entry,contents):
                     for run in p.runs: run.font.color.rgb=RGBColor.from_string("FFFFFF" if value.text=="高" else "322014")
 
 
-def instantiate(prs, design, plan, source, page):
+def instantiate(prs, design, plan, source, page, base=None):
     entry = registry()[design.layout_id]
     template = Presentation(str(template_path(entry)))
     slide = clone_slide(prs, template.slides[0])
@@ -265,8 +265,32 @@ def instantiate(prs, design, plan, source, page):
         shape = shapes[spec["shape"]]
         tf = shape.table.cell(*spec["cell"]).text_frame if "cell" in spec else shape.text_frame
         replace_text(tf, value.text)
+    for flow in entry.get('text_flow', []):
+        from .validate import units
+        from pptx.util import Pt
+        spec = entry['texts'][flow['body']]
+        text = design.contents.texts[flow['body']].text
+        lines = sum(max(1, math.ceil(units(line)/spec['max_units_per_line'])) for line in text.split('\n'))
+        body = shapes[spec['shape']]
+        following = shapes[entry['texts'][flow['following']]['shape']]
+        # A registered, bounded vertical flow. Keep font, width, order and all
+        # native shapes; reduce unused body-box height and move its caveat up.
+        height = Pt(spec['font_pt'] * (1.33 + 1.25 * (lines-1)) + 2.2)
+        body.height = min(body.height, height)
+        following.top = min(following.top, body.top + body.height + flow['gap_emu'])
     for key, value in design.contents.charts.items():
         fill_chart(shapes[entry["charts"][key]["shape"]], value, entry["charts"][key])
+    for key, value in getattr(design.contents, 'images', {}).items():
+        from .io import asset_path
+        from .render import picture
+        from pptx.util import Inches
+        spec = entry['images'][key]
+        placeholder = shapes[spec['shape']]
+        x, y, w, h = [coordinate / Inches(1) for coordinate in spec['bounds_emu']]
+        asset = next(a for a in source.images if a.id == value.image_id)
+        pic = picture(slide, asset_path(asset, base), x, y, w, h, value.image_mode)
+        pic.name = placeholder.name
+        placeholder._element.getparent().remove(placeholder._element)
     for name,spec in entry.get("chart_aliases",{}).items():
         replace_text(shapes[name].text_frame,alias_value(spec,design.contents))
     if entry.get("reference_line"):

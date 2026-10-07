@@ -1,0 +1,1811 @@
+{
+  "decisions": [
+    {
+      "slide_id": "slide001",
+      "from": "ed_cover_brief_2",
+      "to": "ed_cover_brief_2",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cover_brief_2",
+        "ed_cover_split_2",
+        "ed_cover_band_2"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide002",
+      "from": "ed_agenda_rows_3",
+      "to": "ed_agenda_rows_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_agenda_rows_3",
+        "ed_agenda_columns_3",
+        "ed_agenda_rail_3"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide003",
+      "from": "ed_cards_grid_3",
+      "to": "ed_cards_grid_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide004",
+      "from": "ed_cards_grid_3",
+      "to": "ed_cards_rows_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide005",
+      "from": "ed_cards_grid_3",
+      "to": "ed_cards_grid_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide006",
+      "from": "ed_cards_grid_3",
+      "to": "ed_cards_rows_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide007",
+      "from": "ed_cards_grid_6",
+      "to": "ed_cards_grid_6",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_cards_grid_6",
+        "ed_cards_rows_6"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide008",
+      "from": "ed_diagram_left_3",
+      "to": "ed_diagram_left_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_diagram_left_3",
+        "ed_diagram_right_3",
+        "ed_diagram_wide_left_3",
+        "ed_diagram_wide_right_3"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide009",
+      "from": "ed_comparison_columns_2",
+      "to": "ed_comparison_columns_2",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_comparison_columns_2",
+        "ed_comparison_swapped_2",
+        "ed_comparison_rows_2",
+        "ed_comparison_matrix_2"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide010",
+      "from": "ed_steps_vertical_4",
+      "to": "ed_steps_vertical_4",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_steps_horizontal_4",
+        "ed_steps_vertical_4"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_steps_horizontal_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_horizontal_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide011",
+      "from": "ed_timeline_horizontal_3",
+      "to": "ed_timeline_horizontal_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_timeline_horizontal_3",
+        "ed_timeline_vertical_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_timeline_horizontal_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_timeline_vertical_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide012",
+      "from": "ed_metrics_breakdown_top_3",
+      "to": "ed_metrics_breakdown_top_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_metrics_breakdown_top_3",
+        "ed_metrics_breakdown_left_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_metrics_row_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_row_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_row_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_stack_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide013",
+      "from": "ed_table_three_columns_4",
+      "to": "ed_table_three_columns_4",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_table_three_columns_4"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_table_two_columns_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ]
+    },
+    {
+      "slide_id": "slide014",
+      "from": "ed_chart_bar_left_4",
+      "to": "ed_chart_bar_left_4",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_chart_bar_left_4",
+        "ed_chart_bar_right_4",
+        "ed_chart_column_top_4",
+        "ed_chart_column_bottom_4"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide015",
+      "from": "ed_quote_left_2",
+      "to": "ed_quote_left_2",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_quote_left_2",
+        "ed_quote_right_2",
+        "ed_quote_top_2"
+      ],
+      "rejected": []
+    },
+    {
+      "slide_id": "slide016",
+      "from": "ed_summary_rows_3",
+      "to": "ed_summary_rows_3",
+      "reason": "Content-fit filter, then least recent structure and lowest usage; deterministic tie-break.",
+      "fitting": [
+        "ed_summary_columns_3",
+        "ed_summary_rows_3"
+      ],
+      "rejected": [
+        {
+          "layout_id": "ed_summary_split_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_selection": [
+    {
+      "slide_id": "slide001",
+      "family": "cover",
+      "item_count": 2,
+      "layout_id": "ed_cover_brief_2",
+      "structural_variant": "brief",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body"
+      },
+      "visual_signature": "cover:brief",
+      "family_reason": "調査の入口を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cover_brief_2",
+        "ed_cover_split_2",
+        "ed_cover_band_2"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cover_split_2",
+        "ed_cover_band_2"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide002",
+      "family": "agenda",
+      "item_count": 3,
+      "layout_id": "ed_agenda_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body"
+      },
+      "visual_signature": "agenda:rows",
+      "family_reason": "調査範囲を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_agenda_rows_3",
+        "ed_agenda_columns_3",
+        "ed_agenda_rail_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_agenda_columns_3",
+        "ed_agenda_rail_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide003",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_grid_3",
+      "structural_variant": "grid",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "equal_columns",
+      "family_reason": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_rows_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide004",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_grid_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide005",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_grid_3",
+      "structural_variant": "grid",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "equal_columns",
+      "family_reason": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_rows_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide006",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cards_grid_3",
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_grid_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide007",
+      "family": "cards",
+      "item_count": 6,
+      "layout_id": "ed_cards_grid_6",
+      "structural_variant": "grid",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body",
+        "item_4_evidence": "slot:item_4_evidence",
+        "item_5_heading": "slot:item_5_heading",
+        "item_5_body": "slot:item_5_body",
+        "item_5_evidence": "slot:item_5_evidence",
+        "item_6_heading": "slot:item_6_heading",
+        "item_6_body": "slot:item_6_body",
+        "item_6_evidence": "slot:item_6_evidence"
+      },
+      "visual_signature": "card_grid",
+      "family_reason": "調査所見カードを選択。原文の6項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_cards_grid_6",
+        "ed_cards_rows_6"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_rows_6"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide008",
+      "family": "diagram",
+      "item_count": 3,
+      "layout_id": "ed_diagram_left_3",
+      "structural_variant": "left",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "node_1": "slot:node_1",
+        "node_1_detail": "slot:node_1_detail",
+        "node_2": "slot:node_2",
+        "node_2_detail": "slot:node_2_detail",
+        "node_3": "slot:node_3",
+        "node_3_detail": "slot:node_3_detail",
+        "explanation_heading": "slot:explanation_heading",
+        "explanation": "slot:explanation",
+        "caveat": "slot:caveat"
+      },
+      "visual_signature": "diagram_horizontal",
+      "family_reason": "仕組みと説明を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_diagram_left_3",
+        "ed_diagram_right_3",
+        "ed_diagram_wide_left_3",
+        "ed_diagram_wide_right_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide009",
+      "family": "comparison",
+      "item_count": 2,
+      "layout_id": "ed_comparison_columns_2",
+      "structural_variant": "columns",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "a_heading": "slot:a_heading",
+        "a_axis_1": "slot:a_axis_1",
+        "a_point_1": "slot:a_point_1",
+        "a_axis_2": "slot:a_axis_2",
+        "a_point_2": "slot:a_point_2",
+        "b_heading": "slot:b_heading",
+        "b_axis_1": "slot:b_axis_1",
+        "b_point_1": "slot:b_point_1",
+        "b_axis_2": "slot:b_axis_2",
+        "b_point_2": "slot:b_point_2"
+      },
+      "visual_signature": "comparison_columns",
+      "family_reason": "二案の比較を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_comparison_columns_2",
+        "ed_comparison_swapped_2",
+        "ed_comparison_rows_2",
+        "ed_comparison_matrix_2"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_comparison_rows_2",
+        "ed_comparison_matrix_2"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide010",
+      "family": "steps",
+      "item_count": 4,
+      "layout_id": "ed_steps_vertical_4",
+      "structural_variant": "vertical",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body"
+      },
+      "visual_signature": "steps:vertical",
+      "family_reason": "順序のある手順を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_steps_horizontal_4",
+        "ed_steps_vertical_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_steps_horizontal_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_horizontal_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_steps_horizontal_4"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide011",
+      "family": "timeline",
+      "item_count": 3,
+      "layout_id": "ed_timeline_horizontal_3",
+      "structural_variant": "horizontal",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_date": "slot:item_1_date",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_date": "slot:item_2_date",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_date": "slot:item_3_date"
+      },
+      "visual_signature": "equal_columns",
+      "family_reason": "時間軸を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_timeline_horizontal_3",
+        "ed_timeline_vertical_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_timeline_horizontal_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_timeline_vertical_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_timeline_vertical_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide012",
+      "family": "metrics",
+      "item_count": 3,
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "structural_variant": "breakdown_top",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "total_heading": "slot:total_heading",
+        "total_note": "slot:total_note",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body"
+      },
+      "visual_signature": "metrics:breakdown_top",
+      "family_reason": "数値と留保を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_metrics_breakdown_top_3",
+        "ed_metrics_breakdown_left_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_metrics_row_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_row_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_row_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_stack_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_metrics_breakdown_left_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide013",
+      "family": "table",
+      "item_count": 4,
+      "layout_id": "ed_table_three_columns_4",
+      "structural_variant": "three_columns",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "cell_0_0": "slot:table:0,0",
+        "cell_0_1": "slot:table:0,1",
+        "cell_0_2": "slot:table:0,2",
+        "cell_1_0": "slot:table:1,0",
+        "cell_1_1": "slot:table:1,1",
+        "cell_1_2": "slot:table:1,2",
+        "cell_2_0": "slot:table:2,0",
+        "cell_2_1": "slot:table:2,1",
+        "cell_2_2": "slot:table:2,2",
+        "cell_3_0": "slot:table:3,0",
+        "cell_3_1": "slot:table:3,1",
+        "cell_3_2": "slot:table:3,2",
+        "cell_4_0": "slot:table:4,0",
+        "cell_4_1": "slot:table:4,1",
+        "cell_4_2": "slot:table:4,2",
+        "note": "slot:note"
+      },
+      "visual_signature": "table:three_columns",
+      "family_reason": "比較表を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_table_three_columns_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_table_two_columns_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide014",
+      "family": "chart",
+      "item_count": 4,
+      "layout_id": "ed_chart_bar_left_4",
+      "structural_variant": "bar_left",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "unit": "slot:unit",
+        "insight": "slot:insight",
+        "note": "slot:note"
+      },
+      "visual_signature": "chart_side",
+      "family_reason": "グラフと所見を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_chart_bar_left_4",
+        "ed_chart_bar_right_4",
+        "ed_chart_column_top_4",
+        "ed_chart_column_bottom_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_chart_column_top_4",
+        "ed_chart_column_bottom_4"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide015",
+      "family": "quote",
+      "item_count": 2,
+      "layout_id": "ed_quote_left_2",
+      "structural_variant": "left",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "quotation": "slot:quotation",
+        "attribution": "slot:attribution",
+        "interpretation": "slot:interpretation",
+        "caveat": "slot:caveat"
+      },
+      "visual_signature": "quote_horizontal",
+      "family_reason": "引用と解釈を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_quote_left_2",
+        "ed_quote_right_2",
+        "ed_quote_top_2"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_quote_top_2"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide016",
+      "family": "summary",
+      "item_count": 3,
+      "layout_id": "ed_summary_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body"
+      },
+      "visual_signature": "summary:rows",
+      "family_reason": "まとめと次の確認を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "content_fit_candidates": [
+        "ed_summary_columns_3",
+        "ed_summary_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_summary_split_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_summary_columns_3"
+      ],
+      "repetition_reason": null,
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    }
+  ]
+}

@@ -493,6 +493,296 @@
       "title": "Datum",
       "type": "object"
     },
+    "EditorialContents": {
+      "additionalProperties": false,
+      "properties": {
+        "texts": {
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "Texts",
+          "type": "object"
+        },
+        "charts": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateChart"
+            }
+          },
+          "title": "Charts",
+          "type": "object"
+        },
+        "metrics": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/SignedDatum"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "states": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "States",
+          "type": "object"
+        },
+        "images": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateImage"
+            }
+          },
+          "title": "Images",
+          "type": "object"
+        }
+      },
+      "required": [
+        "texts"
+      ],
+      "title": "EditorialContents",
+      "type": "object"
+    },
+    "EditorialEmphasis": {
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {
+          "const": "item_1",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        },
+        "reason": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_id",
+        "refs",
+        "reason"
+      ],
+      "title": "EditorialEmphasis",
+      "type": "object"
+    },
+    "EditorialSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "enum": [
+            "ed_cover_brief_2",
+            "ed_cover_split_2",
+            "ed_cover_band_2",
+            "ed_takeaway_left_3",
+            "ed_takeaway_right_3",
+            "ed_takeaway_top_3",
+            "ed_takeaway_rail_3",
+            "ed_bullets_rows_2",
+            "ed_bullets_columns_2",
+            "ed_bullets_rows_3",
+            "ed_bullets_columns_3",
+            "ed_bullets_rows_4",
+            "ed_bullets_columns_4",
+            "ed_bullets_rows_5",
+            "ed_bullets_columns_5",
+            "ed_bullets_rows_6",
+            "ed_bullets_columns_6",
+            "ed_cards_grid_2",
+            "ed_cards_rows_2",
+            "ed_cards_grid_3",
+            "ed_cards_rows_3",
+            "ed_cards_grid_4",
+            "ed_cards_rows_4",
+            "ed_cards_grid_5",
+            "ed_cards_rows_5",
+            "ed_cards_grid_6",
+            "ed_cards_rows_6",
+            "ed_cards_feature_left_3",
+            "ed_cards_feature_right_3",
+            "ed_cards_feature_left_4",
+            "ed_cards_feature_right_4",
+            "ed_cards_image_left_2",
+            "ed_cards_image_right_2",
+            "ed_diagram_left_3",
+            "ed_diagram_right_3",
+            "ed_diagram_wide_left_3",
+            "ed_diagram_wide_right_3",
+            "ed_comparison_columns_2",
+            "ed_comparison_swapped_2",
+            "ed_comparison_rows_2",
+            "ed_comparison_matrix_2",
+            "ed_steps_horizontal_2",
+            "ed_steps_vertical_2",
+            "ed_steps_horizontal_3",
+            "ed_steps_vertical_3",
+            "ed_steps_horizontal_4",
+            "ed_steps_vertical_4",
+            "ed_steps_vertical_5",
+            "ed_steps_vertical_6",
+            "ed_timeline_horizontal_3",
+            "ed_timeline_vertical_3",
+            "ed_timeline_horizontal_4",
+            "ed_timeline_vertical_4",
+            "ed_metrics_row_2",
+            "ed_metrics_row_3",
+            "ed_metrics_row_4",
+            "ed_metrics_stack_3",
+            "ed_metrics_breakdown_top_3",
+            "ed_metrics_breakdown_left_3",
+            "ed_table_two_columns_3",
+            "ed_table_two_columns_4",
+            "ed_table_two_columns_6",
+            "ed_table_three_columns_4",
+            "ed_chart_bar_left_4",
+            "ed_chart_bar_right_4",
+            "ed_chart_column_top_4",
+            "ed_chart_column_bottom_4",
+            "ed_quote_left_2",
+            "ed_quote_right_2",
+            "ed_quote_top_2",
+            "ed_summary_columns_3",
+            "ed_summary_rows_3",
+            "ed_summary_split_3",
+            "ed_agenda_rows_3",
+            "ed_agenda_columns_3",
+            "ed_agenda_rail_3"
+          ],
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "variant": {
+          "default": "warm",
+          "enum": [
+            "warm",
+            "cool"
+          ],
+          "title": "Variant",
+          "type": "string"
+        },
+        "font_profile": {
+          "default": "source",
+          "enum": [
+            "source",
+            "meiryo",
+            "noto",
+            "hiragino"
+          ],
+          "title": "Font Profile",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/EditorialContents"
+        },
+        "emphasis": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EditorialEmphasis"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "allowed_layouts": {
+          "default": [],
+          "items": {
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Allowed Layouts",
+          "type": "array"
+        },
+        "constraints_reason": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Constraints Reason"
+        },
+        "repetition_reason": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repetition Reason"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "EditorialSlide",
+      "type": "object"
+    },
     "ElapsedYears": {
       "additionalProperties": false,
       "properties": {
@@ -912,6 +1202,30 @@
       "title": "TemplateChart",
       "type": "object"
     },
+    "TemplateImage": {
+      "additionalProperties": false,
+      "properties": {
+        "image_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Image Id",
+          "type": "string"
+        },
+        "image_mode": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "crop"
+          ],
+          "title": "Image Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "image_id"
+      ],
+      "title": "TemplateImage",
+      "type": "object"
+    },
     "TemplateSeries": {
       "additionalProperties": false,
       "properties": {
@@ -1078,6 +1392,82 @@
             "decision_page": "#/$defs/CatalogSlide",
             "delta_bars_totals": "#/$defs/CatalogSlide",
             "dot_matrix_share": "#/$defs/CatalogSlide",
+            "ed_agenda_columns_3": "#/$defs/EditorialSlide",
+            "ed_agenda_rail_3": "#/$defs/EditorialSlide",
+            "ed_agenda_rows_3": "#/$defs/EditorialSlide",
+            "ed_bullets_columns_2": "#/$defs/EditorialSlide",
+            "ed_bullets_columns_3": "#/$defs/EditorialSlide",
+            "ed_bullets_columns_4": "#/$defs/EditorialSlide",
+            "ed_bullets_columns_5": "#/$defs/EditorialSlide",
+            "ed_bullets_columns_6": "#/$defs/EditorialSlide",
+            "ed_bullets_rows_2": "#/$defs/EditorialSlide",
+            "ed_bullets_rows_3": "#/$defs/EditorialSlide",
+            "ed_bullets_rows_4": "#/$defs/EditorialSlide",
+            "ed_bullets_rows_5": "#/$defs/EditorialSlide",
+            "ed_bullets_rows_6": "#/$defs/EditorialSlide",
+            "ed_cards_feature_left_3": "#/$defs/EditorialSlide",
+            "ed_cards_feature_left_4": "#/$defs/EditorialSlide",
+            "ed_cards_feature_right_3": "#/$defs/EditorialSlide",
+            "ed_cards_feature_right_4": "#/$defs/EditorialSlide",
+            "ed_cards_grid_2": "#/$defs/EditorialSlide",
+            "ed_cards_grid_3": "#/$defs/EditorialSlide",
+            "ed_cards_grid_4": "#/$defs/EditorialSlide",
+            "ed_cards_grid_5": "#/$defs/EditorialSlide",
+            "ed_cards_grid_6": "#/$defs/EditorialSlide",
+            "ed_cards_image_left_2": "#/$defs/EditorialSlide",
+            "ed_cards_image_right_2": "#/$defs/EditorialSlide",
+            "ed_cards_rows_2": "#/$defs/EditorialSlide",
+            "ed_cards_rows_3": "#/$defs/EditorialSlide",
+            "ed_cards_rows_4": "#/$defs/EditorialSlide",
+            "ed_cards_rows_5": "#/$defs/EditorialSlide",
+            "ed_cards_rows_6": "#/$defs/EditorialSlide",
+            "ed_chart_bar_left_4": "#/$defs/EditorialSlide",
+            "ed_chart_bar_right_4": "#/$defs/EditorialSlide",
+            "ed_chart_column_bottom_4": "#/$defs/EditorialSlide",
+            "ed_chart_column_top_4": "#/$defs/EditorialSlide",
+            "ed_comparison_columns_2": "#/$defs/EditorialSlide",
+            "ed_comparison_matrix_2": "#/$defs/EditorialSlide",
+            "ed_comparison_rows_2": "#/$defs/EditorialSlide",
+            "ed_comparison_swapped_2": "#/$defs/EditorialSlide",
+            "ed_cover_band_2": "#/$defs/EditorialSlide",
+            "ed_cover_brief_2": "#/$defs/EditorialSlide",
+            "ed_cover_split_2": "#/$defs/EditorialSlide",
+            "ed_diagram_left_3": "#/$defs/EditorialSlide",
+            "ed_diagram_right_3": "#/$defs/EditorialSlide",
+            "ed_diagram_wide_left_3": "#/$defs/EditorialSlide",
+            "ed_diagram_wide_right_3": "#/$defs/EditorialSlide",
+            "ed_metrics_breakdown_left_3": "#/$defs/EditorialSlide",
+            "ed_metrics_breakdown_top_3": "#/$defs/EditorialSlide",
+            "ed_metrics_row_2": "#/$defs/EditorialSlide",
+            "ed_metrics_row_3": "#/$defs/EditorialSlide",
+            "ed_metrics_row_4": "#/$defs/EditorialSlide",
+            "ed_metrics_stack_3": "#/$defs/EditorialSlide",
+            "ed_quote_left_2": "#/$defs/EditorialSlide",
+            "ed_quote_right_2": "#/$defs/EditorialSlide",
+            "ed_quote_top_2": "#/$defs/EditorialSlide",
+            "ed_steps_horizontal_2": "#/$defs/EditorialSlide",
+            "ed_steps_horizontal_3": "#/$defs/EditorialSlide",
+            "ed_steps_horizontal_4": "#/$defs/EditorialSlide",
+            "ed_steps_vertical_2": "#/$defs/EditorialSlide",
+            "ed_steps_vertical_3": "#/$defs/EditorialSlide",
+            "ed_steps_vertical_4": "#/$defs/EditorialSlide",
+            "ed_steps_vertical_5": "#/$defs/EditorialSlide",
+            "ed_steps_vertical_6": "#/$defs/EditorialSlide",
+            "ed_summary_columns_3": "#/$defs/EditorialSlide",
+            "ed_summary_rows_3": "#/$defs/EditorialSlide",
+            "ed_summary_split_3": "#/$defs/EditorialSlide",
+            "ed_table_three_columns_4": "#/$defs/EditorialSlide",
+            "ed_table_two_columns_3": "#/$defs/EditorialSlide",
+            "ed_table_two_columns_4": "#/$defs/EditorialSlide",
+            "ed_table_two_columns_6": "#/$defs/EditorialSlide",
+            "ed_takeaway_left_3": "#/$defs/EditorialSlide",
+            "ed_takeaway_rail_3": "#/$defs/EditorialSlide",
+            "ed_takeaway_right_3": "#/$defs/EditorialSlide",
+            "ed_takeaway_top_3": "#/$defs/EditorialSlide",
+            "ed_timeline_horizontal_3": "#/$defs/EditorialSlide",
+            "ed_timeline_horizontal_4": "#/$defs/EditorialSlide",
+            "ed_timeline_vertical_3": "#/$defs/EditorialSlide",
+            "ed_timeline_vertical_4": "#/$defs/EditorialSlide",
             "evidence_basis": "#/$defs/CatalogSlide",
             "evidence_clip_grid": "#/$defs/CatalogSlide",
             "executive_summary": "#/$defs/CatalogSlide",
@@ -1156,6 +1546,9 @@
           },
           {
             "$ref": "#/$defs/CatalogSlide"
+          },
+          {
+            "$ref": "#/$defs/EditorialSlide"
           }
         ]
       },

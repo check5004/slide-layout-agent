@@ -65,7 +65,7 @@ def validate(plan, source, base, theme):
     numeric_quotes=defaultdict(list)
     omitted = {o.source_id for o in plan.omissions}
     if any(is_catalog(s.layout_id) for s in plan.slides):
-        add("CATALOG_FONT_REVIEW", "Catalog preserves compact source typography. Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device.", severity="warning")
+        add("CATALOG_FONT_REVIEW", "Catalog uses fixed typography (reference: compact; editorial: readable research content). Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device.", severity="warning")
         # All 62 trusted headers are 504pt wide at 14pt. Keep a conservative
         # one-line metadata limit; never silently truncate the deck title.
         if units(plan.title)>30 or "\n" in plan.title:
@@ -120,6 +120,15 @@ def validate(plan, source, base, theme):
             contract_error=schema_error(slide.layout_id)
             if contract_error:add('CATALOG_SCHEMA_MISMATCH',contract_error,slide.id)
             validate_catalog(slide, add)
+            emphasis = getattr(slide, 'emphasis', None)
+            if emphasis:
+                for ref in emphasis.refs:
+                    segment = segments.get(ref.source_id)
+                    if segment is None or ref.quote not in segment.text:
+                        add('EMPHASIS_EVIDENCE', 'emphasis requires an exact original source quotation', slide.id)
+                add('EMPHASIS_SEMANTIC_REVIEW', 'confirm that the quoted source really prioritizes item_1; an exact quote alone does not prove hierarchy', slide.id, 'warning')
+            for image in getattr(slide.contents, 'images', {}).values():
+                if image.image_id not in assets: add('UNKNOWN_IMAGE', image.image_id, slide.id)
             continue
         capacity(slide.title.text, CONTENT_W, 1.0, theme.title_pt, slide, "title")
         if slide.lead:
@@ -188,7 +197,8 @@ def validate(plan, source, base, theme):
                     add('NUMERIC_CONTEXT_REVIEW',f'{sid}: numeric evidence contains context/conditions not covered by visible text; numeric equality does not preserve meaning',severity='warning')
                     break
     for asset in source.images:
-        if not any(s.layout_id == "text_image" and s.contents.image_id == asset.id for s in plan.slides):
+        if not any((s.layout_id == "text_image" and s.contents.image_id == asset.id)
+                   or any(image.image_id == asset.id for image in getattr(s.contents, 'images', {}).values()) for s in plan.slides):
             add("UNUSED_IMAGE_REVIEW", f"{asset.id}: supplied image is not used", severity="warning")
         try:
             path = asset_path(asset, base)
@@ -204,7 +214,10 @@ def validate(plan, source, base, theme):
                 im.verify()
         except (OSError, ValueError, Image.DecompressionBombError) as exc:
             add("IMAGE_INVALID", f"{asset.id}: {type(exc).__name__}: {exc}")
+    from .selection import selection_report
+    layout_selection = selection_report(plan, add)
     ok=not any(i['severity']=='error' for i in issues)
     return {"ok":ok,"mechanical_validation":"passed" if ok else "failed", "issues":issues,
             "source_coverage":"review_required" if any(i['code'] in ('PARTIAL_SOURCE_REVIEW','NUMERIC_CONTEXT_REVIEW','PARAPHRASE_REVIEW','OMISSION_REVIEW') for i in issues) else "mechanically_accounted",
-            "semantic_review":"not_performed","slide_count":len(plan.slides),"visual_review":"not_performed"}
+            "semantic_review":"not_performed","slide_count":len(plan.slides),"visual_review":"not_performed",
+            "layout_selection":layout_selection}

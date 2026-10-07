@@ -1,0 +1,4643 @@
+{
+  "slot_count": 773,
+  "slots": [
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "title",
+      "lines": 2,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 33
+    },
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cover_brief_2",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "title",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "context",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cover_split_2",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 22
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 32
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cover_band_2",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "conclusion",
+      "lines": 5,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_left_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "conclusion",
+      "lines": 5,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_takeaway_right_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 23
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "conclusion",
+      "lines": 2,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_top_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "conclusion",
+      "lines": 1,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_2_body",
+      "lines": 5,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_takeaway_rail_3",
+      "slot": "item_3_body",
+      "lines": 5,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "item_1_body",
+      "lines": 8,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_bullets_columns_2",
+      "slot": "item_2_body",
+      "lines": 8,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_1_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_2_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_3",
+      "slot": "item_3_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "slot": "item_4_body",
+      "lines": 3,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_4",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_5_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_5",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_1_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_2_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_3_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_4_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_5_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_6_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "slot": "item_6_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_6_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_bullets_columns_6",
+      "slot": "item_6_body",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_1_body",
+      "lines": 7,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_2_body",
+      "lines": 7,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_2",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_2_body",
+      "lines": 5,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_1_body",
+      "lines": 7,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_2_body",
+      "lines": 7,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_3_body",
+      "lines": 7,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_3",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_grid_4",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_1_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_2_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_3_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_4_body",
+      "lines": 1,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 46
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_5",
+      "slot": "item_5_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_1_evidence",
+      "lines": 3,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_2_evidence",
+      "lines": 3,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_3_evidence",
+      "lines": 3,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_4_evidence",
+      "lines": 3,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_5_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "slot": "item_5_evidence",
+      "lines": 3,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_5_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_6_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_6_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_cards_grid_6",
+      "slot": "item_6_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_1_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_2_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_3_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_4_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_5_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_5_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_6_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_6_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "slot": "item_6_evidence",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_left_3",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_right_3",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_2_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_3_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_4_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_left_4",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_2_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_3_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_3_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_4_body",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_cards_feature_right_4",
+      "slot": "item_4_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_image_left_2",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_1_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_cards_image_right_2",
+      "slot": "item_2_evidence",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_1",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_1_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_2",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_2_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_3",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "node_3_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "explanation_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "explanation",
+      "lines": 6,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_left_3",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 27
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_1",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_1_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_2",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_2_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_3",
+      "lines": 1,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "node_3_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "explanation_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "explanation",
+      "lines": 6,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_right_3",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 27
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_1",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_1_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_2",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_2_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_3",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "node_3_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "explanation_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "explanation",
+      "lines": 6,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_wide_left_3",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_1",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_1_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_2",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_2_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_3",
+      "lines": 1,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "node_3_detail",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "explanation_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "explanation",
+      "lines": 6,
+      "full_width_characters_per_line": 14
+    },
+    {
+      "layout_id": "ed_diagram_wide_right_3",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "a_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "a_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "a_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "a_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "a_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "b_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "b_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "b_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "b_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_columns_2",
+      "slot": "b_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "b_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "b_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "b_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "b_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "b_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "a_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "a_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "a_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "a_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_comparison_swapped_2",
+      "slot": "a_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "a_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 32
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "a_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "a_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "a_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "a_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "b_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 32
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "b_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "b_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "b_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_comparison_rows_2",
+      "slot": "b_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "a_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 6
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "a_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "a_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "a_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "a_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "b_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 6
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "b_axis_1",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "b_point_1",
+      "lines": 3,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "b_axis_2",
+      "lines": 1,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_comparison_matrix_2",
+      "slot": "b_point_2",
+      "lines": 3,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_steps_horizontal_2",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_steps_horizontal_3",
+      "slot": "item_3_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_3_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_horizontal_4",
+      "slot": "item_4_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "slot": "item_4_body",
+      "lines": 3,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_5_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_4_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_5_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_5_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_6_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "slot": "item_6_body",
+      "lines": 2,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_1_date",
+      "lines": 1,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_2_date",
+      "lines": 1,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_3_body",
+      "lines": 6,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_3",
+      "slot": "item_3_date",
+      "lines": 1,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_1_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_2_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "slot": "item_3_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_1_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_1_date",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_2_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_2_date",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_3_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_3_date",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_4_body",
+      "lines": 6,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_horizontal_4",
+      "slot": "item_4_date",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_1_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_2_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_3_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_4_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_4_body",
+      "lines": 3,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "slot": "item_4_date",
+      "lines": 2,
+      "full_width_characters_per_line": 4
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_metrics_row_2",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_row_3",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 7
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_1_body",
+      "lines": 3,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 7
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 7
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_4_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 7
+    },
+    {
+      "layout_id": "ed_metrics_row_4",
+      "slot": "item_4_body",
+      "lines": 3,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 21
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "total_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 9
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "total_note",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "total_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "total_note",
+      "lines": 5,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 6
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_1_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 6
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_2_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 6
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "slot": "item_3_body",
+      "lines": 2,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_0_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_0_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_1_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_1_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_2_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_2_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_3_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "cell_3_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_0_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_0_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_1_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_1_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_2_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_2_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_3_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_3_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_4_0",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "cell_4_1",
+      "lines": 2,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_0_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_0_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_1_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_1_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_2_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_2_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_3_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_3_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_4_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_4_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_5_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_5_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_6_0",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "cell_6_1",
+      "lines": 1,
+      "full_width_characters_per_line": 20
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_0_0",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_0_1",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_0_2",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_1_0",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_1_1",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_1_2",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_2_0",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_2_1",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_2_2",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_3_0",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_3_1",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_3_2",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_4_0",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_4_1",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "cell_4_2",
+      "lines": 2,
+      "full_width_characters_per_line": 13
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_chart_bar_left_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_chart_bar_left_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_chart_bar_left_4",
+      "slot": "unit",
+      "lines": 1,
+      "full_width_characters_per_line": 35
+    },
+    {
+      "layout_id": "ed_chart_bar_left_4",
+      "slot": "insight",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_chart_bar_left_4",
+      "slot": "note",
+      "lines": 2,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_chart_bar_right_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_chart_bar_right_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_chart_bar_right_4",
+      "slot": "unit",
+      "lines": 1,
+      "full_width_characters_per_line": 35
+    },
+    {
+      "layout_id": "ed_chart_bar_right_4",
+      "slot": "insight",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_chart_bar_right_4",
+      "slot": "note",
+      "lines": 2,
+      "full_width_characters_per_line": 18
+    },
+    {
+      "layout_id": "ed_chart_column_top_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_chart_column_top_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_chart_column_top_4",
+      "slot": "unit",
+      "lines": 1,
+      "full_width_characters_per_line": 56
+    },
+    {
+      "layout_id": "ed_chart_column_top_4",
+      "slot": "insight",
+      "lines": 1,
+      "full_width_characters_per_line": 36
+    },
+    {
+      "layout_id": "ed_chart_column_top_4",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_chart_column_bottom_4",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_chart_column_bottom_4",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_chart_column_bottom_4",
+      "slot": "unit",
+      "lines": 1,
+      "full_width_characters_per_line": 56
+    },
+    {
+      "layout_id": "ed_chart_column_bottom_4",
+      "slot": "insight",
+      "lines": 1,
+      "full_width_characters_per_line": 36
+    },
+    {
+      "layout_id": "ed_chart_column_bottom_4",
+      "slot": "note",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "quotation",
+      "lines": 7,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "attribution",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "interpretation",
+      "lines": 6,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_quote_left_2",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 24
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "quotation",
+      "lines": 7,
+      "full_width_characters_per_line": 15
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "attribution",
+      "lines": 1,
+      "full_width_characters_per_line": 26
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "interpretation",
+      "lines": 6,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_quote_right_2",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 24
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "quotation",
+      "lines": 3,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "attribution",
+      "lines": 1,
+      "full_width_characters_per_line": 53
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "interpretation",
+      "lines": 2,
+      "full_width_characters_per_line": 37
+    },
+    {
+      "layout_id": "ed_quote_top_2",
+      "slot": "caveat",
+      "lines": 1,
+      "full_width_characters_per_line": 55
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_1_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_2_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_summary_columns_3",
+      "slot": "item_3_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 10
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 31
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 16
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_1_body",
+      "lines": 5,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_2_body",
+      "lines": 3,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 17
+    },
+    {
+      "layout_id": "ed_summary_split_3",
+      "slot": "item_3_body",
+      "lines": 3,
+      "full_width_characters_per_line": 19
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 30
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_1_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_1_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_2_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_2_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_3_heading",
+      "lines": 1,
+      "full_width_characters_per_line": 11
+    },
+    {
+      "layout_id": "ed_agenda_columns_3",
+      "slot": "item_3_body",
+      "lines": 8,
+      "full_width_characters_per_line": 12
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "title",
+      "lines": 1,
+      "full_width_characters_per_line": 28
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "context",
+      "lines": 1,
+      "full_width_characters_per_line": 52
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_1_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_1_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_2_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_2_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_3_heading",
+      "lines": 2,
+      "full_width_characters_per_line": 8
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "slot": "item_3_body",
+      "lines": 4,
+      "full_width_characters_per_line": 25
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from zipfile import ZipFile
 from lxml import etree
 from pptx import Presentation
 from pptx.util import Inches
-from .catalog import is_catalog, registry, template_path
+from .catalog import is_catalog, all_registry as registry, template_path
 
 
 def audit(path, theme):
@@ -26,6 +26,21 @@ def audit(path, theme):
             if set(expected) != set(actual) or len(actual) != len(slide.shapes):
                 issues.append(f"slide {i}: native template shape identity changed")
             dynamic = {m.get("shape") for m in entry["metrics"].values() if m.get("shape")}
+            for flow in entry.get('text_flow', []):
+                bn=entry['texts'][flow['body']]['shape'];fn=entry['texts'][flow['following']]['shape']
+                if bn not in actual or fn not in actual:
+                    continue  # The identity check above already reports the missing slot.
+                dynamic.update([bn,fn]);body,following=actual[bn],actual[fn];ob,of=expected[bn],expected[fn]
+                if (body.left,body.top,body.width)!=(ob.left,ob.top,ob.width) or not 0<body.height<=ob.height:
+                    issues.append(f'slide {i}: text flow body escaped its registered bounds')
+                if (following.left,following.width,following.height)!=(of.left,of.width,of.height) or not body.top+body.height <= following.top <= of.top:
+                    issues.append(f'slide {i}: text flow caveat escaped its registered bounds')
+            for spec in entry.get('images', {}).values():
+                dynamic.add(spec['shape'])
+                pic = actual.get(spec['shape'])
+                x, y, w, h = spec['bounds_emu']
+                if pic is None or pic.shape_type != 13 or pic.left < x-2 or pic.top < y-2 or pic.left+pic.width > x+w+2 or pic.top+pic.height > y+h+2:
+                    issues.append(f'slide {i}: image escaped or missing from named slot {spec["shape"]}')
             if entry.get("bridge"):
                 dynamic.update(entry["bridge"]["shapes"]+entry["bridge"]["labels"])
             if entry.get("calculation"):
@@ -48,6 +63,14 @@ def audit(path, theme):
                     newsizes=[r.font.size.pt for p in newtf.paragraphs for r in p.runs if r.font.size]
                     if oldsizes and any(size<min(oldsizes)-.01 for size in newsizes):
                         issues.append(f"slide {i}: font shrunk below template: {name}")
+            if entry.get('catalog') == 'editorial':
+                occupied = [s for s in slide.shapes if s.name.startswith('slot:')]
+                for j, a in enumerate(occupied):
+                    for b in occupied[j+1:]:
+                        ox = min(a.left+a.width,b.left+b.width)-max(a.left,b.left)
+                        oy = min(a.top+a.height,b.top+b.height)-max(a.top,b.top)
+                        if ox > 2 and oy > 2:
+                            issues.append(f'slide {i}: editorial semantic slots overlap: {a.name}/{b.name}')
         content_shapes = 0
         text_boxes = []
         for shape in slide.shapes:
@@ -92,6 +115,9 @@ def audit(path, theme):
                 root = etree.fromstring(archive.read(name))
                 if root.xpath("//*[local-name()='p' and count(*[local-name()='pPr']) > 1]"):
                     issues.append(f"duplicate paragraph properties in {name}")
+                for font_tag in ('ea','cs','latin'):
+                    if root.xpath(f"//*[local-name()='rPr' or local-name()='defRPr'][count(*[local-name()='{font_tag}']) > 1]"):
+                        issues.append(f'duplicate font {font_tag} declaration in {name}; PowerPoint may reject the package')
                 if name.startswith("ppt/slides/slide") and name.endswith(".xml") and root.xpath("//*[local-name()='normAutofit' or local-name()='spAutoFit']"):
                     issues.append(f"auto-resize present in {name}")
                 if name.endswith(".rels") and root.xpath("//*[@TargetMode='External']"):

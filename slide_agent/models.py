@@ -178,11 +178,11 @@ class CatalogContents(Model):
     states: dict[Id, Text] = {}
 
 
-from .catalog import LAYOUT_IDS
+from .catalog import REFERENCE_IDS, EDITORIAL_IDS
 
 
 class CatalogSlide(SlideBase):
-    layout_id: Literal[LAYOUT_IDS]
+    layout_id: Literal[REFERENCE_IDS]
     variant: Literal["warm", "cool"] = "warm"
     font_profile: Literal["source", "meiryo", "noto", "hiragino"] = "source"
     contents: CatalogContents
@@ -194,8 +194,38 @@ class CatalogSlide(SlideBase):
         return self
 
 
+class TemplateImage(Model):
+    image_id: Id
+    image_mode: Literal['fit', 'crop'] = 'fit'
+
+
+class EditorialContents(CatalogContents):
+    images: dict[Id, TemplateImage] = {}
+
+
+class EditorialEmphasis(Model):
+    item_id: Literal['item_1']
+    refs: Annotated[list[Ref], Field(min_length=1, max_length=10)]
+    reason: Annotated[str, Field(min_length=1, max_length=1000)]
+
+
+class EditorialSlide(CatalogSlide):
+    layout_id: Literal[EDITORIAL_IDS]
+    contents: EditorialContents
+    emphasis: EditorialEmphasis | None = None
+    allowed_layouts: Annotated[list[Id], Field(max_length=100)] = []
+    constraints_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
+    repetition_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
+
+    @model_validator(mode='after')
+    def explain_constraints(self):
+        if self.allowed_layouts and not self.constraints_reason:
+            raise ValueError('allowed_layouts requires an explicit content/reading-order constraints_reason')
+        return self
+
+
 Slide = Annotated[
-    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide | CatalogSlide,
+    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide | CatalogSlide | EditorialSlide,
     Field(discriminator="layout_id"),
 ]
 

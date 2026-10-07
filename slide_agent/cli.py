@@ -11,7 +11,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from .audit import audit
-from .catalog import registry, is_catalog
+from .catalog import all_registry as registry, is_catalog
 from .io import fingerprint, load_plan, load_source, load_theme, write_json
 from .models import Asset, Plan, Segment, Source
 from .render import render
@@ -128,9 +128,11 @@ def build_parser():
     p.add_argument("--force", action="store_true")
     p = sub.add_parser("catalog")
     p.add_argument("--layout", choices=list(registry()))
+    p.add_argument("--collection", choices=['editorial', 'reference', 'all'], default='editorial')
+    p.add_argument("--family", help='Filter editorial semantic family')
     p.add_argument("--out",help="Write UTF-8 JSON directly; avoids shell redirection transcoding")
     p.add_argument("--force",action="store_true")
-    for name in ("validate", "review", "render", "split"):
+    for name in ("validate", "review", "render", "split", "select-variants"):
         p = sub.add_parser(name)
         p.add_argument("plan")
         p.add_argument("--source", required=True)
@@ -152,8 +154,12 @@ def main(argv=None):
             data=registry()
             if args.layout: output=data[args.layout]
             else: output=[{"layout_id":e["layout_id"],"name":e["name"],"part_id":e["part_id"],
-                           "template":e["template"],"preview":f"catalog/previews/warm/{e['layout_id']}.png",
-                           "capacity":e["capacity"]} for e in data.values()]
+                           "catalog":e.get('catalog','reference'),"family":e.get('family'),
+                           "structural_variant":e.get('structural_variant'),
+                           "template":e["template"],"preview":e.get('preview',f"catalog/previews/warm/{e['layout_id']}.png"),
+                           "capacity":e["capacity"]} for e in data.values()
+                          if (args.collection=='all' or e.get('catalog','reference')==args.collection)
+                          and (not args.family or e.get('family')==args.family)]
             if args.out:
                 write_json(args.out,output,args.force)
                 print('Catalog written as UTF-8 JSON.')
@@ -172,6 +178,19 @@ def main(argv=None):
             print(fingerprint(source))
             return 0
         plan, theme = load_plan(args.plan), load_theme(args.theme)
+        if args.command == 'select-variants':
+            from .selection import select_variants
+            plan, decisions = select_variants(plan)
+            report = validate(plan, source, Path(args.source).parent, theme)
+            if not report['ok']:
+                print_json(report); return 2
+            report_path = Path(args.out).with_suffix('.selection.json')
+            if report_path.exists() and not args.force:
+                raise ValueError('selection report exists; use --force')
+            write_json(args.out, plan.model_dump(mode='json'), args.force)
+            write_json(report_path, {'decisions': decisions, 'validation': report}, args.force)
+            print('Selected content-fitting structural variants; sources and semantic slots retained.')
+            return 0
         if args.theme and any(is_catalog(s.layout_id) for s in plan.slides):
             raise ValueError("--theme targets legacy geometry layouts; catalog uses its fixed template style, variant and font_profile")
         if args.command == "split":

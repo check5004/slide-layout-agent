@@ -1,0 +1,2170 @@
+{
+  "version": "1",
+  "source_sha256": "d95ffc3c011ae474e9423e27aa5fad10b08df0b5578856595750eb1a2c1286d1",
+  "title": "架空調査：社内ナレッジ共有",
+  "slides": [
+    {
+      "id": "slide001",
+      "origin": "catalog",
+      "title": {
+        "text": "社内ナレッジ共有の調査メモ",
+        "refs": [
+          {
+            "source_id": "s001",
+            "quote": "社内ナレッジ共有の調査メモ"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査の入口を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cover_brief_2",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "検索性と信頼性を両立するための運用条件",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "検索性と信頼性を両立するための運用条件"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide002",
+      "origin": "catalog",
+      "title": {
+        "text": "資料共有を整理するための三つの観点",
+        "refs": [
+          {
+            "source_id": "s002",
+            "quote": "資料共有を整理するための三つの観点"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査範囲を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_agenda_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "変更頻度に応じて担当と再確認の時期を決める。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "変更頻度に応じて担当と再確認の時期を決める。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide003",
+      "origin": "catalog",
+      "title": {
+        "text": "見つけやすさは入口の設計で変わる",
+        "refs": [
+          {
+            "source_id": "s003",
+            "quote": "見つけやすさは入口の設計で変わる"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cards_grid_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "入口をまとめる",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "入口をまとめる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "部署ごとの入口を一覧化し、どの資料を探す場所かを明記する。既存の原文はそのまま保管する。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "部署ごとの入口を一覧化し、どの資料を探す場所かを明記する。既存の原文はそのまま保管する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "対象：検索の入口",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "対象：検索の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "呼称を対応させる",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "呼称を対応させる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "同じ対象を示す用語の違いを整理する。専門用語を置き換えず、別の呼び方からも辿れるようにする。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "同じ対象を示す用語の違いを整理する。専門用語を置き換えず、別の呼び方からも辿れるようにする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：用語の照合",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "根拠：用語の照合"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "範囲を先に見せる",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "範囲を先に見せる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "検索結果に対象部署と適用範囲を添える。本文を開く前に、自分の状況に関係する資料かを判断できる。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "検索結果に対象部署と適用範囲を添える。本文を開く前に、自分の状況に関係する資料かを判断できる。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide004",
+      "origin": "catalog",
+      "title": {
+        "text": "検索で詰まる場面を分けて考える",
+        "refs": [
+          {
+            "source_id": "s004",
+            "quote": "検索で詰まる場面を分けて考える"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cards_grid_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "場所が分からない",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "場所が分からない"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "資料の保管先が部署ごとに異なる。入口の整理と、原文を管理する責任の所在は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "資料の保管先が部署ごとに異なる。入口の整理と、原文を管理する責任の所在は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "観点：保管場所",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "観点：保管場所"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "用語が一致しない",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "用語が一致しない"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "検索語と資料内の呼称が一致しない。索引に同義の表現を残し、業務上の定義の違いも確認する。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "検索語と資料内の呼称が一致しない。索引に同義の表現を残し、業務上の定義の違いも確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "観点：用語の違い",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "観点：用語の違い"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "使えるか迷う",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "使えるか迷う"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料は見つかっても適用条件が分からない。更新日だけでなく、対象範囲と確認先も示す。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "資料は見つかっても適用条件が分からない。更新日だけでなく、対象範囲と確認先も示す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "留保：場面差あり",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "留保：場面差あり"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide005",
+      "origin": "catalog",
+      "title": {
+        "text": "要約から根拠へ戻れることが必要",
+        "refs": [
+          {
+            "source_id": "s005",
+            "quote": "要約から根拠へ戻れることが必要"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cards_grid_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "引用箇所を残す",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "引用箇所を残す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "要約と原文の位置を対応させる。後から読んだ人が、結論の根拠となった条件を確かめられる形にする。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "要約と原文の位置を対応させる。後から読んだ人が、結論の根拠となった条件を確かめられる形にする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：原文を保持",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：原文を保持"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "留保を近くに置く",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "留保を近くに置く"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "限定条件や未確認事項を本文の近くに残す。脚注だけに追いやらず、判断する場面で読める位置に置く。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "限定条件や未確認事項を本文の近くに残す。脚注だけに追いやらず、判断する場面で読める位置に置く。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "観点：読み落とし",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "観点：読み落とし"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "解釈を分けて示す",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "解釈を分けて示す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料に書かれた内容と分析者の解釈を区別する。推測を確定事項に言い換えず、確認が必要な点を残す。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "資料に書かれた内容と分析者の解釈を区別する。推測を確定事項に言い換えず、確認が必要な点を残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "留保：解釈を区別",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "留保：解釈を区別"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide006",
+      "origin": "catalog",
+      "title": {
+        "text": "更新を続けるための役割を整理する",
+        "refs": [
+          {
+            "source_id": "s006",
+            "quote": "更新を続けるための役割を整理する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査所見カードを選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cards_grid_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "原文の担当を決める",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "原文の担当を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を更新する担当と、共有メモを確認する担当を明記する。どちらかだけが更新される状態を見つける。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "原文を更新する担当と、共有メモを確認する担当を明記する。どちらかだけが更新される状態を見つける。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "観点：担当の分担",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "観点：担当の分担"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "更新の契機を決める",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "更新の契機を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "定期確認に加え、制度や対象範囲が変わった際の見直しを決める。頻度は業務の変化に応じて調整する。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "定期確認に加え、制度や対象範囲が変わった際の見直しを決める。頻度は業務の変化に応じて調整する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "留保：頻度は要調整",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "留保：頻度は要調整"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "保留の理由を残す",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "保留の理由を残す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "確認が終わらない論点は理由と確認先を残す。無理に結論を埋めず、次の担当者が続きを調べられるようにする。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "確認が終わらない論点は理由と確認先を残す。無理に結論を埋めず、次の担当者が続きを調べられるようにする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "観点：引き継ぎ",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "観点：引き継ぎ"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide007",
+      "origin": "catalog",
+      "title": {
+        "text": "運用前に確認する六つの観点",
+        "refs": [
+          {
+            "source_id": "s007",
+            "quote": "運用前に確認する六つの観点"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "調査所見カードを選択。原文の6項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_cards_grid_6",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "対象：資料の入口を確認",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "対象：資料の入口を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：原文の条件を保持",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "根拠：原文の条件を保持"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "変更頻度に応じて担当と再確認の時期を決める。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "変更頻度に応じて担当と再確認の時期を決める。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "留保：運用負荷は未検証",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "留保：運用負荷は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "例外を見える化",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "例外を見える化"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "適用できない場面も記録し、前提の違いを残す。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "適用できない場面も記録し、前提の違いを残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_evidence": {
+            "text": "注意：対象外の場面を含む",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "注意：対象外の場面を含む"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_heading": {
+            "text": "比較軸を共有する",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "比較軸を共有する"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_body": {
+            "text": "評価項目を揃え、異なる条件の結果を混同しない。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "評価項目を揃え、異なる条件の結果を混同しない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_evidence": {
+            "text": "根拠：比較条件を照合",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "根拠：比較条件を照合"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_heading": {
+            "text": "確認先を残す",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "確認先を残す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_body": {
+            "text": "未確認の論点と、追加調査で確かめる点を残す。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "未確認の論点と、追加調査で確かめる点を残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_evidence": {
+            "text": "保留：担当部署へ確認",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "保留：担当部署へ確認"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide008",
+      "origin": "catalog",
+      "title": {
+        "text": "資料から共有メモへ変換する流れ",
+        "refs": [
+          {
+            "source_id": "s008",
+            "quote": "資料から共有メモへ変換する流れ"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "仕組みと説明を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_diagram_left_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_1": {
+            "text": "入力資料",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "入力資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_1_detail": {
+            "text": "原文・確認日・対象範囲を受け取る",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "原文・確認日・対象範囲を受け取る"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_2": {
+            "text": "条件の確認",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "条件の確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_2_detail": {
+            "text": "定義と比較条件の違いを整理する",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "定義と比較条件の違いを整理する"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_3": {
+            "text": "所見の共有",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "所見の共有"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "node_3_detail": {
+            "text": "根拠と未確認の論点を残して渡す",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "根拠と未確認の論点を残して渡す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "explanation_heading": {
+            "text": "原文とのつながりを残す",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "原文とのつながりを残す"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "explanation": {
+            "text": "資料を集めた後で、対象範囲と比較条件を確認する。共有時には原文の位置を添え、読み手が結論の前提へ戻れるようにする。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "資料を集めた後で、対象範囲と比較条件を確認する。共有時には原文の位置を添え、読み手が結論の前提へ戻れるようにする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "留保：因果関係を示す工程図ではない。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "留保：因果関係を示す工程図ではない。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide009",
+      "origin": "catalog",
+      "title": {
+        "text": "集約型と分散型は運用条件で選ぶ",
+        "refs": [
+          {
+            "source_id": "s009",
+            "quote": "集約型と分散型は運用条件で選ぶ"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "二案の比較を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_comparison_columns_2",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "a_heading": {
+            "text": "集約型",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "集約型"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "a_axis_1": {
+            "text": "検索上の特徴",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "検索上の特徴"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "a_point_1": {
+            "text": "入口を統一し、部署をまたぐ検索をしやすくする。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "入口を統一し、部署をまたぐ検索をしやすくする。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "a_axis_2": {
+            "text": "運用上の注意",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "運用上の注意"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "a_point_2": {
+            "text": "更新作業が担当者に集中するため、確認待ちの滞留に注意する。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "更新作業が担当者に集中するため、確認待ちの滞留に注意する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "b_heading": {
+            "text": "分散型",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "分散型"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "b_axis_1": {
+            "text": "検索上の特徴",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "検索上の特徴"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "b_point_1": {
+            "text": "各部署が原文を管理し、専門用語や例外の説明を保ちやすい。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "各部署が原文を管理し、専門用語や例外の説明を保ちやすい。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "b_axis_2": {
+            "text": "運用上の注意",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "運用上の注意"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "b_point_2": {
+            "text": "横断検索には共通の索引が必要。部署ごとの分類の違いを整理する。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "横断検索には共通の索引が必要。部署ごとの分類の違いを整理する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide010",
+      "origin": "catalog",
+      "title": {
+        "text": "小さく試し、条件を揃えて見直す",
+        "refs": [
+          {
+            "source_id": "s010",
+            "quote": "小さく試し、条件を揃えて見直す"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "順序のある手順を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_steps_vertical_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "変更頻度に応じて担当と再確認の時期を決める。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "変更頻度に応じて担当と再確認の時期を決める。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "例外を見える化",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "例外を見える化"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "適用できない場面も記録し、前提の違いを残す。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "適用できない場面も記録し、前提の違いを残す。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide011",
+      "origin": "catalog",
+      "title": {
+        "text": "段階を分けて確認する",
+        "refs": [
+          {
+            "source_id": "s011",
+            "quote": "段階を分けて確認する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "時間軸を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_timeline_horizontal_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_date": {
+            "text": "準備期",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "準備期"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_date": {
+            "text": "試行期",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "試行期"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "変更頻度に応じて担当と再確認の時期を決める。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "変更頻度に応じて担当と再確認の時期を決める。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_date": {
+            "text": "評価期",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "評価期"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide012",
+      "origin": "catalog",
+      "title": {
+        "text": "文書の確認状況を棚卸しする",
+        "refs": [
+          {
+            "source_id": "s012",
+            "quote": "文書の確認状況を棚卸しする"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "数値と留保を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_metrics_breakdown_top_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の資料一覧を、相互に重ならない確認状態で整理した例。業務への効果は未検証。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "架空の資料一覧を、相互に重ならない確認状態で整理した例。業務への効果は未検証。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "total_heading": {
+            "text": "対象資料の総数",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "対象資料の総数"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "total_note": {
+            "text": "各資料を一つの状態に分類した架空の棚卸し。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "各資料を一つの状態に分類した架空の棚卸し。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認済み",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "確認済み"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "対象範囲と担当を確認済み。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "対象範囲と担当を確認済み。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "要確認",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "要確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "条件か確認日の照合が必要。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "条件か確認日の照合が必要。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新予定",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "更新予定"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "改訂の予定を登録済み。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "改訂の予定を登録済み。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "total": {
+            "value": 120.0,
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "120"
+              }
+            ]
+          },
+          "metric_1": {
+            "value": 84.0,
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "84"
+              }
+            ]
+          },
+          "metric_2": {
+            "value": 24.0,
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "24"
+              }
+            ]
+          },
+          "metric_3": {
+            "value": 12.0,
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "12"
+              }
+            ]
+          }
+        },
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide013",
+      "origin": "catalog",
+      "title": {
+        "text": "確認項目と残る留保を一覧にする",
+        "refs": [
+          {
+            "source_id": "s013",
+            "quote": "確認項目と残る留保を一覧にする"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "比較表を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_table_three_columns_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_0": {
+            "text": "観点",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "観点"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_1": {
+            "text": "確認事項",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "確認事項"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_2": {
+            "text": "留保",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "留保"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_0": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_1": {
+            "text": "索引と用語の対応を確認",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "索引と用語の対応を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_2": {
+            "text": "架空資料A・検索節\n部署間の呼称差が残る",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "架空資料A・検索節\n部署間の呼称差が残る"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_0": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_1": {
+            "text": "引用箇所と調査条件を照合",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "引用箇所と調査条件を照合"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_2": {
+            "text": "架空資料B・条件節\n原文の条件を保持",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "架空資料B・条件節\n原文の条件を保持"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_0": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_1": {
+            "text": "担当と確認時期を決める",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "担当と確認時期を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_2": {
+            "text": "架空資料C・運用節\n確認日：未記録",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "架空資料C・運用節\n確認日：未記録"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_0": {
+            "text": "例外を見える化",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "例外を見える化"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_1": {
+            "text": "適用できない場面を記録",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "適用できない場面を記録"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_2": {
+            "text": "架空資料D・例外節\n個別の判断が必要",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "架空資料D・例外節\n個別の判断が必要"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "note": {
+            "text": "留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。",
+            "refs": [
+              {
+                "source_id": "s013",
+                "quote": "留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide014",
+      "origin": "catalog",
+      "title": {
+        "text": "言及件数だけで優先度を決めない",
+        "refs": [
+          {
+            "source_id": "s014",
+            "quote": "言及件数だけで優先度を決めない"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "グラフと所見を選択。原文の4項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_chart_bar_left_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s014",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "unit": {
+            "text": "課題の言及数（件）／複数回答・架空例",
+            "refs": [
+              {
+                "source_id": "s014",
+                "quote": "課題の言及数（件）／複数回答・架空例"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "insight": {
+            "text": "検索の課題が多いが、回答件数のみで重要度を判断することはできない。",
+            "refs": [
+              {
+                "source_id": "s014",
+                "quote": "検索の課題が多いが、回答件数のみで重要度を判断することはできない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "note": {
+            "text": "架空集計であり、効果や因果関係は未検証。",
+            "refs": [
+              {
+                "source_id": "s014",
+                "quote": "架空集計であり、効果や因果関係は未検証。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {
+          "chart": {
+            "categories": [
+              {
+                "text": "検索",
+                "refs": [
+                  {
+                    "source_id": "s014",
+                    "quote": "検索"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "出典",
+                "refs": [
+                  {
+                    "source_id": "s014",
+                    "quote": "出典"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "更新",
+                "refs": [
+                  {
+                    "source_id": "s014",
+                    "quote": "更新"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              {
+                "text": "共有",
+                "refs": [
+                  {
+                    "source_id": "s014",
+                    "quote": "共有"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            ],
+            "series": [
+              {
+                "name": {
+                  "text": "架空集計（件）",
+                  "refs": [
+                    {
+                      "source_id": "s014",
+                      "quote": "架空集計（件）"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "values": [
+                  {
+                    "value": 42.0,
+                    "refs": [
+                      {
+                        "source_id": "s014",
+                        "quote": "42"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 35.0,
+                    "refs": [
+                      {
+                        "source_id": "s014",
+                        "quote": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 28.0,
+                    "refs": [
+                      {
+                        "source_id": "s014",
+                        "quote": "28"
+                      }
+                    ]
+                  },
+                  {
+                    "value": 18.0,
+                    "refs": [
+                      {
+                        "source_id": "s014",
+                        "quote": "18"
+                      }
+                    ]
+                  }
+                ],
+                "x_values": []
+              }
+            ],
+            "elapsed_years": null
+          }
+        },
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide015",
+      "origin": "catalog",
+      "title": {
+        "text": "発言と分析者の解釈を区別する",
+        "refs": [
+          {
+            "source_id": "s015",
+            "quote": "発言と分析者の解釈を区別する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "引用と解釈を選択。原文の2項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_quote_left_2",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "quotation": {
+            "text": "資料を見つけた後で、いま使える内容かを判断するのに時間がかかる。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "資料を見つけた後で、いま使える内容かを判断するのに時間がかかる。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "attribution": {
+            "text": "架空ヒアリングの発言例。一般化は未検証。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "架空ヒアリングの発言例。一般化は未検証。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "interpretation": {
+            "text": "示唆：検索結果と一緒に更新日・適用範囲・確認担当を示す。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "示唆：検索結果と一緒に更新日・適用範囲・確認担当を示す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "留保：発言と分析者の解釈を区別する。",
+            "refs": [
+              {
+                "source_id": "s015",
+                "quote": "留保：発言と分析者の解釈を区別する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    },
+    {
+      "id": "slide016",
+      "origin": "catalog",
+      "title": {
+        "text": "共有時に残すべき要点を整理する",
+        "refs": [
+          {
+            "source_id": "s016",
+            "quote": "共有時に残すべき要点を整理する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "まとめと次の確認を選択。原文の3項目と意味上の関係を保持し、見出し・説明・留保を対応づける。架空の調査共有であり、現実の効果を主張しない。",
+      "layout_id": "ed_summary_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "用語を揃え、同じ資料へ辿れる入口を整える。",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "用語を揃え、同じ資料へ辿れる入口を整える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "原文の条件と確認日を、要約とともに残す。",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "原文の条件と確認日を、要約とともに残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "変更頻度に応じて担当と再確認の時期を決める。",
+            "refs": [
+              {
+                "source_id": "s016",
+                "quote": "変更頻度に応じて担当と再確認の時期を決める。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": null
+    }
+  ],
+  "omissions": []
+}

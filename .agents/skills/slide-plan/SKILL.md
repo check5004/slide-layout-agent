@@ -39,7 +39,8 @@ section, template PPTX, input slots, compact font sizes and overflow policy.
 6. Run `validate`, then `review`; show the resulting outline and warnings before final rendering. If the user already authorized rendering, a successful validation may proceed, but explicit omissions still require user acceptance. Use `split` for bullets/table pagination or revise into several supported slides; never reduce fonts indefinitely.
 7. Render through the CLI, then run the available real renderer and inspect all pages. Correct the JSON or renderer if needed. Report what was tested and whether images are fit or cropped. Never equate OOXML validation with visual review.
 
-Catalog render reads the saved `catalog/templates/ID.pptx`, verifies its hash,
+Catalog render reads the saved template path registered in the selected collection's manifest
+(`catalog/editorial/templates/`, `catalog/relations/templates/`, or reference `catalog/templates/`), verifies its hash,
 clones native shapes and private chart/workbook parts, then populates named
 slots. It does not redraw a lookalike. `split` rejects an overflowing relational
 catalog page; explicitly create continuation slides with the original `origin`

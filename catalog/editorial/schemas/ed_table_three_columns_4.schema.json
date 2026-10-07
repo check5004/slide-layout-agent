@@ -506,6 +506,48 @@
       ],
       "default": null,
       "title": "Repetition Reason"
+    },
+    "row_alignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "default": {},
+      "properties": {
+        "row_0": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "row_1": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "row_2": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "row_3": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "row_4": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        }
+      }
     }
   },
   "required": [
@@ -518,6 +560,6 @@
   ],
   "title": "EditorialSlide",
   "type": "object",
-  "x-contract-sha256": "ac3c95124231f115bd02ce3467383c723f87587b71de2d819547a98463689244",
+  "x-contract-sha256": "048f16eced63699423e7d879cdd724826642464b53754038cfd29810d639f65e",
   "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

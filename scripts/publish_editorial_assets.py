@@ -29,7 +29,7 @@ def publish(pptx, plan_path, rendered, destination, gallery=False):
     report=json.loads((rendered/'render-report.json').read_text(encoding='utf-8-sig'))
     digest=hashlib.sha256(pptx.read_bytes()).hexdigest()
     if report['pptxSha256']!=digest: raise ValueError('rendered PNGs do not match the current PPTX')
-    if report['overflowCount']:raise ValueError('real engine measured text overflow; repair before publishing')
+    if report['overflowCount'] or report.get('positionOverflowCount',0):raise ValueError('real engine measured text overflow; repair before publishing')
     plan=json.loads(plan_path.read_text(encoding='utf-8')); entries=editorial_registry()
     if report['slideCount']!=len(plan['slides']):raise ValueError('render page count mismatch')
     destination.mkdir(parents=True,exist_ok=True)

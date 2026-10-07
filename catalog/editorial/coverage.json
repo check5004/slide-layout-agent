@@ -1,14 +1,14 @@
 {
   "engine": "Microsoft PowerPoint",
   "version": "16.0",
-  "pptx_sha256": "45b515b5b76aaec63ffba502296a2167a1a23f01de68fa205bfb2df781455dc5",
+  "pptx_sha256": "8d8e3b00837d773f217c16901ba8193c8ede06d6cd932d0f965ea0c84ce31e05",
   "pages": [
     {
       "slide": 1,
       "layout_id": "ed_cover_brief_2",
       "family": "cover",
       "structural_variant": "brief",
-      "template_sha256": "373871de87754b38c8f1fed072a644fd9d624823fd0ac5a4753f6e04247dd2ff",
+      "template_sha256": "ff0a4781bb1465467ac9ed96880843f7e2b10f8c90722b4befbca4838a610a1b",
       "preview": "previews/ed_cover_brief_2.png",
       "png_sha256": "7da72feaec8845cb1f7bb987a1d1c073ab732ae0a031a6fc3fca1a4c82da791a"
     },
@@ -17,7 +17,7 @@
       "layout_id": "ed_cover_split_2",
       "family": "cover",
       "structural_variant": "split",
-      "template_sha256": "be9c855079d61e27c4b2297a6cd97065038c6349ae4f0a495590bdd88f4b0b6a",
+      "template_sha256": "f476c5a183ded2a7c27981273ba82ae749a7abae924b527b839f099a2e510dd5",
       "preview": "previews/ed_cover_split_2.png",
       "png_sha256": "408cf5426e8a9d66125f97c550d299de1ad865966d6d3a4007c1d08e372986c2"
     },
@@ -26,16 +26,16 @@
       "layout_id": "ed_cover_band_2",
       "family": "cover",
       "structural_variant": "band",
-      "template_sha256": "9b7ad760df0a705cec748b2f5b1fcd3463aebc389e05d9409a1499fcbaf0fc57",
+      "template_sha256": "fe960f35b87867959c83e41755fd8b083265880d22d00220d08ddb9af790940b",
       "preview": "previews/ed_cover_band_2.png",
-      "png_sha256": "bafd1633e56282aed2d7d07acece5bf700bc89a61a1d7a1917dcac2379031d95"
+      "png_sha256": "41f5094b86a41aa6c1d2e97ae6abfcecb37f41dec66e95bb2aaa5281f8113019"
     },
     {
       "slide": 4,
       "layout_id": "ed_takeaway_left_3",
       "family": "takeaway",
       "structural_variant": "left",
-      "template_sha256": "936bb544be8057fc8b34710fc031c4fc95d502c1fe204b5256bab8d86c53d9f6",
+      "template_sha256": "db1f25125da205e75a77f0037a1027b3fc1cab2d964e495c40663032099caf35",
       "preview": "previews/ed_takeaway_left_3.png",
       "png_sha256": "48cc98b5ed7df3942d20dd487c0157dc8f5f25c6b6c9a998123f9da0a75f2104"
     },
@@ -44,7 +44,7 @@
       "layout_id": "ed_takeaway_right_3",
       "family": "takeaway",
       "structural_variant": "right",
-      "template_sha256": "e75f4eea352e2c2c6384edecead129d3b361aeb5cb47a337d46d39fa729af0b1",
+      "template_sha256": "4347de950c30265a7ff9c2fefd471ad334e3bd1ec95f9c360765523ea0f17e42",
       "preview": "previews/ed_takeaway_right_3.png",
       "png_sha256": "4b4bb87694e2293397e5195eb4bd6f7f00c31c803dc9345441cb78f41c0de115"
     },
@@ -53,7 +53,7 @@
       "layout_id": "ed_takeaway_top_3",
       "family": "takeaway",
       "structural_variant": "top",
-      "template_sha256": "fd19d21e4575b63234954006a4aefea20ae9129ce0e3ab668e01302d238ddefa",
+      "template_sha256": "5897d3f6db67f784c1c93ed96c95e3ec2319f1070ec07dbcbffb9c8ec273137a",
       "preview": "previews/ed_takeaway_top_3.png",
       "png_sha256": "13b7be51099ccc1462e05a05371c7312be6831762c3e390102edffd77a8cc983"
     },
@@ -62,7 +62,7 @@
       "layout_id": "ed_takeaway_rail_3",
       "family": "takeaway",
       "structural_variant": "rail",
-      "template_sha256": "bddd3ae35a03cbaf7ab551c9329076a039e739953861f4fc2c7044a3ee62cc45",
+      "template_sha256": "13e247f6abcadc3a6bedfeb12a9774e99f9a9ff9424156f758ef1976fe4ee235",
       "preview": "previews/ed_takeaway_rail_3.png",
       "png_sha256": "94d0dfec22bd236395d579070f35696b6d177da59ca332debb4b6fac3f4f31eb"
     },
@@ -71,16 +71,16 @@
       "layout_id": "ed_bullets_rows_2",
       "family": "bullets",
       "structural_variant": "rows",
-      "template_sha256": "72f3726c644e36914eaa226283a5befc4a43e8c321d36d3fde59559e8c73466b",
+      "template_sha256": "e610c2b21676bc64bd4e98efa06c887cbaf0645b83e43e5d2ff7df6b077f2672",
       "preview": "previews/ed_bullets_rows_2.png",
-      "png_sha256": "cbb52255cd0f01b9b77702d3d795143ca90cc21d127ae688672d045b34aa3b94"
+      "png_sha256": "13c42e3aa9c0c3da08400c9f572dff4502afdfbeefcc0b96b5cc31b169e702a0"
     },
     {
       "slide": 9,
       "layout_id": "ed_bullets_columns_2",
       "family": "bullets",
       "structural_variant": "columns",
-      "template_sha256": "df6f934f78e344a76aec8baf30afce3c290f784ff2ad7821c58f16956ca14efe",
+      "template_sha256": "6539552194823b7e0aa00c8585211eda329655336bc3dd57f5331ea7134629dd",
       "preview": "previews/ed_bullets_columns_2.png",
       "png_sha256": "f331c64a66664d0185019ca746f84483003145f2b6630d4b1dc93c7d40100e3d"
     },
@@ -89,16 +89,16 @@
       "layout_id": "ed_bullets_rows_3",
       "family": "bullets",
       "structural_variant": "rows",
-      "template_sha256": "cf2b090d44355695b130662afb370ab7e81c823bed8cae86c1e0fc08dd0ae17a",
+      "template_sha256": "8aa6746e044bab56ff5a5d21155b94fb8b42642c937ad4a9c5145c2afe3ae694",
       "preview": "previews/ed_bullets_rows_3.png",
-      "png_sha256": "e9d377cc3cf628597908df80db2b610b7eb10de6e439d19f57b7e72db0f3eecc"
+      "png_sha256": "2d6109bff629141568bf83fbd96094792f31030aa517bc10c24da2f284592619"
     },
     {
       "slide": 11,
       "layout_id": "ed_bullets_columns_3",
       "family": "bullets",
       "structural_variant": "columns",
-      "template_sha256": "2fd6ceb0c4c1c6341acc3fa919fa11575d8891a235ccf9346e503d4286b98aad",
+      "template_sha256": "2f6d4d7da1d5d35995777d5939757100aab6204ed62605df6e749c8074daaaa2",
       "preview": "previews/ed_bullets_columns_3.png",
       "png_sha256": "24f7a9b2284d8f134e673d8eb8511231652ebb5684b2ea86a32b74d4729e90b7"
     },
@@ -107,16 +107,16 @@
       "layout_id": "ed_bullets_rows_4",
       "family": "bullets",
       "structural_variant": "rows",
-      "template_sha256": "4a9b85e7ec35d95e9c813bc33f2604231c9720f0cbd7217e4595e246125e67f2",
+      "template_sha256": "2ee1e86e9d07d517ee7c93b661fc055cf666560eafa73cdcd6b0f9325f228145",
       "preview": "previews/ed_bullets_rows_4.png",
-      "png_sha256": "ef1c9c628e9606714018be17d82fbe1062b33ad14b1924547758f29fbef26b4a"
+      "png_sha256": "bb37f3d72b0f0840bccc2f543b0d2325c9c4815067487a6435e61c45845f712a"
     },
     {
       "slide": 13,
       "layout_id": "ed_bullets_columns_4",
       "family": "bullets",
       "structural_variant": "columns",
-      "template_sha256": "907f19c6a534999e2587a5612028f3a53ec554091fb0420019bdcdd152e786f4",
+      "template_sha256": "813c52e5a915eaeee21f5222a56126c4d9b8a36318bb9d2b5dd9940076fb9bff",
       "preview": "previews/ed_bullets_columns_4.png",
       "png_sha256": "9eec31ad7c299b917cb2733e22b57dc560742090b230ec617a9b9d05a88aab4e"
     },
@@ -125,16 +125,16 @@
       "layout_id": "ed_bullets_rows_5",
       "family": "bullets",
       "structural_variant": "rows",
-      "template_sha256": "41c31f5dd415e763dff2473a87c742232647d24c98709ef96504aba7884905d5",
+      "template_sha256": "3d406d580ec4ff210153b009d16900a091cb75d78fcf7dacac394f7230590e8f",
       "preview": "previews/ed_bullets_rows_5.png",
-      "png_sha256": "79742f62b5bdac3219575ea04473de78afa4c1cc3d8ab70d8f54a76da5db5b60"
+      "png_sha256": "0b2b189d2802d6df5764826ceb2133a97f9a78d572caefc89385ecc8c83ac685"
     },
     {
       "slide": 15,
       "layout_id": "ed_bullets_columns_5",
       "family": "bullets",
       "structural_variant": "columns",
-      "template_sha256": "41880babf7cf239ae85a2faefbbe93797d55694593ed0bf45ca01b99d79da6e1",
+      "template_sha256": "b7d5b1debf0626023b60140ab4a421b0237df53f34837599a5a8e5f427815fbc",
       "preview": "previews/ed_bullets_columns_5.png",
       "png_sha256": "ad6d74ce80144d074b012f11acba95f99011d975947a4112e19d6ce1cc86558d"
     },
@@ -143,16 +143,16 @@
       "layout_id": "ed_bullets_rows_6",
       "family": "bullets",
       "structural_variant": "rows",
-      "template_sha256": "3279379d892b41ca843e67caeb08797e833de97de54e469e9b4ad0192d1942ee",
+      "template_sha256": "70897604edbaa9c740ce294ae3d4e4687c739bc98479669b137cf7bb588c476a",
       "preview": "previews/ed_bullets_rows_6.png",
-      "png_sha256": "f266c40292aa25e2c9c695300c06b4cd47fa82c0346bbaba1dec6e8d2eee8372"
+      "png_sha256": "6e3ee54c0581d230204f4696e072ac3c4ed91c45ee3ffba0dfc946f41c8b38a6"
     },
     {
       "slide": 17,
       "layout_id": "ed_bullets_columns_6",
       "family": "bullets",
       "structural_variant": "columns",
-      "template_sha256": "8a62c50543efb635386f080d6c7628087d0489adbeee14f3fa698e98553e7899",
+      "template_sha256": "338c1a3d7c451ff02c94545d71cae1a489b67fd4e2d906ec189dfb6bd5a03bb0",
       "preview": "previews/ed_bullets_columns_6.png",
       "png_sha256": "9139183afe6e9ad083b8d47e11b04ab81db19716bf3b1090a1f4bb5a371a0b78"
     },
@@ -161,7 +161,7 @@
       "layout_id": "ed_cards_grid_2",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "c52dab2ba67eab38e834306d214f0469e221d8dec74d9e8f7cc4d9f9e340505f",
+      "template_sha256": "c16319427a608b98e6351598a0b4e00f958151455db0f5d12772ba16dfd05ec6",
       "preview": "previews/ed_cards_grid_2.png",
       "png_sha256": "8f0aa67159681625b4fd6c41ece823c2f51ace2b22a52d3c8e9f05bd9f1053ee"
     },
@@ -170,16 +170,16 @@
       "layout_id": "ed_cards_rows_2",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "440019d20f5a335dab83c072b37e653f3218cfe77f57792428b4d015eb985246",
+      "template_sha256": "d9c792cd2ba330d5a7fd84e8d4b74bcd2ca40d5f0a9394a4c3659327fc931c28",
       "preview": "previews/ed_cards_rows_2.png",
-      "png_sha256": "ac8f2ef246ffb45a8581b50ef768e1bb4ed84b150fb47583f5769eac40e82131"
+      "png_sha256": "df012dab270545e88fc574293e27723052cb1143d20b3fc398a75f5c990d614a"
     },
     {
       "slide": 20,
       "layout_id": "ed_cards_grid_3",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "d84dc9a9af4e114daf074a82c3dc7112852bcfcf402cd8851b2a5427b4d56685",
+      "template_sha256": "2bc7cd165bc5384dd2c1271100088da12a7ad76866cd16b07bf48b219f176c6a",
       "preview": "previews/ed_cards_grid_3.png",
       "png_sha256": "19280fb6d7f2da8c4c8e5fcbba49aeba7280326eef58230b849c69722c84749f"
     },
@@ -188,16 +188,16 @@
       "layout_id": "ed_cards_rows_3",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "5cfc34d5aeabb2ee77faf4cc69ad1b47369e98b65dc7d1c8e9122baab7ab45ae",
+      "template_sha256": "c9a208653cd601df4fd7d317072f17c738f7aee0e75d980791e7c936ea99b8ab",
       "preview": "previews/ed_cards_rows_3.png",
-      "png_sha256": "c78202da78265d6f14f4c4619ac8a2b6f9a88b4148107fe77aadd9d63b7bafa1"
+      "png_sha256": "4cc5d90f858464dac871c3c9af5869e57bc704aa15522bba4be7fedc28be2ce0"
     },
     {
       "slide": 22,
       "layout_id": "ed_cards_grid_4",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "bf58e1c9985efa2df781a4e3147de84fb9cdf0a8c221351334880832ac2dcae1",
+      "template_sha256": "22d1336928483d1358ac8fc01f35ae2f3c89cdba49f155af53bf8f96a3f145b0",
       "preview": "previews/ed_cards_grid_4.png",
       "png_sha256": "cc8b8a2be43d6ae2bd0f4f9dba632da2f26bbf34983af8efa4c36314c5eb1444"
     },
@@ -206,16 +206,16 @@
       "layout_id": "ed_cards_rows_4",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "d8eaf48fd337606e0f3273466c70eed3b35c566b145360ca90f7e1a2dfdcb5b2",
+      "template_sha256": "65f204abf42709de2c84415cfd8743b0a5fbfaa9796c8e9fb1be0c73a80b75d6",
       "preview": "previews/ed_cards_rows_4.png",
-      "png_sha256": "d55c40de24b2c474279bf540c974a67e34cacd4b6d1f9d529370dc9a25cc5634"
+      "png_sha256": "1d7e9cb72124fd7a3e3cca14025eca6c5d783e5efe1dbf4364b6370c96b6fd42"
     },
     {
       "slide": 24,
       "layout_id": "ed_cards_grid_5",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "925f6210b96d49714fc48cf7f0dea61005a57e34fe55ec90ed0fcb7422614a1f",
+      "template_sha256": "bacc1d7df5a84622a2929414e8929dbb806380b79a8bc9562ec99f9b928a6993",
       "preview": "previews/ed_cards_grid_5.png",
       "png_sha256": "6296b6ed46d28a4fa54eac8db7745baf96e261343f86563ea91c4060e0770377"
     },
@@ -224,16 +224,16 @@
       "layout_id": "ed_cards_rows_5",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "e2535fb3d45d0375b21722a6024857ae98f6141b0f5139af4a94e98498f88a50",
+      "template_sha256": "5b06fc1b590162be95c941473100f5a5aee31c558f2602ed17533e4bafcdd7d8",
       "preview": "previews/ed_cards_rows_5.png",
-      "png_sha256": "3a65c5c407bb74260e28877673ee9a33f22aa73bb0e4c836b73f48654bfd9576"
+      "png_sha256": "9eb3474a5037487512c0a81967eec2b068a1b058d3528a620fabc0a915c1b4ef"
     },
     {
       "slide": 26,
       "layout_id": "ed_cards_grid_6",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "9815c7ffea958d535e3532b69a0d70e7b5d6acdeeae91964f3820387b4085d4d",
+      "template_sha256": "b21da0482646304af7dae48ef6912a9b6762dc78ed5b7f5e2338eec82a777432",
       "preview": "previews/ed_cards_grid_6.png",
       "png_sha256": "c981b242f16dfec7124f2ae0a91e371672c47f49e0fdef1f4040b881acf65537"
     },
@@ -242,16 +242,16 @@
       "layout_id": "ed_cards_rows_6",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "e5154c554a4620972e73890a1f49bd3bbe8af154eb621a71cb3deaa02f2e8ab7",
+      "template_sha256": "43645ddd38a0869f86f0eb627379c019766898f8b9ae1c48be9da725b5497de2",
       "preview": "previews/ed_cards_rows_6.png",
-      "png_sha256": "7b817935ae94be67dff9443d93df190dfc39af90a4d6db91e72ce9a71ee54f6a"
+      "png_sha256": "41d1a305ec0ba1324088cb5467bf3414ac1d2d10308f341e659c3e434e9fdad5"
     },
     {
       "slide": 28,
       "layout_id": "ed_cards_feature_left_3",
       "family": "cards",
       "structural_variant": "feature_left",
-      "template_sha256": "77c63ee2a3ab4725dbf3d01e3e94ffe3dcad2657c1ba94d285d2189ff8dd60bf",
+      "template_sha256": "3362bf7b84251cab394baf7c635d3be6ef0c384b817c7e65131f2d432bf7629b",
       "preview": "previews/ed_cards_feature_left_3.png",
       "png_sha256": "a1f64af2780effb07bd6a97fe021dbabcdcd61517388cbef4dcb914410f366db"
     },
@@ -260,7 +260,7 @@
       "layout_id": "ed_cards_feature_right_3",
       "family": "cards",
       "structural_variant": "feature_right",
-      "template_sha256": "7e9dcbe298d4fb56e704e6dca81e0c14499f59e3d69ba3aa08d99878a6adbc46",
+      "template_sha256": "9b5159b29c396839d3c62e06fbac24a9f5756f7abbad9fdbafcd528824d75056",
       "preview": "previews/ed_cards_feature_right_3.png",
       "png_sha256": "45c8c7c393f4b89f3fe6306de000c3b4786179e65512c5c766d5f470eb29804b"
     },
@@ -269,7 +269,7 @@
       "layout_id": "ed_cards_feature_left_4",
       "family": "cards",
       "structural_variant": "feature_left",
-      "template_sha256": "ca7774d69ad043d8f0ae561d65b545d167b4efda09b876359bf4354bb72d0936",
+      "template_sha256": "a6ad0a8208a5e28c00651648ea666091c8cf19d33ca74e29de7df46b2890ce6f",
       "preview": "previews/ed_cards_feature_left_4.png",
       "png_sha256": "964c951892b28f38d2b504a8762b34da5cae86700c1e5617e6e401b1185d30c6"
     },
@@ -278,7 +278,7 @@
       "layout_id": "ed_cards_feature_right_4",
       "family": "cards",
       "structural_variant": "feature_right",
-      "template_sha256": "7a6faf8346fca9fceb751abdda7cd178cff2247df57236e02041c45642d87a29",
+      "template_sha256": "5e1660dd87c96a43729e871ea0f25d08c26b0a4e7f5cd7f1c44a4595b040fa03",
       "preview": "previews/ed_cards_feature_right_4.png",
       "png_sha256": "ff187d5d37013bc58ba03129d07d466b74411e5d900c9b85c97ea6a2df0d51e1"
     },
@@ -287,7 +287,7 @@
       "layout_id": "ed_cards_image_left_2",
       "family": "cards",
       "structural_variant": "image_left",
-      "template_sha256": "a49fc156c03e6c48dbbf282cd4cf49c516d0a61ff51f75971b0b929f9ab5ae65",
+      "template_sha256": "b85f0edf6db26a392f7330db5607bd70a65541db6ef02cbd0174768c6000eb09",
       "preview": "previews/ed_cards_image_left_2.png",
       "png_sha256": "68a1d7287b62a6ea52ad3c6e7f491048b1889a1e8e9e365bc2386a665e040e03"
     },
@@ -296,7 +296,7 @@
       "layout_id": "ed_cards_image_right_2",
       "family": "cards",
       "structural_variant": "image_right",
-      "template_sha256": "a94efbbff3e599ca3fa19dcc03451764d25d116a5d6ab13f6ed85290db604a89",
+      "template_sha256": "4867ad17621d157d12fb78e20b5f104b4d0a8c024c88cf838ae8044746fdc47d",
       "preview": "previews/ed_cards_image_right_2.png",
       "png_sha256": "07817a42890817c9e8c49d616d3049b868b61a08090bcac2bee59fd14f66288b"
     },
@@ -305,7 +305,7 @@
       "layout_id": "ed_diagram_left_3",
       "family": "diagram",
       "structural_variant": "left",
-      "template_sha256": "3529bb9757b1f2a155c8665df1f90558fdfb1436345aa5aead4ef9c7e94676f0",
+      "template_sha256": "b78fc81f26ab302c659c4dde409ca4f5fce394986bbbf80ba45edd631f1f8f40",
       "preview": "previews/ed_diagram_left_3.png",
       "png_sha256": "a9ed4bc3556a3cf936b88d4097356c1174fece226ca54abf99f84ee4ae76898e"
     },
@@ -314,7 +314,7 @@
       "layout_id": "ed_diagram_right_3",
       "family": "diagram",
       "structural_variant": "right",
-      "template_sha256": "783cd18bdc64abc99334c17b2c245b9d90733da1edce0ca4f9828a1d62ed7630",
+      "template_sha256": "3926fc921474422bf67d38c416664c9713e7459dd421278c84bc0f022f218798",
       "preview": "previews/ed_diagram_right_3.png",
       "png_sha256": "ba45b48e7b68a179c4ee66af8e248fd07701299cd146a4d77b0e06774687a7ac"
     },
@@ -323,7 +323,7 @@
       "layout_id": "ed_diagram_wide_left_3",
       "family": "diagram",
       "structural_variant": "wide_left",
-      "template_sha256": "e56c076f4fbb7417a7f4d65ab6aed9a25145160984d2fc1b0abac40eb47d219a",
+      "template_sha256": "0b8deda4501ddc1cdfb87d1cf5d795f43ed7da0e2a2fccae77289cf0e64f5565",
       "preview": "previews/ed_diagram_wide_left_3.png",
       "png_sha256": "10306e32f1317d7ecb0bca5b80169a0f3939d7fc6c31282e266769764b85031a"
     },
@@ -332,7 +332,7 @@
       "layout_id": "ed_diagram_wide_right_3",
       "family": "diagram",
       "structural_variant": "wide_right",
-      "template_sha256": "352eab3865cde96955d1534a1dbc4a1e1510d4f7840a10b55af24dc4eca69ff4",
+      "template_sha256": "544a6b642cc7024defdd7e7f3c6e0c195ed53f83fc3e89710b3bd7c66345465d",
       "preview": "previews/ed_diagram_wide_right_3.png",
       "png_sha256": "a28c8d00a2a2238746a273f84e9746aa9c1d9f825432880a7ae93a8633ab3825"
     },
@@ -341,7 +341,7 @@
       "layout_id": "ed_comparison_columns_2",
       "family": "comparison",
       "structural_variant": "columns",
-      "template_sha256": "1ad1774e3f1fe7f2ea2c7dd8715dbda8108d91d1525b2eb53c86bcfed6113fa1",
+      "template_sha256": "5b593446be0d0769f4a209d89011e58496fe0543c2ae3231d84ba3422c0d9b64",
       "preview": "previews/ed_comparison_columns_2.png",
       "png_sha256": "198827ba19826cea5ea8942394746cd691573678cdc9cf1495dcf00de2774f35"
     },
@@ -350,7 +350,7 @@
       "layout_id": "ed_comparison_swapped_2",
       "family": "comparison",
       "structural_variant": "swapped",
-      "template_sha256": "0a75f38d6b5244a55b63ac7b0d2d6ae206011420412b6af9b4347d7cf68d12d4",
+      "template_sha256": "7ddf163cd3f1b047789e45676d1d339520b1138b38eb60ae9ccb3bc94cd028ad",
       "preview": "previews/ed_comparison_swapped_2.png",
       "png_sha256": "c2bd06b37e16d12aadeaecd44bb8a98e1a1c41bb9b1fe4d44faedb279f8eec7d"
     },
@@ -359,7 +359,7 @@
       "layout_id": "ed_comparison_rows_2",
       "family": "comparison",
       "structural_variant": "rows",
-      "template_sha256": "e93619d1299b7afa3129be9cb078d6bf8f933cfd46474e0075743b6c89c63c55",
+      "template_sha256": "0f2e46a50c78768b585e5608e6e116dbac0c57bd49b6c2c459b100fdf2dc8aef",
       "preview": "previews/ed_comparison_rows_2.png",
       "png_sha256": "e8b68091494b73b4ff94047782b732b9df4e15b9c8cb4df29fd103012abc9fdf"
     },
@@ -368,7 +368,7 @@
       "layout_id": "ed_comparison_matrix_2",
       "family": "comparison",
       "structural_variant": "matrix",
-      "template_sha256": "a8f0778db8f1f8e02ddfab636b853ca240dd3210be83a21136cadf3326ae9b3f",
+      "template_sha256": "ab500e23096f3749eb26d7804f03f91d4a1782482edaed5ea5dd06729134473e",
       "preview": "previews/ed_comparison_matrix_2.png",
       "png_sha256": "c3316275f4483a16ceb55b9e4b80bba53c521a3db8ada23ebb84962d114d2136"
     },
@@ -377,7 +377,7 @@
       "layout_id": "ed_steps_horizontal_2",
       "family": "steps",
       "structural_variant": "horizontal",
-      "template_sha256": "bb62b85663017763e6a8ffc932de59965321f310a326cb012fb604b53ab7f872",
+      "template_sha256": "a2ac5f54034be6d3d85fef8520720a671ebf6dfaf5559ae4c9cc380215932765",
       "preview": "previews/ed_steps_horizontal_2.png",
       "png_sha256": "e17a2ea45809ff30f4caff3dc8c35c4d67bb8a05a6fc6da6d36d6d6e410ba413"
     },
@@ -386,16 +386,16 @@
       "layout_id": "ed_steps_vertical_2",
       "family": "steps",
       "structural_variant": "vertical",
-      "template_sha256": "e1800a751aaa9a2c2c748fe61e89ee52be5fb9cb42fe590431cf233d8cd3d4b1",
+      "template_sha256": "3ac2d3ec5cf4b1b8a16be949318d1f0e2642228cc90a591453d7855832dd176f",
       "preview": "previews/ed_steps_vertical_2.png",
-      "png_sha256": "b514f6c1ad418d6475eff976f2305f130078ab1b576596449fa75bf1bc6653bb"
+      "png_sha256": "1d8e3ac3546945255acfb52b2c0d7d95b0da5e0fa770bac01710e1c1061dec43"
     },
     {
       "slide": 44,
       "layout_id": "ed_steps_horizontal_3",
       "family": "steps",
       "structural_variant": "horizontal",
-      "template_sha256": "ddc84184daa57b92e8c261ec15c249357a5a3562efbab540d3117044ec4c45cb",
+      "template_sha256": "fa74574b11b6ce3b744ad424b83b9bd1f1932ff121bcd3f039c22200dc59bba4",
       "preview": "previews/ed_steps_horizontal_3.png",
       "png_sha256": "1dafa03dcd659492916c5d1f233523a9d4445d9feb3dd0c906e0d008338162e8"
     },
@@ -404,16 +404,16 @@
       "layout_id": "ed_steps_vertical_3",
       "family": "steps",
       "structural_variant": "vertical",
-      "template_sha256": "b519ff637366c41066d5fb7ae1a564edcbb251a91c2ded492693e06f9b54c49e",
+      "template_sha256": "45ce492bebe3ffec0d22090e94d575781e780bb3aee4dfceaed5bb270a63e3b4",
       "preview": "previews/ed_steps_vertical_3.png",
-      "png_sha256": "7858f835490998fe454aab4c869de9e68c9d6c18bfaf2ffe5027e457c54b96f2"
+      "png_sha256": "36695851ae7578fecc3e5e2b7683c8d2901b8aba67b094c0390ce6f0a555f31e"
     },
     {
       "slide": 46,
       "layout_id": "ed_steps_horizontal_4",
       "family": "steps",
       "structural_variant": "horizontal",
-      "template_sha256": "b719a9b2d1cd9e34313ec0f4c40ebdc471625ef6c2a9bfa95014567c284f653b",
+      "template_sha256": "ca678a796dbc53c72daad5910ac043d10bbfd7722bb15faaa8e5ba3a0c19ec86",
       "preview": "previews/ed_steps_horizontal_4.png",
       "png_sha256": "2bf10f94142649a2c079dbc8d38325b0e6d3743b17ea8ee7ea1b8ce16ddfc16c"
     },
@@ -422,34 +422,34 @@
       "layout_id": "ed_steps_vertical_4",
       "family": "steps",
       "structural_variant": "vertical",
-      "template_sha256": "3286fa674d23aeed50881559e544d5a2fe34d674679a770437c90da3b344a932",
+      "template_sha256": "4b5ef2716380c3f9aeb4e3948ce5712dae81972488b013155825ed3d02733dfa",
       "preview": "previews/ed_steps_vertical_4.png",
-      "png_sha256": "6ca371303a068caafa2b7f3a96875c8ed08a0ec80a8fc77e9b1100ffa777b3ea"
+      "png_sha256": "2fb3df00c0a8a0f74e23b2c0f6df6fc6788f7d360d633ae193777dceb6e33024"
     },
     {
       "slide": 48,
       "layout_id": "ed_steps_vertical_5",
       "family": "steps",
       "structural_variant": "vertical",
-      "template_sha256": "fd017700f0fd353c4c2cdfc6e793b4e28eed5e0490881534b4fb3dad032e7954",
+      "template_sha256": "cba83b60144a4a18423ab726c738b2015bf55b569b2345059d3f29b0fb5b7664",
       "preview": "previews/ed_steps_vertical_5.png",
-      "png_sha256": "53442cb136955b3dd366f381d694e2066cf6c63780f1906540fae0393bfc9b38"
+      "png_sha256": "1b50a39b5d4870c342eb439ce07f5d4b83765969c95b450b8bc0a27685cc42ee"
     },
     {
       "slide": 49,
       "layout_id": "ed_steps_vertical_6",
       "family": "steps",
       "structural_variant": "vertical",
-      "template_sha256": "66e037af0b95e74a698387d935acdd82fa0c8f834703e332d8507cb5b21831a0",
+      "template_sha256": "6f4455f657a0bd84c63a45c1dc2426c6ba6c31d4ee325eae295dc91032f4a0c4",
       "preview": "previews/ed_steps_vertical_6.png",
-      "png_sha256": "50ee50ddaad477bba83dbf09df942206d4803c93cedaf94917dca5f4c8828aaf"
+      "png_sha256": "8559fdc044ad61a2964d308463be748dd1c2348f65aaab3b2bc96a15442e5e57"
     },
     {
       "slide": 50,
       "layout_id": "ed_timeline_horizontal_3",
       "family": "timeline",
       "structural_variant": "horizontal",
-      "template_sha256": "d36e783ada6fa92d92adafb25b9a915f03f28ac61ac97072f711affc95ec1c6c",
+      "template_sha256": "657341263111a6fa5c82603769ef3055f5682ed447e71b5eb6cac8d220c094e3",
       "preview": "previews/ed_timeline_horizontal_3.png",
       "png_sha256": "18f6778f1b6b9833819af0911880457f3f555eabf37e78d446667011bf9df839"
     },
@@ -458,16 +458,16 @@
       "layout_id": "ed_timeline_vertical_3",
       "family": "timeline",
       "structural_variant": "vertical",
-      "template_sha256": "5a071f94c85f1e0c0febc70a586c600600b37c2b076c2275f9c85e36e9464d48",
+      "template_sha256": "aa673344dfe0ade1463583f5c2904ec00c0cf0c7b426fbfbe05c57acb75588cd",
       "preview": "previews/ed_timeline_vertical_3.png",
-      "png_sha256": "07bd260aeebc9d0a95ff447b633b5678c4802fd098468170b56c1f5efe09fd78"
+      "png_sha256": "4be92735df2a9571a19366e6a9b62907c73829a880f579e6e6ef05ec44f68a0c"
     },
     {
       "slide": 52,
       "layout_id": "ed_timeline_horizontal_4",
       "family": "timeline",
       "structural_variant": "horizontal",
-      "template_sha256": "3df8a8efbb7c83de63487f3f0696b5e8c8e2fd05a0631f84fb2ac9c20a8b5717",
+      "template_sha256": "e47c9fc91ce318ce3707ffa979fc4717cc72bb468767e17f13ceb2690c151a85",
       "preview": "previews/ed_timeline_horizontal_4.png",
       "png_sha256": "1a69fffdf402346b54fb9884dce6300ec1ca33c7bc750fac21b0ac22bf40990b"
     },
@@ -476,16 +476,16 @@
       "layout_id": "ed_timeline_vertical_4",
       "family": "timeline",
       "structural_variant": "vertical",
-      "template_sha256": "95485cd39a302e5f294f5b744b9fbc16199c72bc7d9a421ae4d00f13fd1ab790",
+      "template_sha256": "75cbbc260d68728e794002366f9aee74df81bf67880fb50bbb2633ea39ab1c74",
       "preview": "previews/ed_timeline_vertical_4.png",
-      "png_sha256": "35183d25d628461b204551a51cbbdb0cc1dad2b78a8aa55b3e9c91af9a7f5dc3"
+      "png_sha256": "5923a919ce82bea40c82fd7a62bbb504f04e587474d931b597bd17912a3cfcf2"
     },
     {
       "slide": 54,
       "layout_id": "ed_metrics_row_2",
       "family": "metrics",
       "structural_variant": "row",
-      "template_sha256": "6b5ddddfa412b4bae9b29e0de107e6db1b537c1e58db66a5c1ff0fa9913b1667",
+      "template_sha256": "704f5716ab445e82175f7fdfa4ff4ed828880121b4aaec614f4b76a7f0b9af7d",
       "preview": "previews/ed_metrics_row_2.png",
       "png_sha256": "41781546d257bcd4ef6a1d031e38c23f76c13d7bb6d0ce4c2ee99a9200ee8fc9"
     },
@@ -494,7 +494,7 @@
       "layout_id": "ed_metrics_row_3",
       "family": "metrics",
       "structural_variant": "row",
-      "template_sha256": "08ca6b9b36a4222e7a87f066d223106ca50a9865829118de99ad4c33d80ab09b",
+      "template_sha256": "bb7a4db61a8903a9ed7dcefe6ae65d09e49d233771646600bebdbf8c10273180",
       "preview": "previews/ed_metrics_row_3.png",
       "png_sha256": "49397b81b2d9fc63db6055ae6b627972618358c2fbd7f08ff40a6349c83b4ed9"
     },
@@ -503,7 +503,7 @@
       "layout_id": "ed_metrics_row_4",
       "family": "metrics",
       "structural_variant": "row",
-      "template_sha256": "0ebb3e36fb7b95aa014a6fcdf26fed39ce7dde4e6c5a2f2d786cca01afb97cc6",
+      "template_sha256": "a0f0f16fce25a7406437074772589be537f3ae638e24924e6b6ce4ea1e77fc58",
       "preview": "previews/ed_metrics_row_4.png",
       "png_sha256": "0e1fafc81708a445777ea3e45a26c22ef3aef46e685904e41654878337cb39bf"
     },
@@ -512,16 +512,16 @@
       "layout_id": "ed_metrics_stack_3",
       "family": "metrics",
       "structural_variant": "stack",
-      "template_sha256": "1b95d8bb099c3d660f5ebdb4f8639b02ee25bd767d40c55eca15ff9917247195",
+      "template_sha256": "a87c430d4e45939c51cfa66ba9ccba45be15cdb8d0af0c2157686da4cb89a4a8",
       "preview": "previews/ed_metrics_stack_3.png",
-      "png_sha256": "0b22818f1ae259e6f83a77e8392a2d85c0dab3f0b46ce95d877a0f9289245fa7"
+      "png_sha256": "6158e3f15cadbbe9ad5200740f7cec5bfabdcfd19bfc95fa46009e526c4c6ab5"
     },
     {
       "slide": 58,
       "layout_id": "ed_metrics_breakdown_top_3",
       "family": "metrics",
       "structural_variant": "breakdown_top",
-      "template_sha256": "8eaf948781dead9554a62e3ac491faba9cb93dc833fd60ddb4615a3e302e4e72",
+      "template_sha256": "5abf4bc00f09927d248be6792b2823517de33cd34c4cabba7b54cbc5ae122823",
       "preview": "previews/ed_metrics_breakdown_top_3.png",
       "png_sha256": "9a4bd0abed878897d86b26d31b2a6cdc1d448af18b65a74c8b706fe358c6da82"
     },
@@ -530,52 +530,52 @@
       "layout_id": "ed_metrics_breakdown_left_3",
       "family": "metrics",
       "structural_variant": "breakdown_left",
-      "template_sha256": "1770983472a93f475ef3e9431ba63a361be4f914ee379256eea990b61b73b49c",
+      "template_sha256": "a0bd50cb92621b04961db052836613b24e1d4a9fec2cd45cddcf6c6e931852bb",
       "preview": "previews/ed_metrics_breakdown_left_3.png",
-      "png_sha256": "d41042c7ecb208280cca7b0882669bbaaf63e8fcf845f672c21cc9e6ec3f6bc9"
+      "png_sha256": "e132447e7211c67cac98e18a940aeb62fccb8493b765b28cced41a2b9fe30b40"
     },
     {
       "slide": 60,
       "layout_id": "ed_table_two_columns_3",
       "family": "table",
       "structural_variant": "two_columns",
-      "template_sha256": "b23350a57c14cf986ba2e2d0438bff49789c681089dad671ff7796e3bef1759e",
+      "template_sha256": "9e5d4f9040977d3fb3892782a43e559d3afa2835cd9527e13aa2c3787cca368b",
       "preview": "previews/ed_table_two_columns_3.png",
-      "png_sha256": "ed6aaff129eb782ca05b192940e7b903aeb69c8ec9d41270124a00fb76ef6af0"
+      "png_sha256": "c77efea4547e06dfac0ea53264d0e7e0f47f852d6ced9860fe92a59170a9b73b"
     },
     {
       "slide": 61,
       "layout_id": "ed_table_two_columns_4",
       "family": "table",
       "structural_variant": "two_columns",
-      "template_sha256": "922f9c908c97a9cb3edf2b61d09f92e91c8465e7d95b4b48787f36c46bca26f9",
+      "template_sha256": "cf960e2a3929a42d122c023ddc474a09a24e639b570646c8066019aad60ee6c7",
       "preview": "previews/ed_table_two_columns_4.png",
-      "png_sha256": "42927d0ad4634fa5e9060f7b03c8e983f4563220207b2cf143e7a8faca709a95"
+      "png_sha256": "ba666864fc71c7dcb0a8fc10d4c1c4e2d9f24a2325f0d17bb874bd7912c76a09"
     },
     {
       "slide": 62,
       "layout_id": "ed_table_two_columns_6",
       "family": "table",
       "structural_variant": "two_columns",
-      "template_sha256": "06769641be34490a826dbe437a83f08abb05671ea2a2370c6375ea0fc5c30dca",
+      "template_sha256": "9b50ee51bb1d3221e6c67d45da3677eaa9602ff2c750c2436fe1b0efe4e835b3",
       "preview": "previews/ed_table_two_columns_6.png",
-      "png_sha256": "3a01dc67a93ec9b9e24a939747872de742628623d9f4ecbc4a4b49a29e823a33"
+      "png_sha256": "7b9f25e664b093c99a60ca759ee9b16ffa887262e50d87763089e9a3e08063fa"
     },
     {
       "slide": 63,
       "layout_id": "ed_table_three_columns_4",
       "family": "table",
       "structural_variant": "three_columns",
-      "template_sha256": "f23fbba0be512b40285904d25dfa2e0f7155bbb5e7d7a4a059e6fdff5e255115",
+      "template_sha256": "6b143d7815acfd4ae1cbf24a7c95d46d64b789567061c6ba384bff91be84f4db",
       "preview": "previews/ed_table_three_columns_4.png",
-      "png_sha256": "b46b0e667fc6315af8c85d64e46b851443a605a58c2e33f1579ecfbef5b0e29d"
+      "png_sha256": "b8b6e70b901e0b505cebb88e524c18f8f1836b8f49315a28285c98d8b720dc73"
     },
     {
       "slide": 64,
       "layout_id": "ed_chart_bar_left_4",
       "family": "chart",
       "structural_variant": "bar_left",
-      "template_sha256": "530a185bdab5632a7ec4ff7b7b649f8235abff8fa5c07f4379c49ef3e34c9817",
+      "template_sha256": "8ee82b12631edff443641c06f1c61b4722180f84e6596036bca7b43cd14885ac",
       "preview": "previews/ed_chart_bar_left_4.png",
       "png_sha256": "778ef3cc3f55a97d85917ebb0a4bc635b81e86130c0870019199b640b1cd3110"
     },
@@ -584,7 +584,7 @@
       "layout_id": "ed_chart_bar_right_4",
       "family": "chart",
       "structural_variant": "bar_right",
-      "template_sha256": "2ccc092dd4d266ecd52c6b8c696f7cc8ac054b0c1a8052bb9f97478f45783701",
+      "template_sha256": "0c41da28128ae83e7fde7ca4a014839433c96eafe40ab7809cafb8d7a9e74c33",
       "preview": "previews/ed_chart_bar_right_4.png",
       "png_sha256": "bb22941dfdd2b62256dfad5c6e231b0eeed2473b82ae227d4aaa0d07e6c8be18"
     },
@@ -593,7 +593,7 @@
       "layout_id": "ed_chart_column_top_4",
       "family": "chart",
       "structural_variant": "column_top",
-      "template_sha256": "fb46b4e186cba4bdefa203e750cddbafd2cde76cdbde2a0e72329ca8a903d307",
+      "template_sha256": "d7c9dddbca8e225ed704785bfa646fe7f13ada9bdab9bfa98551034ad4d1a29d",
       "preview": "previews/ed_chart_column_top_4.png",
       "png_sha256": "7c9912cda8791aac290cb8ee5c464f06d3fa37c5aeeb690f011379a3db71aa53"
     },
@@ -602,7 +602,7 @@
       "layout_id": "ed_chart_column_bottom_4",
       "family": "chart",
       "structural_variant": "column_bottom",
-      "template_sha256": "1ba23a7c2202898cb2e422a7f130432261c4eeaa13fc699ca65bc200011726ae",
+      "template_sha256": "5de2d3f80277ecc99530d6a09e4b1d4c4d57e0e1dadc5438ee8c132bc863c42e",
       "preview": "previews/ed_chart_column_bottom_4.png",
       "png_sha256": "fe51ad18f4ee6e47e6344da9bcb3ea38e4845dc08d07f4adb6cbaf2957604a58"
     },
@@ -611,7 +611,7 @@
       "layout_id": "ed_quote_left_2",
       "family": "quote",
       "structural_variant": "left",
-      "template_sha256": "342f31eaf4b7caf5d689ac515cabb33f95177a8673bafc1dd8ec53c1fe9a7f48",
+      "template_sha256": "fc7c7608701a9f51f830cb358052650bad6e57c7295f6afbc3f0be1c10e8e18e",
       "preview": "previews/ed_quote_left_2.png",
       "png_sha256": "68153b975c4c22e080cd2fb060162c942aeaff226e6993cca673c00b4b463029"
     },
@@ -620,7 +620,7 @@
       "layout_id": "ed_quote_right_2",
       "family": "quote",
       "structural_variant": "right",
-      "template_sha256": "14f2e76eefb258c9b0441b55dcf041407e6489e6e5638ea5086f4dc253b8beb7",
+      "template_sha256": "62c68df49bdaf565f856a5ac9b40aded8995dbb944ca91d16b1d20848b9da517",
       "preview": "previews/ed_quote_right_2.png",
       "png_sha256": "3ed4ca5621bcd80e288c3d3c00dd7fc6322ca2c39833a3b60ce61f3d70dbf4a5"
     },
@@ -629,7 +629,7 @@
       "layout_id": "ed_quote_top_2",
       "family": "quote",
       "structural_variant": "top",
-      "template_sha256": "56965c67105b28aa69cad252ba976824a93d1d5c38005252c287db883f66b57c",
+      "template_sha256": "eb87c7e0d481aa55af72c6941f4f87d1149891224b055acf20e682fd415ff3d6",
       "preview": "previews/ed_quote_top_2.png",
       "png_sha256": "244806f9365171b3f465f1666f4ba81d13dfb24ff8870f9c94cf5bc9a2b71bd6"
     },
@@ -638,7 +638,7 @@
       "layout_id": "ed_summary_columns_3",
       "family": "summary",
       "structural_variant": "columns",
-      "template_sha256": "b03bc4618a69a807bb402d77493f61fe62985dffc4b1342ae91dcb8f57c0772b",
+      "template_sha256": "cfcdb26587488c627587f8185104cb98602915422ebd3928ed55949c4856fc51",
       "preview": "previews/ed_summary_columns_3.png",
       "png_sha256": "a66626026054583838b93a0743cd585e0c6f852a349eeb4c8e0ce08cb7be1c3d"
     },
@@ -647,16 +647,16 @@
       "layout_id": "ed_summary_rows_3",
       "family": "summary",
       "structural_variant": "rows",
-      "template_sha256": "7d6b70bfcec2bd3905c96b67a4654daafbd829e1a14f5fec3af1673d13f432d5",
+      "template_sha256": "f5c0a412e977df14e76b0050ac94ed1081aaf8b2e527a6145d9f50c9bc94de5d",
       "preview": "previews/ed_summary_rows_3.png",
-      "png_sha256": "c5efb599b34b8724229cb3f1d41ab23666b32f4de77bb80bcab009e971d69350"
+      "png_sha256": "fccc911ff968ea0c003385441bb16ac895c9a7efd965558bd10fafa1f90a0abe"
     },
     {
       "slide": 73,
       "layout_id": "ed_summary_split_3",
       "family": "summary",
       "structural_variant": "split",
-      "template_sha256": "89f853544554a106aaf65eadd8a3b2c4dff143b1c30b498af1293901800da585",
+      "template_sha256": "c8f3cd83223450e40e08be8c613b905015eef3ce8da5b1332e26df1074885d4f",
       "preview": "previews/ed_summary_split_3.png",
       "png_sha256": "effd2220460be1de62fcf910796fe80c24d1b19f956401993ee2452fb3663d07"
     },
@@ -665,16 +665,16 @@
       "layout_id": "ed_agenda_rows_3",
       "family": "agenda",
       "structural_variant": "rows",
-      "template_sha256": "8e337753ccc108256a381c283a3942066fe7b5c6edb1219bfbe5d9f667d19b36",
+      "template_sha256": "91ad7e5631c2cbfbe3502bea735ef682aa258a63812c564f8f8b418b642af5ba",
       "preview": "previews/ed_agenda_rows_3.png",
-      "png_sha256": "6fe1d420ec5db8dfa90453e2fcf18ff3992aaf6c65e91c656407166a41081994"
+      "png_sha256": "3279333f087fadac292b424297afa4ac8a8dd0bb050c264a60dba670fb5261dc"
     },
     {
       "slide": 75,
       "layout_id": "ed_agenda_columns_3",
       "family": "agenda",
       "structural_variant": "columns",
-      "template_sha256": "71e003a5ac38db90ea0b2c8707b1002e4018e2678d6aca7619eb3a5561087a62",
+      "template_sha256": "0c48d0875ac79daa81aa7caca3e569fbb4489d0ce6286c5ce59da5f08eb6353a",
       "preview": "previews/ed_agenda_columns_3.png",
       "png_sha256": "a8a1e7cfcd3ab7c7cc9807ded6660a7daccc65a898efa7a02817404b094f2c3c"
     },
@@ -683,9 +683,9 @@
       "layout_id": "ed_agenda_rail_3",
       "family": "agenda",
       "structural_variant": "rail",
-      "template_sha256": "7bcd75a901a4605974b87f035e735de3f9758260cf0ae86b12abe03ecf6fe54a",
+      "template_sha256": "6de337d6f5d839a6e1cb0596df979434b963edd26850e90fc97945958b8594e6",
       "preview": "previews/ed_agenda_rail_3.png",
-      "png_sha256": "cc8a71d597a3dc556734813aaf3a8859bfb086f4c215f873b843288783043cb8"
+      "png_sha256": "0bc9b2f7eff12b33eb80911064b171d985b91c32ec6c33c7f9ece7b2296c28c5"
     }
   ]
 }

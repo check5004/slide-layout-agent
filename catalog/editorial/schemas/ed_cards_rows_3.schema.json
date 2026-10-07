@@ -478,6 +478,34 @@
       ],
       "default": null,
       "title": "Repetition Reason"
+    },
+    "row_alignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "default": {},
+      "properties": {
+        "item_1": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "item_2": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        },
+        "item_3": {
+          "type": "string",
+          "enum": [
+            "top",
+            "middle"
+          ]
+        }
+      }
     }
   },
   "required": [
@@ -490,6 +518,6 @@
   ],
   "title": "EditorialSlide",
   "type": "object",
-  "x-contract-sha256": "637bef35f4e81fde060002e65244f9e703af4cea8c5827d18f0de941438d3945",
+  "x-contract-sha256": "4d85cfda014a741fc944afbab38cb5c0e1a908ee2f0716cc0951ff9d880d13f4",
   "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

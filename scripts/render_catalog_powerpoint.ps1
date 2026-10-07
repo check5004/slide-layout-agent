@@ -20,8 +20,10 @@ try {
             if($shape.HasTextFrame -eq -1 -and $shape.TextFrame.HasText -eq -1){
                 $range=$shape.TextFrame2.TextRange
                 $measurements.Add([pscustomobject]@{slide=$slide.SlideIndex;shape=$shape.Name;kind='text';
+                    boxTop=[math]::Round($shape.Top,2);textTop=[math]::Round($range.BoundTop,2);verticalAnchor=$shape.TextFrame2.VerticalAnchor;
                     boxWidth=[math]::Round($shape.Width,2);boxHeight=[math]::Round($shape.Height,2);
                     textWidth=[math]::Round($range.BoundWidth,2);textHeight=[math]::Round($range.BoundHeight,2);
+                    positionOverflow=($range.BoundTop -lt ($shape.Top-1) -or ($range.BoundTop+$range.BoundHeight) -gt ($shape.Top+$shape.Height+1));
                     overflow=($range.BoundHeight -gt ($shape.Height+1) -or $range.BoundWidth -gt ($shape.Width+1))})
             }
             if($shape.HasTable -eq -1){
@@ -31,8 +33,10 @@ try {
                         if($cell.TextFrame.HasText -eq -1){
                             $range=$cell.TextFrame2.TextRange
                             $measurements.Add([pscustomobject]@{slide=$slide.SlideIndex;shape=$shape.Name;kind='table';row=$r;column=$c;
+                                boxTop=[math]::Round($cell.Top,2);textTopRaw=[math]::Round($range.BoundTop,2);verticalAnchor=$cell.TextFrame2.VerticalAnchor;
                                 boxWidth=[math]::Round($cell.Width,2);boxHeight=[math]::Round($cell.Height,2);
                                 textWidth=[math]::Round($range.BoundWidth,2);textHeight=[math]::Round($range.BoundHeight,2);
+                                positionOverflow=$null;
                                 overflow=($range.BoundHeight -gt ($cell.Height+1) -or $range.BoundWidth -gt ($cell.Width+1))})
                         }
                     }
@@ -44,10 +48,12 @@ try {
         pptxSha256=(Get-FileHash -LiteralPath $deckPath -Algorithm SHA256).Hash.ToLower();
         rasterExport=$true;editableTextBoundaryMeasurements=$measurements;
         overflowCount=@($measurements | Where-Object {$_.overflow}).Count;
+        positionOverflowCount=@($measurements | Where-Object {$_.positionOverflow}).Count;
+        positionMeasurementScope='Text shapes only. PowerPoint table-cell BoundTop is not slide-absolute in this QA environment; record raw value, measure dimensions and inspect pixels.';
         chartReview='native chart pixels and data-label placement require separate visual review';
         visualInspection='exported; not yet visually reviewed'}
     $report | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $renderDir 'render-report.json') -Encoding utf8
-    $report | Select-Object engine,version,slideCount,overflowCount | ConvertTo-Json
+    $report | Select-Object engine,version,slideCount,overflowCount,positionOverflowCount | ConvertTo-Json
 } finally {
     if($presentation){$presentation.Close();[void][Runtime.InteropServices.Marshal]::ReleaseComObject($presentation)}
     if($app){[void][Runtime.InteropServices.Marshal]::ReleaseComObject($app)}

@@ -32,6 +32,8 @@ def layout_schema(entry):
     kinds = [('texts','Text'),('charts','TemplateChart'),('metrics','SignedDatum'),('states','Text')]
     if editorial:
         kinds.append(('images', 'TemplateImage')); contents['required'].append('images')
+        sc['properties']['row_alignments'] = {'type':'object','additionalProperties':False,
+            'default':{},'properties':{key:{'type':'string','enum':['top','middle']} for key in entry.get('rows',{})}}
     for kind,model in kinds:
         contents['properties'][kind]={'type':'object','additionalProperties':False,'required':list(entry[kind]),
             'properties':{key:{'$ref':f'#/$defs/{model}'} for key in entry[kind]}}
@@ -42,7 +44,7 @@ def layout_schema(entry):
         chart['properties']['elapsed_years']={'$ref':'#/$defs/ElapsedYears'}
     else:chart['properties']['elapsed_years']={'type':'null','default':None}
     keys=['template_sha256','title','texts','charts','metrics','states','chart_aliases','reference_line','bridge','calculation','split_policy','image_policy', 'family', 'structural_variant', 'item_count', 'semantic_signature', 'slot_mapping', 'visual_signature', 'images']
-    contract={k:entry[k] for k in keys+['emphasis_item', 'text_flow', 'metric_total', 'comparison_axes'] if k in entry}
+    contract={k:entry[k] for k in keys+['emphasis_item', 'text_flow', 'metric_total', 'comparison_axes', 'rows'] if k in entry}
     sc['x-contract-sha256']=hashlib.sha256(json.dumps(contract,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
     sc['x-runtime-validation']='Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog'
     return sc

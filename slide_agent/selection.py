@@ -64,6 +64,7 @@ def selection_report(plan, add=None):
                        'semantic_slot_mapping': entry['slot_mapping'], 'visual_signature': signature,
                        'family_reason': slide.rationale, 'content_fit_candidates': fitting_ids,
                        'emphasis': slide.emphasis.model_dump() if slide.emphasis else None,
+                       'row_alignments': {key:slide.row_alignments.get(key,row['default_alignment']) for key,row in entry.get('rows',{}).items()},
                        'rejected_candidates': rejected, 'constraints_reason': slide.constraints_reason,
                        'fourth_consecutive_structure': repeated, 'fitting_other_structures': alternatives,
                        'repetition_reason': slide.repetition_reason,

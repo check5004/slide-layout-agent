@@ -122,6 +122,7 @@ def render(plan, source, base, theme, destination):
                 "catalog": entry.get('catalog', 'reference'),
                 "family": entry.get('family'), "structural_variant": entry.get('structural_variant'),
                 "repetition_reason": getattr(design, 'repetition_reason', None),
+                "row_alignments": getattr(design, 'row_alignments', {}),
                 "images": {key: value.model_dump() for key, value in getattr(design.contents, 'images', {}).items()},
                 "template_sha256": registry()[design.layout_id]["template_sha256"],
             }, ensure_ascii=False, indent=2)

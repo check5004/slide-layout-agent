@@ -1,14 +1,14 @@
 {
   "engine": "Microsoft PowerPoint",
   "version": "16.0",
-  "pptx_sha256": "c1eedd8571ed1237b4b4579b1bcc1053f2ac21f1cf8029c06dea71f892e301e7",
+  "pptx_sha256": "b4112168592d906b07923fd144f5b6da8a4dc4bf613098a4269cbb6efe1c3bfc",
   "pages": [
     {
       "slide": 1,
       "layout_id": "ed_cover_brief_2",
       "family": "cover",
       "structural_variant": "brief",
-      "template_sha256": "373871de87754b38c8f1fed072a644fd9d624823fd0ac5a4753f6e04247dd2ff",
+      "template_sha256": "ff0a4781bb1465467ac9ed96880843f7e2b10f8c90722b4befbca4838a610a1b",
       "preview": "previews/slide-01.png",
       "png_sha256": "7da72feaec8845cb1f7bb987a1d1c073ab732ae0a031a6fc3fca1a4c82da791a"
     },
@@ -17,7 +17,7 @@
       "layout_id": "ed_cards_grid_3",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "d84dc9a9af4e114daf074a82c3dc7112852bcfcf402cd8851b2a5427b4d56685",
+      "template_sha256": "2bc7cd165bc5384dd2c1271100088da12a7ad76866cd16b07bf48b219f176c6a",
       "preview": "previews/slide-02.png",
       "png_sha256": "d3b332b1dceef1eaf1b051bbedf6217fc1a03241c12f3dcfb13b92f790c0be70"
     },
@@ -26,7 +26,7 @@
       "layout_id": "ed_cards_grid_6",
       "family": "cards",
       "structural_variant": "grid",
-      "template_sha256": "9815c7ffea958d535e3532b69a0d70e7b5d6acdeeae91964f3820387b4085d4d",
+      "template_sha256": "b21da0482646304af7dae48ef6912a9b6762dc78ed5b7f5e2338eec82a777432",
       "preview": "previews/slide-03.png",
       "png_sha256": "9b6be337d89e1c0c73b09fd6310a31e9adce51cd6e607177b1d0b0845f7caae2"
     },
@@ -35,16 +35,16 @@
       "layout_id": "ed_cards_rows_4",
       "family": "cards",
       "structural_variant": "rows",
-      "template_sha256": "d8eaf48fd337606e0f3273466c70eed3b35c566b145360ca90f7e1a2dfdcb5b2",
+      "template_sha256": "65f204abf42709de2c84415cfd8743b0a5fbfaa9796c8e9fb1be0c73a80b75d6",
       "preview": "previews/slide-04.png",
-      "png_sha256": "ec2a9c21550d835b26f818e6e175013c4fc252ffb8bb7291512e1479350083cc"
+      "png_sha256": "652d3a0dc746dceb02f1b76a6214f7878f2bdaae04a725222fe93b574b771a2a"
     },
     {
       "slide": 5,
       "layout_id": "ed_cards_feature_left_3",
       "family": "cards",
       "structural_variant": "feature_left",
-      "template_sha256": "77c63ee2a3ab4725dbf3d01e3e94ffe3dcad2657c1ba94d285d2189ff8dd60bf",
+      "template_sha256": "3362bf7b84251cab394baf7c635d3be6ef0c384b817c7e65131f2d432bf7629b",
       "preview": "previews/slide-05.png",
       "png_sha256": "056dcf9744018faba8bd5e4ece906343f8316b7be32a00bd4816be5f50cb5de2"
     },
@@ -53,7 +53,7 @@
       "layout_id": "ed_cards_feature_right_3",
       "family": "cards",
       "structural_variant": "feature_right",
-      "template_sha256": "7e9dcbe298d4fb56e704e6dca81e0c14499f59e3d69ba3aa08d99878a6adbc46",
+      "template_sha256": "9b5159b29c396839d3c62e06fbac24a9f5756f7abbad9fdbafcd528824d75056",
       "preview": "previews/slide-06.png",
       "png_sha256": "d5c4a84f5ba8170325184b7b2182b009acf608184124acd3001b533af0762279"
     },
@@ -62,7 +62,7 @@
       "layout_id": "ed_diagram_left_3",
       "family": "diagram",
       "structural_variant": "left",
-      "template_sha256": "3529bb9757b1f2a155c8665df1f90558fdfb1436345aa5aead4ef9c7e94676f0",
+      "template_sha256": "b78fc81f26ab302c659c4dde409ca4f5fce394986bbbf80ba45edd631f1f8f40",
       "preview": "previews/slide-07.png",
       "png_sha256": "199f31b0a4aa478c79cee8394b964039e10cd9609b6862926dcb5c7fa17a3123"
     },
@@ -71,7 +71,7 @@
       "layout_id": "ed_comparison_columns_2",
       "family": "comparison",
       "structural_variant": "columns",
-      "template_sha256": "1ad1774e3f1fe7f2ea2c7dd8715dbda8108d91d1525b2eb53c86bcfed6113fa1",
+      "template_sha256": "5b593446be0d0769f4a209d89011e58496fe0543c2ae3231d84ba3422c0d9b64",
       "preview": "previews/slide-08.png",
       "png_sha256": "adbe58cd929d1b7dc8bd45380c15b9d1487442e3d2aee44e57731ccf8e8ca000"
     },
@@ -80,7 +80,7 @@
       "layout_id": "ed_steps_horizontal_3",
       "family": "steps",
       "structural_variant": "horizontal",
-      "template_sha256": "ddc84184daa57b92e8c261ec15c249357a5a3562efbab540d3117044ec4c45cb",
+      "template_sha256": "fa74574b11b6ce3b744ad424b83b9bd1f1932ff121bcd3f039c22200dc59bba4",
       "preview": "previews/slide-09.png",
       "png_sha256": "bbaad4e8608a18d55915a07d7778842666902e7914e04cd5198d742bba6960c2"
     },
@@ -89,7 +89,7 @@
       "layout_id": "ed_metrics_breakdown_top_3",
       "family": "metrics",
       "structural_variant": "breakdown_top",
-      "template_sha256": "8eaf948781dead9554a62e3ac491faba9cb93dc833fd60ddb4615a3e302e4e72",
+      "template_sha256": "5abf4bc00f09927d248be6792b2823517de33cd34c4cabba7b54cbc5ae122823",
       "preview": "previews/slide-10.png",
       "png_sha256": "2272c10b68854ddd707c9c9201f8b33e6a68ebe2acf96ee249b73866d77ae9c8"
     },
@@ -98,16 +98,16 @@
       "layout_id": "ed_table_three_columns_4",
       "family": "table",
       "structural_variant": "three_columns",
-      "template_sha256": "f23fbba0be512b40285904d25dfa2e0f7155bbb5e7d7a4a059e6fdff5e255115",
+      "template_sha256": "6b143d7815acfd4ae1cbf24a7c95d46d64b789567061c6ba384bff91be84f4db",
       "preview": "previews/slide-11.png",
-      "png_sha256": "df4cd77739918272deca0f89ac78b466e44bd7bb9b2a14cf98801cd295b3ff4a"
+      "png_sha256": "e42fd322fef252d510914a0994ba28a491a360afb31022a5403f8f000320fe49"
     },
     {
       "slide": 12,
       "layout_id": "ed_chart_bar_right_4",
       "family": "chart",
       "structural_variant": "bar_right",
-      "template_sha256": "2ccc092dd4d266ecd52c6b8c696f7cc8ac054b0c1a8052bb9f97478f45783701",
+      "template_sha256": "0c41da28128ae83e7fde7ca4a014839433c96eafe40ab7809cafb8d7a9e74c33",
       "preview": "previews/slide-12.png",
       "png_sha256": "b97aa2d07f759f62345c61f999a07e262b311fc57b636a4345026a9345f92454"
     }

@@ -1,0 +1,1758 @@
+{
+  "version": "1",
+  "source_sha256": "18d83b456303582afd6a9ba46ae42df9a098119f08bcb7425e0e27cc818a3918",
+  "title": "公開レイアウト見本",
+  "slides": [
+    {
+      "id": "slide001",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s001",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_2",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s001",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide002",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s002",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s002",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide003",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s003",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "確認日と対象範囲を揃える。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "資料への参照を残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s003",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide004",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s004",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_5",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料\n留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "根拠：架空資料\n留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_evidence": {
+            "text": "根拠：架空資料\n留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "根拠：架空資料\n留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s004",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide005",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s005",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_6",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料\n留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料\n留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_evidence": {
+            "text": "根拠：架空資料\n留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料\n留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_5_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_6_evidence": {
+            "text": "根拠：架空資料\n留保：効果は未検証",
+            "refs": [
+              {
+                "source_id": "s005",
+                "quote": "根拠：架空資料\n留保：効果は未検証"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide006",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s006",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_bullets_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。",
+            "refs": [
+              {
+                "source_id": "s006",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide007",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s007",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_steps_vertical_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_4_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s007",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide008",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s008",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_timeline_vertical_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_date": {
+            "text": "準備期",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "準備期"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_date": {
+            "text": "試行期",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "試行期"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_date": {
+            "text": "評価期",
+            "refs": [
+              {
+                "source_id": "s008",
+                "quote": "評価期"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide009",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s009",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_metrics_stack_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空集計：資料120件の記載状況。項目間には重複があり、合計を総数として扱わない。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "架空集計：資料120件の記載状況。項目間には重複があり、合計を総数として扱わない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "対象範囲と"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {
+          "metric_1": {
+            "value": 120.0,
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "120"
+              }
+            ]
+          },
+          "metric_2": {
+            "value": 84.0,
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "84"
+              }
+            ]
+          },
+          "metric_3": {
+            "value": 24.0,
+            "refs": [
+              {
+                "source_id": "s009",
+                "quote": "24"
+              }
+            ]
+          }
+        },
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide010",
+      "origin": "catalog",
+      "title": {
+        "text": "短い見出しと説明を同じ行のまとまりで読む",
+        "refs": [
+          {
+            "source_id": "s010",
+            "quote": "短い見出しと説明を同じ行のまとまりで読む"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_table_three_columns_4",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_0": {
+            "text": "観点",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "観点"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_1": {
+            "text": "確認事項",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "確認事項"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_0_2": {
+            "text": "留保",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "留保"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_0": {
+            "text": "検索入口を揃える",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "検索入口を揃える"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_1": {
+            "text": "索引と用語の対応を確認",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "索引と用語の対応を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_1_2": {
+            "text": "架空資料A・検索節\n部署間の呼称差が残る",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空資料A・検索節\n部署間の呼称差が残る"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_0": {
+            "text": "根拠まで辿れる",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "根拠まで辿れる"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_1": {
+            "text": "引用箇所と調査条件を照合",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "引用箇所と調査条件を照合"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_2_2": {
+            "text": "架空資料B・条件節\n原文の条件を保持",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空資料B・条件節\n原文の条件を保持"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_0": {
+            "text": "更新範囲を決める",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "更新範囲を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_1": {
+            "text": "担当と確認時期を決める",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "担当と確認時期を決める"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_3_2": {
+            "text": "架空資料C・運用節\n確認日：未記録",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空資料C・運用節\n確認日：未記録"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_0": {
+            "text": "例外を見える化",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "例外を見える化"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_1": {
+            "text": "適用できない場面を記録",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "適用できない場面を記録"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "cell_4_2": {
+            "text": "架空資料D・例外節\n個別の判断が必要",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "架空資料D・例外節\n個別の判断が必要"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "note": {
+            "text": "留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。",
+            "refs": [
+              {
+                "source_id": "s010",
+                "quote": "留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide011",
+      "origin": "catalog",
+      "title": {
+        "text": "行ごとに上寄せと中央寄せを指定する",
+        "refs": [
+          {
+            "source_id": "s011",
+            "quote": "行ごとに上寄せと中央寄せを指定する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s011",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "id": "slide012",
+      "origin": "catalog",
+      "title": {
+        "text": "読み始めを揃える説明は上寄せを選ぶ",
+        "refs": [
+          {
+            "source_id": "s012",
+            "quote": "読み始めを揃える説明は上寄せを選ぶ"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "Public template fixture; short fictional slot content; no private data.",
+      "layout_id": "ed_cards_rows_3",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_heading": {
+            "text": "確認の入口",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "確認の入口"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_body": {
+            "text": "原文を確認する。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "原文を確認する。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_1_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_heading": {
+            "text": "原文の条件を整理",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "原文の条件を整理"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_body": {
+            "text": "確認日と対象範囲を揃える。\n条件の違いも残す。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "確認日と対象範囲を揃える。\n条件の違いも残す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_2_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_heading": {
+            "text": "対象範囲と\n例外条件を確認",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "対象範囲と\n例外条件を確認"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_body": {
+            "text": "資料への参照を残す。\n未確認の条件は分けて扱う。",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "資料への参照を残す。\n未確認の条件は分けて扱う。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "item_3_evidence": {
+            "text": "根拠：架空資料",
+            "refs": [
+              {
+                "source_id": "s012",
+                "quote": "根拠：架空資料"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {}
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    }
+  ],
+  "omissions": []
+}

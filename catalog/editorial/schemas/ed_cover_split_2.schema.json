@@ -458,6 +458,12 @@
       ],
       "default": null,
       "title": "Repetition Reason"
+    },
+    "row_alignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "default": {},
+      "properties": {}
     }
   },
   "required": [
@@ -470,6 +476,6 @@
   ],
   "title": "EditorialSlide",
   "type": "object",
-  "x-contract-sha256": "e856e6d288e444f98a9326972d68d06cea8d59f99966aa8449902cdead588430",
+  "x-contract-sha256": "45309bf5c077d90151f27fcf48899d655478a6c632669317d56d68ebca497fe3",
   "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

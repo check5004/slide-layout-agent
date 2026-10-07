@@ -20,6 +20,10 @@ def audit(path, theme):
         catalog = is_catalog(note.get("layout_id"))
         if catalog:
             entry = registry()[note["layout_id"]]
+            overrides = note.get('row_alignments', {})
+            if not isinstance(overrides,dict) or any(k not in entry.get('rows',{}) or v not in ('top','middle') for k,v in overrides.items()):
+                issues.append(f'slide {i}: invalid registered row alignment')
+                overrides = {}
             original = Presentation(str(template_path(entry))).slides[0]
             expected = {s.name: s for s in original.shapes}
             actual = {s.name: s for s in slide.shapes}
@@ -31,10 +35,19 @@ def audit(path, theme):
                 if bn not in actual or fn not in actual:
                     continue  # The identity check above already reports the missing slot.
                 dynamic.update([bn,fn]);body,following=actual[bn],actual[fn];ob,of=expected[bn],expected[fn]
-                if (body.left,body.top,body.width)!=(ob.left,ob.top,ob.width) or not 0<body.height<=ob.height:
-                    issues.append(f'slide {i}: text flow body escaped its registered bounds')
-                if (following.left,following.width,following.height)!=(of.left,of.width,of.height) or not body.top+body.height <= following.top <= of.top:
-                    issues.append(f'slide {i}: text flow caveat escaped its registered bounds')
+                if flow.get('row'):
+                    row=entry['rows'][flow['row']];end=row['top_emu']+row['height_emu']
+                    total=body.height+flow['gap_emu']+following.height
+                    expected_top=row['top_emu']+((row['height_emu']-total)//2 if overrides.get(flow['row'],row['default_alignment'])=='middle' else 0)
+                    if (body.left,body.width)!=(ob.left,ob.width) or not 0<body.height<=ob.height or body.top!=expected_top or body.top<row['top_emu']:
+                        issues.append(f'slide {i}: text flow body escaped its registered row alignment')
+                    if (following.left,following.width,following.height)!=(of.left,of.width,of.height) or following.top!=body.top+body.height+flow['gap_emu'] or following.top+following.height>end:
+                        issues.append(f'slide {i}: text flow caveat escaped its registered row group')
+                else:
+                    if (body.left,body.top,body.width)!=(ob.left,ob.top,ob.width) or not 0<body.height<=ob.height:
+                        issues.append(f'slide {i}: text flow body escaped its registered bounds')
+                    if (following.left,following.width,following.height)!=(of.left,of.width,of.height) or not body.top+body.height <= following.top <= of.top:
+                        issues.append(f'slide {i}: text flow caveat escaped its registered bounds')
             for spec in entry.get('images', {}).values():
                 dynamic.add(spec['shape'])
                 pic = actual.get(spec['shape'])
@@ -64,6 +77,17 @@ def audit(path, theme):
                     if oldsizes and any(size<min(oldsizes)-.01 for size in newsizes):
                         issues.append(f"slide {i}: font shrunk below template: {name}")
             if entry.get('catalog') == 'editorial':
+                from .vertical import ANCHORS,anchor_target,row_anchors
+                expected_anchors={}
+                specs=[entry['title'],*entry['texts'].values(),*[m['label_capacity'] for m in entry['metrics'].values() if m.get('label_capacity')]]
+                for spec in specs:
+                    key=(spec['shape'],tuple(spec.get('cell',[])))
+                    expected_anchors[key]=(spec,spec.get('vertical_anchor','top'))
+                for member,anchor in row_anchors(entry,overrides):
+                    expected_anchors[(member['shape'],tuple(member.get('cell',[])))]=(member,anchor)
+                for member,anchor in expected_anchors.values():
+                    if member['shape'] in actual and anchor_target(actual,member).vertical_anchor!=ANCHORS[anchor]:
+                        issues.append(f'slide {i}: native vertical anchor changed: {member["shape"]}')
                 occupied = [s for s in slide.shapes if s.name.startswith('slot:')]
                 for j, a in enumerate(occupied):
                     for b in occupied[j+1:]:

@@ -18,6 +18,9 @@ def validate_catalog(slide, add):
 
     capacity(slide.title.text,entry["title"],"title")
     if entry.get('catalog') == 'editorial':
+        unknown_rows = set(slide.row_alignments)-set(entry.get('rows',{}))
+        if unknown_rows:
+            add('EDITORIAL_ROW_ALIGNMENT', f'unknown rows: {sorted(unknown_rows)}; choose registered row groups only',slide.id)
         if not slide.title.text.strip():
             add('TEMPLATE_EMPTY', 'title: whitespace is not content', slide.id)
         actual_emphasis = slide.emphasis.item_id if slide.emphasis else None
@@ -37,6 +40,10 @@ def validate_catalog(slide, add):
     for a,b in entry.get('comparison_axes', []):
         if a in c.texts and b in c.texts and c.texts[a].text != c.texts[b].text:
             add('EDITORIAL_COMPARISON_AXES','paired alternatives require the same explicit comparison axis',slide.id)
+    if entry.get('text_flow') and set(entry['texts']) <= set(c.texts):
+        from .vertical import flow_positions
+        try: flow_positions(entry,c,getattr(slide,'row_alignments',{}))
+        except ValueError as exc: add('EDITORIAL_ROW_OVERFLOW',str(exc),slide.id)
     for key,value in c.states.items():
         if key in entry["states"] and value.text not in entry["states"][key]["palette"]:
             add("TEMPLATE_STATE",f"{key}: choose {list(entry['states'][key]['palette'])}",slide.id)

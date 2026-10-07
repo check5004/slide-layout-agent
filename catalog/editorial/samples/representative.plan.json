@@ -82,7 +82,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide002",
@@ -213,7 +214,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide003",
@@ -434,7 +436,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide004",
@@ -595,7 +598,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide005",
@@ -735,7 +739,8 @@
       },
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide006",
@@ -875,7 +880,8 @@
       },
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide007",
@@ -1006,7 +1012,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide008",
@@ -1147,7 +1154,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide009",
@@ -1248,7 +1256,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide010",
@@ -1406,7 +1415,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide011",
@@ -1607,7 +1617,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     },
     {
       "id": "slide012",
@@ -1777,7 +1788,8 @@
       "emphasis": null,
       "allowed_layouts": [],
       "constraints_reason": null,
-      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "row_alignments": {}
     }
   ],
   "omissions": []

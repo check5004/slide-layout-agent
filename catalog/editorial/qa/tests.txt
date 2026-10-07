@@ -21,6 +21,7 @@ test_catalog_cp932_stdout_and_direct_utf8_file (test_catalog_review_regressions.
 test_metric_precision_is_preserved_or_capacity_rejects (test_catalog_review_regressions.ReviewRegressions.test_metric_precision_is_preserved_or_capacity_rejects) ... ok
 test_numeric_quote_does_not_claim_qualifier_coverage (test_catalog_review_regressions.ReviewRegressions.test_numeric_quote_does_not_claim_qualifier_coverage) ... ok
 test_saved_schema_and_contract_drift_is_rejected (test_catalog_review_regressions.ReviewRegressions.test_saved_schema_and_contract_drift_is_rejected) ... ok
+test_alignment_constraints_limit_variants_and_reject_unknown_rows (test_editorial.EditorialTests.test_alignment_constraints_limit_variants_and_reject_unknown_rows) ... ok
 test_all_generate_without_office_or_subprocess (test_editorial.EditorialTests.test_all_generate_without_office_or_subprocess) ... ok
 test_boundary_fixture_preserves_all_titles_including_emphasis (test_editorial.EditorialTests.test_boundary_fixture_preserves_all_titles_including_emphasis) ... ok
 test_cli_defaults_to_new_catalog_and_keeps_reference (test_editorial.EditorialTests.test_cli_defaults_to_new_catalog_and_keeps_reference) ... ok
@@ -31,14 +32,17 @@ test_image_fit_crop_missing_and_bad_hash (test_editorial.EditorialTests.test_ima
 test_mirror_only_rotation_cannot_evade_repetition (test_editorial.EditorialTests.test_mirror_only_rotation_cannot_evade_repetition) ... ok
 test_mirrors_keep_semantic_mapping_and_order (test_editorial.EditorialTests.test_mirrors_keep_semantic_mapping_and_order) ... ok
 test_missing_unknown_empty_and_item_count_are_rejected (test_editorial.EditorialTests.test_missing_unknown_empty_and_item_count_are_rejected) ... ok
+test_native_row_middle_and_top_overrides_preserve_content (test_editorial.EditorialTests.test_native_row_middle_and_top_overrides_preserve_content) ... ok
 test_original_catalog_is_isolated_and_meaningful (test_editorial.EditorialTests.test_original_catalog_is_isolated_and_meaningful) ... ok
 test_overflow_does_not_force_another_family_or_drop_content (test_editorial.EditorialTests.test_overflow_does_not_force_another_family_or_drop_content) ... ok
 test_parallel_items_never_gain_unsourced_hierarchy (test_editorial.EditorialTests.test_parallel_items_never_gain_unsourced_hierarchy) ... ok
 test_repeated_charts_get_independent_workbooks (test_editorial.EditorialTests.test_repeated_charts_get_independent_workbooks) ... ok
+test_row_flow_moves_body_and_evidence_as_one_bounded_group (test_editorial.EditorialTests.test_row_flow_moves_body_and_evidence_as_one_bounded_group) ... ok
 test_schema_drift_includes_selection_and_image_contracts (test_editorial.EditorialTests.test_schema_drift_includes_selection_and_image_contracts) ... ok
 test_selector_preserves_all_content_refs_and_avoids_four_same (test_editorial.EditorialTests.test_selector_preserves_all_content_refs_and_avoids_four_same) ... ok
 test_text_flow_keeps_caveat_near_body_and_rejects_escape (test_editorial.EditorialTests.test_text_flow_keeps_caveat_near_body_and_rejects_escape) ... ok
 test_totals_and_comparison_axes_are_semantic_constraints (test_editorial.EditorialTests.test_totals_and_comparison_axes_are_semantic_constraints) ... ok
+test_vertical_anchor_and_row_contract_drift_are_rejected (test_editorial.EditorialTests.test_vertical_anchor_and_row_contract_drift_are_rejected) ... ok
 test_bullet_pagination_preserves_all_content_order_and_refs (test_workflow.WorkflowTests.test_bullet_pagination_preserves_all_content_order_and_refs) ... ok
 Rendered 8 slides. Structural checks passed; semantic and real visual review are still required.
 test_cli_end_to_end_and_no_overwrite (test_workflow.WorkflowTests.test_cli_end_to_end_and_no_overwrite) ... ERROR: output exists; use --force
@@ -65,6 +69,6 @@ test_table_row_overflow_and_split (test_workflow.WorkflowTests.test_table_row_ov
 test_unknown_layout_and_coordinates_rejected (test_workflow.WorkflowTests.test_unknown_layout_and_coordinates_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 63 tests in 66.241s
+Ran 67 tests in 62.177s
 
 OK

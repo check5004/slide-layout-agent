@@ -4,6 +4,8 @@ New research-sharing decks normally use the **76 Editorial templates** described
 
 The `select-variants` command filters same-family candidates by exact semantic slots, item count, image presence and capacity, then chooses a recent-structure tie-break. It preserves all content and references. Normal validation includes `layout_selection` with candidates/rejections and stops unreasoned four-slide repetition (`VARIANT_REPETITION`). Color changes and mirror-only variants do not count as distinct visual structures. A documented exception remains visible as `VARIANT_REPETITION_ACCEPTED`.
 
+Editorial rows also accept optional `row_alignments`, mapping only registered row IDs to `top` or `middle`. Omitted rows use the template's role-aware defaults. A body and its evidence stay together as one bounded group; short labels, numbers and table cells use native vertical anchors. Explicit choices survive variant selection, and candidates without those row IDs are rejected. Unknown IDs, other anchor values and overflowing groups are rejected. Font sizes, reading order and text capacities do not change. See the [same-content before/after review](../examples/editorial-rows/index.html).
+
 `python -m slide_agent schema --out out/plan.schema.json` is authoritative for field types; `slide_agent/models.py` defines the discriminated union. Additional fields are rejected, including coordinates, code, URLs and font sizes in a plan. Source citations may contain URLs as inert text, never fetched.
 
 Source bundle: `version`, `title`, `segments` (`id`, exact `text`, optional `citation`, `group`), `images` (`id`, relative `path`, `caption`). Hash the canonical JSON with `fingerprint`. Text mode `slides` gives each heading/body segment the same group.

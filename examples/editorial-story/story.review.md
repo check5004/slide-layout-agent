@@ -2006,6 +2006,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cover_band_2"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -2039,6 +2040,11 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_agenda_rail_3"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle"
+      },
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -2074,6 +2080,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cards_rows_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -2195,6 +2202,11 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cards_rows_3"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -2316,6 +2328,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cards_rows_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -2437,6 +2450,11 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cards_rows_3"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -2567,6 +2585,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_cards_rows_6"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -2692,6 +2711,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_diagram_wide_right_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -2727,6 +2747,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_comparison_matrix_2"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -2761,6 +2782,12 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_steps_vertical_4"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle",
+        "item_4": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_steps_horizontal_2",
@@ -2832,6 +2859,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_timeline_vertical_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_timeline_horizontal_4",
@@ -2878,6 +2906,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_metrics_breakdown_left_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_metrics_row_2",
@@ -2943,6 +2972,13 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_table_three_columns_4"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "row_0": "middle",
+        "row_1": "middle",
+        "row_2": "middle",
+        "row_3": "middle",
+        "row_4": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_table_two_columns_3",
@@ -2990,6 +3026,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_chart_column_bottom_4"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -3021,6 +3058,7 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_quote_top_2"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -3052,6 +3090,11 @@ layout: `ed_summary_rows_3` / id: `slide016` / origin: `catalog`
         "ed_summary_rows_3"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_summary_split_3",

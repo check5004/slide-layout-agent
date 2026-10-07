@@ -265,19 +265,8 @@ def instantiate(prs, design, plan, source, page, base=None):
         shape = shapes[spec["shape"]]
         tf = shape.table.cell(*spec["cell"]).text_frame if "cell" in spec else shape.text_frame
         replace_text(tf, value.text)
-    for flow in entry.get('text_flow', []):
-        from .validate import units
-        from pptx.util import Pt
-        spec = entry['texts'][flow['body']]
-        text = design.contents.texts[flow['body']].text
-        lines = sum(max(1, math.ceil(units(line)/spec['max_units_per_line'])) for line in text.split('\n'))
-        body = shapes[spec['shape']]
-        following = shapes[entry['texts'][flow['following']]['shape']]
-        # A registered, bounded vertical flow. Keep font, width, order and all
-        # native shapes; reduce unused body-box height and move its caveat up.
-        height = Pt(spec['font_pt'] * (1.33 + 1.25 * (lines-1)) + 2.2)
-        body.height = min(body.height, height)
-        following.top = min(following.top, body.top + body.height + flow['gap_emu'])
+    from .vertical import apply_vertical
+    apply_vertical(shapes, entry, design.contents, getattr(design,'row_alignments',{}))
     for key, value in design.contents.charts.items():
         fill_chart(shapes[entry["charts"][key]["shape"]], value, entry["charts"][key])
     for key, value in getattr(design.contents, 'images', {}).items():

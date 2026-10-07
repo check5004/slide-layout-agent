@@ -1,0 +1,1309 @@
+{
+  "ok": true,
+  "mechanical_validation": "passed",
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CATALOG_FONT_REVIEW",
+      "slide": null,
+      "message": "Catalog uses fixed typography (reference: compact; editorial: readable research content). Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s001: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s002: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s003: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s004: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s005: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s007: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s009: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s011: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s012: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "VARIANT_REPETITION_ACCEPTED",
+      "slide": "slide004",
+      "message": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    },
+    {
+      "severity": "warning",
+      "code": "VARIANT_REPETITION_ACCEPTED",
+      "slide": "slide005",
+      "message": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence."
+    }
+  ],
+  "source_coverage": "review_required",
+  "semantic_review": "not_performed",
+  "slide_count": 12,
+  "visual_review": "not_performed",
+  "layout_selection": [
+    {
+      "slide_id": "slide001",
+      "family": "cards",
+      "item_count": 2,
+      "layout_id": "ed_cards_rows_2",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_grid_2",
+        "ed_cards_rows_2"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_cards_grid_2"
+      ],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide002",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide003",
+      "family": "cards",
+      "item_count": 4,
+      "layout_id": "ed_cards_rows_4",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body",
+        "item_4_evidence": "slot:item_4_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide004",
+      "family": "cards",
+      "item_count": 5,
+      "layout_id": "ed_cards_rows_5",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body",
+        "item_4_evidence": "slot:item_4_evidence",
+        "item_5_heading": "slot:item_5_heading",
+        "item_5_body": "slot:item_5_body",
+        "item_5_evidence": "slot:item_5_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_5"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_2_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_2_evidence: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_3_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_4_evidence: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_5_body: 3 lines exceed 2; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": true,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide005",
+      "family": "cards",
+      "item_count": 6,
+      "layout_id": "ed_cards_rows_6",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body",
+        "item_4_evidence": "slot:item_4_evidence",
+        "item_5_heading": "slot:item_5_heading",
+        "item_5_body": "slot:item_5_body",
+        "item_5_evidence": "slot:item_5_evidence",
+        "item_6_heading": "slot:item_6_heading",
+        "item_6_body": "slot:item_6_body",
+        "item_6_evidence": "slot:item_6_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_6"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_2_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_2_evidence: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_3_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_4_evidence: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_5_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_6_heading: 2 lines exceed 1; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_6_body: 3 lines exceed 2; replan/split, no shrink",
+            "TEMPLATE_OVERFLOW: item_6_evidence: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": true,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide006",
+      "family": "bullets",
+      "item_count": 3,
+      "layout_id": "ed_bullets_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body"
+      },
+      "visual_signature": "bullets:rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_bullets_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_bullets_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_columns_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_columns_3",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_columns_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_columns_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_bullets_columns_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide007",
+      "family": "steps",
+      "item_count": 4,
+      "layout_id": "ed_steps_vertical_4",
+      "structural_variant": "vertical",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_4_heading": "slot:item_4_heading",
+        "item_4_body": "slot:item_4_body"
+      },
+      "visual_signature": "steps:vertical",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_steps_horizontal_4",
+        "ed_steps_vertical_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_steps_horizontal_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_horizontal_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_steps_vertical_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_steps_horizontal_4"
+      ],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide008",
+      "family": "timeline",
+      "item_count": 3,
+      "layout_id": "ed_timeline_vertical_3",
+      "structural_variant": "vertical",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_date": "slot:item_1_date",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_date": "slot:item_2_date",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_date": "slot:item_3_date"
+      },
+      "visual_signature": "timeline:vertical",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_timeline_horizontal_3",
+        "ed_timeline_vertical_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_timeline_horizontal_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_timeline_vertical_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_timeline_horizontal_3"
+      ],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide009",
+      "family": "metrics",
+      "item_count": 3,
+      "layout_id": "ed_metrics_stack_3",
+      "structural_variant": "stack",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body"
+      },
+      "visual_signature": "metrics:stack",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_metrics_row_3",
+        "ed_metrics_stack_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_metrics_row_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_row_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_breakdown_top_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_metrics_breakdown_left_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [
+        "ed_metrics_row_3"
+      ],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide010",
+      "family": "table",
+      "item_count": 4,
+      "layout_id": "ed_table_three_columns_4",
+      "structural_variant": "three_columns",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "cell_0_0": "slot:table:0,0",
+        "cell_0_1": "slot:table:0,1",
+        "cell_0_2": "slot:table:0,2",
+        "cell_1_0": "slot:table:1,0",
+        "cell_1_1": "slot:table:1,1",
+        "cell_1_2": "slot:table:1,2",
+        "cell_2_0": "slot:table:2,0",
+        "cell_2_1": "slot:table:2,1",
+        "cell_2_2": "slot:table:2,2",
+        "cell_3_0": "slot:table:3,0",
+        "cell_3_1": "slot:table:3,1",
+        "cell_3_2": "slot:table:3,2",
+        "cell_4_0": "slot:table:4,0",
+        "cell_4_1": "slot:table:4,1",
+        "cell_4_2": "slot:table:4,2",
+        "note": "slot:note"
+      },
+      "visual_signature": "table:three_columns",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_table_three_columns_4"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_table_two_columns_3",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_table_two_columns_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide011",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide012",
+      "family": "cards",
+      "item_count": 3,
+      "layout_id": "ed_cards_rows_3",
+      "structural_variant": "rows",
+      "semantic_slot_mapping": {
+        "context": "slot:context",
+        "item_1_heading": "slot:item_1_heading",
+        "item_1_body": "slot:item_1_body",
+        "item_1_evidence": "slot:item_1_evidence",
+        "item_2_heading": "slot:item_2_heading",
+        "item_2_body": "slot:item_2_body",
+        "item_2_evidence": "slot:item_2_evidence",
+        "item_3_heading": "slot:item_3_heading",
+        "item_3_body": "slot:item_3_body",
+        "item_3_evidence": "slot:item_3_evidence"
+      },
+      "visual_signature": "editorial_rows",
+      "family_reason": "Public template fixture; short fictional slot content; no private data.",
+      "content_fit_candidates": [
+        "ed_cards_rows_3"
+      ],
+      "emphasis": null,
+      "rejected_candidates": [
+        {
+          "layout_id": "ed_cards_grid_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_3",
+          "reasons": [
+            "TEMPLATE_OVERFLOW: item_3_heading: 2 lines exceed 1; replan/split, no shrink"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_4",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_5",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_grid_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_rows_6",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_3",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_left_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_feature_right_4",
+          "reasons": [
+            "semantic hierarchy differs: featured item requires explicit source-backed emphasis",
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_left_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "ed_cards_image_right_2",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "Catalog inventory: adjacent entries intentionally show every count/orientation for comparison; this is not a presentation sequence.",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    }
+  ],
+  "ooxml": {
+    "ok": true,
+    "issues": [],
+    "counts": {
+      "slides": 12,
+      "text_shapes": 175,
+      "tables": 1,
+      "charts": 0,
+      "pictures": 0,
+      "embedded_workbooks": 0
+    },
+    "rendering": "not_performed"
+  }
+}

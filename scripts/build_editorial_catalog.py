@@ -16,7 +16,7 @@ from pptx import Presentation
 from pptx.chart.data import CategoryChartData
 from pptx.dml.color import RGBColor
 from pptx.enum.chart import XL_CHART_TYPE, XL_DATA_LABEL_POSITION, XL_TICK_MARK
-from pptx.enum.text import MSO_AUTO_SIZE, PP_ALIGN
+from pptx.enum.text import MSO_AUTO_SIZE, MSO_ANCHOR, PP_ALIGN
 from pptx.util import Inches, Pt
 from pptx.oxml.xmlchemy import OxmlElement
 from slide_agent.editorial_specs import SPECS
@@ -51,6 +51,7 @@ def write(path, value):
 
 def style(tf, text, size, color=INK, bold=False):
     tf.clear(); tf.word_wrap = True; tf.auto_size = MSO_AUTO_SIZE.NONE
+    tf.vertical_anchor = MSO_ANCHOR.TOP
     tf.margin_left = tf.margin_right = Inches(.02)
     tf.margin_top = tf.margin_bottom = Inches(.015)
     for index, line in enumerate(text.split('\n')):
@@ -84,7 +85,7 @@ class Builder:
     def __init__(self, spec):
         self.entry = {**spec, 'catalog': 'editorial', 'part_id': spec['layout_id'],
                       'source_file': 'original fictional research-sharing design', 'source_section': 1,
-                      'texts': {}, 'charts': {}, 'metrics': {}, 'states': {}, 'images': {}, 'text_flow': [], 'chart_aliases': {}}
+                      'texts': {}, 'charts': {}, 'metrics': {}, 'states': {}, 'images': {}, 'text_flow': [], 'chart_aliases': {}, 'rows': {}}
         self.prs = Presentation(); self.prs.slide_width = Inches(13.333333); self.prs.slide_height = Inches(7.5)
         self.slide = self.prs.slides.add_slide(self.prs.slide_layouts[6])
         self.slide.background.fill.solid(); self.slide.background.fill.fore_color.rgb = RGBColor.from_string(BG)
@@ -113,11 +114,37 @@ class Builder:
 
     def slot(self, key, text, x, y, w, h, size=20, color=INK, bold=False, role='body'):
         shape = self.text('slot:' + key, text, x, y, w, h, size, color, bold)
-        spec = {'shape': shape.name, 'sample': text, 'role': role,
+        spec = {'shape': shape.name, 'sample': text, 'role': role, 'vertical_anchor':'top',
                 'bounds_emu': [shape.left, shape.top, shape.width, shape.height], **capacity(w, h, size)}
         if key == 'title': self.entry['title'] = spec
         else: self.entry['texts'][key] = spec
         return shape
+
+    def row_group(self, key, keys, y, h, static_names=()):
+        """Center parallel fields; keep body/evidence as one top-aligned stack.
+
+        Text capacity remains the previously authored bound, even when a short
+        label receives the full row-height frame for native middle anchoring.
+        """
+        top, height = Inches(y + .03), Inches(h - .06)
+        row = self.entry['rows'].setdefault(key, {'top_emu':top,'height_emu':height,
+            'default_alignment':'middle','members':[]})
+        flows = [f for f in self.entry['text_flow'] if f['body'] in keys and f['following'] in keys]
+        flow_keys = {f[k] for f in flows for k in ('body','following')}
+        for flow in flows: flow['row'] = key
+        shapes = {s.name:s for s in self.slide.shapes}
+        for slot_key in keys:
+            spec = self.entry['texts'][slot_key];shape = shapes[spec['shape']]
+            row['members'].append({'shape':shape.name})
+            if slot_key not in flow_keys:
+                shape.top, shape.height = top, height
+                shape.text_frame.vertical_anchor = MSO_ANCHOR.MIDDLE
+                spec['vertical_anchor'] = 'middle'
+                spec['bounds_emu'] = [shape.left,shape.top,shape.width,shape.height]
+        for name in static_names:
+            shape=shapes[name];shape.top,shape.height=top,height
+            shape.text_frame.vertical_anchor=MSO_ANCHOR.MIDDLE
+            row['members'].append({'shape':name})
 
     def header(self, title=None):
         self.slot('title', title or '社内ナレッジを探しやすくする条件', .66, .86, 12.0, .66, 28, bold=True, role='title')
@@ -181,6 +208,9 @@ class Builder:
                       h - .07 if side_note else .32, 12, MUTED, role='evidence')
             if not side_note:
                 self.entry['text_flow'].append({'body':f'item_{i}_body','following':f'item_{i}_evidence','gap_emu':Inches(.10)})
+        self.row_group(f'item_{i}', [f'item_{i}_heading',f'item_{i}_body'] +
+                       ([f'item_{i}_evidence'] if evidence else []), y, h,
+                       [f'static:number_{i}'] if numbered else [])
 
 
 def build_one(spec):
@@ -306,7 +336,9 @@ def build_one(spec):
                 for k in range(n):
                     y = 2.34 + k * h
                     b.row(k + 1, 2.42 if f == 'timeline' else 1.35, y, 10.18 if f == 'timeline' else 11.25, h, numbered=f == 'steps')
-                    if f == 'timeline': b.slot(f'item_{k+1}_date', ['準備期', '試行期', '評価期', '展開期'][k], .68, y, 1.28, .65, 16, TEAL, True, 'date')
+                    if f == 'timeline':
+                        b.slot(f'item_{k+1}_date', ['準備期', '試行期', '評価期', '展開期'][k], .68, y, 1.28, .65, 16, TEAL, True, 'date')
+                        b.row_group(f'item_{k+1}',[f'item_{k+1}_date'],y,h)
         elif f == 'metrics':
             if v.startswith('breakdown'):
                 top = v.endswith('top')
@@ -322,9 +354,10 @@ def build_one(spec):
                     b.rect(x,y,w,h,SURFACE,LINE)
                     b.slot(f'item_{k+1}_heading',['確認済み','要確認','更新予定'][k],x+.22,y+.16, w-.44 if top else 2.1,.49,20,bold=True,role='heading')
                     num=b.slot(f'metric_label_{k+1}',str([84,24,12][k])+'件',x+.22 if top else x+2.4,y+.89 if top else y+.2,2.2,.71,32,TEAL,True)
+                    b.slot(f'item_{k+1}_body',['対象範囲と担当を確認済み。','条件か確認日の照合が必要。','改訂の予定を登録済み。'][k],x+.22 if top else x+4.85,y+1.93 if top else y+.20,w-.44 if top else 3.5,.7 if top else .90,18)
+                    if not top: b.row_group(f'item_{k+1}',[f'item_{k+1}_heading',f'metric_label_{k+1}',f'item_{k+1}_body'],y,h)
                     cap=b.entry['texts'].pop(f'metric_label_{k+1}')
                     b.entry['metrics'][f'metric_{k+1}']=dict(binding='label',label=num.name,suffix='件',min=0,max=1e12,sample=[84,24,12][k],label_capacity=cap)
-                    b.slot(f'item_{k+1}_body',['対象範囲と担当を確認済み。','条件か確認日の照合が必要。','改訂の予定を登録済み。'][k],x+.22 if top else x+4.85,y+1.93 if top else y+.20,w-.44 if top else 3.5,.7 if top else .90,18)
                 b.entry['metric_total']={'total':'total','parts':['metric_1','metric_2','metric_3']}
                 b.entry['texts']['context']['sample']='架空の資料一覧を、相互に重ならない確認状態で整理した例。業務への効果は未検証。'
                 style(next(s for s in b.slide.shapes if s.name=='slot:context').text_frame,b.entry['texts']['context']['sample'],15,MUTED)
@@ -340,6 +373,7 @@ def build_one(spec):
                     b.slot(f'item_{k+1}_heading', ['対象範囲の記載', '確認担当の記載', '更新日の記載'][k], x + .25, y + .27, 2.8, .7, 20, bold=True, role='heading')
                     num = b.slot(f'metric_label_{k+1}', str([120, 84, 24][k])+'件', x + 3.3, y + .18, 2.0, .87, 38, TEAL, True)
                     b.slot(f'item_{k+1}_body', ['適用できる業務範囲が記載された文書。', '内容を確認する担当が記載された文書。', '原文の最終確認日が記載された文書。'][k], x + 5.7, y + .2, 5.9, .92, 18)
+                    b.row_group(f'item_{k+1}',[f'item_{k+1}_heading',f'metric_label_{k+1}',f'item_{k+1}_body'],y,h)
                 cap = b.entry['texts'].pop(f'metric_label_{k+1}')
                 b.entry['metrics'][f'metric_{k+1}'] = dict(binding='label', label=num.name, suffix='件', min=0, max=1e12, sample=[120, 84, 24, 12][k], label_capacity=cap)
             if not v.startswith('breakdown'):
@@ -356,7 +390,10 @@ def build_one(spec):
                         ['索引と用語の対応を確認', '引用箇所と調査条件を照合', '担当と確認時期を決める', '適用できない場面を記録', '評価項目の定義を揃える', '未確認の論点を引き継ぐ'][r-1],
                         ['架空資料A・検索節\n部署間の呼称差が残る', '架空資料B・条件節\n原文の条件を保持', '架空資料C・運用節\n確認日：未記録', '架空資料D・例外節\n個別の判断が必要', '資料間の定義に差がある', '確認先の合意が必要'][r-1]][c]
                     style(cell.text_frame, sample, 18, 'FFFFFF' if r == 0 else INK, r == 0)
-                    b.entry['texts'][f'cell_{r}_{c}'] = dict(shape=shape.name, cell=[r, c], sample=sample, role='table', **capacity(12 / cols - .30, 3.9 / (n + 1) - .1, 18))
+                    cell.vertical_anchor = MSO_ANCHOR.MIDDLE
+                    b.entry['texts'][f'cell_{r}_{c}'] = dict(shape=shape.name, cell=[r, c], sample=sample, role='table', vertical_anchor='middle', **capacity(12 / cols - .30, 3.9 / (n + 1) - .1, 18))
+                b.entry['rows'][f'row_{r}']={'top_emu':Inches(2.35+r*3.9/(n+1)), 'height_emu':Inches(3.9/(n+1)),
+                    'default_alignment':'middle','members':[{'shape':shape.name,'cell':[r,c]} for c in range(cols)]}
             b.slot('note', '留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。', .72, 6.35, 11.8, .43, 14, MUTED, role='evidence')
         elif f == 'chart':
             side = v.startswith('bar'); cx = .66 if v == 'bar_left' else 5.0 if side else .66

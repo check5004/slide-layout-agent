@@ -1,0 +1,79 @@
+{
+  "version": "1",
+  "title": "公開レイアウト見本",
+  "segments": [
+    {
+      "id": "s001",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s002",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s003",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n根拠：架空資料\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n根拠：架空資料\n確認の入口\n原文を確認する。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s004",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n留保：効果は未検証\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料\n確認の入口\n原文を確認する。\n根拠：架空資料\n留保：効果は未検証\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s005",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n留保：効果は未検証\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料\n確認の入口\n原文を確認する。\n根拠：架空資料\n留保：効果は未検証\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料\n留保：効果は未検証",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s006",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s007",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。\n確認の入口\n原文を確認する。",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s008",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n準備期\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n試行期\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n次の確認先も記録する。\n評価期",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s009",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空集計：資料120件の記載状況。項目間には重複があり、合計を総数として扱わない。\n確認の入口\n原文を確認する。\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n対象範囲と\n資料への参照を残す。\n未確認の条件は分けて扱う。\n120\n84\n24",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s010",
+      "text": "短い見出しと説明を同じ行のまとまりで読む\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n観点\n確認事項\n留保\n検索入口を揃える\n索引と用語の対応を確認\n架空資料A・検索節\n部署間の呼称差が残る\n根拠まで辿れる\n引用箇所と調査条件を照合\n架空資料B・条件節\n原文の条件を保持\n更新範囲を決める\n担当と確認時期を決める\n架空資料C・運用節\n確認日：未記録\n例外を見える化\n適用できない場面を記録\n架空資料D・例外節\n個別の判断が必要\n留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s011",
+      "text": "行ごとに上寄せと中央寄せを指定する\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    },
+    {
+      "id": "s012",
+      "text": "読み始めを揃える説明は上寄せを選ぶ\n架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。\n確認の入口\n原文を確認する。\n根拠：架空資料\n原文の条件を整理\n確認日と対象範囲を揃える。\n条件の違いも残す。\n根拠：架空資料\n対象範囲と\n例外条件を確認\n資料への参照を残す。\n未確認の条件は分けて扱う。\n根拠：架空資料",
+      "citation": "Public MIT sample: original fictional research-sharing design section 1",
+      "group": "catalog"
+    }
+  ],
+  "images": []
+}

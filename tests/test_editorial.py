@@ -260,5 +260,58 @@ class EditorialTests(unittest.TestCase):
             self.assertEqual(result.returncode,0,result.stderr)
             self.assertEqual(len(json.loads(result.stdout)),expected)
 
+    def test_native_row_middle_and_top_overrides_preserve_content(self):
+        from pptx.enum.text import MSO_ANCHOR
+        from scripts.make_editorial_rows import row_fixture
+        source,plan=row_fixture();dest=self.base/'rows.pptx'
+        original=plan.model_dump(mode='json')
+        render(plan,source,self.base,Theme(),dest)
+        self.assertEqual(original,plan.model_dump(mode='json'))
+        self.assertTrue(audit(dest,Theme())['ok'])
+        prs=Presentation(dest)
+        middle={s.name:s for s in prs.slides[0].shapes}
+        self.assertEqual(middle['slot:item_1_heading'].text_frame.vertical_anchor,MSO_ANCHOR.MIDDLE)
+        mixed={s.name:s for s in prs.slides[10].shapes}
+        self.assertEqual(mixed['slot:item_1_heading'].text_frame.vertical_anchor,MSO_ANCHOR.TOP)
+        self.assertEqual(mixed['slot:item_2_heading'].text_frame.vertical_anchor,MSO_ANCHOR.MIDDLE)
+        self.assertEqual(mixed['slot:item_2_body'].text_frame.vertical_anchor,MSO_ANCHOR.TOP)
+        table=next(s.table for s in prs.slides[9].shapes if s.has_table)
+        self.assertEqual(table.cell(1,0).vertical_anchor,MSO_ANCHOR.MIDDLE)
+
+    def test_row_flow_moves_body_and_evidence_as_one_bounded_group(self):
+        from scripts.make_editorial_rows import row_fixture
+        source,plan=row_fixture();dest=self.base/'row-flow.pptx'
+        render(plan,source,self.base,Theme(),dest)
+        prs=Presentation(dest);shapes={s.name:s for s in prs.slides[0].shapes}
+        row=editorial_registry()[plan.slides[0].layout_id]['rows']['item_1']
+        body,tail=shapes['slot:item_1_body'],shapes['slot:item_1_evidence']
+        self.assertLessEqual(abs(body.top+tail.top+tail.height-(2*row['top_emu']+row['height_emu'])),1)
+        self.assertLessEqual(tail.top-body.top-body.height,100000)
+        tail.top+=200000;prs.save(dest)
+        self.assertFalse(audit(dest,Theme())['ok'])
+
+    def test_alignment_constraints_limit_variants_and_reject_unknown_rows(self):
+        _,plan=self.sample('ed_cards_rows_3');slide=plan.slides[0]
+        slide.row_alignments={'item_1':'middle'}
+        fitting,rejected=candidates(slide)
+        self.assertTrue(fitting)
+        self.assertTrue(all('item_1' in e.get('rows',{}) for e in fitting))
+        self.assertTrue(any('EDITORIAL_ROW_ALIGNMENT' in str(r) for r in rejected))
+        selected,_=select_variants(plan);self.assertEqual(selected.slides[0].row_alignments,slide.row_alignments)
+        slide.row_alignments={'nonexistent':'middle'}
+        self.assertIn('EDITORIAL_ROW_ALIGNMENT',self.codes(slide))
+        raw=plan.model_dump(mode='json');raw['slides'][0]['row_alignments']={'item_1':'bottom'}
+        with self.assertRaises(ValidationError):Plan.model_validate(raw)
+
+    def test_vertical_anchor_and_row_contract_drift_are_rejected(self):
+        from pptx.enum.text import MSO_ANCHOR
+        source,plan=self.sample('ed_steps_vertical_4');dest=self.base/'wrong-anchor.pptx'
+        render(plan,source,self.base,Theme(),dest);prs=Presentation(dest)
+        next(s for s in prs.slides[0].shapes if s.name=='static:number_1').text_frame.vertical_anchor=MSO_ANCHOR.TOP
+        prs.save(dest);self.assertFalse(audit(dest,Theme())['ok'])
+        entry=copy.deepcopy(editorial_registry()['ed_cards_rows_3']);digest=layout_schema(entry)['x-contract-sha256']
+        entry['rows']['item_1']['default_alignment']='top'
+        self.assertNotEqual(digest,layout_schema(entry)['x-contract-sha256'])
+
 
 if __name__=='__main__':unittest.main()

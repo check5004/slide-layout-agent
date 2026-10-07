@@ -770,6 +770,20 @@
           ],
           "default": null,
           "title": "Repetition Reason"
+        },
+        "row_alignments": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "enum": [
+                "top",
+                "middle"
+              ],
+              "type": "string"
+            }
+          },
+          "title": "Row Alignments",
+          "type": "object"
         }
       },
       "required": [

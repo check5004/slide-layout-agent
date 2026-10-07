@@ -83,6 +83,7 @@
         "ed_cover_band_2"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -117,6 +118,7 @@
         "ed_cards_grid_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -135,7 +137,8 @@
           "reasons": [
             "TEMPLATE_OVERFLOW: item_1_body: 3 lines exceed 2; replan/split, no shrink",
             "TEMPLATE_OVERFLOW: item_2_body: 3 lines exceed 2; replan/split, no shrink",
-            "TEMPLATE_OVERFLOW: item_3_body: 3 lines exceed 2; replan/split, no shrink"
+            "TEMPLATE_OVERFLOW: item_3_body: 3 lines exceed 2; replan/split, no shrink",
+            "EDITORIAL_ROW_OVERFLOW: body plus evidence exceeds its registered row; split/replan, never shrink"
           ]
         },
         {
@@ -253,6 +256,7 @@
         "ed_cards_rows_6"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -379,6 +383,12 @@
         "ed_cards_rows_4"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "item_1": "middle",
+        "item_2": "middle",
+        "item_3": "middle",
+        "item_4": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -509,6 +519,7 @@
         ],
         "reason": "The visible source-backed title explicitly identifies the first item as the main focus."
       },
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -645,6 +656,7 @@
         ],
         "reason": "The visible source-backed title explicitly identifies the first item as the main focus."
       },
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_cards_grid_2",
@@ -774,6 +786,7 @@
         "ed_diagram_wide_right_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -809,6 +822,7 @@
         "ed_comparison_matrix_2"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,
@@ -841,6 +855,7 @@
         "ed_steps_vertical_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_steps_horizontal_2",
@@ -911,6 +926,7 @@
         "ed_metrics_breakdown_left_3"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [
         {
           "layout_id": "ed_metrics_row_2",
@@ -976,6 +992,13 @@
         "ed_table_three_columns_4"
       ],
       "emphasis": null,
+      "row_alignments": {
+        "row_0": "middle",
+        "row_1": "middle",
+        "row_2": "middle",
+        "row_3": "middle",
+        "row_4": "middle"
+      },
       "rejected_candidates": [
         {
           "layout_id": "ed_table_two_columns_3",
@@ -1023,6 +1046,7 @@
         "ed_chart_column_bottom_4"
       ],
       "emphasis": null,
+      "row_alignments": {},
       "rejected_candidates": [],
       "constraints_reason": null,
       "fourth_consecutive_structure": false,

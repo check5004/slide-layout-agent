@@ -17,6 +17,8 @@ Parallel items must remain visually equal. Featured cards and the summary split 
 
 Editorial image cards accept only source-registered `images` slots with explicit `fit` or `crop`. Default to fit and inspect cropping. Other templates reject image insertion. Long Japanese explanations must fit the registered capacity; split or replan with retained references instead of shrinking fonts. Representative previews must contain realistic research text, not empty cards.
 
+For row layouts inspect native vertical alignment as well as horizontal position. Registered rows center short headings, numbers and dates; body plus evidence stays together as a bounded stack. Long sequential prose inside cards remains top-aligned. Use optional `row_alignments: {"item_1":"top","item_2":"middle"}` only for row keys listed in the layout contract (`row_0`, `row_1`, ... for tables). Preserve this preference through variant selection. Do not center each line independently, separate its caveat, expand text capacity or shrink the font to achieve alignment.
+
 For work with the older reference collection also read `docs/catalog/template-workflow.md`. That collection
 has **62 actual reusable PPTX templates**, plus eight legacy geometry layouts.
 Open `catalog/index.html`, inspect candidate PNGs in `catalog/previews/warm/`,

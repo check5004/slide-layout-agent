@@ -216,6 +216,7 @@ class EditorialSlide(CatalogSlide):
     allowed_layouts: Annotated[list[Id], Field(max_length=100)] = []
     constraints_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
     repetition_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
+    row_alignments: dict[Id, Literal['top', 'middle']] = {}
 
     @model_validator(mode='after')
     def explain_constraints(self):

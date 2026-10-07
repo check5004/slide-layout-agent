@@ -9,6 +9,7 @@
 - **通常の調査共有は新しい [Editorial 76型一覧](catalog/editorial/index.html)**（14 family、本文18〜21pt中心、カード16型）
 - **[編集可能な全76型PPTX](catalog/editorial/samples/editorial.pptx?raw=true)** · **[16枚の架空調査共有デモ](examples/editorial-story/story.pptx?raw=true)**
 - [代表12型のプレビュー](catalog/editorial/representative/contact-sheet.png) · [全型コンタクトシート](catalog/editorial/contact-sheet.png) · [実描画・回帰検証記録](docs/editorial-verification.md)。HTML一覧はclone後にブラウザで開けます。
+- [行形式の上下寄せ：変更前後12組](examples/editorial-rows/index.html) · [比較画像](examples/editorial-rows/contact-01.png)。短いラベルと本文＋根拠を行中央へ揃え、登録行ごとに上寄せも指定できます。
 - [内容を保ったvariant選択と使い方](docs/editorial-design.md)。`catalog` の標準は新作、旧62型は `catalog --collection reference` で参照できます。`select-variants` → `review` → `render` が通常の導線です。内容が収まる候補から変化を選び、避けられない反復は理由を残します。
 
 従来の型を参照する場合はこちらです。
@@ -18,6 +19,8 @@
 - **[構成から生成までの架空3枚](examples/catalog-story/story.pptx?raw=true)** · [従来8型の見本](examples/demo.pptx?raw=true)
 
 サンプルの文章・数値・画像は、動作確認用の架空のものです。
+
+画像は持込PNG/JPEGのfit/cropに対応する3型で差し込めます。AI図解生成は未連携です。[対応範囲と別課題の整理](docs/image-slots-next-task.md)を参照してください。
 
 ## 最短の使い方
 

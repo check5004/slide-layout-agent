@@ -597,5 +597,10 @@
       }
     }
   ],
-  "omissions": []
+  "omissions": [],
+  "display": {
+    "mode": "reader",
+    "footer": "",
+    "citations": []
+  }
 }

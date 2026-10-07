@@ -1,0 +1,269 @@
+{
+  "version": "1",
+  "source_sha256": "f3fc893a27c1d3533fd9d08dff4f1c2582f38c2ace826c75d39cac8a0f32e272",
+  "title": "架空の構造検証",
+  "slides": [
+    {
+      "id": "slide01",
+      "origin": "page01",
+      "title": {
+        "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+        "refs": [
+          {
+            "source_id": "s0015",
+            "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_4_8_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "refs": [
+              {
+                "source_id": "s0001",
+                "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "refs": [
+              {
+                "source_id": "s0002",
+                "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "受付機能",
+                "refs": [
+                  {
+                    "source_id": "s0003",
+                    "quote": "受付機能"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "照会先",
+                "refs": [
+                  {
+                    "source_id": "s0004",
+                    "quote": "照会先"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "確認窓口",
+                "refs": [
+                  {
+                    "source_id": "s0005",
+                    "quote": "確認窓口"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "発行窓口",
+                "refs": [
+                  {
+                    "source_id": "s0006",
+                    "quote": "発行窓口"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "参照先を渡す",
+                "refs": [
+                  {
+                    "source_id": "s0007",
+                    "quote": "受付機能から照会先へ「参照先を渡す」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "文書を要求",
+                "refs": [
+                  {
+                    "source_id": "s0008",
+                    "quote": "照会先から確認窓口へ「文書を要求」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "文書を応答",
+                "refs": [
+                  {
+                    "source_id": "s0009",
+                    "quote": "確認窓口から照会先へ「文書を応答」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "内部で確認",
+                "refs": [
+                  {
+                    "source_id": "s0010",
+                    "quote": "照会先から照会先へ「内部で確認」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_3",
+              "label": {
+                "text": "受付を依頼",
+                "refs": [
+                  {
+                    "source_id": "s0011",
+                    "quote": "照会先から発行窓口へ「受付を依頼」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_1",
+              "label": {
+                "text": "結果を応答",
+                "refs": [
+                  {
+                    "source_id": "s0012",
+                    "quote": "発行窓口から照会先へ「結果を応答」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "資料を提示",
+                "refs": [
+                  {
+                    "source_id": "s0013",
+                    "quote": "照会先から受付機能へ「資料を提示」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_0",
+              "target": "actor_0",
+              "label": {
+                "text": "内部で保存",
+                "refs": [
+                  {
+                    "source_id": "s0014",
+                    "quote": "受付機能から受付機能へ「内部で保存」を伝える。"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    }
+  ],
+  "omissions": [],
+  "display": {
+    "mode": "reader",
+    "footer": "",
+    "citations": [
+      {
+        "source_ids": [
+          "s0001",
+          "s0002",
+          "s0003",
+          "s0004",
+          "s0005",
+          "s0006",
+          "s0007",
+          "s0008",
+          "s0009",
+          "s0010",
+          "s0011",
+          "s0012",
+          "s0013",
+          "s0014",
+          "s0015"
+        ],
+        "title": "架空設計書",
+        "url": "https://example.com/fictional-design",
+        "version": "v1",
+        "accessed_on": "2026-10-07"
+      }
+    ]
+  }
+}

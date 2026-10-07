@@ -178,11 +178,11 @@ class CatalogContents(Model):
     states: dict[Id, Text] = {}
 
 
-from .catalog import LAYOUT_IDS
+from .catalog import REFERENCE_IDS, EDITORIAL_IDS, RELATION_IDS
 
 
 class CatalogSlide(SlideBase):
-    layout_id: Literal[LAYOUT_IDS]
+    layout_id: Literal[REFERENCE_IDS]
     variant: Literal["warm", "cool"] = "warm"
     font_profile: Literal["source", "meiryo", "noto", "hiragino"] = "source"
     contents: CatalogContents
@@ -194,8 +194,85 @@ class CatalogSlide(SlideBase):
         return self
 
 
+class TemplateImage(Model):
+    image_id: Id
+    image_mode: Literal['fit', 'crop'] = 'fit'
+
+
+class EditorialContents(CatalogContents):
+    images: dict[Id, TemplateImage] = {}
+
+
+class EditorialEmphasis(Model):
+    item_id: Literal['item_1']
+    refs: Annotated[list[Ref], Field(min_length=1, max_length=10)]
+    reason: Annotated[str, Field(min_length=1, max_length=1000)]
+
+
+class EditorialSlide(CatalogSlide):
+    layout_id: Literal[EDITORIAL_IDS]
+    contents: EditorialContents
+    emphasis: EditorialEmphasis | None = None
+    allowed_layouts: Annotated[list[Id], Field(max_length=100)] = []
+    constraints_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
+    repetition_reason: Annotated[str, Field(min_length=1, max_length=1000)] | None = None
+    row_alignments: dict[Id, Literal['top', 'middle']] = {}
+
+    @model_validator(mode='after')
+    def explain_constraints(self):
+        if self.allowed_layouts and not self.constraints_reason:
+            raise ValueError('allowed_layouts requires an explicit content/reading-order constraints_reason')
+        return self
+
+
+class RelationNode(Model):
+    id: Id
+    label: Text
+
+
+class RelationEdge(Model):
+    id: Id
+    source: Id
+    target: Id
+    label: Text
+
+
+class RelationBoundary(Model):
+    id: Id
+    kind: Literal['contains', 'same_owner']
+    label: Text
+    members: Annotated[list[Id], Field(min_length=1, max_length=5)]
+
+
+class Network(Model):
+    nodes: Annotated[list[RelationNode], Field(min_length=2, max_length=5)]
+    edges: Annotated[list[RelationEdge], Field(min_length=1, max_length=8)]
+    boundaries: Annotated[list[RelationBoundary], Field(max_length=1)] = []
+
+
+class ComparisonMethod(Model):
+    id: Id
+    label: Text
+    values: Annotated[list[Text], Field(min_length=3, max_length=3)]
+
+
+class ThreeMethods(Model):
+    axes: Annotated[list[Text], Field(min_length=3, max_length=3)]
+    methods: Annotated[list[ComparisonMethod], Field(min_length=3, max_length=3)]
+
+
+class RelationContents(EditorialContents):
+    network: Network | None = None
+    comparison: ThreeMethods | None = None
+
+
+class RelationSlide(EditorialSlide):
+    layout_id: Literal[RELATION_IDS]
+    contents: RelationContents
+
+
 Slide = Annotated[
-    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide | CatalogSlide,
+    TitleSlide | BulletSlide | ImageSlide | ComparisonSlide | ProcessSlide | TableSlide | ChartSlide | ClosingSlide | CatalogSlide | EditorialSlide | RelationSlide,
     Field(discriminator="layout_id"),
 ]
 
@@ -205,12 +282,27 @@ class Omission(Model):
     reason: Annotated[str, Field(min_length=1, max_length=500)]
 
 
+class DisplayCitation(Model):
+    source_ids: Annotated[list[Id], Field(min_length=1, max_length=500)]
+    title: Annotated[str, Field(min_length=1, max_length=100)]
+    url: Annotated[str, StringConstraints(pattern=r'^https?://[^\s]+$', max_length=2000)]
+    version: Annotated[str, Field(max_length=60)] = ''
+    accessed_on: Annotated[str, StringConstraints(pattern=r'^\d{4}-\d{2}-\d{2}$')] | None = None
+
+
+class DeckDisplay(Model):
+    mode: Literal['reader', 'qa'] = 'reader'
+    footer: Annotated[str, Field(max_length=100)] = ''
+    citations: Annotated[list[DisplayCitation], Field(max_length=50)] = []
+
+
 class Plan(Model):
     version: Literal["1"] = "1"
     source_sha256: Annotated[str, Field(pattern=r"^[a-f0-9]{64}$")]
     title: Short
     slides: Annotated[list[Slide], Field(min_length=1, max_length=100)]
     omissions: Annotated[list[Omission], Field(max_length=500)] = []
+    display: DeckDisplay = Field(default_factory=DeckDisplay)
 
     @model_validator(mode="after")
     def unique_ids(self):

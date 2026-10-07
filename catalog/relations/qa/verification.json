@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-07",
+  "baseline_commit": "3dcde14a56b354572bed2e82017a8dfc47582ca2",
+  "new_layout_count": 25,
+  "catalog": "relations",
+  "tests_passed": 80,
+  "pages_real_rendered_and_visually_reviewed": 132,
+  "measured_text_or_table_cells": 1910,
+  "renderer": "Microsoft PowerPoint 16.0",
+  "generation": "Python/python-pptx; no Office dependency",
+  "decks": {
+    "all": {
+      "pages": 25,
+      "pptx_sha256": "b7d2484903feefb8c2c8f7ac93a374f1874869fe6177dd475cd2de7b8c517476",
+      "measured_text_or_table_cells": 414,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "all-render-report.json"
+    },
+    "boundary": {
+      "pages": 25,
+      "pptx_sha256": "6e8006b8aa1fba15d148e69106b0c9a5c72f7c7cfb97211858b37a248d47b8a4",
+      "measured_text_or_table_cells": 418,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "boundary-render-report.json"
+    },
+    "usage": {
+      "pages": 6,
+      "pptx_sha256": "bb3b04def84b1e569b5f799ced560db0260a14d0185b638acd456a73450a0ef3",
+      "measured_text_or_table_cells": 90,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "usage-render-report.json"
+    },
+    "editorial": {
+      "pages": 76,
+      "pptx_sha256": "10cff2ac28f76368c8771889347c7fd9542254b365769c6b5f440f6ffe0072b3",
+      "measured_text_or_table_cells": 988,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "editorial-render-report.json"
+    }
+  },
+  "unchanged_template_contract_paths": [
+    "catalog/templates",
+    "catalog/schemas",
+    "catalog/manifest.json",
+    "catalog/editorial/templates",
+    "catalog/editorial/schemas",
+    "catalog/editorial/manifest.json"
+  ],
+  "visual_review": [
+    "Re-rendered normal 25, boundary 25, usage 6; all changed 13 pages inspected, including full-size loops and row clearance.",
+    "Unchanged 43 pages pixel-identical to reviewed v2; all top 390px unchanged.",
+    "Editorial 76: exact unchanged PPTX SHA and previous real render retained."
+  ],
+  "measurement_limit": "Table cell BoundTop is not slide-absolute in this environment. Cell dimensions, native anchors and pixels were reviewed.",
+  "semantic_review": "Fictional fixture review only; RELATION_SEMANTIC_REVIEW and PARTIAL_SOURCE_REVIEW retained. Independent review is separate.",
+  "qa_version": "relations-qa-v4",
+  "reviewed_base_commit": "44fb1e3c9ee559a074b35a138a3e14e76c3144f6",
+  "geometry_regression": {
+    "boundary_endpoint_cases": 1400,
+    "consecutive_self_event_cases": 6,
+    "rejects": [
+      "connector or arrowhead envelope outside diagram",
+      "internal connector outside its group",
+      "connector envelope overlaps next event label row"
+    ],
+    "eight_event_bottom_clearance_inches": 0.05,
+    "rendered_pixel_equivalent_at_1600x900": 6,
+    "body_font_pt": 16,
+    "text_capacity_changed": false,
+    "plan_api_changed": false
+  },
+  "pixel_comparison": "pixel-comparison.json"
+}

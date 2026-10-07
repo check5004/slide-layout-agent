@@ -8,8 +8,8 @@ import hashlib
 import json
 from functools import lru_cache
 
-from .catalog import ROOT,registry
-from .models import CatalogSlide,Plan
+from .catalog import ROOT,all_registry as registry
+from .models import CatalogSlide,EditorialSlide,RelationSlide,Plan
 
 
 @lru_cache(maxsize=1)
@@ -17,31 +17,56 @@ def _catalog_model_schema():return CatalogSlide.model_json_schema()
 
 
 @lru_cache(maxsize=1)
+def _editorial_model_schema():return EditorialSlide.model_json_schema()
+
+
+@lru_cache(maxsize=1)
+def _relation_model_schema():return RelationSlide.model_json_schema()
+
+
+@lru_cache(maxsize=1)
 def _plan_model_schema():return Plan.model_json_schema()
 
 
 def layout_schema(entry):
-    sc=copy.deepcopy(_catalog_model_schema())
+    relational = entry.get('catalog') == 'relations'
+    editorial = entry.get('catalog') in ('editorial','relations')
+    sc=copy.deepcopy(_relation_model_schema() if relational else _editorial_model_schema() if editorial else _catalog_model_schema())
     sc['properties']['layout_id']={'const':entry['layout_id'],'type':'string'}
     contents={'type':'object','additionalProperties':False,'required':['texts','charts','metrics','states'],'properties':{}}
-    for kind,model in [('texts','Text'),('charts','TemplateChart'),('metrics','SignedDatum'),('states','Text')]:
+    kinds = [('texts','Text'),('charts','TemplateChart'),('metrics','SignedDatum'),('states','Text')]
+    if editorial:
+        kinds.append(('images', 'TemplateImage')); contents['required'].append('images')
+        sc['properties']['row_alignments'] = {'type':'object','additionalProperties':False,
+            'default':{},'properties':{key:{'type':'string','enum':['top','middle']} for key in entry.get('rows',{})}}
+    for kind,model in kinds:
         contents['properties'][kind]={'type':'object','additionalProperties':False,'required':list(entry[kind]),
             'properties':{key:{'$ref':f'#/$defs/{model}'} for key in entry[kind]}}
     sc['properties']['contents']=contents
+    if relational:
+        comparison=entry['relation']['kind']=='compare'
+        for key,model in [('network','Network'),('comparison','ThreeMethods')]:
+            active=(key=='comparison')==comparison
+            contents['properties'][key]={'$ref':f'#/$defs/{model}'} if active else {'type':'null','default':None}
+            if active:contents['required'].append(key)
+        if not comparison:
+            sc['$defs']['Network']['properties']['nodes'].update(minItems=entry['item_count'],maxItems=entry['item_count'])
+            sc['$defs']['Network']['properties']['edges']['maxItems']=entry['relation'].get('max_events',len(entry['relation']['routes']))
     chart=sc['$defs']['TemplateChart']
     if entry['layout_id']=='scenario_lines_cagr':
         chart['required']=sorted(set(chart.get('required',[])+['elapsed_years']))
         chart['properties']['elapsed_years']={'$ref':'#/$defs/ElapsedYears'}
     else:chart['properties']['elapsed_years']={'type':'null','default':None}
-    keys=['template_sha256','title','texts','charts','metrics','states','chart_aliases','reference_line','bridge','calculation','split_policy','image_policy']
-    contract={k:entry[k] for k in keys if k in entry}
+    keys=['template_sha256','title','texts','charts','metrics','states','chart_aliases','reference_line','bridge','calculation','split_policy','image_policy', 'family', 'structural_variant', 'item_count', 'semantic_signature', 'slot_mapping', 'visual_signature', 'images']
+    contract={k:entry[k] for k in keys+['emphasis_item', 'text_flow', 'metric_total', 'comparison_axes', 'rows', 'relation'] if k in entry}
     sc['x-contract-sha256']=hashlib.sha256(json.dumps(contract,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
     sc['x-runtime-validation']='Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog'
     return sc
 
 
 def schema_error(layout_id):
-    expected={'catalog/plan.schema.json':_plan_model_schema(),f'catalog/schemas/{layout_id}.schema.json':layout_schema(registry()[layout_id])}
+    entry = registry()[layout_id]
+    expected={'catalog/plan.schema.json':_plan_model_schema(),entry.get('schema',f'catalog/schemas/{layout_id}.schema.json'):layout_schema(entry)}
     for path,contract in expected.items():
         try: actual=json.loads((ROOT/path).read_text(encoding='utf-8-sig'))
         except (OSError,ValueError):return f'{path}: missing or invalid saved schema; regenerate and review the catalog'

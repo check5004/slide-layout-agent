@@ -1,0 +1,47 @@
+{
+  "pptx_sha256": "bb3b04def84b1e569b5f799ced560db0260a14d0185b638acd456a73450a0ef3",
+  "pages": [
+    {
+      "page": 1,
+      "layout_id": "rel_pair_2_lr",
+      "template_sha256": "405d3fcb821166ae5d34a156c52e4f6f8bda872ad9bcfa5c2ad77beb917883e5",
+      "png_sha256": "3823a50336179faff79c14373ea77fdeacbc99eec4e9f572809164f983a948cf",
+      "preview": "previews/01-rel_pair_2_lr.png"
+    },
+    {
+      "page": 2,
+      "layout_id": "rel_spoke_4_lr",
+      "template_sha256": "4a349c313e82c1c17fa92810d6ca7b2e532b73722652242d0e26d17d4397899b",
+      "png_sha256": "23cd0d7c644561c136bebc3dc5968f1244a62a83a4dd91dc55e71a954d24b04c",
+      "preview": "previews/02-rel_spoke_4_lr.png"
+    },
+    {
+      "page": 3,
+      "layout_id": "rel_sequence_4_8_lr",
+      "template_sha256": "e12dc8756e33b4cce0edabc6f41b7ba67f78b82ece8a9098f972923d5185cf74",
+      "png_sha256": "bf414c50d15b88d84ff1dd74c6a27e90a3714ee70e2eebd9a2104f50adf29471",
+      "preview": "previews/03-rel_sequence_4_8_lr.png"
+    },
+    {
+      "page": 4,
+      "layout_id": "rel_pair_fan_5_lr",
+      "template_sha256": "b7945b1ebb936a63910c53e7ad008db98a8f072ed28a51b1ef3753d8d8ecac06",
+      "png_sha256": "da7c845fd9d9acdcdf7ca7dd394784664ba7d0a76e81c09d973e395a98ca1aeb",
+      "preview": "previews/04-rel_pair_fan_5_lr.png"
+    },
+    {
+      "page": 5,
+      "layout_id": "rel_fan_3_lr",
+      "template_sha256": "e4fcff0ee434bac09689ff3676c6f82d571e98576cfe52f712d6b644e16dbf49",
+      "png_sha256": "420e347bc2ab766227d17153dab606b730ea179100a1dc45f7a4065e05a13e82",
+      "preview": "previews/05-rel_fan_3_lr.png"
+    },
+    {
+      "page": 6,
+      "layout_id": "rel_compare_three",
+      "template_sha256": "b6c74550fdcd9810d701c27da99b683aeb478537bfd210fbe3fc937527c4d3a0",
+      "png_sha256": "a0387a5de865e616d3dc3f25fcc9cb8b8a7836bf3fc16a1a4096b969b51d2376",
+      "preview": "previews/06-rel_compare_three.png"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import math
 import re
 from decimal import DecimalException
 
-from .catalog import registry
+from .catalog import all_registry as registry
 
 
 def validate_catalog(slide, add):
@@ -17,12 +17,36 @@ def validate_catalog(slide, add):
             add("TEMPLATE_OVERFLOW", f"{label}: {lines} lines exceed {spec['max_lines']}; replan/split, no shrink",slide.id)
 
     capacity(slide.title.text,entry["title"],"title")
+    if entry.get('catalog') in ('editorial','relations'):
+        unknown_rows = set(slide.row_alignments)-set(entry.get('rows',{}))
+        if unknown_rows:
+            add('EDITORIAL_ROW_ALIGNMENT', f'unknown rows: {sorted(unknown_rows)}; choose registered row groups only',slide.id)
+        if not slide.title.text.strip():
+            add('TEMPLATE_EMPTY', 'title: whitespace is not content', slide.id)
+        actual_emphasis = slide.emphasis.item_id if slide.emphasis else None
+        if entry.get('emphasis_item') != actual_emphasis:
+            add('EDITORIAL_EMPHASIS', 'this visual hierarchy requires matching source-backed emphasis; parallel items must use equal layouts', slide.id)
+        expected_images, supplied_images = entry.get('images', {}), slide.contents.images
+        if set(expected_images) != set(supplied_images):
+            add('TEMPLATE_IMAGE_SLOTS', 'exact named image slots required; choose a template with the correct image count', slide.id)
     for label, supplied, expected in [("texts",c.texts,entry["texts"]),("charts",c.charts,entry["charts"]),("metrics",c.metrics,entry["metrics"]),("states",c.states,entry["states"])]:
         missing, unknown = set(expected)-set(supplied), set(supplied)-set(expected)
         if missing or unknown:
             add("TEMPLATE_SLOTS",f"{label}: missing={sorted(missing)}, unknown={sorted(unknown)}",slide.id)
     for key, value in c.texts.items():
-        if key in entry["texts"]: capacity(value.text,entry["texts"][key],key)
+        if key in entry["texts"]:
+            if not value.text.strip(): add('TEMPLATE_EMPTY', f'{key}: whitespace is not content', slide.id)
+            capacity(value.text,entry["texts"][key],key)
+    for a,b in entry.get('comparison_axes', []):
+        if a in c.texts and b in c.texts and c.texts[a].text != c.texts[b].text:
+            add('EDITORIAL_COMPARISON_AXES','paired alternatives require the same explicit comparison axis',slide.id)
+    if entry.get('text_flow') and set(entry['texts']) <= set(c.texts):
+        from .vertical import flow_positions
+        try: flow_positions(entry,c,getattr(slide,'row_alignments',{}))
+        except ValueError as exc: add('EDITORIAL_ROW_OVERFLOW',str(exc),slide.id)
+    if entry.get('catalog')=='relations':
+        from .relations import errors
+        for code,message in errors(entry,c):add(code,message,slide.id)
     for key,value in c.states.items():
         if key in entry["states"] and value.text not in entry["states"][key]["palette"]:
             add("TEMPLATE_STATE",f"{key}: choose {list(entry['states'][key]['palette'])}",slide.id)
@@ -76,6 +100,11 @@ def validate_catalog(slide, add):
             capacity(metric_text(value.value,spec),spec["label_capacity"],key)
         if spec["binding"]=="gantt_start" and spec["end_key"] in c.metrics and c.metrics[spec["end_key"]].value<=value.value:
             add("TEMPLATE_GANTT_ORDER",key,slide.id)
+    relation = entry.get('metric_total')
+    if relation and {relation['total'], *relation['parts']} <= set(c.metrics):
+        from .numeric_format import decimal_value
+        if decimal_value(c.metrics[relation['total']].value) != sum(decimal_value(c.metrics[k].value) for k in relation['parts']):
+            add('EDITORIAL_METRIC_TOTAL','total must exactly equal the mutually exclusive parts',slide.id)
     if all(k in c.charts for k in entry["charts"]):
         from .template_engine import alias_value
         for name,spec in entry.get("chart_aliases",{}).items():

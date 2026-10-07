@@ -6,11 +6,23 @@
 
 ## まず完成例を見る
 
+- **[関係図・通信図25型の使い方](docs/relations.md)**：包含、同管理主体、1対多、共有参照、3〜5主体の往復／内部処理、等幅3方式比較。`catalog --collection relations` で選びます。[実描画一覧](catalog/relations/index.html)・[編集可能な架空例](examples/relations/relations.pptx?raw=true)。読者向け資料名リンク・版・確認日はdeck-level `display` で指定できます。
+
+- **通常の調査共有は新しい [Editorial 76型一覧](catalog/editorial/index.html)**（14 family、本文18〜21pt中心、カード16型）
+- **[編集可能な全76型PPTX](catalog/editorial/samples/editorial.pptx?raw=true)** · **[16枚の架空調査共有デモ](examples/editorial-story/story.pptx?raw=true)**
+- [代表12型のプレビュー](catalog/editorial/representative/contact-sheet.png) · [全型コンタクトシート](catalog/editorial/contact-sheet.png) · [実描画・回帰検証記録](docs/editorial-verification.md)。HTML一覧はclone後にブラウザで開けます。
+- [行形式の上下寄せ：変更前後12組](examples/editorial-rows/index.html) · [比較画像](examples/editorial-rows/contact-01.png)。短いラベルと本文＋根拠を行中央へ揃え、登録行ごとに上寄せも指定できます。
+- [内容を保ったvariant選択と使い方](docs/editorial-design.md)。`catalog` の標準は新作、旧62型は `catalog --collection reference` で参照できます。`select-variants` → `review` → `render` が通常の導線です。内容が収まる候補から変化を選び、避けられない反復は理由を残します。
+
+従来の型を参照する場合はこちらです。
+
 - **[62型のカタログを見る](catalog/index.html)**（clone後にブラウザで開くと検索・配色切替ができます）
 - **[62型の差込サンプルPPTX](catalog/samples/catalog-warm.pptx?raw=true)** · [別配色](catalog/samples/catalog-cool.pptx?raw=true)
 - **[構成から生成までの架空3枚](examples/catalog-story/story.pptx?raw=true)** · [従来8型の見本](examples/demo.pptx?raw=true)
 
 サンプルの文章・数値・画像は、動作確認用の架空のものです。
+
+画像は持込PNG/JPEGのfit/cropに対応する3型で差し込めます。AI図解生成は未連携です。[対応範囲と別課題の整理](docs/image-slots-next-task.md)を参照してください。
 
 ## 最短の使い方
 
@@ -34,7 +46,7 @@ AI に構成を考えてもらうには **Codex** が必要です。このプロ
 
 PowerPoint 本体は生成には不要ですが、出力を開いて見た目を確認・手直しするときに使います。自動の画像書き出し・計測は Windows ＋ PowerPoint 向けです。
 
-62型は上流テンプレートの游ゴシック・游明朝とコンパクトな文字サイズを使います。従来8型は Meiryo。追加フォントの導入は生成の必須条件ではありません。別 OS では代替フォントによって改行や見た目が変わることがあります。
+Editorialは游ゴシックと本文18〜21ptを中心に使います。旧62型は上流テンプレートの游ゴシック・游明朝とコンパクトな文字サイズ、従来8型は Meiryo。追加フォントの導入は生成の必須条件ではありません。別 OS では代替フォントによって改行や見た目が変わることがあります。
 
 ### 3. 文章と画像を置く
 
@@ -62,9 +74,9 @@ PowerPoint 上の手直しを構成案へ戻す機能はありません。手直
 
 ## いま使える範囲
 
-日本語・16:9 の**実体PPTXテンプレート62型**と、従来のPython配置8型に対応しています。62型は2配色・124枚の描画見本から選べます。従来の文章＋画像も同じ構成案に混在できます。
+日本語・16:9 の**新作Editorial 76型、関係図・通信図25型、従来reference 62型**と、Python配置8型に対応しています。新作は社内調査共有を中心にカード・図文・比較・手順・表・グラフ等を備えます。関係図は登録済みの主体数・方向・囲み・通信列に対応します。旧62型の2配色・124枚の描画見本も保持しています。従来の文章＋画像も同じ構成案に混在できます。
 
-**62型は保存済みのPPTXを開き、名前付きの入力欄へ差し込む方式です。** 文字量・表やグラフの項目数・数値の関係を型ごとに検証します。任意の企業テンプレートを自動登録する機能や、出力PPTXの手修正を取り込む機能はありません。
+**新旧catalogは保存済みのPPTXを開き、名前付きの入力欄へ差し込む方式です。** 文字量・表やグラフの項目数・数値の関係を型ごとに検証します。新作では意味上の主従・反復・総数と内訳も検証します。任意の企業テンプレートを自動登録する機能や、出力PPTXの手修正を取り込む機能はありません。
 
 AI の判断は Codex が担当し、Python はフォント・配色・余白・配置を決められたルールで描画します。題材の調査や事実の追加は行いません。意味や留保が正しく残っているか、最終的には人間が確認します。
 

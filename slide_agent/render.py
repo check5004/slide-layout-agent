@@ -12,7 +12,7 @@ from pptx.oxml.xmlchemy import OxmlElement
 from pptx.util import Inches, Pt
 
 from .io import asset_path
-from .catalog import is_catalog, LICENSE_NOTICE, INVENTORY, registry
+from .catalog import ROOT, is_catalog, LICENSE_NOTICE, INVENTORY, all_registry as registry
 from .template_engine import instantiate
 from .validate import BODY_H, BODY_Y, CONTENT_W, HEIGHT, MARGIN, WIDTH, walk_evidence
 
@@ -108,16 +108,26 @@ def render(plan, source, base, theme, destination):
     segments = {s.id: s for s in source.segments}
     for index, design in enumerate(plan.slides):
         if is_catalog(design.layout_id):
-            slide = instantiate(prs, design, plan, source, index + 1)
+            slide = instantiate(prs, design, plan, source, index + 1, base)
+            entry = registry()[design.layout_id]
             refs = sorted({r.source_id for item in walk_evidence(design) for r in item.refs})
+            from .reader_display import apply as apply_display
+            apply_display(slide,plan.display,refs)
             slide.notes_slide.notes_text_frame.text = json.dumps({
                 "slide_id": design.id, "origin": design.origin, "layout_id": design.layout_id,
                 "variant": design.variant, "rationale": design.rationale,
                 "source_sha256": plan.source_sha256,
                 "evidence": [item.model_dump(mode="json") for item in walk_evidence(design)],
                 "citations": {sid: segments[sid].citation for sid in refs},
-                "template_license": LICENSE_NOTICE,
-                "template_upstream_commit": INVENTORY["commit"],
+                "template_license": (ROOT/'LICENSE').read_text(encoding='utf-8') if entry.get('catalog') in ('editorial','relations') else LICENSE_NOTICE,
+                "template_upstream_commit": None if entry.get('catalog') in ('editorial','relations') else INVENTORY["commit"],
+                "catalog": entry.get('catalog', 'reference'),
+                "family": entry.get('family'), "structural_variant": entry.get('structural_variant'),
+                "repetition_reason": getattr(design, 'repetition_reason', None),
+                "row_alignments": getattr(design, 'row_alignments', {}),
+                "images": {key: value.model_dump() for key, value in getattr(design.contents, 'images', {}).items()},
+                "relation_contents": design.contents.model_dump(mode='json') if entry.get('catalog')=='relations' else None,
+                "display": plan.display.model_dump(mode='json'), "display_source_ids":refs,
                 "template_sha256": registry()[design.layout_id]["template_sha256"],
             }, ensure_ascii=False, indent=2)
             continue
@@ -213,11 +223,14 @@ def render(plan, source, base, theme, destination):
             footer = f"SOURCE  {len(refs)} references — see notes"
         text_box(slide, footer, MARGIN, 6.98, 11.1, 0.3, theme, theme.footnote_pt, role="footer", color=theme.surface if dark else theme.muted)
         text_box(slide, f"{index + 1:02d}", 12.05, 6.94, 0.6, 0.35, theme, 14, role="footer", color=fg, align=PP_ALIGN.RIGHT)
+        from .reader_display import apply as apply_display
+        apply_display(slide,plan.display,refs,catalog=False)
         note = {
             "slide_id": design.id, "origin": design.origin, "layout_id": kind,
             "rationale": design.rationale, "source_sha256": plan.source_sha256,
             "evidence": [item.model_dump(mode="json") for item in walk_evidence(design)],
             "citations": {sid: segments[sid].citation for sid in refs},
+            "display":plan.display.model_dump(mode='json'),"display_source_ids":refs,
         }
         slide.notes_slide.notes_text_frame.text = json.dumps(note, ensure_ascii=False, indent=2)
     Path(destination).parent.mkdir(parents=True, exist_ok=True)

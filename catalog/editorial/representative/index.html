@@ -1,0 +1,2196 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editorial research layouts</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f5;color:#213547;font:16px/1.6 system-ui,sans-serif}header{padding:36px max(24px,4vw);background:#213547;color:white}h1{font-size:30px;margin:0 0 8px}header p{max-width:850px;margin:0;color:#d9e3ec}nav{position:sticky;top:0;padding:14px 4vw;background:#fff;box-shadow:0 2px 8px #21354718;display:flex;gap:14px;align-items:center;flex-wrap:wrap;z-index:1}label{display:flex;gap:8px;align-items:center}select,input{font:inherit;padding:6px;border:1px solid #b7c7d3;border-radius:5px}main{padding:24px 3vw;display:grid;grid-template-columns:repeat(auto-fit,minmax(430px,1fr));gap:24px}article{background:white;border:1px solid #d7e1e8;border-radius:9px;overflow:hidden}article img{width:100%;display:block}article .body{padding:16px}h2{font-size:19px;margin:5px 0}small{color:#566777}code{font-size:13px;color:#087e83}details{margin-top:12px}pre{overflow:auto;font-size:12px;max-height:400px}article[hidden]{display:none}@media(max-width:600px){main{grid-template-columns:1fr}}a{color:#087e83}</style>
+<header><h1>Editorial / 社内調査共有のレイアウト</h1><p>14の意味上のfamily。左右・項目数・図文比率・配置を選べます。本文を縮めず、内容が収まる型を選びます。画像はMicrosoft PowerPointの実描画。すべて架空例です。</p></header>
+<nav><label>Family <select id="family"><option value="">すべて</option><option>cards</option><option>chart</option><option>comparison</option><option>cover</option><option>diagram</option><option>metrics</option><option>steps</option><option>table</option></select></label><label>項目数 <select id="count"><option value="">すべて</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></label><label>検索 <input id="search" placeholder="cards / 比較 / 所見"></label><span id="total"></span><a href="contact-sheet.png">全型コンタクトシート</a></nav><main><article data-family="cover" data-count="2"><a href="previews/slide-01.png"><img loading="lazy" src="previews/slide-01.png" alt="社内ナレッジ共有の調査メモ"></a><div class="body"><small>01 · cover · brief · 2 items</small><h2>社内ナレッジ共有の調査メモ</h2><code>ed_cover_brief_2</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cover&quot;,
+  &quot;variant&quot;: &quot;brief&quot;,
+  &quot;count&quot;: 2,
+  &quot;visual_signature&quot;: &quot;cover:brief&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;検索性と信頼性を両立するための運用条件&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        2423160,
+        10607040,
+        685800
+      ],
+      &quot;font_pt&quot;: 23,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 33.38,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        850392,
+        3794760,
+        4992624,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.92,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語を揃え、同じ資料へ辿れる入口を整える。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        850392,
+        4315968,
+        4992624,
+        1444752
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 19.91,
+      &quot;max_lines&quot;: 4,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6428232,
+        3794760,
+        4992624,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.92,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6428232,
+        4315968,
+        4992624,
+        1444752
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 19.91,
+      &quot;max_lines&quot;: 4,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="cards" data-count="3"><a href="previews/slide-02.png"><img loading="lazy" src="previews/slide-02.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>02 · cards · grid · 3 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_cards_grid_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cards&quot;,
+  &quot;variant&quot;: &quot;grid&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;equal_columns&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        2276856,
+        3102864,
+        640080
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語の揺れを減らし、部門をまたいでも同じ資料へ辿れる導線を整える。検索結果には対象範囲を添え、読み手が必要な情報かを判断できるようにする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        3072384,
+        3102864,
+        2386584
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 7,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_evidence&quot;,
+      &quot;sample&quot;: &quot;対象：資料の入口を確認&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        2276856,
+        3102864,
+        640080
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;要約だけで判断せず、原文の条件と確認日を一緒に読み取れる形にする。引用先の位置も残し、解釈に疑問があれば読み手が前提を確かめられるようにする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        3072384,
+        3102864,
+        2386584
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 7,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_evidence&quot;,
+      &quot;sample&quot;: &quot;根拠：原文の条件を保持&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        2276856,
+        3102864,
+        640080
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて確認担当を置き、古い記述を見分けられるようにする。更新が止まった資料は利用条件を明記し、再確認の対象として管理する。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        3072384,
+        3102864,
+        2386584
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 7,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：運用負荷は未検証&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="cards" data-count="6"><a href="previews/slide-03.png"><img loading="lazy" src="previews/slide-03.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>03 · cards · grid · 6 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_cards_grid_6</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cards&quot;,
+  &quot;variant&quot;: &quot;grid&quot;,
+  &quot;count&quot;: 6,
+  &quot;visual_signature&quot;: &quot;card_grid&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        2276856,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語を揃え、同じ資料へ辿れる入口を整える。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        2798063,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_evidence&quot;,
+      &quot;sample&quot;: &quot;対象：資料の入口を確認&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        3538727,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        2276856,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        2798063,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_evidence&quot;,
+      &quot;sample&quot;: &quot;根拠：原文の条件を保持&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        3538727,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        2276856,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて担当と再確認の時期を決める。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        2798063,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：運用負荷は未検証&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        3538727,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_heading&quot;,
+      &quot;sample&quot;: &quot;例外を見える化&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        4306824,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_body&quot;,
+      &quot;sample&quot;: &quot;適用できない場面も記録し、前提の違いを残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        4828031,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_evidence&quot;,
+      &quot;sample&quot;: &quot;注意：対象外の場面を含む&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_5_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_5_heading&quot;,
+      &quot;sample&quot;: &quot;比較軸を共有する&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        4306824,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_5_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_5_body&quot;,
+      &quot;sample&quot;: &quot;評価項目を揃え、異なる条件の結果を混同しない。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        4828031,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_5_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_5_evidence&quot;,
+      &quot;sample&quot;: &quot;根拠：比較条件を照合&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4538472,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_6_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_6_heading&quot;,
+      &quot;sample&quot;: &quot;確認先を残す&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        4306824,
+        3102864,
+        438912
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.03,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_6_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_6_body&quot;,
+      &quot;sample&quot;: &quot;未確認の論点と、追加調査で確かめる点を残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        4828031,
+        3102864,
+        630936
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.26,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_6_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_6_evidence&quot;,
+      &quot;sample&quot;: &quot;保留：担当部署へ確認&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8263128,
+        5568696,
+        3102864,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.76,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="cards" data-count="4"><a href="previews/slide-04.png"><img loading="lazy" src="previews/slide-04.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>04 · cards · rows · 4 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_cards_rows_4</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cards&quot;,
+  &quot;variant&quot;: &quot;rows&quot;,
+  &quot;count&quot;: 4,
+  &quot;visual_signature&quot;: &quot;editorial_rows&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;bounds_emu&quot;: [
+        685800,
+        2139696,
+        2834640,
+        923544
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 10.06,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語を揃え、同じ資料へ辿れる入口を整える。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        2130552,
+        7790688,
+        548640
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 31.25,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：追加の確認が必要&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        2734056,
+        7790688,
+        292608
+      ],
+      &quot;font_pt&quot;: 12,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 46.87,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;bounds_emu&quot;: [
+        685800,
+        3118103,
+        2834640,
+        923544
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 10.06,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        3108960,
+        7790688,
+        548640
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 31.25,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：追加の確認が必要&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        3712464,
+        7790688,
+        292608
+      ],
+      &quot;font_pt&quot;: 12,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 46.87,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;bounds_emu&quot;: [
+        685800,
+        4096512,
+        2834640,
+        923544
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 10.06,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて担当と再確認の時期を決める。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        4087368,
+        7790688,
+        548640
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 31.25,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：追加の確認が必要&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        4690872,
+        7790688,
+        292608
+      ],
+      &quot;font_pt&quot;: 12,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 46.87,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_heading&quot;,
+      &quot;sample&quot;: &quot;例外を見える化&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;bounds_emu&quot;: [
+        685800,
+        5074920,
+        2834640,
+        923544
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 10.06,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_body&quot;,
+      &quot;sample&quot;: &quot;適用できない場面も記録し、前提の違いを残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        5065775,
+        7790688,
+        548640
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 31.25,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_4_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_4_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：追加の確認が必要&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        3730752,
+        5669280,
+        7790688,
+        292608
+      ],
+      &quot;font_pt&quot;: 12,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 46.87,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="cards" data-count="3"><a href="previews/slide-05.png"><img loading="lazy" src="previews/slide-05.png" alt="最も重視する論点は検索入口を揃えること"></a><div class="body"><small>05 · cards · feature_left · 3 items</small><h2>最も重視する論点は検索入口を揃えること</h2><code>ed_cards_feature_left_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cards&quot;,
+  &quot;variant&quot;: &quot;feature_left&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;feature_with_support&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        2276856,
+        4892040,
+        640080
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 16.72,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語の揺れを減らし、部門をまたいでも同じ資料へ辿れる導線を整える。検索結果には対象範囲を添え、読み手が必要な情報かを判断できるようにする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        3072384,
+        4892040,
+        1645920
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 5,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_evidence&quot;,
+      &quot;sample&quot;: &quot;対象：資料の入口を確認&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        4828032,
+        4892040,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        2176272,
+        5202936,
+        420624
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 18.69,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        2688336,
+        5202936,
+        937259
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 20.77,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_evidence&quot;,
+      &quot;sample&quot;: &quot;根拠：原文の条件&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        3689604,
+        5202936,
+        274320
+      ],
+      &quot;font_pt&quot;: 13,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 28.75,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        4183379,
+        5202936,
+        420624
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 18.69,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて担当と再確認の時期を決める。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        4695444,
+        5202936,
+        937259
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 20.77,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：運用負荷は未検証&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6318503,
+        5696712,
+        5202936,
+        274320
+      ],
+      &quot;font_pt&quot;: 13,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 28.75,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="cards" data-count="3"><a href="previews/slide-06.png"><img loading="lazy" src="previews/slide-06.png" alt="最も重視する論点は検索入口を揃えること"></a><div class="body"><small>06 · cards · feature_right · 3 items</small><h2>最も重視する論点は検索入口を揃えること</h2><code>ed_cards_feature_right_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;cards&quot;,
+  &quot;variant&quot;: &quot;feature_right&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;feature_with_support&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6473952,
+        2276856,
+        4892040,
+        640080
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 16.72,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語の揺れを減らし、部門をまたいでも同じ資料へ辿れる導線を整える。検索結果には対象範囲を添え、読み手が必要な情報かを判断できるようにする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6473952,
+        3072384,
+        4892040,
+        1645920
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 5,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_evidence&quot;,
+      &quot;sample&quot;: &quot;対象：資料の入口を確認&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6473952,
+        4828032,
+        4892040,
+        310896
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        2176272,
+        5202936,
+        420624
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 18.69,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        2688336,
+        5202936,
+        937259
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 20.77,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_evidence&quot;,
+      &quot;sample&quot;: &quot;根拠：原文の条件&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        3689604,
+        5202936,
+        274320
+      ],
+      &quot;font_pt&quot;: 13,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 28.75,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        4183379,
+        5202936,
+        420624
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 18.69,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて担当と再確認の時期を決める。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        4695444,
+        5202936,
+        937259
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 20.77,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_evidence&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_evidence&quot;,
+      &quot;sample&quot;: &quot;留保：運用負荷は未検証&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        5696712,
+        5202936,
+        274320
+      ],
+      &quot;font_pt&quot;: 13,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 28.75,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="diagram" data-count="3"><a href="previews/slide-07.png"><img loading="lazy" src="previews/slide-07.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>07 · diagram · left · 3 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_diagram_left_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;diagram&quot;,
+  &quot;variant&quot;: &quot;left&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;diagram_horizontal&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_1&quot;: {
+      &quot;shape&quot;: &quot;slot:node_1&quot;,
+      &quot;sample&quot;: &quot;入力資料&quot;,
+      &quot;role&quot;: &quot;node&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        2423160,
+        4297680,
+        384048
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 14.66,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_1_detail&quot;: {
+      &quot;shape&quot;: &quot;slot:node_1_detail&quot;,
+      &quot;sample&quot;: &quot;原文・確認日・対象範囲を受け取る&quot;,
+      &quot;role&quot;: &quot;node_detail&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        2871215,
+        4297680,
+        283464
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 21.98,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_2&quot;: {
+      &quot;shape&quot;: &quot;slot:node_2&quot;,
+      &quot;sample&quot;: &quot;条件の確認&quot;,
+      &quot;role&quot;: &quot;node&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        3575304,
+        4297680,
+        384048
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 14.66,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_2_detail&quot;: {
+      &quot;shape&quot;: &quot;slot:node_2_detail&quot;,
+      &quot;sample&quot;: &quot;定義と比較条件の違いを整理する&quot;,
+      &quot;role&quot;: &quot;node_detail&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        4023360,
+        4297680,
+        283464
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 21.98,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_3&quot;: {
+      &quot;shape&quot;: &quot;slot:node_3&quot;,
+      &quot;sample&quot;: &quot;所見の共有&quot;,
+      &quot;role&quot;: &quot;node&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        4727448,
+        4297680,
+        384048
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 14.66,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;node_3_detail&quot;: {
+      &quot;shape&quot;: &quot;slot:node_3_detail&quot;,
+      &quot;sample&quot;: &quot;根拠と未確認の論点を残して渡す&quot;,
+      &quot;role&quot;: &quot;node_detail&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        1060704,
+        5175504,
+        4297680,
+        283464
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 21.98,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;explanation_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:explanation_heading&quot;,
+      &quot;sample&quot;: &quot;原文とのつながりを残す&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6199632,
+        2322576,
+        5376672,
+        768096
+      ],
+      &quot;font_pt&quot;: 23,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 16.8,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;explanation&quot;: {
+      &quot;shape&quot;: &quot;slot:explanation&quot;,
+      &quot;sample&quot;: &quot;資料を集めた後で、対象範囲と比較条件を確認する。共有時には原文の位置を添え、読み手が結論の前提へ戻れるようにする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6199632,
+        3264408,
+        5376672,
+        1965960
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 19.32,
+      &quot;max_lines&quot;: 6,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;caveat&quot;: {
+      &quot;shape&quot;: &quot;slot:caveat&quot;,
+      &quot;sample&quot;: &quot;留保：因果関係を示す工程図ではない。&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6199632,
+        5486400,
+        5376672,
+        475488
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 27.6,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="comparison" data-count="2"><a href="previews/slide-08.png"><img loading="lazy" src="previews/slide-08.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>08 · comparison · columns · 2 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_comparison_columns_2</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;comparison&quot;,
+  &quot;variant&quot;: &quot;columns&quot;,
+  &quot;count&quot;: 2,
+  &quot;visual_signature&quot;: &quot;comparison_columns&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;a_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:a_heading&quot;,
+      &quot;sample&quot;: &quot;集約型&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        832104,
+        2350008,
+        4892040,
+        566928
+      ],
+      &quot;font_pt&quot;: 23,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.27,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;a_axis_1&quot;: {
+      &quot;shape&quot;: &quot;slot:a_axis_1&quot;,
+      &quot;sample&quot;: &quot;検索上の特徴&quot;,
+      &quot;role&quot;: &quot;axis&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        832104,
+        2999232,
+        4892040,
+        292608
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;a_point_1&quot;: {
+      &quot;shape&quot;: &quot;slot:a_point_1&quot;,
+      &quot;sample&quot;: &quot;入口を統一し、部署をまたぐ検索をしやすくする。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        832104,
+        3364992,
+        4892040,
+        1024128
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;a_axis_2&quot;: {
+      &quot;shape&quot;: &quot;slot:a_axis_2&quot;,
+      &quot;sample&quot;: &quot;運用上の注意&quot;,
+      &quot;role&quot;: &quot;axis&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        832104,
+        4425696,
+        4892040,
+        292608
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;a_point_2&quot;: {
+      &quot;shape&quot;: &quot;slot:a_point_2&quot;,
+      &quot;sample&quot;: &quot;更新作業が担当者に集中するため、確認待ちの滞留に注意する。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        832104,
+        4791456,
+        4892040,
+        1024128
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;b_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:b_heading&quot;,
+      &quot;sample&quot;: &quot;分散型&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6455664,
+        2350008,
+        4892040,
+        566928
+      ],
+      &quot;font_pt&quot;: 23,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 15.27,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;b_axis_1&quot;: {
+      &quot;shape&quot;: &quot;slot:b_axis_1&quot;,
+      &quot;sample&quot;: &quot;検索上の特徴&quot;,
+      &quot;role&quot;: &quot;axis&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6455664,
+        2999232,
+        4892040,
+        292608
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;b_point_1&quot;: {
+      &quot;shape&quot;: &quot;slot:b_point_1&quot;,
+      &quot;sample&quot;: &quot;各部署が原文を管理し、専門用語や例外の説明を保ちやすい。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6455664,
+        3364992,
+        4892040,
+        1024128
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;b_axis_2&quot;: {
+      &quot;shape&quot;: &quot;slot:b_axis_2&quot;,
+      &quot;sample&quot;: &quot;運用上の注意&quot;,
+      &quot;role&quot;: &quot;axis&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6455664,
+        4425696,
+        4892040,
+        292608
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 25.08,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;b_point_2&quot;: {
+      &quot;shape&quot;: &quot;slot:b_point_2&quot;,
+      &quot;sample&quot;: &quot;横断検索には共通の索引が必要。部署ごとの分類の違いを整理する。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6455664,
+        4791456,
+        4892040,
+        1024128
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 17.56,
+      &quot;max_lines&quot;: 3,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="steps" data-count="3"><a href="previews/slide-09.png"><img loading="lazy" src="previews/slide-09.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>09 · steps · horizontal · 3 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_steps_horizontal_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;steps&quot;,
+  &quot;variant&quot;: &quot;horizontal&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;equal_columns&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        603504,
+        2907792,
+        3450336,
+        777240
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.71,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;用語を揃え、同じ資料へ辿れる入口を整える。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        603504,
+        3739896,
+        3450336,
+        2011680
+      ],
+      &quot;font_pt&quot;: 19,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.95,
+      &quot;max_lines&quot;: 6,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4364736,
+        2907792,
+        3450336,
+        777240
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.71,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;原文の条件と確認日を、要約とともに残す。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4364736,
+        3739896,
+        3450336,
+        2011680
+      ],
+      &quot;font_pt&quot;: 19,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.95,
+      &quot;max_lines&quot;: 6,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8125968,
+        2907792,
+        3450336,
+        777240
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.71,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;変更頻度に応じて担当と再確認の時期を決める。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8125968,
+        3739896,
+        3450336,
+        2011680
+      ],
+      &quot;font_pt&quot;: 19,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.95,
+      &quot;max_lines&quot;: 6,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="metrics" data-count="3"><a href="previews/slide-10.png"><img loading="lazy" src="previews/slide-10.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>10 · metrics · breakdown_top · 3 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_metrics_breakdown_top_3</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;metrics&quot;,
+  &quot;variant&quot;: &quot;breakdown_top&quot;,
+  &quot;count&quot;: 3,
+  &quot;visual_signature&quot;: &quot;metrics:breakdown_top&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の資料一覧を、相互に重ならない確認状態で整理した例。業務への効果は未検証。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;total_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:total_heading&quot;,
+      &quot;sample&quot;: &quot;対象資料の総数&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        813816,
+        2304288,
+        2788920,
+        493776
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 9.89,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;total_note&quot;: {
+      &quot;shape&quot;: &quot;slot:total_note&quot;,
+      &quot;sample&quot;: &quot;各資料を一つの状態に分類した架空の棚卸し。&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        6684264,
+        2304288,
+        4526280,
+        630936
+      ],
+      &quot;font_pt&quot;: 16,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 20.28,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_heading&quot;,
+      &quot;sample&quot;: &quot;確認済み&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        804672,
+        3557016,
+        3108960,
+        448056
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.06,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_1_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_1_body&quot;,
+      &quot;sample&quot;: &quot;対象範囲と担当を確認済み。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        804672,
+        5175504,
+        3108960,
+        640080
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.28,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_heading&quot;,
+      &quot;sample&quot;: &quot;要確認&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4535424,
+        3557016,
+        3108960,
+        448056
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.06,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_2_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_2_body&quot;,
+      &quot;sample&quot;: &quot;条件か確認日の照合が必要。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4535424,
+        5175504,
+        3108960,
+        640080
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.28,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_heading&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_heading&quot;,
+      &quot;sample&quot;: &quot;更新予定&quot;,
+      &quot;role&quot;: &quot;heading&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8266176,
+        3557016,
+        3108960,
+        448056
+      ],
+      &quot;font_pt&quot;: 20,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 11.06,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;item_3_body&quot;: {
+      &quot;shape&quot;: &quot;slot:item_3_body&quot;,
+      &quot;sample&quot;: &quot;改訂の予定を登録済み。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        8266176,
+        5175504,
+        3108960,
+        640080
+      ],
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.28,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="table" data-count="4"><a href="previews/slide-11.png"><img loading="lazy" src="previews/slide-11.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>11 · table · three_columns · 4 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_table_three_columns_4</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;table&quot;,
+  &quot;variant&quot;: &quot;three_columns&quot;,
+  &quot;count&quot;: 4,
+  &quot;visual_signature&quot;: &quot;table:three_columns&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_0_0&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        0,
+        0
+      ],
+      &quot;sample&quot;: &quot;観点&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_0_1&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        0,
+        1
+      ],
+      &quot;sample&quot;: &quot;確認事項&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_0_2&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        0,
+        2
+      ],
+      &quot;sample&quot;: &quot;留保&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_1_0&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        1,
+        0
+      ],
+      &quot;sample&quot;: &quot;検索入口を揃える&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_1_1&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        1,
+        1
+      ],
+      &quot;sample&quot;: &quot;索引と用語の対応を確認&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_1_2&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        1,
+        2
+      ],
+      &quot;sample&quot;: &quot;架空資料A・検索節\n部署間の呼称差が残る&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_2_0&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        2,
+        0
+      ],
+      &quot;sample&quot;: &quot;根拠まで辿れる&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_2_1&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        2,
+        1
+      ],
+      &quot;sample&quot;: &quot;引用箇所と調査条件を照合&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_2_2&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        2,
+        2
+      ],
+      &quot;sample&quot;: &quot;架空資料B・条件節\n原文の条件を保持&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_3_0&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        3,
+        0
+      ],
+      &quot;sample&quot;: &quot;更新範囲を決める&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_3_1&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        3,
+        1
+      ],
+      &quot;sample&quot;: &quot;担当と確認時期を決める&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_3_2&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        3,
+        2
+      ],
+      &quot;sample&quot;: &quot;架空資料C・運用節\n確認日：未記録&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_4_0&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        4,
+        0
+      ],
+      &quot;sample&quot;: &quot;例外を見える化&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_4_1&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        4,
+        1
+      ],
+      &quot;sample&quot;: &quot;適用できない場面を記録&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;cell_4_2&quot;: {
+      &quot;shape&quot;: &quot;slot:table&quot;,
+      &quot;cell&quot;: [
+        4,
+        2
+      ],
+      &quot;sample&quot;: &quot;架空資料D・例外節\n個別の判断が必要&quot;,
+      &quot;role&quot;: &quot;table&quot;,
+      &quot;vertical_anchor&quot;: &quot;middle&quot;,
+      &quot;font_pt&quot;: 18,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 13.4,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;note&quot;: {
+      &quot;shape&quot;: &quot;slot:note&quot;,
+      &quot;sample&quot;: &quot;留保：同じ条件で比較した結果ではない。各資料の対象範囲を確認する。&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        658368,
+        5806440,
+        10789920,
+        393192
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 55.79,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article><article data-family="chart" data-count="4"><a href="previews/slide-12.png"><img loading="lazy" src="previews/slide-12.png" alt="社内ナレッジを探しやすくする条件"></a><div class="body"><small>12 · chart · bar_right · 4 items</small><h2>社内ナレッジを探しやすくする条件</h2><code>ed_chart_bar_right_4</code><details><summary>Semantic slots / capacity</summary><pre>{
+  &quot;family&quot;: &quot;chart&quot;,
+  &quot;variant&quot;: &quot;bar_right&quot;,
+  &quot;count&quot;: 4,
+  &quot;visual_signature&quot;: &quot;chart_side&quot;,
+  &quot;slots&quot;: {
+    &quot;context&quot;: {
+      &quot;shape&quot;: &quot;slot:context&quot;,
+      &quot;sample&quot;: &quot;架空の社内調査。運用条件を整理した所見であり、効果を実証したものではない。&quot;,
+      &quot;role&quot;: &quot;context&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        621792,
+        1490472,
+        10927080,
+        502920
+      ],
+      &quot;font_pt&quot;: 15,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 52.74,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;unit&quot;: {
+      &quot;shape&quot;: &quot;slot:unit&quot;,
+      &quot;sample&quot;: &quot;課題の言及数（件）／複数回答・架空例&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        4572000,
+        2157984,
+        6986016,
+        292608
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 35.98,
+      &quot;max_lines&quot;: 1,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;insight&quot;: {
+      &quot;shape&quot;: &quot;slot:insight&quot;,
+      &quot;sample&quot;: &quot;検索の課題が多いが、回答件数のみで重要度を判断することはできない。&quot;,
+      &quot;role&quot;: &quot;body&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        603504,
+        2304288,
+        3621024,
+        2834640
+      ],
+      &quot;font_pt&quot;: 21,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 12.31,
+      &quot;max_lines&quot;: 8,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    },
+    &quot;note&quot;: {
+      &quot;shape&quot;: &quot;slot:note&quot;,
+      &quot;sample&quot;: &quot;架空集計であり、効果や因果関係は未検証。&quot;,
+      &quot;role&quot;: &quot;evidence&quot;,
+      &quot;vertical_anchor&quot;: &quot;top&quot;,
+      &quot;bounds_emu&quot;: [
+        603504,
+        5358384,
+        3621024,
+        658368
+      ],
+      &quot;font_pt&quot;: 14,
+      &quot;font_family&quot;: &quot;Yu Gothic&quot;,
+      &quot;max_units_per_line&quot;: 18.46,
+      &quot;max_lines&quot;: 2,
+      &quot;overflow&quot;: &quot;reject; split or replan; never shrink&quot;
+    }
+  },
+  &quot;images&quot;: {}
+}</pre></details></div></article></main><script>
+function filter(){const family=document.querySelector('#family').value,count=document.querySelector('#count').value,q=document.querySelector('#search').value.toLowerCase();let n=0;document.querySelectorAll('article').forEach(a=>{a.hidden=!!((family&&a.dataset.family!==family)||(count&&a.dataset.count!==count)||(q&&!a.innerText.toLowerCase().includes(q)));if(!a.hidden)n++});document.querySelector('#total').textContent=n+' layouts'}document.querySelectorAll('select,input').forEach(e=>e.addEventListener('input',filter));filter();</script></html>

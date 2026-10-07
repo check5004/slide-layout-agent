@@ -1,0 +1,5666 @@
+{
+  "version": "1",
+  "source_sha256": "f94017cf62bfc480f0a42bcb941a89e3be668a6d98c3b314414c256daac6ad0f",
+  "title": "架空の構造検証",
+  "slides": [
+    {
+      "id": "slide01",
+      "origin": "page01",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0007",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_pair_2_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0001",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0002",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0003",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0004",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0005",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0006",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide02",
+      "origin": "page02",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0014",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_pair_2_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0008",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0009",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0010",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0011",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0012",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0013",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide03",
+      "origin": "page03",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0024",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_3_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0015",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0016",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0017",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0018",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0019",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0020",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0021",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0022",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0023",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide04",
+      "origin": "page04",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0034",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_3_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0025",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0026",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0027",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0028",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0029",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0030",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0031",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0032",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0033",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide05",
+      "origin": "page05",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0048",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_4_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0035",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0036",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0037",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0038",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0039",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0040",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0041",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0042",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0043",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0044",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0045",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0046",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0047",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide06",
+      "origin": "page06",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0062",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_4_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0049",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0050",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0051",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0052",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0053",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0054",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0055",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0056",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0057",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0058",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0059",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0060",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0061",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide07",
+      "origin": "page07",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0079",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_5_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0063",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0064",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0065",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0066",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0067",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0068",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0069",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0070",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0071",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0072",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0073",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0074",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0075",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_0",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0076",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_4",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0077",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0078",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide08",
+      "origin": "page08",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0096",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_fan_5_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0080",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0081",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0082",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0083",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0084",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0085",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0086",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0087",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0088",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0089",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0090",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0091",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0092",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_0",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0093",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_4",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0094",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0095",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide09",
+      "origin": "page09",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0110",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_spoke_4_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0097",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0098",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0099",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0100",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0101",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0102",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0103",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0104",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0105",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0106",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0107",
+                    "quote": "調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0108",
+                    "quote": "調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0109",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide10",
+      "origin": "page10",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0124",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_spoke_4_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0111",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0112",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0113",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0114",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0115",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0116",
+                    "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0117",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0118",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_0",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0119",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_2",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0120",
+                    "quote": "調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_0",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0121",
+                    "quote": "調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0122",
+                    "quote": "調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "contains",
+              "label": {
+                "text": "調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0123",
+                    "quote": "調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide11",
+      "origin": "page11",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0140",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_pair_fan_5_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0125",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0126",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "left_caption": {
+            "text": "調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0127",
+                "quote": "調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "right_caption": {
+            "text": "調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0128",
+                "quote": "調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0129",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0130",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0131",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0132",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0133",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0134",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0135",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0136",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_3",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0137",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_2",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0138",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_4",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0139",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide12",
+      "origin": "page12",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0156",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_pair_fan_5_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0141",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0142",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "left_caption": {
+            "text": "調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0143",
+                "quote": "調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "right_caption": {
+            "text": "調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0144",
+                "quote": "調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0145",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0146",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0147",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0148",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調\n調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0149",
+                    "quote": "調調調調調\n調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0150",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0151",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0152",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_3",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0153",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_2",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0154",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_4",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0155",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": []
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide13",
+      "origin": "page13",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0167",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_3_4_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0157",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0158",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0159",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0160",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0161",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0162",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0163",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0164",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調\n調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0165",
+                    "quote": "調調調調調調調\n調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0166",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide14",
+      "origin": "page14",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0178",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_3_4_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0168",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0169",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0170",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0171",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0172",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0173",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0174",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0175",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調\n調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0176",
+                    "quote": "調調調調調調調\n調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0177",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide15",
+      "origin": "page15",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0193",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_3_8_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0179",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0180",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0181",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0182",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0183",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0184",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0185",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0186",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0187",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0188",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0189",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0190",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_0",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0191",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0192",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide16",
+      "origin": "page16",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0208",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_3_8_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0194",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0195",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0196",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0197",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0198",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0199",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0200",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0201",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0202",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0203",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0204",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0205",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_0",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0206",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0207",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide17",
+      "origin": "page17",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0220",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_4_4_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0209",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0210",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0211",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0212",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0213",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0214",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0215",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0216",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0217",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0218",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0219",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide18",
+      "origin": "page18",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0232",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_4_4_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0221",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0222",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0223",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0224",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0225",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0226",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0227",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0228",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0229",
+                    "quote": "調調調調調調調調調調調調調\n調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0230",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0231",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide19",
+      "origin": "page19",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0248",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_4_8_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0233",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0234",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0235",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0236",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0237",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0238",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0239",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0240",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0241",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0242",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0243",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0244",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0245",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_0",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0246",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0247",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide20",
+      "origin": "page20",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0264",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_4_8_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0249",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0250",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0251",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0252",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0253",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0254",
+                    "quote": "調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0255",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0256",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0257",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0258",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0259",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_3",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0260",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_1",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0261",
+                    "quote": "調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_0",
+              "target": "actor_0",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0262",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0263",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide21",
+      "origin": "page21",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0277",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_5_4_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0265",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0266",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0267",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0268",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0269",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0270",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0271",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0272",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0273",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_3",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0274",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_4",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0275",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0276",
+                    "quote": "調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide22",
+      "origin": "page22",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0290",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_5_4_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0278",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0279",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0280",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0281",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0282",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0283",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0284",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0285",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0286",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_3",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0287",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_4",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調\n調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0288",
+                    "quote": "調調調調調調調調調\n調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0289",
+                    "quote": "調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide23",
+      "origin": "page23",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0307",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_5_8_lr",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0291",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0292",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0293",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0294",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0295",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0296",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0297",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0298",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0299",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0300",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0301",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0302",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_4",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0303",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_3",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0304",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_4",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0305",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0306",
+                    "quote": "調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide24",
+      "origin": "page24",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0324",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_sequence_5_8_rl",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0308",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0309",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": {
+          "nodes": [
+            {
+              "id": "actor_0",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0310",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_1",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0311",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_2",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0312",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_3",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0313",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "actor_4",
+              "label": {
+                "text": "調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0314",
+                    "quote": "調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "edges": [
+            {
+              "id": "edge_0",
+              "source": "actor_0",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0315",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_1",
+              "source": "actor_1",
+              "target": "actor_2",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0316",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_2",
+              "source": "actor_2",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0317",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_3",
+              "source": "actor_1",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0318",
+                    "quote": "調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_4",
+              "source": "actor_1",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0319",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_5",
+              "source": "actor_4",
+              "target": "actor_1",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0320",
+                    "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_6",
+              "source": "actor_3",
+              "target": "actor_4",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0321",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            },
+            {
+              "id": "edge_7",
+              "source": "actor_4",
+              "target": "actor_3",
+              "label": {
+                "text": "調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0322",
+                    "quote": "調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              }
+            }
+          ],
+          "boundaries": [
+            {
+              "id": "owner",
+              "kind": "same_owner",
+              "label": {
+                "text": "調調調調調調調調調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0323",
+                    "quote": "調調調調調調調調調調調調調調調調調調は対象の機能を含む管理範囲を表す。"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "members": [
+                "actor_0",
+                "actor_1"
+              ]
+            }
+          ]
+        },
+        "comparison": null
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    },
+    {
+      "id": "slide25",
+      "origin": "page25",
+      "title": {
+        "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+        "refs": [
+          {
+            "source_id": "s0342",
+            "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調\n調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+          }
+        ],
+        "mode": "verbatim"
+      },
+      "lead": null,
+      "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "layout_id": "rel_compare_three",
+      "variant": "warm",
+      "font_profile": "source",
+      "contents": {
+        "texts": {
+          "context": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0325",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          },
+          "caveat": {
+            "text": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調",
+            "refs": [
+              {
+                "source_id": "s0326",
+                "quote": "調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調調"
+              }
+            ],
+            "mode": "verbatim"
+          }
+        },
+        "charts": {},
+        "metrics": {},
+        "states": {},
+        "images": {},
+        "network": null,
+        "comparison": {
+          "axes": [
+            {
+              "text": "調調調調調調調\n調調調調調調調\n調調調調調調調",
+              "refs": [
+                {
+                  "source_id": "s0327",
+                  "quote": "調調調調調調調\n調調調調調調調\n調調調調調調調"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "調調調調調調調\n調調調調調調調\n調調調調調調調",
+              "refs": [
+                {
+                  "source_id": "s0328",
+                  "quote": "調調調調調調調\n調調調調調調調\n調調調調調調調"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            {
+              "text": "調調調調調調調\n調調調調調調調\n調調調調調調調",
+              "refs": [
+                {
+                  "source_id": "s0329",
+                  "quote": "調調調調調調調\n調調調調調調調\n調調調調調調調"
+                }
+              ],
+              "mode": "verbatim"
+            }
+          ],
+          "methods": [
+            {
+              "id": "method_0",
+              "label": {
+                "text": "調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0330",
+                    "quote": "調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "values": [
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0331",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0332",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0333",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              ]
+            },
+            {
+              "id": "method_1",
+              "label": {
+                "text": "調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0334",
+                    "quote": "調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "values": [
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0335",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0336",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0337",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              ]
+            },
+            {
+              "id": "method_2",
+              "label": {
+                "text": "調調調調調調調調調調",
+                "refs": [
+                  {
+                    "source_id": "s0338",
+                    "quote": "調調調調調調調調調調"
+                  }
+                ],
+                "mode": "verbatim"
+              },
+              "values": [
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0339",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0340",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                {
+                  "text": "調調調調調調調調調調\n調調調調調調調調調調",
+                  "refs": [
+                    {
+                      "source_id": "s0341",
+                      "quote": "調調調調調調調調調調\n調調調調調調調調調調"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "emphasis": null,
+      "allowed_layouts": [],
+      "constraints_reason": null,
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "row_alignments": {}
+    }
+  ],
+  "omissions": [],
+  "display": {
+    "mode": "reader",
+    "footer": "",
+    "citations": [
+      {
+        "source_ids": [
+          "s0001",
+          "s0002",
+          "s0003",
+          "s0004",
+          "s0005",
+          "s0006",
+          "s0007",
+          "s0008",
+          "s0009",
+          "s0010",
+          "s0011",
+          "s0012",
+          "s0013",
+          "s0014",
+          "s0015",
+          "s0016",
+          "s0017",
+          "s0018",
+          "s0019",
+          "s0020",
+          "s0021",
+          "s0022",
+          "s0023",
+          "s0024",
+          "s0025",
+          "s0026",
+          "s0027",
+          "s0028",
+          "s0029",
+          "s0030",
+          "s0031",
+          "s0032",
+          "s0033",
+          "s0034",
+          "s0035",
+          "s0036",
+          "s0037",
+          "s0038",
+          "s0039",
+          "s0040",
+          "s0041",
+          "s0042",
+          "s0043",
+          "s0044",
+          "s0045",
+          "s0046",
+          "s0047",
+          "s0048",
+          "s0049",
+          "s0050",
+          "s0051",
+          "s0052",
+          "s0053",
+          "s0054",
+          "s0055",
+          "s0056",
+          "s0057",
+          "s0058",
+          "s0059",
+          "s0060",
+          "s0061",
+          "s0062",
+          "s0063",
+          "s0064",
+          "s0065",
+          "s0066",
+          "s0067",
+          "s0068",
+          "s0069",
+          "s0070",
+          "s0071",
+          "s0072",
+          "s0073",
+          "s0074",
+          "s0075",
+          "s0076",
+          "s0077",
+          "s0078",
+          "s0079",
+          "s0080",
+          "s0081",
+          "s0082",
+          "s0083",
+          "s0084",
+          "s0085",
+          "s0086",
+          "s0087",
+          "s0088",
+          "s0089",
+          "s0090",
+          "s0091",
+          "s0092",
+          "s0093",
+          "s0094",
+          "s0095",
+          "s0096",
+          "s0097",
+          "s0098",
+          "s0099",
+          "s0100",
+          "s0101",
+          "s0102",
+          "s0103",
+          "s0104",
+          "s0105",
+          "s0106",
+          "s0107",
+          "s0108",
+          "s0109",
+          "s0110",
+          "s0111",
+          "s0112",
+          "s0113",
+          "s0114",
+          "s0115",
+          "s0116",
+          "s0117",
+          "s0118",
+          "s0119",
+          "s0120",
+          "s0121",
+          "s0122",
+          "s0123",
+          "s0124",
+          "s0125",
+          "s0126",
+          "s0127",
+          "s0128",
+          "s0129",
+          "s0130",
+          "s0131",
+          "s0132",
+          "s0133",
+          "s0134",
+          "s0135",
+          "s0136",
+          "s0137",
+          "s0138",
+          "s0139",
+          "s0140",
+          "s0141",
+          "s0142",
+          "s0143",
+          "s0144",
+          "s0145",
+          "s0146",
+          "s0147",
+          "s0148",
+          "s0149",
+          "s0150",
+          "s0151",
+          "s0152",
+          "s0153",
+          "s0154",
+          "s0155",
+          "s0156",
+          "s0157",
+          "s0158",
+          "s0159",
+          "s0160",
+          "s0161",
+          "s0162",
+          "s0163",
+          "s0164",
+          "s0165",
+          "s0166",
+          "s0167",
+          "s0168",
+          "s0169",
+          "s0170",
+          "s0171",
+          "s0172",
+          "s0173",
+          "s0174",
+          "s0175",
+          "s0176",
+          "s0177",
+          "s0178",
+          "s0179",
+          "s0180",
+          "s0181",
+          "s0182",
+          "s0183",
+          "s0184",
+          "s0185",
+          "s0186",
+          "s0187",
+          "s0188",
+          "s0189",
+          "s0190",
+          "s0191",
+          "s0192",
+          "s0193",
+          "s0194",
+          "s0195",
+          "s0196",
+          "s0197",
+          "s0198",
+          "s0199",
+          "s0200",
+          "s0201",
+          "s0202",
+          "s0203",
+          "s0204",
+          "s0205",
+          "s0206",
+          "s0207",
+          "s0208",
+          "s0209",
+          "s0210",
+          "s0211",
+          "s0212",
+          "s0213",
+          "s0214",
+          "s0215",
+          "s0216",
+          "s0217",
+          "s0218",
+          "s0219",
+          "s0220",
+          "s0221",
+          "s0222",
+          "s0223",
+          "s0224",
+          "s0225",
+          "s0226",
+          "s0227",
+          "s0228",
+          "s0229",
+          "s0230",
+          "s0231",
+          "s0232",
+          "s0233",
+          "s0234",
+          "s0235",
+          "s0236",
+          "s0237",
+          "s0238",
+          "s0239",
+          "s0240",
+          "s0241",
+          "s0242",
+          "s0243",
+          "s0244",
+          "s0245",
+          "s0246",
+          "s0247",
+          "s0248",
+          "s0249",
+          "s0250",
+          "s0251",
+          "s0252",
+          "s0253",
+          "s0254",
+          "s0255",
+          "s0256",
+          "s0257",
+          "s0258",
+          "s0259",
+          "s0260",
+          "s0261",
+          "s0262",
+          "s0263",
+          "s0264",
+          "s0265",
+          "s0266",
+          "s0267",
+          "s0268",
+          "s0269",
+          "s0270",
+          "s0271",
+          "s0272",
+          "s0273",
+          "s0274",
+          "s0275",
+          "s0276",
+          "s0277",
+          "s0278",
+          "s0279",
+          "s0280",
+          "s0281",
+          "s0282",
+          "s0283",
+          "s0284",
+          "s0285",
+          "s0286",
+          "s0287",
+          "s0288",
+          "s0289",
+          "s0290",
+          "s0291",
+          "s0292",
+          "s0293",
+          "s0294",
+          "s0295",
+          "s0296",
+          "s0297",
+          "s0298",
+          "s0299",
+          "s0300",
+          "s0301",
+          "s0302",
+          "s0303",
+          "s0304",
+          "s0305",
+          "s0306",
+          "s0307",
+          "s0308",
+          "s0309",
+          "s0310",
+          "s0311",
+          "s0312",
+          "s0313",
+          "s0314",
+          "s0315",
+          "s0316",
+          "s0317",
+          "s0318",
+          "s0319",
+          "s0320",
+          "s0321",
+          "s0322",
+          "s0323",
+          "s0324",
+          "s0325",
+          "s0326",
+          "s0327",
+          "s0328",
+          "s0329",
+          "s0330",
+          "s0331",
+          "s0332",
+          "s0333",
+          "s0334",
+          "s0335",
+          "s0336",
+          "s0337",
+          "s0338",
+          "s0339",
+          "s0340",
+          "s0341",
+          "s0342"
+        ],
+        "title": "架空設計書",
+        "url": "https://example.com/fictional-design",
+        "version": "v1",
+        "accessed_on": "2026-10-07"
+      }
+    ]
+  }
+}

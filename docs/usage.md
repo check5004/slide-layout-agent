@@ -2,6 +2,12 @@
 
 [README に戻る](../README.md)
 
+通常の説明・調査共有は `catalog --collection editorial`、主体の関係・包含・通信往復・3方式比較は `catalog --collection relations` を使います。旧62型は `--collection reference` で明示的に選びます。新図型の具体的なplan、対応構造と拒否条件は [relations.md](relations.md)、本文中心の選び方は [editorial-design.md](editorial-design.md) を参照してください。
+
+行形式の短い見出し・数値は中央、本文＋根拠はまとまりとして配置します。必要なら登録済みの行だけを `row_alignments` で上寄せ／中央寄せに指定し、`select-variants` → `review` → `render` を通します。本文や通信ラベルを容量へ収めるために縮小しません。
+
+納品用は `display.mode: reader` が標準です。`display.citations` に資料名、HTTP(S) URL、版、確認日、対応するsource_idsを指定すると、引用したslideのfooterへ資料名リンクとmetadataを表示します。内部layout ID等を表示する開発用は `mode: qa`。元の出典・planはnotesにも残ります。資料名や日付を推定せず、footer超過は短い正式略称か別layoutで解消してください。私用資料は `work/` 等の非公開領域に置きます。
+
 Codex に任せる場合は、README の依頼文から始めてください。このページは、別 PC で環境を用意する場合や、手動で実行したい場合の手順です。
 
 ## 別 PC で始める
@@ -55,13 +61,13 @@ Windows では標準設定の `Meiryo`、macOS では端末に入っているヒ
 
 変更する場合はテーマの `font_family` を指定します。例：`{"font_family": "Hiragino Sans"}`。自動で OS に合わせて切り替わる実装ではありません。指定フォントがない端末では代替フォントになり、改行・文字幅が変わることがあるため、開いたときに確認してください。
 
-上記テーマ指定は従来8型用です。62型の保存PPTXは元の書式を保ち、`font_profile`（source/meiryo/noto/hiragino）と`variant`（warm/cool）を選びます。catalogへ`--theme`は指定しません。[型の選び方と入力欄](catalog/template-workflow.md)を参照してください。
+上記テーマ指定は従来8型用です。保存PPTXを使う各catalogは元の書式を保ち、`font_profile`（source/meiryo/noto/hiragino）と`variant`（warm/cool）を選びます。catalogへ`--theme`は指定しません。新76型は[Editorialの選び方](editorial-design.md)、関係図25型は[関係図の契約](relations.md)、旧62型は[referenceの入力欄](catalog/template-workflow.md)を参照してください。
 
 ### clone だけで引き継がれるもの
 
 コード、Codex 用スキル、設計 JSON、架空サンプル画像はリポジトリに含まれます。開発時の専用 Python、個人用パス、未追跡のローカル画像は実行条件に含めていません。
 
-62型のtemplate PPTX、型別schema、124枚の描画PNG、差込サンプルも同梱されています。`catalog/index.html`はローカルで開けます。`python -m slide_agent catalog --layout ID`で必要なslotと容量を取得できます。
+Editorial 76型と関係図25型のtemplate PPTX・型別schema・実描画PNG・架空サンプルを同梱しています。`catalog/editorial/index.html`と`catalog/relations/index.html`はローカルで開けます。旧62型と124枚の描画PNGも`catalog/index.html`に残しています。`python -m slide_agent catalog --layout ID`で必要なslotと容量を取得できます。
 
 自分の資料が入る `work/` と生成先 `out/` は Git 管理対象外なので、別 PC へは自分で移してください。Python・Codex・PowerPoint・フォント自体は clone ではインストールされません。
 
@@ -69,14 +75,15 @@ Windows では標準設定の `Meiryo`、macOS では端末に入っているヒ
 
 ## サンプルを動かす
 
-同梱の架空サンプルから試せます。
+通常の調査共有は、同梱の架空16枚から試せます。原案から内容に合うvariantを選び、確認用の文章とPPTXを生成します。
 
 ```sh
-python -m slide_agent validate examples/demo.plan.json --source examples/demo.source.json
-python -m slide_agent render examples/demo.plan.json --source examples/demo.source.json --out out/demo.pptx
+python -m slide_agent select-variants examples/editorial-story/story.initial.plan.json --source examples/editorial-story/story.source.json --out out/story.plan.json
+python -m slide_agent review out/story.plan.json --source examples/editorial-story/story.source.json --out out/story.review.md
+python -m slide_agent render out/story.plan.json --source examples/editorial-story/story.source.json --out out/story.pptx
 ```
 
-`out/demo.pptx` を開いてください。生成済みの [demo.pptx](../examples/demo.pptx?raw=true) も同梱しています。
+`out/story.pptx`を開いてください。[生成済みの16枚](../examples/editorial-story/story.pptx?raw=true)・[関係図の利用例6枚](../examples/relations/usage/relations.pptx?raw=true)も同梱しています。従来8型は[demo.plan.json](../examples/demo.plan.json)と[対応source](../examples/demo.source.json)から試せます。
 
 同じ出力先でやり直すときだけ `--force` を付けます。手直し済みのファイルには別の出力名を使ってください。
 
@@ -122,23 +129,24 @@ CLI は文章から構成を考える機能を持ちません。ここは Codex 
 >
 > 原文の数値・出典・留保を保ち、不明点や省略は示してください。
 >
-> 検証して、構成確認用の work/review.md も作ってください。
+> select-variantsで内容に合う配置を選び、work/selected.plan.jsonを検証して、構成確認用のwork/review.mdも作ってください。
 
 参考： [未構造文章の構成案](../examples/prose.plan.json) · [スライド別文章の構成案](../examples/slides.plan.json)
 
-構成案ができたら、検証と確認用ファイルの作成ができます。
+構成案ができたら、内容に合うvariantを選んで検証と確認用ファイルを作成します。
 
 ```sh
-python -m slide_agent validate work/plan.json --source work/source.json
-python -m slide_agent review work/plan.json --source work/source.json --out work/review.md
+python -m slide_agent select-variants work/plan.json --source work/source.json --out work/selected.plan.json
+python -m slide_agent validate work/selected.plan.json --source work/source.json
+python -m slide_agent review work/selected.plan.json --source work/source.json --out work/review.md
 ```
 
-ページの順序、主張、数値、留保、省略、画像の扱いを確認します。修正は Codex に依頼するか、`plan.json` を編集して再検証します。
+ページの順序、主張、数値、留保、省略、画像の扱いと選択理由を確認します。原案を編集した場合はvariant選択からやり直し、確認した`selected.plan.json`を生成に使います。
 
 ## 生成して手直しする
 
 ```sh
-python -m slide_agent render work/plan.json --source work/source.json --out work/result.pptx
+python -m slide_agent render work/selected.plan.json --source work/source.json --out work/result.pptx
 ```
 
 - `work/result.pptx`：編集可能な PowerPoint。
@@ -179,7 +187,7 @@ python -m slide_agent fingerprint work/source.json
 python -m slide_agent schema --out out/plan.schema.json
 ```
 
-[JSON の仕様](contract.md) · [同梱スキーマ](plan.schema.json)
+[JSON の仕様](contract.md) · [全layout対応の同梱スキーマ](../catalog/plan.schema.json)
 
 ### PowerPoint で PNG に書き出す
 

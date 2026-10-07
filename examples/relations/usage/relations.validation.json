@@ -1,0 +1,629 @@
+{
+  "ok": true,
+  "mechanical_validation": "passed",
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "CATALOG_FONT_REVIEW",
+      "slide": null,
+      "message": "Catalog uses fixed typography (reference: compact; editorial: readable research content). Font installation is not required for writing PPTX; the viewer may substitute fonts. Review the result on the target device."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide01",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide02",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide03",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide04",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide05",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "RELATION_SEMANTIC_REVIEW",
+      "slide": "slide06",
+      "message": "Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning."
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0005: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0013: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0014: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0015: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0016: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0024: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0025: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0026: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0027: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0028: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0029: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0030: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0031: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0042: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0043: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0044: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0051: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    },
+    {
+      "severity": "warning",
+      "code": "PARTIAL_SOURCE_REVIEW",
+      "slide": null,
+      "message": "s0052: original text is not mechanically accounted for by visible text/numeric tokens; review qualifications"
+    }
+  ],
+  "source_coverage": "review_required",
+  "semantic_review": "not_performed",
+  "slide_count": 6,
+  "visual_review": "not_performed",
+  "layout_selection": [
+    {
+      "slide_id": "slide01",
+      "family": "relationship",
+      "item_count": 2,
+      "layout_id": "rel_pair_2_lr",
+      "structural_variant": "lr_0",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:pair",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_pair_2_lr",
+        "rel_pair_2_rl"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [
+        {
+          "layout_id": "rel_fan_3_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_3_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide02",
+      "family": "relationship",
+      "item_count": 4,
+      "layout_id": "rel_spoke_4_lr",
+      "structural_variant": "lr_0",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:spoke",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_spoke_4_lr",
+        "rel_spoke_4_rl"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [
+        {
+          "layout_id": "rel_pair_2_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_2_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_3_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_3_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide03",
+      "family": "communication",
+      "item_count": 4,
+      "layout_id": "rel_sequence_4_8_lr",
+      "structural_variant": "lr_8",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:sequence",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_sequence_4_8_lr",
+        "rel_sequence_4_8_rl"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [
+        {
+          "layout_id": "rel_sequence_3_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_3_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_3_8_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_3_8_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_4_4_lr",
+          "reasons": [
+            "RELATION_EVENT_COUNT: at most 4 ordered events; split explicitly"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_4_4_rl",
+          "reasons": [
+            "RELATION_EVENT_COUNT: at most 4 ordered events; split explicitly"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_5_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_5_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_5_8_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_sequence_5_8_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide04",
+      "family": "relationship",
+      "item_count": 5,
+      "layout_id": "rel_pair_fan_5_lr",
+      "structural_variant": "lr_0",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:pair_fan",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_pair_fan_5_lr",
+        "rel_pair_fan_5_rl"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [
+        {
+          "layout_id": "rel_pair_2_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_2_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_3_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_3_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide05",
+      "family": "relationship",
+      "item_count": 3,
+      "layout_id": "rel_fan_3_lr",
+      "structural_variant": "lr_0",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:fan",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_fan_3_lr",
+        "rel_fan_3_rl"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [
+        {
+          "layout_id": "rel_pair_2_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_2_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_spoke_4_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_lr",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        },
+        {
+          "layout_id": "rel_pair_fan_5_rl",
+          "reasons": [
+            "semantic slots or item count differ"
+          ]
+        }
+      ],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    },
+    {
+      "slide_id": "slide06",
+      "family": "method_comparison",
+      "item_count": 3,
+      "layout_id": "rel_compare_three",
+      "structural_variant": "lr_0",
+      "semantic_slot_mapping": {
+        "network": "stable node IDs and directed edge IDs; ordering retained",
+        "comparison": "methods by ID; values aligned to shared axes"
+      },
+      "visual_signature": "relations:compare",
+      "family_reason": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+      "content_fit_candidates": [
+        "rel_compare_three"
+      ],
+      "emphasis": null,
+      "row_alignments": {},
+      "rejected_candidates": [],
+      "constraints_reason": null,
+      "fourth_consecutive_structure": false,
+      "fitting_other_structures": [],
+      "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+      "selection_reason": "Equivalent semantic slots and per-slot capacities checked; source content and order retained."
+    }
+  ],
+  "ooxml": {
+    "ok": true,
+    "issues": [],
+    "counts": {
+      "slides": 6,
+      "text_shapes": 74,
+      "tables": 1,
+      "charts": 0,
+      "pictures": 0,
+      "embedded_workbooks": 0
+    },
+    "rendering": "not_performed"
+  }
+}

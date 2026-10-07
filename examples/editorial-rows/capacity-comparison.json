@@ -1,0 +1,116 @@
+{
+  "before_commit": "23f6cb8ffea5ec8d6b97ae61f13759feb3d75e86",
+  "unchanged_font_and_capacity_slots": 773,
+  "changed_capacity_slots": [],
+  "layouts_with_registered_rows": [
+    {
+      "layout_id": "ed_cover_band_2",
+      "rows": 2
+    },
+    {
+      "layout_id": "ed_bullets_rows_2",
+      "rows": 2
+    },
+    {
+      "layout_id": "ed_bullets_rows_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_bullets_rows_4",
+      "rows": 4
+    },
+    {
+      "layout_id": "ed_bullets_rows_5",
+      "rows": 5
+    },
+    {
+      "layout_id": "ed_bullets_rows_6",
+      "rows": 6
+    },
+    {
+      "layout_id": "ed_cards_rows_2",
+      "rows": 2
+    },
+    {
+      "layout_id": "ed_cards_rows_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_cards_rows_4",
+      "rows": 4
+    },
+    {
+      "layout_id": "ed_cards_rows_5",
+      "rows": 5
+    },
+    {
+      "layout_id": "ed_cards_rows_6",
+      "rows": 6
+    },
+    {
+      "layout_id": "ed_steps_vertical_2",
+      "rows": 2
+    },
+    {
+      "layout_id": "ed_steps_vertical_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_steps_vertical_4",
+      "rows": 4
+    },
+    {
+      "layout_id": "ed_steps_vertical_5",
+      "rows": 5
+    },
+    {
+      "layout_id": "ed_steps_vertical_6",
+      "rows": 6
+    },
+    {
+      "layout_id": "ed_timeline_vertical_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_timeline_vertical_4",
+      "rows": 4
+    },
+    {
+      "layout_id": "ed_metrics_stack_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_metrics_breakdown_left_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_table_two_columns_3",
+      "rows": 4
+    },
+    {
+      "layout_id": "ed_table_two_columns_4",
+      "rows": 5
+    },
+    {
+      "layout_id": "ed_table_two_columns_6",
+      "rows": 7
+    },
+    {
+      "layout_id": "ed_table_three_columns_4",
+      "rows": 5
+    },
+    {
+      "layout_id": "ed_summary_rows_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_agenda_rows_3",
+      "rows": 3
+    },
+    {
+      "layout_id": "ed_agenda_rail_3",
+      "rows": 3
+    }
+  ],
+  "unchanged_metric_label_capacity_slots": 20
+}

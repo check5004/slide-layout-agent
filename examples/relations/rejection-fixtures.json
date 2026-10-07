@@ -1,0 +1,2114 @@
+{
+  "fictional_only": true,
+  "cases": [
+    {
+      "name": "unknown_endpoint",
+      "expected_error": "RELATION_ENDPOINT",
+      "observed_errors": [
+        "RELATION_ENDPOINT"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "受付機能",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "照会先",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "受付機能から照会先へ「照会」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "照会先から受付機能へ「応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "f508326706d51593505c60835f028007e711ce8f71ba226566023e2f78b4098d",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0007",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_pair_2_lr",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": {
+                "nodes": [
+                  {
+                    "id": "actor_0",
+                    "label": {
+                      "text": "受付機能",
+                      "refs": [
+                        {
+                          "source_id": "s0003",
+                          "quote": "受付機能"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_1",
+                    "label": {
+                      "text": "照会先",
+                      "refs": [
+                        {
+                          "source_id": "s0004",
+                          "quote": "照会先"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "edge_0",
+                    "source": "actor_0",
+                    "target": "missing",
+                    "label": {
+                      "text": "照会",
+                      "refs": [
+                        {
+                          "source_id": "s0005",
+                          "quote": "受付機能から照会先へ「照会」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_1",
+                    "source": "actor_1",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "応答",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "照会先から受付機能へ「応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "boundaries": []
+              },
+              "comparison": null
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "unsupported_leaf_to_leaf",
+      "expected_error": "RELATION_TOPOLOGY",
+      "observed_errors": [
+        "RELATION_TOPOLOGY"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "受付機能",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "照会先",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "確認窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "発行窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "受付機能から照会先へ「照会」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0008",
+            "text": "照会先から受付機能へ「応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0009",
+            "text": "受付機能から確認窓口へ「照会」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0010",
+            "text": "確認窓口から受付機能へ「応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0011",
+            "text": "受付機能から発行窓口へ「照会」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0012",
+            "text": "発行窓口から受付機能へ「応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0013",
+            "text": "受付アプリは対象の機能を含む管理範囲を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0014",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "32cd8de35b9ac8803259bc889d7bf0cdfc73399af5443520e37e0e480f672ca1",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0014",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_fan_4_lr",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": {
+                "nodes": [
+                  {
+                    "id": "actor_0",
+                    "label": {
+                      "text": "受付機能",
+                      "refs": [
+                        {
+                          "source_id": "s0003",
+                          "quote": "受付機能"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_1",
+                    "label": {
+                      "text": "照会先",
+                      "refs": [
+                        {
+                          "source_id": "s0004",
+                          "quote": "照会先"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_2",
+                    "label": {
+                      "text": "確認窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0005",
+                          "quote": "確認窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_3",
+                    "label": {
+                      "text": "発行窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "発行窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "edge_0",
+                    "source": "actor_1",
+                    "target": "actor_2",
+                    "label": {
+                      "text": "照会",
+                      "refs": [
+                        {
+                          "source_id": "s0007",
+                          "quote": "受付機能から照会先へ「照会」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_1",
+                    "source": "actor_1",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "応答",
+                      "refs": [
+                        {
+                          "source_id": "s0008",
+                          "quote": "照会先から受付機能へ「応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_2",
+                    "source": "actor_0",
+                    "target": "actor_2",
+                    "label": {
+                      "text": "照会",
+                      "refs": [
+                        {
+                          "source_id": "s0009",
+                          "quote": "受付機能から確認窓口へ「照会」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_3",
+                    "source": "actor_2",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "応答",
+                      "refs": [
+                        {
+                          "source_id": "s0010",
+                          "quote": "確認窓口から受付機能へ「応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_4",
+                    "source": "actor_0",
+                    "target": "actor_3",
+                    "label": {
+                      "text": "照会",
+                      "refs": [
+                        {
+                          "source_id": "s0011",
+                          "quote": "受付機能から発行窓口へ「照会」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_5",
+                    "source": "actor_3",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "応答",
+                      "refs": [
+                        {
+                          "source_id": "s0012",
+                          "quote": "発行窓口から受付機能へ「応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "boundaries": [
+                  {
+                    "id": "owner",
+                    "kind": "contains",
+                    "label": {
+                      "text": "受付アプリ",
+                      "refs": [
+                        {
+                          "source_id": "s0013",
+                          "quote": "受付アプリは対象の機能を含む管理範囲を表す。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "members": [
+                      "actor_0"
+                    ]
+                  }
+                ]
+              },
+              "comparison": null
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007",
+                "s0008",
+                "s0009",
+                "s0010",
+                "s0011",
+                "s0012",
+                "s0013",
+                "s0014"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "ninth_event",
+      "expected_error": "MODEL_VALIDATION",
+      "observed_errors": [
+        "MODEL_VALIDATION"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "受付機能",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "照会先",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "確認窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "発行窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "受付機能から照会先へ「参照先を渡す」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0008",
+            "text": "照会先から確認窓口へ「文書を要求」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0009",
+            "text": "確認窓口から照会先へ「文書を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0010",
+            "text": "照会先から照会先へ「内部で確認」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0011",
+            "text": "照会先から発行窓口へ「受付を依頼」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0012",
+            "text": "発行窓口から照会先へ「結果を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0013",
+            "text": "照会先から受付機能へ「資料を提示」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0014",
+            "text": "受付機能から受付機能へ「内部で保存」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0015",
+            "text": "共通運用は対象の機能を含む管理範囲を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0016",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "2a37bb7ead88c6686c81930f612ff69c0781e8b95a282d666228dbe245527891",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0016",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_sequence_4_8_lr",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": {
+                "nodes": [
+                  {
+                    "id": "actor_0",
+                    "label": {
+                      "text": "受付機能",
+                      "refs": [
+                        {
+                          "source_id": "s0003",
+                          "quote": "受付機能"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_1",
+                    "label": {
+                      "text": "照会先",
+                      "refs": [
+                        {
+                          "source_id": "s0004",
+                          "quote": "照会先"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_2",
+                    "label": {
+                      "text": "確認窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0005",
+                          "quote": "確認窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_3",
+                    "label": {
+                      "text": "発行窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "発行窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "edge_0",
+                    "source": "actor_0",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "参照先を渡す",
+                      "refs": [
+                        {
+                          "source_id": "s0007",
+                          "quote": "受付機能から照会先へ「参照先を渡す」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_1",
+                    "source": "actor_1",
+                    "target": "actor_2",
+                    "label": {
+                      "text": "文書を要求",
+                      "refs": [
+                        {
+                          "source_id": "s0008",
+                          "quote": "照会先から確認窓口へ「文書を要求」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_2",
+                    "source": "actor_2",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "文書を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0009",
+                          "quote": "確認窓口から照会先へ「文書を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_3",
+                    "source": "actor_1",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "内部で確認",
+                      "refs": [
+                        {
+                          "source_id": "s0010",
+                          "quote": "照会先から照会先へ「内部で確認」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_4",
+                    "source": "actor_1",
+                    "target": "actor_3",
+                    "label": {
+                      "text": "受付を依頼",
+                      "refs": [
+                        {
+                          "source_id": "s0011",
+                          "quote": "照会先から発行窓口へ「受付を依頼」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_5",
+                    "source": "actor_3",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "結果を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0012",
+                          "quote": "発行窓口から照会先へ「結果を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_6",
+                    "source": "actor_1",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "資料を提示",
+                      "refs": [
+                        {
+                          "source_id": "s0013",
+                          "quote": "照会先から受付機能へ「資料を提示」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_7",
+                    "source": "actor_0",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "内部で保存",
+                      "refs": [
+                        {
+                          "source_id": "s0014",
+                          "quote": "受付機能から受付機能へ「内部で保存」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_0",
+                    "source": "actor_0",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "参照先を渡す",
+                      "refs": [
+                        {
+                          "source_id": "s0007",
+                          "quote": "受付機能から照会先へ「参照先を渡す」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "boundaries": [
+                  {
+                    "id": "owner",
+                    "kind": "same_owner",
+                    "label": {
+                      "text": "共通運用",
+                      "refs": [
+                        {
+                          "source_id": "s0015",
+                          "quote": "共通運用は対象の機能を含む管理範囲を表す。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "members": [
+                      "actor_0",
+                      "actor_1"
+                    ]
+                  }
+                ]
+              },
+              "comparison": null
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007",
+                "s0008",
+                "s0009",
+                "s0010",
+                "s0011",
+                "s0012",
+                "s0013",
+                "s0014",
+                "s0015",
+                "s0016"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "long_message_no_shrink",
+      "expected_error": "RELATION_OVERFLOW",
+      "observed_errors": [
+        "NOT_VERBATIM",
+        "RELATION_OVERFLOW"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "受付機能",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "照会先",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "確認窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "発行窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "受付機能から照会先へ「参照先を渡す」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0008",
+            "text": "照会先から確認窓口へ「文書を要求」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0009",
+            "text": "確認窓口から照会先へ「文書を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0010",
+            "text": "照会先から照会先へ「内部で確認」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0011",
+            "text": "照会先から発行窓口へ「受付を依頼」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0012",
+            "text": "発行窓口から照会先へ「結果を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0013",
+            "text": "照会先から受付機能へ「資料を提示」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0014",
+            "text": "受付機能から受付機能へ「内部で保存」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0015",
+            "text": "共通運用は対象の機能を含む管理範囲を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0016",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "2a37bb7ead88c6686c81930f612ff69c0781e8b95a282d666228dbe245527891",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0016",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_sequence_4_8_lr",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": {
+                "nodes": [
+                  {
+                    "id": "actor_0",
+                    "label": {
+                      "text": "受付機能",
+                      "refs": [
+                        {
+                          "source_id": "s0003",
+                          "quote": "受付機能"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_1",
+                    "label": {
+                      "text": "照会先",
+                      "refs": [
+                        {
+                          "source_id": "s0004",
+                          "quote": "照会先"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_2",
+                    "label": {
+                      "text": "確認窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0005",
+                          "quote": "確認窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_3",
+                    "label": {
+                      "text": "発行窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "発行窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "edge_0",
+                    "source": "actor_0",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長",
+                      "refs": [
+                        {
+                          "source_id": "s0007",
+                          "quote": "受付機能から照会先へ「参照先を渡す」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_1",
+                    "source": "actor_1",
+                    "target": "actor_2",
+                    "label": {
+                      "text": "文書を要求",
+                      "refs": [
+                        {
+                          "source_id": "s0008",
+                          "quote": "照会先から確認窓口へ「文書を要求」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_2",
+                    "source": "actor_2",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "文書を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0009",
+                          "quote": "確認窓口から照会先へ「文書を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_3",
+                    "source": "actor_1",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "内部で確認",
+                      "refs": [
+                        {
+                          "source_id": "s0010",
+                          "quote": "照会先から照会先へ「内部で確認」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_4",
+                    "source": "actor_1",
+                    "target": "actor_3",
+                    "label": {
+                      "text": "受付を依頼",
+                      "refs": [
+                        {
+                          "source_id": "s0011",
+                          "quote": "照会先から発行窓口へ「受付を依頼」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_5",
+                    "source": "actor_3",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "結果を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0012",
+                          "quote": "発行窓口から照会先へ「結果を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_6",
+                    "source": "actor_1",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "資料を提示",
+                      "refs": [
+                        {
+                          "source_id": "s0013",
+                          "quote": "照会先から受付機能へ「資料を提示」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_7",
+                    "source": "actor_0",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "内部で保存",
+                      "refs": [
+                        {
+                          "source_id": "s0014",
+                          "quote": "受付機能から受付機能へ「内部で保存」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "boundaries": [
+                  {
+                    "id": "owner",
+                    "kind": "same_owner",
+                    "label": {
+                      "text": "共通運用",
+                      "refs": [
+                        {
+                          "source_id": "s0015",
+                          "quote": "共通運用は対象の機能を含む管理範囲を表す。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "members": [
+                      "actor_0",
+                      "actor_1"
+                    ]
+                  }
+                ]
+              },
+              "comparison": null
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007",
+                "s0008",
+                "s0009",
+                "s0010",
+                "s0011",
+                "s0012",
+                "s0013",
+                "s0014",
+                "s0015",
+                "s0016"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "noncontiguous_boundary",
+      "expected_error": "RELATION_BOUNDARY",
+      "observed_errors": [
+        "RELATION_BOUNDARY"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "受付機能",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "照会先",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "確認窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "発行窓口",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "受付機能から照会先へ「参照先を渡す」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0008",
+            "text": "照会先から確認窓口へ「文書を要求」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0009",
+            "text": "確認窓口から照会先へ「文書を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0010",
+            "text": "照会先から照会先へ「内部で確認」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0011",
+            "text": "照会先から発行窓口へ「受付を依頼」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0012",
+            "text": "発行窓口から照会先へ「結果を応答」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0013",
+            "text": "照会先から受付機能へ「資料を提示」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0014",
+            "text": "受付機能から受付機能へ「内部で保存」を伝える。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0015",
+            "text": "共通運用は対象の機能を含む管理範囲を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0016",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "2a37bb7ead88c6686c81930f612ff69c0781e8b95a282d666228dbe245527891",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0016",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_sequence_4_8_lr",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": {
+                "nodes": [
+                  {
+                    "id": "actor_0",
+                    "label": {
+                      "text": "受付機能",
+                      "refs": [
+                        {
+                          "source_id": "s0003",
+                          "quote": "受付機能"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_1",
+                    "label": {
+                      "text": "照会先",
+                      "refs": [
+                        {
+                          "source_id": "s0004",
+                          "quote": "照会先"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_2",
+                    "label": {
+                      "text": "確認窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0005",
+                          "quote": "確認窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "actor_3",
+                    "label": {
+                      "text": "発行窓口",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "発行窓口"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "edge_0",
+                    "source": "actor_0",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "参照先を渡す",
+                      "refs": [
+                        {
+                          "source_id": "s0007",
+                          "quote": "受付機能から照会先へ「参照先を渡す」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_1",
+                    "source": "actor_1",
+                    "target": "actor_2",
+                    "label": {
+                      "text": "文書を要求",
+                      "refs": [
+                        {
+                          "source_id": "s0008",
+                          "quote": "照会先から確認窓口へ「文書を要求」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_2",
+                    "source": "actor_2",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "文書を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0009",
+                          "quote": "確認窓口から照会先へ「文書を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_3",
+                    "source": "actor_1",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "内部で確認",
+                      "refs": [
+                        {
+                          "source_id": "s0010",
+                          "quote": "照会先から照会先へ「内部で確認」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_4",
+                    "source": "actor_1",
+                    "target": "actor_3",
+                    "label": {
+                      "text": "受付を依頼",
+                      "refs": [
+                        {
+                          "source_id": "s0011",
+                          "quote": "照会先から発行窓口へ「受付を依頼」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_5",
+                    "source": "actor_3",
+                    "target": "actor_1",
+                    "label": {
+                      "text": "結果を応答",
+                      "refs": [
+                        {
+                          "source_id": "s0012",
+                          "quote": "発行窓口から照会先へ「結果を応答」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_6",
+                    "source": "actor_1",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "資料を提示",
+                      "refs": [
+                        {
+                          "source_id": "s0013",
+                          "quote": "照会先から受付機能へ「資料を提示」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  },
+                  {
+                    "id": "edge_7",
+                    "source": "actor_0",
+                    "target": "actor_0",
+                    "label": {
+                      "text": "内部で保存",
+                      "refs": [
+                        {
+                          "source_id": "s0014",
+                          "quote": "受付機能から受付機能へ「内部で保存」を伝える。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    }
+                  }
+                ],
+                "boundaries": [
+                  {
+                    "id": "owner",
+                    "kind": "same_owner",
+                    "label": {
+                      "text": "共通運用",
+                      "refs": [
+                        {
+                          "source_id": "s0015",
+                          "quote": "共通運用は対象の機能を含む管理範囲を表す。"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "members": [
+                      "actor_0",
+                      "actor_2"
+                    ]
+                  }
+                ]
+              },
+              "comparison": null
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007",
+                "s0008",
+                "s0009",
+                "s0010",
+                "s0011",
+                "s0012",
+                "s0013",
+                "s0014",
+                "s0015",
+                "s0016"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "missing_method",
+      "expected_error": "MODEL_VALIDATION",
+      "observed_errors": [
+        "MODEL_VALIDATION"
+      ],
+      "source": {
+        "version": "1",
+        "title": "架空の通信・関係図検証",
+        "segments": [
+          {
+            "id": "s0001",
+            "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0002",
+            "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0003",
+            "text": "識別の扱い",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0004",
+            "text": "確認する主体",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0005",
+            "text": "更新時の条件",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0006",
+            "text": "方式A",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0007",
+            "text": "事前に識別子を登録",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0008",
+            "text": "受付側が登録内容を照合",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0009",
+            "text": "登録内容を更新",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0010",
+            "text": "方式B",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0011",
+            "text": "共通の参照先を提示",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0012",
+            "text": "照会側が参照先を確認",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0013",
+            "text": "参照先の内容を更新",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0014",
+            "text": "方式C",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0015",
+            "text": "処理ごとに識別子を渡す",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0016",
+            "text": "各処理の担当が確認",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0017",
+            "text": "処理条件を引き継ぐ",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          },
+          {
+            "id": "s0018",
+            "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+            "citation": "架空設計書・構造検証用",
+            "group": "page01"
+          }
+        ],
+        "images": []
+      },
+      "plan": {
+        "version": "1",
+        "source_sha256": "b794f635ffde864fe7f006ad51d88bfb36b10a7960061836ca6c62e67cd35699",
+        "title": "架空の構造検証",
+        "slides": [
+          {
+            "id": "slide01",
+            "origin": "page01",
+            "title": {
+              "text": "主体の関係と通信の向きを\n根拠とともに確認する",
+              "refs": [
+                {
+                  "source_id": "s0018",
+                  "quote": "主体の関係と通信の向きを\n根拠とともに確認する"
+                }
+              ],
+              "mode": "verbatim"
+            },
+            "lead": null,
+            "rationale": "架空の構造例。矢印の向き・主体ID・包含と同管理・比較軸を保持する。",
+            "layout_id": "rel_compare_three",
+            "variant": "warm",
+            "font_profile": "source",
+            "contents": {
+              "texts": {
+                "context": {
+                  "text": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。",
+                  "refs": [
+                    {
+                      "source_id": "s0001",
+                      "quote": "架空の受付・照会システム。矢印と囲みは異なる関係を表す。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                },
+                "caveat": {
+                  "text": "注記：架空の構造例。実在の仕様や安全性を示すものではない。",
+                  "refs": [
+                    {
+                      "source_id": "s0002",
+                      "quote": "注記：架空の構造例。実在の仕様や安全性を示すものではない。"
+                    }
+                  ],
+                  "mode": "verbatim"
+                }
+              },
+              "charts": {},
+              "metrics": {},
+              "states": {},
+              "images": {},
+              "network": null,
+              "comparison": {
+                "axes": [
+                  {
+                    "text": "識別の扱い",
+                    "refs": [
+                      {
+                        "source_id": "s0003",
+                        "quote": "識別の扱い"
+                      }
+                    ],
+                    "mode": "verbatim"
+                  },
+                  {
+                    "text": "確認する主体",
+                    "refs": [
+                      {
+                        "source_id": "s0004",
+                        "quote": "確認する主体"
+                      }
+                    ],
+                    "mode": "verbatim"
+                  },
+                  {
+                    "text": "更新時の条件",
+                    "refs": [
+                      {
+                        "source_id": "s0005",
+                        "quote": "更新時の条件"
+                      }
+                    ],
+                    "mode": "verbatim"
+                  }
+                ],
+                "methods": [
+                  {
+                    "id": "method_0",
+                    "label": {
+                      "text": "方式A",
+                      "refs": [
+                        {
+                          "source_id": "s0006",
+                          "quote": "方式A"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "values": [
+                      {
+                        "text": "事前に識別子を登録",
+                        "refs": [
+                          {
+                            "source_id": "s0007",
+                            "quote": "事前に識別子を登録"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      },
+                      {
+                        "text": "受付側が登録内容を照合",
+                        "refs": [
+                          {
+                            "source_id": "s0008",
+                            "quote": "受付側が登録内容を照合"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      },
+                      {
+                        "text": "登録内容を更新",
+                        "refs": [
+                          {
+                            "source_id": "s0009",
+                            "quote": "登録内容を更新"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "method_1",
+                    "label": {
+                      "text": "方式B",
+                      "refs": [
+                        {
+                          "source_id": "s0010",
+                          "quote": "方式B"
+                        }
+                      ],
+                      "mode": "verbatim"
+                    },
+                    "values": [
+                      {
+                        "text": "共通の参照先を提示",
+                        "refs": [
+                          {
+                            "source_id": "s0011",
+                            "quote": "共通の参照先を提示"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      },
+                      {
+                        "text": "照会側が参照先を確認",
+                        "refs": [
+                          {
+                            "source_id": "s0012",
+                            "quote": "照会側が参照先を確認"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      },
+                      {
+                        "text": "参照先の内容を更新",
+                        "refs": [
+                          {
+                            "source_id": "s0013",
+                            "quote": "参照先の内容を更新"
+                          }
+                        ],
+                        "mode": "verbatim"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "emphasis": null,
+            "allowed_layouts": [],
+            "constraints_reason": null,
+            "repetition_reason": "全型の構造QAのため、登録済み各layoutを一度ずつ描画する。",
+            "row_alignments": {}
+          }
+        ],
+        "omissions": [],
+        "display": {
+          "mode": "reader",
+          "footer": "",
+          "citations": [
+            {
+              "source_ids": [
+                "s0001",
+                "s0002",
+                "s0003",
+                "s0004",
+                "s0005",
+                "s0006",
+                "s0007",
+                "s0008",
+                "s0009",
+                "s0010",
+                "s0011",
+                "s0012",
+                "s0013",
+                "s0014",
+                "s0015",
+                "s0016",
+                "s0017",
+                "s0018"
+              ],
+              "title": "架空設計書",
+              "url": "https://example.com/fictional-design",
+              "version": "v1",
+              "accessed_on": "2026-10-07"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+Rendered 8 slides. Structural checks passed; semantic and real visual review are still required.
 test_all_layouts_replace_sample_text_numbers_and_chart_data (test_catalog.CatalogTests.test_all_layouts_replace_sample_text_numbers_and_chart_data) ... ok
 test_all_state_slots_reject_unknown_state (test_catalog.CatalogTests.test_all_state_slots_reject_unknown_state) ... ok
 test_area_dot_and_scatter_boundary_geometry (test_catalog.CatalogTests.test_area_dot_and_scatter_boundary_geometry) ... ok
@@ -53,10 +54,10 @@ test_mirrors_keep_node_ids_endpoints_order_and_boundaries (test_relations.Relati
 test_reader_hyperlinks_versions_notes_qa_and_safe_rejection (test_relations.RelationTests.test_reader_hyperlinks_versions_notes_qa_and_safe_rejection) ... ok
 test_rejects_unknown_duplicate_disconnected_and_unsupported_edges (test_relations.RelationTests.test_rejects_unknown_duplicate_disconnected_and_unsupported_edges) ... ok
 test_selection_preserves_graph_and_rejects_incompatible_topology (test_relations.RelationTests.test_selection_preserves_graph_and_rejects_incompatible_topology) ... ok
+test_sequence_connector_envelopes_fit_last_row_and_enclosures (test_relations.RelationTests.test_sequence_connector_envelopes_fit_last_row_and_enclosures) ... ok
 test_sparse_pair_and_four_independent_actors (test_relations.RelationTests.test_sparse_pair_and_four_independent_actors) ... ok
 test_three_method_axes_equal_columns_and_outside_note (test_relations.RelationTests.test_three_method_axes_equal_columns_and_outside_note) ... ok
 test_bullet_pagination_preserves_all_content_order_and_refs (test_workflow.WorkflowTests.test_bullet_pagination_preserves_all_content_order_and_refs) ... ok
-Rendered 8 slides. Structural checks passed; semantic and real visual review are still required.
 test_cli_end_to_end_and_no_overwrite (test_workflow.WorkflowTests.test_cli_end_to_end_and_no_overwrite) ... ERROR: output exists; use --force
 ok
 test_codex_authored_plans_cover_both_input_modes (test_workflow.WorkflowTests.test_codex_authored_plans_cover_both_input_modes) ... ok
@@ -80,5 +81,5 @@ test_table_dimensions_and_chart_values_checked (test_workflow.WorkflowTests.test
 test_table_row_overflow_and_split (test_workflow.WorkflowTests.test_table_row_overflow_and_split) ... ok
 test_unknown_layout_and_coordinates_rejected (test_workflow.WorkflowTests.test_unknown_layout_and_coordinates_rejected) ... ok
 ----------------------------------------------------------------------
-Ran 79 tests in 68.082s
+Ran 80 tests in 80.202s
 OK

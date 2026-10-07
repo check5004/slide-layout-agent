@@ -1,5 +1,5 @@
 {
-  "pptx_sha256": "072a503474f7f69d82236869c8f25d6fe804e82ebcd0ac58666a294fe0deaf9a",
+  "pptx_sha256": "bb3b04def84b1e569b5f799ced560db0260a14d0185b638acd456a73450a0ef3",
   "pages": [
     {
       "page": 1,
@@ -18,8 +18,8 @@
     {
       "page": 3,
       "layout_id": "rel_sequence_4_8_lr",
-      "template_sha256": "fc24f690dc587816976bb82874f322b97d4687e0a2795d71812135075497889d",
-      "png_sha256": "dab704eea6d826e9725acd53814181424df0c4ac2156ef820aee786b747ba7e1",
+      "template_sha256": "e12dc8756e33b4cce0edabc6f41b7ba67f78b82ece8a9098f972923d5185cf74",
+      "png_sha256": "bf414c50d15b88d84ff1dd74c6a27e90a3714ee70e2eebd9a2104f50adf29471",
       "preview": "previews/03-rel_sequence_4_8_lr.png"
     },
     {

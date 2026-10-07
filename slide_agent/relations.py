@@ -5,6 +5,11 @@ from pptx.oxml.ns import qn
 from pptx.oxml.xmlchemy import OxmlElement
 from pptx.dml.color import RGBColor
 
+SEQUENCE_BOTTOM = Inches(6.42)
+# Conservative envelope for the registered 1.7pt line and medium arrowhead.
+# Checking connector centre-lines alone misses strokes beyond an enclosure.
+CONNECTOR_CLEARANCE = Inches(.055)
+
 
 def bounds_capacity(bounds, size, maximum):
     return {'max_units_per_line':round(max(1,(bounds[2]/Inches(1)*72-6)/(size*1.08)),2),'max_lines':maximum}
@@ -21,7 +26,7 @@ def sequence_geometry(entry, network, index):
     else:
         sign=-1 if a==len(ids)-1 else 1
         if entry['direction']=='rl':sign*=-1
-        x3=x1+sign*Inches(.62);bottom=line_y+Inches(.09)
+        x3=x1+sign*Inches(.62);bottom=line_y+Inches(.06 if r['max_events']==8 else .09)
         parts=[[x1,line_y,x3,line_y],[x3,line_y,x3,bottom],[x3,bottom,x1,bottom]]
         bounds=[x1-Inches(.9),y,Inches(1.8),height]
     return bounds,parts
@@ -32,7 +37,7 @@ def boundary_geometry(entry, network):
     members=[r['nodes'][ids.index(k)]['bounds_emu'] for k in group.members]
     left=min(p[0] for p in members)-Inches(.1);right=max(p[0]+p[2] for p in members)+Inches(.1)
     top=min(p[1] for p in members)-Inches(.37)
-    bottom=Inches(6.42) if r['kind']=='sequence' else max(p[1]+p[3] for p in members)+Inches(.08)
+    bottom=SEQUENCE_BOTTOM if r['kind']=='sequence' else max(p[1]+p[3] for p in members)+Inches(.08)
     bounds=[left,top,right-left,bottom-top]
     label=[left+Inches(.07),top+Inches(.025),right-left-Inches(.14),Inches(.30)]
     if r['kind']=='spoke' and group.members==[ids[0]]:
@@ -42,6 +47,38 @@ def boundary_geometry(entry, network):
         bounds=[left,top,right-left,bottom-top]
         label=[left+Inches(.07),node[1]+node[3]+Inches(.06),right-left-Inches(.14),Inches(.30)]
     return bounds,label
+
+
+def sequence_geometry_errors(entry, network):
+    """Keep the full connector envelope inside the diagram and internal group.
+
+    Messages to an external actor may cross a group border. A message whose
+    two endpoints belong to the group, including a self-loop, stays inside it.
+    """
+    nodes=[n['bounds_emu'] for n in entry['relation']['nodes']]
+    left=min(n[0] for n in nodes)-Inches(.1)
+    right=max(n[0]+n[2] for n in nodes)+Inches(.1)
+    top=max(n[1]+n[3] for n in nodes)
+    diagram=[left,top,right-left,SEQUENCE_BOTTOM-top]
+    group=network.boundaries[0] if network.boundaries else None
+    enclosure=boundary_geometry(entry,network)[0] if group else None
+    problems=[]
+    for i,edge in enumerate(network.edges):
+        _,segments=sequence_geometry(entry,network,i)
+        xs=[x for x1,y1,x2,y2 in segments for x in (x1,x2)]
+        ys=[y for x1,y1,x2,y2 in segments for y in (y1,y2)]
+        envelope=(min(xs)-CONNECTOR_CLEARANCE,min(ys)-CONNECTOR_CLEARANCE,
+                  max(xs)+CONNECTOR_CLEARANCE,max(ys)+CONNECTOR_CLEARANCE)
+        limits=[('diagram',diagram)]
+        if group and {edge.source,edge.target}<=set(group.members):limits.append(('boundary',enclosure))
+        for name,(x,y,w,h) in limits:
+            if not (x<=envelope[0] and y<=envelope[1] and envelope[2]<=x+w and envelope[3]<=y+h):
+                problems.append(('RELATION_GEOMETRY',f'{edge.id}: connector/arrowhead envelope exceeds registered {name}; replan, never clip'))
+        if i+1<len(network.edges):
+            next_top=entry['relation']['event_top']+(i+1)*entry['relation']['event_step']
+            if envelope[3]>next_top+2:
+                problems.append(('RELATION_GEOMETRY',f'{edge.id}: connector/arrowhead envelope overlaps the next event label row'))
+    return problems
 
 
 def errors(entry, contents):
@@ -88,6 +125,8 @@ def errors(entry, contents):
         _,label=boundary_geometry(entry,net)
         prefix='内包：' if group.kind=='contains' else '同管理：'
         check(prefix+group.label.text,bounds_capacity(label,14,1),'boundary label including kind')
+    if kind=='sequence' and not any(code=='RELATION_BOUNDARY' for code,path in found):
+        found.extend(sequence_geometry_errors(entry,net))
     return found
 
 
@@ -95,13 +134,13 @@ def remove(shape):
     shape._element.getparent().remove(shape._element)
 
 
-def set_line(shape, points, arrow):
+def set_line(shape, points, arrow, arrow_width='med'):
     shape.begin_x,shape.begin_y,shape.end_x,shape.end_y=points
     ln=shape._element.spPr.get_or_add_ln()
     for tag in ('a:headEnd','a:tailEnd'):
         for old in list(ln.findall(qn(tag))):ln.remove(old)
     if arrow:
-        end=OxmlElement('a:tailEnd');end.set('type','triangle');end.set('w','med');end.set('len','med');ln.append(end)
+        end=OxmlElement('a:tailEnd');end.set('type','triangle');end.set('w',arrow_width);end.set('len','med');ln.append(end)
 
 
 def populate(slide, entry, contents):
@@ -142,7 +181,7 @@ def populate(slide, entry, contents):
             for p in range(3):
                 s=shapes[f'rel:event_{i}_{p}']
                 if p>=len(parts):remove(s)
-                else:set_line(s,parts[p],p==len(parts)-1)
+                else:set_line(s,parts[p],p==len(parts)-1,'sm' if len(parts)==3 and r['max_events']==8 else 'med')
     else:
         used={f'{ids.index(e.source)}>{ids.index(e.target)}':e for e in net.edges}
         for key,spec in r['routes'].items():

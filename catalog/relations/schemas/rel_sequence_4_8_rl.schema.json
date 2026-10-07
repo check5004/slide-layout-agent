@@ -679,6 +679,6 @@
   ],
   "title": "RelationSlide",
   "type": "object",
-  "x-contract-sha256": "35e55ce7ce25044d66fbe140f2498f4c4e484e70159a5dbd06e2c415b8e0deb1",
+  "x-contract-sha256": "2b7c11e6f095c60cfa8e2b37663b2dc96dc6b93ba026bae9cab0b9080ee2a80f",
   "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
 }

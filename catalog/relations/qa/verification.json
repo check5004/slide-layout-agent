@@ -3,7 +3,7 @@
   "baseline_commit": "3dcde14a56b354572bed2e82017a8dfc47582ca2",
   "new_layout_count": 25,
   "catalog": "relations",
-  "tests_passed": 79,
+  "tests_passed": 80,
   "pages_real_rendered_and_visually_reviewed": 132,
   "measured_text_or_table_cells": 1910,
   "renderer": "Microsoft PowerPoint 16.0",
@@ -11,7 +11,7 @@
   "decks": {
     "all": {
       "pages": 25,
-      "pptx_sha256": "fb10f0db18e9b046822964e340c4c9ca2e4a4788d5f89d4af17806962692951c",
+      "pptx_sha256": "b7d2484903feefb8c2c8f7ac93a374f1874869fe6177dd475cd2de7b8c517476",
       "measured_text_or_table_cells": 414,
       "dimension_overflow": 0,
       "position_overflow": 0,
@@ -20,7 +20,7 @@
     },
     "boundary": {
       "pages": 25,
-      "pptx_sha256": "1de16787a312cab91a755de7a91775beec6d469b1f159f834f1264efc692095d",
+      "pptx_sha256": "6e8006b8aa1fba15d148e69106b0c9a5c72f7c7cfb97211858b37a248d47b8a4",
       "measured_text_or_table_cells": 418,
       "dimension_overflow": 0,
       "position_overflow": 0,
@@ -29,7 +29,7 @@
     },
     "usage": {
       "pages": 6,
-      "pptx_sha256": "072a503474f7f69d82236869c8f25d6fe804e82ebcd0ac58666a294fe0deaf9a",
+      "pptx_sha256": "bb3b04def84b1e569b5f799ced560db0260a14d0185b638acd456a73450a0ef3",
       "measured_text_or_table_cells": 90,
       "dimension_overflow": 0,
       "position_overflow": 0,
@@ -55,11 +55,27 @@
     "catalog/editorial/manifest.json"
   ],
   "visual_review": [
-    "all 25 normal layouts, including mirrored panel/caption binding",
-    "all 25 full-capacity fixtures; detailed 8-event arrows/self-loops and comparison cells",
-    "6 usage examples with sparse arrows, independent actors and shared reference",
-    "76 Editorial reader-mode regression pages; identical PPTX SHA to prior QA run"
+    "Re-rendered normal 25, boundary 25, usage 6; all changed 13 pages inspected, including full-size loops and row clearance.",
+    "Unchanged 43 pages pixel-identical to reviewed v2; all top 390px unchanged.",
+    "Editorial 76: exact unchanged PPTX SHA and previous real render retained."
   ],
   "measurement_limit": "Table cell BoundTop is not slide-absolute in this environment. Cell dimensions, native anchors and pixels were reviewed.",
-  "semantic_review": "Fictional fixture review only; RELATION_SEMANTIC_REVIEW and PARTIAL_SOURCE_REVIEW retained. Independent review is separate."
+  "semantic_review": "Fictional fixture review only; RELATION_SEMANTIC_REVIEW and PARTIAL_SOURCE_REVIEW retained. Independent review is separate.",
+  "qa_version": "relations-qa-v4",
+  "reviewed_base_commit": "44fb1e3c9ee559a074b35a138a3e14e76c3144f6",
+  "geometry_regression": {
+    "boundary_endpoint_cases": 1400,
+    "consecutive_self_event_cases": 6,
+    "rejects": [
+      "connector or arrowhead envelope outside diagram",
+      "internal connector outside its group",
+      "connector envelope overlaps next event label row"
+    ],
+    "eight_event_bottom_clearance_inches": 0.05,
+    "rendered_pixel_equivalent_at_1600x900": 6,
+    "body_font_pt": 16,
+    "text_capacity_changed": false,
+    "plan_api_changed": false
+  },
+  "pixel_comparison": "pixel-comparison.json"
 }

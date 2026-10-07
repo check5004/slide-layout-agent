@@ -4919,8 +4919,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           1399031,
@@ -4934,7 +4934,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -4946,9 +4946,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -4960,9 +4960,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -4974,9 +4974,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -4988,9 +4988,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5002,9 +5002,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5016,9 +5016,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5030,9 +5030,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5064,7 +5064,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_3_8_lr.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_3_8_lr.png",
       "shape_count": 51,
-      "template_sha256": "f931d6fc39905221af778e7edf3497023ed4889e8a4ef6a8d87f19d88fd27665"
+      "template_sha256": "a96a35282809d9ed4436fccbf7b67a7488fa841953295c705a80f50c502541f6"
     },
     {
       "layout_id": "rel_sequence_3_8_rl",
@@ -5253,8 +5253,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           10792967,
@@ -5268,7 +5268,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5280,9 +5280,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5294,9 +5294,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5308,9 +5308,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5322,9 +5322,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5336,9 +5336,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5350,9 +5350,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5364,9 +5364,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -5398,7 +5398,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_3_8_rl.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_3_8_rl.png",
       "shape_count": 51,
-      "template_sha256": "44bd2df5b86e76a3b906a220318c4f041bc6e69a9954ac13b361dd653a75fbb6"
+      "template_sha256": "cfc5917e3008ddfcc83a5eff9c88d10ddca9f1281f413b2c677c1dbe3a2f8599"
     },
     {
       "layout_id": "rel_sequence_4_4_lr",
@@ -6268,8 +6268,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           1399031,
@@ -6284,7 +6284,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6296,9 +6296,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6310,9 +6310,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6324,9 +6324,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6338,9 +6338,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6352,9 +6352,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6366,9 +6366,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6380,9 +6380,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6414,7 +6414,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_4_8_lr.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_4_8_lr.png",
       "shape_count": 54,
-      "template_sha256": "fc24f690dc587816976bb82874f322b97d4687e0a2795d71812135075497889d"
+      "template_sha256": "e12dc8756e33b4cce0edabc6f41b7ba67f78b82ece8a9098f972923d5185cf74"
     },
     {
       "layout_id": "rel_sequence_4_8_rl",
@@ -6644,8 +6644,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           10792967,
@@ -6660,7 +6660,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6672,9 +6672,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6686,9 +6686,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6700,9 +6700,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6714,9 +6714,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6728,9 +6728,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6742,9 +6742,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6756,9 +6756,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -6790,7 +6790,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_4_8_rl.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_4_8_rl.png",
       "shape_count": 54,
-      "template_sha256": "741ee638e18e5d1d9296a867e234f7a77d4213eae6376054581315264ec4389f"
+      "template_sha256": "061d4db13d6823a623807a9886bc637f26c31c3fa6b37391a5eccae94ec87131"
     },
     {
       "layout_id": "rel_sequence_5_4_lr",
@@ -7806,8 +7806,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           1399032,
@@ -7823,7 +7823,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7835,9 +7835,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7849,9 +7849,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7863,9 +7863,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7877,9 +7877,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7891,9 +7891,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7905,9 +7905,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7919,9 +7919,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -7953,7 +7953,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_5_8_lr.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_5_8_lr.png",
       "shape_count": 57,
-      "template_sha256": "7b7ce99745b6305f1049ad1f6d0e787bc99d8c206dfdbe8870b4794b776118d5"
+      "template_sha256": "03204bd34baab2f8da1b59ad84aa09276985e9c702620c6219db589a1d330520"
     },
     {
       "layout_id": "rel_sequence_5_8_rl",
@@ -8231,8 +8231,8 @@
         "routes": {},
         "max_events": 8,
         "event_top": 2971800,
-        "event_step": 363474,
-        "label_height": 283464,
+        "event_step": 356616,
+        "label_height": 237744,
         "label_font": 16,
         "node_centers": [
           10792967,
@@ -8248,7 +8248,7 @@
               731520,
               2971800,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8260,9 +8260,9 @@
             "shape": "rel:event_label_1",
             "bounds_emu": [
               731520,
-              3335274,
+              3328416,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8274,9 +8274,9 @@
             "shape": "rel:event_label_2",
             "bounds_emu": [
               731520,
-              3698748,
+              3685032,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8288,9 +8288,9 @@
             "shape": "rel:event_label_3",
             "bounds_emu": [
               731520,
-              4062222,
+              4041648,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8302,9 +8302,9 @@
             "shape": "rel:event_label_4",
             "bounds_emu": [
               731520,
-              4425696,
+              4398264,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8316,9 +8316,9 @@
             "shape": "rel:event_label_5",
             "bounds_emu": [
               731520,
-              4789170,
+              4754880,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8330,9 +8330,9 @@
             "shape": "rel:event_label_6",
             "bounds_emu": [
               731520,
-              5152644,
+              5111496,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8344,9 +8344,9 @@
             "shape": "rel:event_label_7",
             "bounds_emu": [
               731520,
-              5516118,
+              5468112,
               10698480,
-              283464
+              237744
             ],
             "font_pt": 16,
             "font_family": "Yu Gothic",
@@ -8378,7 +8378,7 @@
       "schema": "catalog/relations/schemas/rel_sequence_5_8_rl.schema.json",
       "preview": "catalog/relations/previews/rel_sequence_5_8_rl.png",
       "shape_count": 57,
-      "template_sha256": "c5c7515ee12036a859da22053178b92580e33cb3c703d30ba36156a6f394c669"
+      "template_sha256": "9782335acf23c8a3a166e0342cc6572b054ab39113a251cc0c4220aba9da56c3"
     },
     {
       "layout_id": "rel_compare_three",

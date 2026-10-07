@@ -95,15 +95,15 @@ def build(spec):
         if kind=='pair_fan':groups=[]
         relation={'kind':kind,'nodes':nodes,'boundary_label':boundary_label,'allowed_boundaries':groups,'routes':{}}
         if kind=='sequence':
-            maximum=spec['max_events'];step=3.18/maximum
-            relation.update(max_events=maximum,event_top=Inches(3.25),event_step=Inches(step),label_height=Inches(.59 if maximum==4 else .31),label_font=16,
+            maximum=spec['max_events'];step=.39 if maximum==8 else 3.18/maximum
+            relation.update(max_events=maximum,event_top=Inches(3.25),event_step=Inches(step),label_height=Inches(.59 if maximum==4 else .26),label_font=16,
                             node_centers=[p['bounds_emu'][0]+p['bounds_emu'][2]//2 for p in nodes])
             for i,node in enumerate(nodes):
                 x=relation['node_centers'][i]/Inches(1)
                 line(b,f'rel:lifeline_{i}',[x,3.15,x,6.41],False,True)
             for i in range(maximum):
                 y=3.25+i*step
-                label=box(b,f'rel:event_label_{i}',[.8,y,11.7,.59 if maximum==4 else .31],size=16)
+                label=box(b,f'rel:event_label_{i}',[.8,y,11.7,.59 if maximum==4 else .26],size=16)
                 label_shape=b.slide.shapes[-1]
                 label_shape.fill.solid();label_shape.fill.fore_color.rgb=RGBColor.from_string(BG)
                 label['max_lines']=2 if maximum==4 else 1

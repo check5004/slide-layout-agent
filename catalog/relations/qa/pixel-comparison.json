@@ -1,0 +1,125 @@
+{
+  "all": [
+    {
+      "page": 15,
+      "changed_pixel_bounds": [
+        81,
+        392,
+        1416,
+        780
+      ]
+    },
+    {
+      "page": 16,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1444,
+        780
+      ]
+    },
+    {
+      "page": 19,
+      "changed_pixel_bounds": [
+        81,
+        392,
+        1416,
+        780
+      ]
+    },
+    {
+      "page": 20,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1444,
+        780
+      ]
+    },
+    {
+      "page": 23,
+      "changed_pixel_bounds": [
+        184,
+        392,
+        1416,
+        769
+      ]
+    },
+    {
+      "page": 24,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1418,
+        769
+      ]
+    }
+  ],
+  "boundary": [
+    {
+      "page": 15,
+      "changed_pixel_bounds": [
+        79,
+        392,
+        1416,
+        780
+      ]
+    },
+    {
+      "page": 16,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1496,
+        780
+      ]
+    },
+    {
+      "page": 19,
+      "changed_pixel_bounds": [
+        79,
+        392,
+        1416,
+        780
+      ]
+    },
+    {
+      "page": 20,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1496,
+        780
+      ]
+    },
+    {
+      "page": 23,
+      "changed_pixel_bounds": [
+        184,
+        392,
+        1416,
+        769
+      ]
+    },
+    {
+      "page": 24,
+      "changed_pixel_bounds": [
+        185,
+        392,
+        1418,
+        769
+      ]
+    }
+  ],
+  "usage": [
+    {
+      "page": 3,
+      "changed_pixel_bounds": [
+        81,
+        392,
+        1416,
+        780
+      ]
+    }
+  ]
+}

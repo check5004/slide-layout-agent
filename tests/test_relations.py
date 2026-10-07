@@ -9,6 +9,7 @@ from zipfile import ZipFile
 
 from pptx import Presentation
 from pptx.oxml.ns import qn
+from pptx.util import Inches
 from pydantic import ValidationError
 from scripts.make_relation_samples import fixture
 from slide_agent.catalog import ROOT, relation_registry, template_path
@@ -108,6 +109,32 @@ class RelationTests(unittest.TestCase):
         with self.assertRaises(ValidationError):Plan.model_validate(data)
         data=plan.model_dump();data['slides'][0]['contents']['network']['edges'][0]['x']=100
         with self.assertRaises(ValidationError):Plan.model_validate(data)
+
+    def test_sequence_connector_envelopes_fit_last_row_and_enclosures(self):
+        from slide_agent.relations import sequence_geometry_errors, errors
+        for e in self.entries:
+            if e['kind']!='sequence':continue
+            source,plan=fixture([e]);contents=plan.slides[0].contents;net=contents.network
+            ids=[n.id for n in net.nodes]
+            # Every lane can be the final self-processing actor; both directions
+            # and both event counts must allow the full arrow, not just its end.
+            for kind in ('contains','same_owner'):
+                net.boundaries[0].kind=kind
+                for members in e['relation']['allowed_boundaries']:
+                    net.boundaries[0].members=[ids[i] for i in members]
+                    for a in members:
+                        for z in members:
+                            net.edges[-1].source=ids[a];net.edges[-1].target=ids[z]
+                            self.assertEqual(sequence_geometry_errors(e,net),[],(e['layout_id'],kind,members,a,z))
+            if e['max_events']==8:
+                net.boundaries[0].members=[ids[0]]
+                for edge in net.edges:edge.source=edge.target=ids[0]
+                self.assertEqual(sequence_geometry_errors(e,net),[],e['layout_id'])
+                old=copy.deepcopy(e);old['relation']['event_step']=Inches(3.18/8)
+                self.assertIn('RELATION_GEOMETRY',{code for code,message in errors(old,contents)},e['layout_id'])
+                crowded=copy.deepcopy(e);crowded['relation']['event_step']=Inches(.38);crowded['relation']['label_height']=Inches(.31)
+                net.edges[0].source=net.edges[0].target=ids[0]
+                self.assertTrue(any('next event label row' in message for code,message in sequence_geometry_errors(crowded,net)))
 
     def test_three_method_axes_equal_columns_and_outside_note(self):
         source,plan=self.sample('rel_compare_three');path=self.deck(source,plan)

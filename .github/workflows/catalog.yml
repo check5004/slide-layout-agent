@@ -21,5 +21,7 @@ jobs:
       - run: python scripts/make_catalog_samples.py --out out/catalog --individual
       - run: python scripts/make_editorial_samples.py --out out/editorial
       - run: python scripts/make_editorial_story.py
+      - run: python scripts/make_relation_samples.py --out out/relations
+      - run: python scripts/make_relation_samples.py --stress --out out/relations-boundary
       - run: python -m slide_agent schema --out out/plan.schema.json
       - run: python -m slide_agent catalog --layout issue_tree

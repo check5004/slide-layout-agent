@@ -9,7 +9,7 @@ import json
 from functools import lru_cache
 
 from .catalog import ROOT,all_registry as registry
-from .models import CatalogSlide,EditorialSlide,Plan
+from .models import CatalogSlide,EditorialSlide,RelationSlide,Plan
 
 
 @lru_cache(maxsize=1)
@@ -21,12 +21,17 @@ def _editorial_model_schema():return EditorialSlide.model_json_schema()
 
 
 @lru_cache(maxsize=1)
+def _relation_model_schema():return RelationSlide.model_json_schema()
+
+
+@lru_cache(maxsize=1)
 def _plan_model_schema():return Plan.model_json_schema()
 
 
 def layout_schema(entry):
-    editorial = entry.get('catalog') == 'editorial'
-    sc=copy.deepcopy(_editorial_model_schema() if editorial else _catalog_model_schema())
+    relational = entry.get('catalog') == 'relations'
+    editorial = entry.get('catalog') in ('editorial','relations')
+    sc=copy.deepcopy(_relation_model_schema() if relational else _editorial_model_schema() if editorial else _catalog_model_schema())
     sc['properties']['layout_id']={'const':entry['layout_id'],'type':'string'}
     contents={'type':'object','additionalProperties':False,'required':['texts','charts','metrics','states'],'properties':{}}
     kinds = [('texts','Text'),('charts','TemplateChart'),('metrics','SignedDatum'),('states','Text')]
@@ -38,13 +43,22 @@ def layout_schema(entry):
         contents['properties'][kind]={'type':'object','additionalProperties':False,'required':list(entry[kind]),
             'properties':{key:{'$ref':f'#/$defs/{model}'} for key in entry[kind]}}
     sc['properties']['contents']=contents
+    if relational:
+        comparison=entry['relation']['kind']=='compare'
+        for key,model in [('network','Network'),('comparison','ThreeMethods')]:
+            active=(key=='comparison')==comparison
+            contents['properties'][key]={'$ref':f'#/$defs/{model}'} if active else {'type':'null','default':None}
+            if active:contents['required'].append(key)
+        if not comparison:
+            sc['$defs']['Network']['properties']['nodes'].update(minItems=entry['item_count'],maxItems=entry['item_count'])
+            sc['$defs']['Network']['properties']['edges']['maxItems']=entry['relation'].get('max_events',len(entry['relation']['routes']))
     chart=sc['$defs']['TemplateChart']
     if entry['layout_id']=='scenario_lines_cagr':
         chart['required']=sorted(set(chart.get('required',[])+['elapsed_years']))
         chart['properties']['elapsed_years']={'$ref':'#/$defs/ElapsedYears'}
     else:chart['properties']['elapsed_years']={'type':'null','default':None}
     keys=['template_sha256','title','texts','charts','metrics','states','chart_aliases','reference_line','bridge','calculation','split_policy','image_policy', 'family', 'structural_variant', 'item_count', 'semantic_signature', 'slot_mapping', 'visual_signature', 'images']
-    contract={k:entry[k] for k in keys+['emphasis_item', 'text_flow', 'metric_total', 'comparison_axes', 'rows'] if k in entry}
+    contract={k:entry[k] for k in keys+['emphasis_item', 'text_flow', 'metric_total', 'comparison_axes', 'rows', 'relation'] if k in entry}
     sc['x-contract-sha256']=hashlib.sha256(json.dumps(contract,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
     sc['x-runtime-validation']='Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog'
     return sc

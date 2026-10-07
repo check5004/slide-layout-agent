@@ -5,7 +5,7 @@ only registered equivalents, never rewrites text or infers a story.
 """
 from collections import Counter
 
-from .catalog import editorial_registry
+from .catalog import selectable_registry as editorial_registry
 from .catalog_validate import validate_catalog
 
 

@@ -17,7 +17,7 @@ def validate_catalog(slide, add):
             add("TEMPLATE_OVERFLOW", f"{label}: {lines} lines exceed {spec['max_lines']}; replan/split, no shrink",slide.id)
 
     capacity(slide.title.text,entry["title"],"title")
-    if entry.get('catalog') == 'editorial':
+    if entry.get('catalog') in ('editorial','relations'):
         unknown_rows = set(slide.row_alignments)-set(entry.get('rows',{}))
         if unknown_rows:
             add('EDITORIAL_ROW_ALIGNMENT', f'unknown rows: {sorted(unknown_rows)}; choose registered row groups only',slide.id)
@@ -44,6 +44,9 @@ def validate_catalog(slide, add):
         from .vertical import flow_positions
         try: flow_positions(entry,c,getattr(slide,'row_alignments',{}))
         except ValueError as exc: add('EDITORIAL_ROW_OVERFLOW',str(exc),slide.id)
+    if entry.get('catalog')=='relations':
+        from .relations import errors
+        for code,message in errors(entry,c):add(code,message,slide.id)
     for key,value in c.states.items():
         if key in entry["states"] and value.text not in entry["states"][key]["palette"]:
             add("TEMPLATE_STATE",f"{key}: choose {list(entry['states'][key]['palette'])}",slide.id)

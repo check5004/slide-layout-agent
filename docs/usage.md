@@ -2,6 +2,12 @@
 
 [README に戻る](../README.md)
 
+通常の説明・調査共有は `catalog --collection editorial`、主体の関係・包含・通信往復・3方式比較は `catalog --collection relations` を使います。旧62型は `--collection reference` で明示的に選びます。新図型の具体的なplan、対応構造と拒否条件は [relations.md](relations.md)、本文中心の選び方は [editorial-design.md](editorial-design.md) を参照してください。
+
+行形式の短い見出し・数値は中央、本文＋根拠はまとまりとして配置します。必要なら登録済みの行だけを `row_alignments` で上寄せ／中央寄せに指定し、`select-variants` → `review` → `render` を通します。本文や通信ラベルを容量へ収めるために縮小しません。
+
+納品用は `display.mode: reader` が標準です。`display.citations` に資料名、HTTP(S) URL、版、確認日、対応するsource_idsを指定すると、引用したslideのfooterへ資料名リンクとmetadataを表示します。内部layout ID等を表示する開発用は `mode: qa`。元の出典・planはnotesにも残ります。資料名や日付を推定せず、footer超過は短い正式略称か別layoutで解消してください。私用資料は `work/` 等の非公開領域に置きます。
+
 Codex に任せる場合は、README の依頼文から始めてください。このページは、別 PC で環境を用意する場合や、手動で実行したい場合の手順です。
 
 ## 別 PC で始める

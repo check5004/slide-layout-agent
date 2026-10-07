@@ -128,8 +128,8 @@ def build_parser():
     p.add_argument("--force", action="store_true")
     p = sub.add_parser("catalog")
     p.add_argument("--layout", choices=list(registry()))
-    p.add_argument("--collection", choices=['editorial', 'reference', 'all'], default='editorial')
-    p.add_argument("--family", help='Filter editorial semantic family')
+    p.add_argument("--collection", choices=['editorial', 'relations', 'reference', 'all'], default='editorial')
+    p.add_argument("--family", help='Filter semantic family in the selected collection')
     p.add_argument("--out",help="Write UTF-8 JSON directly; avoids shell redirection transcoding")
     p.add_argument("--force",action="store_true")
     for name in ("validate", "review", "render", "split", "select-variants"):

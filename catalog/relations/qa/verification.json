@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-07",
+  "baseline_commit": "3dcde14a56b354572bed2e82017a8dfc47582ca2",
+  "new_layout_count": 25,
+  "catalog": "relations",
+  "tests_passed": 79,
+  "pages_real_rendered_and_visually_reviewed": 132,
+  "measured_text_or_table_cells": 1910,
+  "renderer": "Microsoft PowerPoint 16.0",
+  "generation": "Python/python-pptx; no Office dependency",
+  "decks": {
+    "all": {
+      "pages": 25,
+      "pptx_sha256": "fb10f0db18e9b046822964e340c4c9ca2e4a4788d5f89d4af17806962692951c",
+      "measured_text_or_table_cells": 414,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "all-render-report.json"
+    },
+    "boundary": {
+      "pages": 25,
+      "pptx_sha256": "1de16787a312cab91a755de7a91775beec6d469b1f159f834f1264efc692095d",
+      "measured_text_or_table_cells": 418,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "boundary-render-report.json"
+    },
+    "usage": {
+      "pages": 6,
+      "pptx_sha256": "072a503474f7f69d82236869c8f25d6fe804e82ebcd0ac58666a294fe0deaf9a",
+      "measured_text_or_table_cells": 90,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "usage-render-report.json"
+    },
+    "editorial": {
+      "pages": 76,
+      "pptx_sha256": "10cff2ac28f76368c8771889347c7fd9542254b365769c6b5f440f6ffe0072b3",
+      "measured_text_or_table_cells": 988,
+      "dimension_overflow": 0,
+      "position_overflow": 0,
+      "all_pages_visually_reviewed": true,
+      "report": "editorial-render-report.json"
+    }
+  },
+  "unchanged_template_contract_paths": [
+    "catalog/templates",
+    "catalog/schemas",
+    "catalog/manifest.json",
+    "catalog/editorial/templates",
+    "catalog/editorial/schemas",
+    "catalog/editorial/manifest.json"
+  ],
+  "visual_review": [
+    "all 25 normal layouts, including mirrored panel/caption binding",
+    "all 25 full-capacity fixtures; detailed 8-event arrows/self-loops and comparison cells",
+    "6 usage examples with sparse arrows, independent actors and shared reference",
+    "76 Editorial reader-mode regression pages; identical PPTX SHA to prior QA run"
+  ],
+  "measurement_limit": "Table cell BoundTop is not slide-absolute in this environment. Cell dimensions, native anchors and pixels were reviewed.",
+  "semantic_review": "Fictional fixture review only; RELATION_SEMANTIC_REVIEW and PARTIAL_SOURCE_REVIEW retained. Independent review is separate."
+}

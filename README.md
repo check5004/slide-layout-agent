@@ -6,6 +6,8 @@
 
 ## まず完成例を見る
 
+- **[関係図・通信図25型の使い方](docs/relations.md)**：包含、同管理主体、1対多、共有参照、3〜5主体の往復／内部処理、等幅3方式比較。`catalog --collection relations` で選びます。[実描画一覧](catalog/relations/index.html)・[編集可能な架空例](examples/relations/relations.pptx?raw=true)。読者向け資料名リンク・版・確認日はdeck-level `display` で指定できます。
+
 - **通常の調査共有は新しい [Editorial 76型一覧](catalog/editorial/index.html)**（14 family、本文18〜21pt中心、カード16型）
 - **[編集可能な全76型PPTX](catalog/editorial/samples/editorial.pptx?raw=true)** · **[16枚の架空調査共有デモ](examples/editorial-story/story.pptx?raw=true)**
 - [代表12型のプレビュー](catalog/editorial/representative/contact-sheet.png) · [全型コンタクトシート](catalog/editorial/contact-sheet.png) · [実描画・回帰検証記録](docs/editorial-verification.md)。HTML一覧はclone後にブラウザで開けます。
@@ -72,7 +74,7 @@ PowerPoint 上の手直しを構成案へ戻す機能はありません。手直
 
 ## いま使える範囲
 
-日本語・16:9 の**新作Editorial 76型、従来reference 62型**と、Python配置8型に対応しています。新作は社内調査共有を中心にカード・図文・比較・手順・表・グラフ等を備えます。旧62型の2配色・124枚の描画見本も保持しています。従来の文章＋画像も同じ構成案に混在できます。
+日本語・16:9 の**新作Editorial 76型、関係図・通信図25型、従来reference 62型**と、Python配置8型に対応しています。新作は社内調査共有を中心にカード・図文・比較・手順・表・グラフ等を備えます。関係図は登録済みの主体数・方向・囲み・通信列に対応します。旧62型の2配色・124枚の描画見本も保持しています。従来の文章＋画像も同じ構成案に混在できます。
 
 **新旧catalogは保存済みのPPTXを開き、名前付きの入力欄へ差し込む方式です。** 文字量・表やグラフの項目数・数値の関係を型ごとに検証します。新作では意味上の主従・反復・総数と内訳も検証します。任意の企業テンプレートを自動登録する機能や、出力PPTXの手修正を取り込む機能はありません。
 

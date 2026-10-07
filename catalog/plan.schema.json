@@ -414,6 +414,35 @@
       "title": "Comparison",
       "type": "object"
     },
+    "ComparisonMethod": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        },
+        "values": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "values"
+      ],
+      "title": "ComparisonMethod",
+      "type": "object"
+    },
     "ComparisonSlide": {
       "additionalProperties": false,
       "properties": {
@@ -491,6 +520,90 @@
         "refs"
       ],
       "title": "Datum",
+      "type": "object"
+    },
+    "DeckDisplay": {
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "default": "reader",
+          "enum": [
+            "reader",
+            "qa"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "footer": {
+          "default": "",
+          "maxLength": 100,
+          "title": "Footer",
+          "type": "string"
+        },
+        "citations": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/DisplayCitation"
+          },
+          "maxItems": 50,
+          "title": "Citations",
+          "type": "array"
+        }
+      },
+      "title": "DeckDisplay",
+      "type": "object"
+    },
+    "DisplayCitation": {
+      "additionalProperties": false,
+      "properties": {
+        "source_ids": {
+          "items": {
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 500,
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "title": {
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "maxLength": 2000,
+          "pattern": "^https?://[^\\s]+$",
+          "title": "Url",
+          "type": "string"
+        },
+        "version": {
+          "default": "",
+          "maxLength": 60,
+          "title": "Version",
+          "type": "string"
+        },
+        "accessed_on": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Accessed On"
+        }
+      },
+      "required": [
+        "source_ids",
+        "title",
+        "url"
+      ],
+      "title": "DisplayCitation",
       "type": "object"
     },
     "EditorialContents": {
@@ -927,6 +1040,44 @@
       "title": "Items",
       "type": "object"
     },
+    "Network": {
+      "additionalProperties": false,
+      "properties": {
+        "nodes": {
+          "items": {
+            "$ref": "#/$defs/RelationNode"
+          },
+          "maxItems": 5,
+          "minItems": 2,
+          "title": "Nodes",
+          "type": "array"
+        },
+        "edges": {
+          "items": {
+            "$ref": "#/$defs/RelationEdge"
+          },
+          "maxItems": 8,
+          "minItems": 1,
+          "title": "Edges",
+          "type": "array"
+        },
+        "boundaries": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/RelationBoundary"
+          },
+          "maxItems": 1,
+          "title": "Boundaries",
+          "type": "array"
+        }
+      },
+      "required": [
+        "nodes",
+        "edges"
+      ],
+      "title": "Network",
+      "type": "object"
+    },
     "Omission": {
       "additionalProperties": false,
       "properties": {
@@ -1041,6 +1192,338 @@
         "quote"
       ],
       "title": "Ref",
+      "type": "object"
+    },
+    "RelationBoundary": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "contains",
+            "same_owner"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        },
+        "members": {
+          "items": {
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 1,
+          "title": "Members",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "label",
+        "members"
+      ],
+      "title": "RelationBoundary",
+      "type": "object"
+    },
+    "RelationContents": {
+      "additionalProperties": false,
+      "properties": {
+        "texts": {
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "Texts",
+          "type": "object"
+        },
+        "charts": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateChart"
+            }
+          },
+          "title": "Charts",
+          "type": "object"
+        },
+        "metrics": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/SignedDatum"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "states": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "States",
+          "type": "object"
+        },
+        "images": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateImage"
+            }
+          },
+          "title": "Images",
+          "type": "object"
+        },
+        "network": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Network"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "comparison": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ThreeMethods"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "texts"
+      ],
+      "title": "RelationContents",
+      "type": "object"
+    },
+    "RelationEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Source",
+          "type": "string"
+        },
+        "target": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Target",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "target",
+        "label"
+      ],
+      "title": "RelationEdge",
+      "type": "object"
+    },
+    "RelationNode": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "id",
+        "label"
+      ],
+      "title": "RelationNode",
+      "type": "object"
+    },
+    "RelationSlide": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "origin": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Origin",
+          "type": "string"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "lead": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "rationale": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "layout_id": {
+          "enum": [
+            "rel_pair_2_lr",
+            "rel_pair_2_rl",
+            "rel_fan_3_lr",
+            "rel_fan_3_rl",
+            "rel_fan_4_lr",
+            "rel_fan_4_rl",
+            "rel_fan_5_lr",
+            "rel_fan_5_rl",
+            "rel_spoke_4_lr",
+            "rel_spoke_4_rl",
+            "rel_pair_fan_5_lr",
+            "rel_pair_fan_5_rl",
+            "rel_sequence_3_4_lr",
+            "rel_sequence_3_4_rl",
+            "rel_sequence_3_8_lr",
+            "rel_sequence_3_8_rl",
+            "rel_sequence_4_4_lr",
+            "rel_sequence_4_4_rl",
+            "rel_sequence_4_8_lr",
+            "rel_sequence_4_8_rl",
+            "rel_sequence_5_4_lr",
+            "rel_sequence_5_4_rl",
+            "rel_sequence_5_8_lr",
+            "rel_sequence_5_8_rl",
+            "rel_compare_three"
+          ],
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "variant": {
+          "default": "warm",
+          "enum": [
+            "warm",
+            "cool"
+          ],
+          "title": "Variant",
+          "type": "string"
+        },
+        "font_profile": {
+          "default": "source",
+          "enum": [
+            "source",
+            "meiryo",
+            "noto",
+            "hiragino"
+          ],
+          "title": "Font Profile",
+          "type": "string"
+        },
+        "contents": {
+          "$ref": "#/$defs/RelationContents"
+        },
+        "emphasis": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EditorialEmphasis"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "allowed_layouts": {
+          "default": [],
+          "items": {
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Allowed Layouts",
+          "type": "array"
+        },
+        "constraints_reason": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Constraints Reason"
+        },
+        "repetition_reason": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repetition Reason"
+        },
+        "row_alignments": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "enum": [
+                "top",
+                "middle"
+              ],
+              "type": "string"
+            }
+          },
+          "title": "Row Alignments",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "origin",
+        "title",
+        "rationale",
+        "layout_id",
+        "contents"
+      ],
+      "title": "RelationSlide",
       "type": "object"
     },
     "Series": {
@@ -1307,6 +1790,35 @@
       "title": "Text",
       "type": "object"
     },
+    "ThreeMethods": {
+      "additionalProperties": false,
+      "properties": {
+        "axes": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Axes",
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "$ref": "#/$defs/ComparisonMethod"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Methods",
+          "type": "array"
+        }
+      },
+      "required": [
+        "axes",
+        "methods"
+      ],
+      "title": "ThreeMethods",
+      "type": "object"
+    },
     "TitleSlide": {
       "additionalProperties": false,
       "properties": {
@@ -1509,6 +2021,31 @@
             "proportional_circles": "#/$defs/CatalogSlide",
             "ranked_bar_annotated": "#/$defs/CatalogSlide",
             "recommendation_pillars": "#/$defs/CatalogSlide",
+            "rel_compare_three": "#/$defs/RelationSlide",
+            "rel_fan_3_lr": "#/$defs/RelationSlide",
+            "rel_fan_3_rl": "#/$defs/RelationSlide",
+            "rel_fan_4_lr": "#/$defs/RelationSlide",
+            "rel_fan_4_rl": "#/$defs/RelationSlide",
+            "rel_fan_5_lr": "#/$defs/RelationSlide",
+            "rel_fan_5_rl": "#/$defs/RelationSlide",
+            "rel_pair_2_lr": "#/$defs/RelationSlide",
+            "rel_pair_2_rl": "#/$defs/RelationSlide",
+            "rel_pair_fan_5_lr": "#/$defs/RelationSlide",
+            "rel_pair_fan_5_rl": "#/$defs/RelationSlide",
+            "rel_sequence_3_4_lr": "#/$defs/RelationSlide",
+            "rel_sequence_3_4_rl": "#/$defs/RelationSlide",
+            "rel_sequence_3_8_lr": "#/$defs/RelationSlide",
+            "rel_sequence_3_8_rl": "#/$defs/RelationSlide",
+            "rel_sequence_4_4_lr": "#/$defs/RelationSlide",
+            "rel_sequence_4_4_rl": "#/$defs/RelationSlide",
+            "rel_sequence_4_8_lr": "#/$defs/RelationSlide",
+            "rel_sequence_4_8_rl": "#/$defs/RelationSlide",
+            "rel_sequence_5_4_lr": "#/$defs/RelationSlide",
+            "rel_sequence_5_4_rl": "#/$defs/RelationSlide",
+            "rel_sequence_5_8_lr": "#/$defs/RelationSlide",
+            "rel_sequence_5_8_rl": "#/$defs/RelationSlide",
+            "rel_spoke_4_lr": "#/$defs/RelationSlide",
+            "rel_spoke_4_rl": "#/$defs/RelationSlide",
             "research_basis": "#/$defs/CatalogSlide",
             "risk_table": "#/$defs/CatalogSlide",
             "roadmap": "#/$defs/CatalogSlide",
@@ -1563,6 +2100,9 @@
           },
           {
             "$ref": "#/$defs/EditorialSlide"
+          },
+          {
+            "$ref": "#/$defs/RelationSlide"
           }
         ]
       },
@@ -1579,6 +2119,9 @@
       "maxItems": 500,
       "title": "Omissions",
       "type": "array"
+    },
+    "display": {
+      "$ref": "#/$defs/DeckDisplay"
     }
   },
   "required": [

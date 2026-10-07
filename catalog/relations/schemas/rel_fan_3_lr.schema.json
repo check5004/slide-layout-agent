@@ -1,0 +1,684 @@
+{
+  "$defs": {
+    "ComparisonMethod": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        },
+        "values": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "values"
+      ],
+      "title": "ComparisonMethod",
+      "type": "object"
+    },
+    "EditorialEmphasis": {
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {
+          "const": "item_1",
+          "title": "Item Id",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        },
+        "reason": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_id",
+        "refs",
+        "reason"
+      ],
+      "title": "EditorialEmphasis",
+      "type": "object"
+    },
+    "ElapsedYears": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "exclusiveMinimum": 0,
+          "maximum": 1000,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "ElapsedYears",
+      "type": "object"
+    },
+    "Network": {
+      "additionalProperties": false,
+      "properties": {
+        "nodes": {
+          "items": {
+            "$ref": "#/$defs/RelationNode"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Nodes",
+          "type": "array"
+        },
+        "edges": {
+          "items": {
+            "$ref": "#/$defs/RelationEdge"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Edges",
+          "type": "array"
+        },
+        "boundaries": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/RelationBoundary"
+          },
+          "maxItems": 1,
+          "title": "Boundaries",
+          "type": "array"
+        }
+      },
+      "required": [
+        "nodes",
+        "edges"
+      ],
+      "title": "Network",
+      "type": "object"
+    },
+    "Ref": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "quote": {
+          "maxLength": 50000,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "quote"
+      ],
+      "title": "Ref",
+      "type": "object"
+    },
+    "RelationBoundary": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "contains",
+            "same_owner"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        },
+        "members": {
+          "items": {
+            "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+            "type": "string"
+          },
+          "maxItems": 5,
+          "minItems": 1,
+          "title": "Members",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "label",
+        "members"
+      ],
+      "title": "RelationBoundary",
+      "type": "object"
+    },
+    "RelationContents": {
+      "additionalProperties": false,
+      "properties": {
+        "texts": {
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "Texts",
+          "type": "object"
+        },
+        "charts": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateChart"
+            }
+          },
+          "title": "Charts",
+          "type": "object"
+        },
+        "metrics": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/SignedDatum"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "states": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/Text"
+            }
+          },
+          "title": "States",
+          "type": "object"
+        },
+        "images": {
+          "default": {},
+          "patternProperties": {
+            "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$": {
+              "$ref": "#/$defs/TemplateImage"
+            }
+          },
+          "title": "Images",
+          "type": "object"
+        },
+        "network": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Network"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "comparison": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ThreeMethods"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "texts"
+      ],
+      "title": "RelationContents",
+      "type": "object"
+    },
+    "RelationEdge": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "source": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Source",
+          "type": "string"
+        },
+        "target": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Target",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "target",
+        "label"
+      ],
+      "title": "RelationEdge",
+      "type": "object"
+    },
+    "RelationNode": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "id",
+        "label"
+      ],
+      "title": "RelationNode",
+      "type": "object"
+    },
+    "SignedDatum": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "maximum": 1000000000000.0,
+          "minimum": -1000000000000.0,
+          "title": "Value",
+          "type": "number"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "refs"
+      ],
+      "title": "SignedDatum",
+      "type": "object"
+    },
+    "TemplateChart": {
+      "additionalProperties": false,
+      "properties": {
+        "categories": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 60,
+          "title": "Categories",
+          "type": "array"
+        },
+        "series": {
+          "items": {
+            "$ref": "#/$defs/TemplateSeries"
+          },
+          "maxItems": 4,
+          "minItems": 1,
+          "title": "Series",
+          "type": "array"
+        },
+        "elapsed_years": {
+          "type": "null",
+          "default": null
+        }
+      },
+      "required": [
+        "series"
+      ],
+      "title": "TemplateChart",
+      "type": "object"
+    },
+    "TemplateImage": {
+      "additionalProperties": false,
+      "properties": {
+        "image_id": {
+          "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+          "title": "Image Id",
+          "type": "string"
+        },
+        "image_mode": {
+          "default": "fit",
+          "enum": [
+            "fit",
+            "crop"
+          ],
+          "title": "Image Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "image_id"
+      ],
+      "title": "TemplateImage",
+      "type": "object"
+    },
+    "TemplateSeries": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "values": {
+          "items": {
+            "$ref": "#/$defs/SignedDatum"
+          },
+          "maxItems": 60,
+          "minItems": 1,
+          "title": "Values",
+          "type": "array"
+        },
+        "x_values": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/SignedDatum"
+          },
+          "maxItems": 60,
+          "title": "X Values",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "values"
+      ],
+      "title": "TemplateSeries",
+      "type": "object"
+    },
+    "Text": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "maxLength": 20000,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "$ref": "#/$defs/Ref"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Refs",
+          "type": "array"
+        },
+        "mode": {
+          "default": "verbatim",
+          "enum": [
+            "verbatim",
+            "paraphrase"
+          ],
+          "title": "Mode",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "refs"
+      ],
+      "title": "Text",
+      "type": "object"
+    },
+    "ThreeMethods": {
+      "additionalProperties": false,
+      "properties": {
+        "axes": {
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Axes",
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "$ref": "#/$defs/ComparisonMethod"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Methods",
+          "type": "array"
+        }
+      },
+      "required": [
+        "axes",
+        "methods"
+      ],
+      "title": "ThreeMethods",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "origin": {
+      "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+      "title": "Origin",
+      "type": "string"
+    },
+    "title": {
+      "$ref": "#/$defs/Text"
+    },
+    "lead": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Text"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "rationale": {
+      "maxLength": 2000,
+      "minLength": 1,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "layout_id": {
+      "const": "rel_fan_3_lr",
+      "type": "string"
+    },
+    "variant": {
+      "default": "warm",
+      "enum": [
+        "warm",
+        "cool"
+      ],
+      "title": "Variant",
+      "type": "string"
+    },
+    "font_profile": {
+      "default": "source",
+      "enum": [
+        "source",
+        "meiryo",
+        "noto",
+        "hiragino"
+      ],
+      "title": "Font Profile",
+      "type": "string"
+    },
+    "contents": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "texts",
+        "charts",
+        "metrics",
+        "states",
+        "images",
+        "network"
+      ],
+      "properties": {
+        "texts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "context",
+            "caveat"
+          ],
+          "properties": {
+            "context": {
+              "$ref": "#/$defs/Text"
+            },
+            "caveat": {
+              "$ref": "#/$defs/Text"
+            }
+          }
+        },
+        "charts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {}
+        },
+        "metrics": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {}
+        },
+        "states": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {}
+        },
+        "images": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [],
+          "properties": {}
+        },
+        "network": {
+          "$ref": "#/$defs/Network"
+        },
+        "comparison": {
+          "type": "null",
+          "default": null
+        }
+      }
+    },
+    "emphasis": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EditorialEmphasis"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "allowed_layouts": {
+      "default": [],
+      "items": {
+        "pattern": "^[a-zA-Z][a-zA-Z0-9_-]{0,39}$",
+        "type": "string"
+      },
+      "maxItems": 100,
+      "title": "Allowed Layouts",
+      "type": "array"
+    },
+    "constraints_reason": {
+      "anyOf": [
+        {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Constraints Reason"
+    },
+    "repetition_reason": {
+      "anyOf": [
+        {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Repetition Reason"
+    },
+    "row_alignments": {
+      "type": "object",
+      "additionalProperties": false,
+      "default": {},
+      "properties": {}
+    }
+  },
+  "required": [
+    "id",
+    "origin",
+    "title",
+    "rationale",
+    "layout_id",
+    "contents"
+  ],
+  "title": "RelationSlide",
+  "type": "object",
+  "x-contract-sha256": "9a36dd0a5e6ff75d4bdd8ae439da2bfa62c31d65245465830d5212db6939b057",
+  "x-runtime-validation": "Pydantic plus semantic preflight; full-width capacities and relations are recorded in the trusted catalog"
+}

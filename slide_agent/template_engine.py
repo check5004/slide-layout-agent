@@ -267,6 +267,9 @@ def instantiate(prs, design, plan, source, page, base=None):
         replace_text(tf, value.text)
     from .vertical import apply_vertical
     apply_vertical(shapes, entry, design.contents, getattr(design,'row_alignments',{}))
+    if entry.get('catalog')=='relations':
+        from .relations import populate
+        populate(slide,entry,design.contents)
     for key, value in design.contents.charts.items():
         fill_chart(shapes[entry["charts"][key]["shape"]], value, entry["charts"][key])
     for key, value in getattr(design.contents, 'images', {}).items():

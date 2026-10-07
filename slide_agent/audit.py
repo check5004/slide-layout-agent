@@ -12,12 +12,28 @@ from .catalog import is_catalog, all_registry as registry, template_path
 def audit(path, theme):
     prs = Presentation(str(path))
     issues, counts = [], {"slides": len(prs.slides), "text_shapes": 0, "tables": 0, "charts": 0, "pictures": 0}
+    allowed_links=set()
     for i, slide in enumerate(prs.slides, 1):
         try:
             note = json.loads(slide.notes_slide.notes_text_frame.text)
         except (ValueError, AttributeError):
             note = {}
         catalog = is_catalog(note.get("layout_id"))
+        if note.get('display'):
+            from .models import DeckDisplay
+            from .reader_display import parts,expected_urls
+            try:
+                display=DeckDisplay.model_validate(note['display']);source_ids=note.get('display_source_ids',[])
+                urls=expected_urls(display,source_ids);allowed_links.update(urls)
+                if display.mode=='reader':
+                    footer=next((s for s in slide.shapes if s.name==('meta:footer' if catalog else 'footer')),None)
+                    if footer is None or footer.text!=''.join(t for t,u in parts(display,source_ids)):
+                        issues.append(f'slide {i}: reader source footer changed or missing')
+                    if footer and {r.hyperlink.address for p in footer.text_frame.paragraphs for r in p.runs if r.hyperlink.address}!=urls:
+                        issues.append(f'slide {i}: reader source links changed or missing')
+                    if any(s.text for s in slide.shapes if s.name in ('meta:layout','meta:format')):
+                        issues.append(f'slide {i}: internal QA metadata leaked into reader mode')
+            except (ValueError,TypeError):issues.append(f'slide {i}: invalid reader display metadata')
         if catalog:
             entry = registry()[note["layout_id"]]
             overrides = note.get('row_alignments', {})
@@ -25,8 +41,16 @@ def audit(path, theme):
                 issues.append(f'slide {i}: invalid registered row alignment')
                 overrides = {}
             original = Presentation(str(template_path(entry))).slides[0]
+            if entry.get('catalog')=='relations':
+                from .models import RelationContents
+                from .relations import populate
+                try:populate(original,entry,RelationContents.model_validate(note.get('relation_contents')))
+                except (ValueError,TypeError,KeyError):issues.append(f'slide {i}: missing or invalid relationship plan in notes')
             expected = {s.name: s for s in original.shapes}
             actual = {s.name: s for s in slide.shapes}
+            if entry.get('catalog')=='relations':
+                from .relations import audit_semantics
+                issues.extend(f'slide {i}: {message}' for message in audit_semantics(expected,actual))
             if set(expected) != set(actual) or len(actual) != len(slide.shapes):
                 issues.append(f"slide {i}: native template shape identity changed")
             dynamic = {m.get("shape") for m in entry["metrics"].values() if m.get("shape")}
@@ -144,8 +168,10 @@ def audit(path, theme):
                         issues.append(f'duplicate font {font_tag} declaration in {name}; PowerPoint may reject the package')
                 if name.startswith("ppt/slides/slide") and name.endswith(".xml") and root.xpath("//*[local-name()='normAutofit' or local-name()='spAutoFit']"):
                     issues.append(f"auto-resize present in {name}")
-                if name.endswith(".rels") and root.xpath("//*[@TargetMode='External']"):
-                    issues.append(f"unexpected external relationship in {name}")
+                if name.endswith(".rels"):
+                    for relation in root.xpath("//*[@TargetMode='External']"):
+                        if not (relation.get('Type','').endswith('/hyperlink') and relation.get('Target') in allowed_links):
+                            issues.append(f"unexpected external relationship in {name}")
         counts["embedded_workbooks"] = sum(name.startswith("ppt/embeddings/") and name.endswith(".xlsx") for name in archive.namelist())
         if counts["embedded_workbooks"] != counts["charts"]:
             issues.append("native charts must each have an editable embedded workbook")

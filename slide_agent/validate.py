@@ -60,6 +60,8 @@ def validate(plan, source, base, theme):
     if plan.source_sha256 != fingerprint(source):
         add("SOURCE_CHANGED", "source hash does not match; review the original source before replanning")
     segments = {s.id: s for s in source.segments}
+    from .reader_display import validate_display
+    validate_display(plan,source,add)
     assets = {a.id: a for a in source.images}
     seen, quotes, rendered_numbers = set(), defaultdict(list), defaultdict(set)
     numeric_quotes=defaultdict(list)
@@ -120,6 +122,8 @@ def validate(plan, source, base, theme):
             contract_error=schema_error(slide.layout_id)
             if contract_error:add('CATALOG_SCHEMA_MISMATCH',contract_error,slide.id)
             validate_catalog(slide, add)
+            if getattr(slide.contents,'network',None) or getattr(slide.contents,'comparison',None):
+                add('RELATION_SEMANTIC_REVIEW','Review directed endpoints, event order, containment vs same ownership, and comparison axes against the cited source; geometry checks do not establish meaning.',slide.id,'warning')
             emphasis = getattr(slide, 'emphasis', None)
             if emphasis:
                 for ref in emphasis.refs:

@@ -185,7 +185,7 @@ python -m slide_agent fingerprint work/source.json
 python -m slide_agent schema --out out/plan.schema.json
 ```
 
-[JSON の仕様](contract.md) · [同梱スキーマ](plan.schema.json)
+[JSON の仕様](contract.md) · [全layout対応の同梱スキーマ](../catalog/plan.schema.json)
 
 ### PowerPoint で PNG に書き出す
 

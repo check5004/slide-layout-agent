@@ -8,7 +8,7 @@ The `select-variants` command filters same-family candidates by exact semantic s
 
 Editorial rows also accept optional `row_alignments`, mapping only registered row IDs to `top` or `middle`. Omitted rows use the template's role-aware defaults. A body and its evidence stay together as one bounded group; short labels, numbers and table cells use native vertical anchors. Explicit choices survive variant selection, and candidates without those row IDs are rejected. Unknown IDs, other anchor values and overflowing groups are rejected. Font sizes, reading order and text capacities do not change. See the [same-content before/after review](../examples/editorial-rows/index.html).
 
-`python -m slide_agent schema --out out/plan.schema.json` is authoritative for field types; `slide_agent/models.py` defines the discriminated union. Additional fields are rejected, including coordinates, code, URLs and font sizes in a plan. Source citations may contain URLs as inert text, never fetched.
+`python -m slide_agent schema --out out/plan.schema.json` is authoritative for field types; `slide_agent/models.py` defines the discriminated union. The checked-in full schema is [`catalog/plan.schema.json`](../catalog/plan.schema.json). Additional fields are rejected, including arbitrary coordinates, code and font sizes. Source quotations may contain URLs as inert text; the declared `display.citations[].url` field also accepts HTTP(S) links for reader footers. Neither causes a network request during generation.
 
 Source bundle: `version`, `title`, `segments` (`id`, exact `text`, optional `citation`, `group`), `images` (`id`, relative `path`, `caption`). Hash the canonical JSON with `fingerprint`. Text mode `slides` gives each heading/body segment the same group.
 
